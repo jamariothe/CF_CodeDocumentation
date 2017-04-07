@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CombatFramework_v3.1: MLSpace.BowItem Class Reference</title>
+<title>CF_v3.3: MLSpace.BowItem Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CombatFramework_v3.1
+   <div id="projectname">CF_v3.3
    </div>
   </td>
  </tr>
@@ -98,6 +98,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1228a2b115dc02b1fc30c1f102a98344"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a1228a2b115dc02b1fc30c1f102a98344">bowString</a></td></tr>
 <tr class="memdesc:a1228a2b115dc02b1fc30c1f102a98344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bow string transform bone.  <a href="#a1228a2b115dc02b1fc30c1f102a98344">More...</a><br /></td></tr>
 <tr class="separator:a1228a2b115dc02b1fc30c1f102a98344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee36c4e247c1e1858485d5ac193d0940"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#aee36c4e247c1e1858485d5ac193d0940">arrowStabilizer</a> = null</td></tr>
+<tr class="memdesc:aee36c4e247c1e1858485d5ac193d0940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper transform for orienting arrow.  <a href="#aee36c4e247c1e1858485d5ac193d0940">More...</a><br /></td></tr>
+<tr class="separator:aee36c4e247c1e1858485d5ac193d0940"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_m_l_space_1_1_weapon_item"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_weapon_item')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_weapon_item.html">MLSpace.WeaponItem</a></td></tr>
 <tr class="memitem:a01b2d3c75276f0644cfec53866c50708 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a01b2d3c75276f0644cfec53866c50708">damage</a> = 1</td></tr>
 <tr class="memdesc:a01b2d3c75276f0644cfec53866c50708 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack damage of weapon.  <a href="class_m_l_space_1_1_weapon_item.html#a01b2d3c75276f0644cfec53866c50708">More...</a><br /></td></tr>
@@ -117,6 +120,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ae233bea5cf127efe1432e57947f7977b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ae233bea5cf127efe1432e57947f7977b">switchFlag</a> = false</td></tr>
 <tr class="memdesc:ae233bea5cf127efe1432e57947f7977b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon switching transforms helper field.  <a href="class_m_l_space_1_1_weapon_item.html#ae233bea5cf127efe1432e57947f7977b">More...</a><br /></td></tr>
 <tr class="separator:ae233bea5cf127efe1432e57947f7977b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9933ea88bd5827ca9527414f4e7525a inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ac9933ea88bd5827ca9527414f4e7525a">blockPenetration</a> = 0</td></tr>
+<tr class="memdesc:ac9933ea88bd5827ca9527414f4e7525a inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block braking value. If weapon block limit is higher than defender block value - weapon attack is unblockable.  <a href="class_m_l_space_1_1_weapon_item.html#ac9933ea88bd5827ca9527414f4e7525a">More...</a><br /></td></tr>
+<tr class="separator:ac9933ea88bd5827ca9527414f4e7525a inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a732e822cbb77945d63d310c16640ba21 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a732e822cbb77945d63d310c16640ba21">blockResistance</a> = 0</td></tr>
+<tr class="memdesc:a732e822cbb77945d63d310c16640ba21 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon lock break resistance. If weapon is used as blocking.  <a href="class_m_l_space_1_1_weapon_item.html#a732e822cbb77945d63d310c16640ba21">More...</a><br /></td></tr>
+<tr class="separator:a732e822cbb77945d63d310c16640ba21 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d9078550bc6f637ad94ab42f09576af inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a2d9078550bc6f637ad94ab42f09576af">OnStartTaking</a></td></tr>
 <tr class="memdesc:a2d9078550bc6f637ad94ab42f09576af inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate fires on start taking weapon item.  <a href="class_m_l_space_1_1_weapon_item.html#a2d9078550bc6f637ad94ab42f09576af">More...</a><br /></td></tr>
 <tr class="separator:a2d9078550bc6f637ad94ab42f09576af inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -335,6 +344,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aee36c4e247c1e1858485d5ac193d0940"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee36c4e247c1e1858485d5ac193d0940">&sect;&nbsp;</a></span>arrowStabilizer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform MLSpace.BowItem.arrowStabilizer = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Helper transform for orienting arrow. </p>
+
+</div>
+</div>
 <a id="a1228a2b115dc02b1fc30c1f102a98344"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1228a2b115dc02b1fc30c1f102a98344">&sect;&nbsp;</a></span>bowString</h2>
 
