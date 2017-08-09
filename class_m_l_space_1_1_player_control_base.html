@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v3.3: MLSpace.PlayerControlBase Class Reference</title>
+<title>CF_v34: MLSpace.PlayerControlBase Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v3.3
+   <div id="projectname">CF_v34
    </div>
   </td>
  </tr>
@@ -61,9 +61,11 @@ Inheritance diagram for MLSpace.PlayerControlBase:</div>
  <div class="center">
   <img src="class_m_l_space_1_1_player_control_base.png" usemap="#MLSpace.PlayerControlBase_map" alt=""/>
   <map id="MLSpace.PlayerControlBase_map" name="MLSpace.PlayerControlBase_map">
-<area href="interface_m_l_space_1_1_i_game_character.html" title="Common properties of player and npc characters. " alt="MLSpace.IGameCharacter" shape="rect" coords="211,0,412,24"/>
-<area href="class_m_l_space_1_1_player_control.html" title="Class that controls third person player in combat framework system. " alt="MLSpace.PlayerControl" shape="rect" coords="0,112,201,136"/>
-<area href="class_m_l_space_1_1_player_control_top_down.html" title="Class that controls top down view player in combat framework system. " alt="MLSpace.PlayerControlTopDown" shape="rect" coords="211,112,412,136"/>
+<area href="interface_m_l_space_1_1_i_game_character.html" title="Common properties of player and npc characters. " alt="MLSpace.IGameCharacter" shape="rect" coords="250,0,490,24"/>
+<area href="class_m_l_space_1_1_player_control.html" title="Class that controls third person player in combat framework system. " alt="MLSpace.PlayerControl" shape="rect" coords="0,112,240,136"/>
+<area href="class_m_l_space_1_1_player_control_top_down.html" title="Class that controls top down view player in combat framework system. " alt="MLSpace.PlayerControlTopDown" shape="rect" coords="250,112,490,136"/>
+<area href="class_m_l_space_1_1_player_control_photon.html" alt="MLSpace.PlayerControlPhoton" shape="rect" coords="0,168,240,192"/>
+<area href="class_m_l_space_1_1_player_control_top_down_photon.html" alt="MLSpace.PlayerControlTopDownPhoton" shape="rect" coords="250,168,490,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -72,27 +74,60 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2fecd179766f59b22c6652337085578f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a2fecd179766f59b22c6652337085578f">clear</a> ()</td></tr>
 <tr class="memdesc:a2fecd179766f59b22c6652337085578f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear all references.  <a href="#a2fecd179766f59b22c6652337085578f">More...</a><br /></td></tr>
 <tr class="separator:a2fecd179766f59b22c6652337085578f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58fd4c99d328f6b519d80229c0ecb0e8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a58fd4c99d328f6b519d80229c0ecb0e8">onLevelLoaded</a> ()</td></tr>
+<tr class="memdesc:a58fd4c99d328f6b519d80229c0ecb0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executed on level loaded  <a href="#a58fd4c99d328f6b519d80229c0ecb0e8">More...</a><br /></td></tr>
+<tr class="separator:a58fd4c99d328f6b519d80229c0ecb0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbafb59f6ff900808d3a331316bdecc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a1cbafb59f6ff900808d3a331316bdecc">clearTarget</a> ()</td></tr>
+<tr class="memdesc:a1cbafb59f6ff900808d3a331316bdecc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear target reference  <a href="#a1cbafb59f6ff900808d3a331316bdecc">More...</a><br /></td></tr>
+<tr class="separator:a1cbafb59f6ff900808d3a331316bdecc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3498c556dfffe66bed3e25fd1bcb8bbb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a3498c556dfffe66bed3e25fd1bcb8bbb">clearItemManager</a> ()</td></tr>
+<tr class="memdesc:a3498c556dfffe66bed3e25fd1bcb8bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear items from item manager  <a href="#a3498c556dfffe66bed3e25fd1bcb8bbb">More...</a><br /></td></tr>
+<tr class="separator:a3498c556dfffe66bed3e25fd1bcb8bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a979fe5eba4397f866641dc8df46deed2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a979fe5eba4397f866641dc8df46deed2">initialize</a> ()</td></tr>
 <tr class="memdesc:a979fe5eba4397f866641dc8df46deed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="#a979fe5eba4397f866641dc8df46deed2">More...</a><br /></td></tr>
 <tr class="separator:a979fe5eba4397f866641dc8df46deed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9adce34f5095033d03d6d33ff55ad21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ab9adce34f5095033d03d6d33ff55ad21">attack_hit_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, ref <a class="el" href="struct_m_l_space_1_1_attack_info.html">AttackInfo</a> aInfo, ref bool <a class="el" href="class_m_l_space_1_1_player_control_base.html#a8db313756a09f16f5cd7df9459b64530">blocking</a>)</td></tr>
-<tr class="memdesc:ab9adce34f5095033d03d6d33ff55ad21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify game character that he is attacked.  <a href="#ab9adce34f5095033d03d6d33ff55ad21">More...</a><br /></td></tr>
-<tr class="separator:ab9adce34f5095033d03d6d33ff55ad21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f811aa54d756aba0776fb9fedf2dff3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a5f811aa54d756aba0776fb9fedf2dff3">attack_start_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, int attackType)</td></tr>
-<tr class="memdesc:a5f811aa54d756aba0776fb9fedf2dff3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify game character on attack start.  <a href="#a5f811aa54d756aba0776fb9fedf2dff3">More...</a><br /></td></tr>
-<tr class="separator:a5f811aa54d756aba0776fb9fedf2dff3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada570286914c49cc0cb922c37df1c3b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ada570286914c49cc0cb922c37df1c3b2">attack_end_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, int attackType)</td></tr>
-<tr class="memdesc:ada570286914c49cc0cb922c37df1c3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify game character on attack end.  <a href="#ada570286914c49cc0cb922c37df1c3b2">More...</a><br /></td></tr>
-<tr class="separator:ada570286914c49cc0cb922c37df1c3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9ba0b304f05ec0124e7d3c6d3b68190"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ab9ba0b304f05ec0124e7d3c6d3b68190">death</a> (int[] hitParts, Vector3? hitVelocity)</td></tr>
-<tr class="memdesc:ab9ba0b304f05ec0124e7d3c6d3b68190"><td class="mdescLeft">&#160;</td><td class="mdescRight">player death setup  <a href="#ab9ba0b304f05ec0124e7d3c6d3b68190">More...</a><br /></td></tr>
-<tr class="separator:ab9ba0b304f05ec0124e7d3c6d3b68190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10c3925aeddae1139beed048c0c11577"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a10c3925aeddae1139beed048c0c11577">setNewItem</a> (<a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> iItem)</td></tr>
-<tr class="memdesc:a10c3925aeddae1139beed048c0c11577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new item on character.  <a href="#a10c3925aeddae1139beed048c0c11577">More...</a><br /></td></tr>
-<tr class="separator:a10c3925aeddae1139beed048c0c11577"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64dcb2d4b84fdc4abf42d732aeddc660"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a64dcb2d4b84fdc4abf42d732aeddc660">setSecondaryItem</a> (<a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> item)</td></tr>
-<tr class="memdesc:a64dcb2d4b84fdc4abf42d732aeddc660"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new secondary item on charater.  <a href="#a64dcb2d4b84fdc4abf42d732aeddc660">More...</a><br /></td></tr>
-<tr class="separator:a64dcb2d4b84fdc4abf42d732aeddc660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334b41dc9f3f3e9a7175797e6c8fa5a2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a334b41dc9f3f3e9a7175797e6c8fa5a2">preLoad</a> ()</td></tr>
+<tr class="memdesc:a334b41dc9f3f3e9a7175797e6c8fa5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you have things to sort before loading new scene - this is the place  <a href="#a334b41dc9f3f3e9a7175797e6c8fa5a2">More...</a><br /></td></tr>
+<tr class="separator:a334b41dc9f3f3e9a7175797e6c8fa5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78b74ba1393f2d5462e02956a82017a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ac78b74ba1393f2d5462e02956a82017a">loadReady</a> ()</td></tr>
+<tr class="memdesc:ac78b74ba1393f2d5462e02956a82017a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is player ready for loading new scene  <a href="#ac78b74ba1393f2d5462e02956a82017a">More...</a><br /></td></tr>
+<tr class="separator:ac78b74ba1393f2d5462e02956a82017a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5bb3270d7c5a8b440ff49aaf6e81083"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ab5bb3270d7c5a8b440ff49aaf6e81083">attack_hit_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, ref <a class="el" href="struct_m_l_space_1_1_attack_info.html">AttackInfo</a> aInfo, ref bool <a class="el" href="class_m_l_space_1_1_player_control_base.html#a8db313756a09f16f5cd7df9459b64530">blocking</a>)</td></tr>
+<tr class="memdesc:ab5bb3270d7c5a8b440ff49aaf6e81083"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify game character that he is attacked.  <a href="#ab5bb3270d7c5a8b440ff49aaf6e81083">More...</a><br /></td></tr>
+<tr class="separator:ab5bb3270d7c5a8b440ff49aaf6e81083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a249989dfe0c5ed2e843f467dd30f61db"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a249989dfe0c5ed2e843f467dd30f61db">attack_start_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, int attackType)</td></tr>
+<tr class="memdesc:a249989dfe0c5ed2e843f467dd30f61db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify game character on attack start.  <a href="#a249989dfe0c5ed2e843f467dd30f61db">More...</a><br /></td></tr>
+<tr class="separator:a249989dfe0c5ed2e843f467dd30f61db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae46eac453063460b37b9fe934c5e59e7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ae46eac453063460b37b9fe934c5e59e7">attack_end_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, int attackType)</td></tr>
+<tr class="memdesc:ae46eac453063460b37b9fe934c5e59e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify game character on attack end.  <a href="#ae46eac453063460b37b9fe934c5e59e7">More...</a><br /></td></tr>
+<tr class="separator:ae46eac453063460b37b9fe934c5e59e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da52e961c58041062f08d4ae947f835"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a2da52e961c58041062f08d4ae947f835">death</a> (int[] hitParts, Vector3? hitVelocity)</td></tr>
+<tr class="memdesc:a2da52e961c58041062f08d4ae947f835"><td class="mdescLeft">&#160;</td><td class="mdescRight">player death setup  <a href="#a2da52e961c58041062f08d4ae947f835">More...</a><br /></td></tr>
+<tr class="separator:a2da52e961c58041062f08d4ae947f835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329dba7292b9d2c1e0862ddd16c0b09c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a329dba7292b9d2c1e0862ddd16c0b09c">setNewItem</a> (<a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> iItem)</td></tr>
+<tr class="memdesc:a329dba7292b9d2c1e0862ddd16c0b09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new item on character.  <a href="#a329dba7292b9d2c1e0862ddd16c0b09c">More...</a><br /></td></tr>
+<tr class="separator:a329dba7292b9d2c1e0862ddd16c0b09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55f935e5055f0f1a10badcb2c4c40c1"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ae55f935e5055f0f1a10badcb2c4c40c1">setSecondaryItem</a> (<a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> item)</td></tr>
+<tr class="memdesc:ae55f935e5055f0f1a10badcb2c4c40c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new secondary item on charater.  <a href="#ae55f935e5055f0f1a10badcb2c4c40c1">More...</a><br /></td></tr>
+<tr class="separator:ae55f935e5055f0f1a10badcb2c4c40c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a773dfaf5f5414576a16640834fb73c99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a773dfaf5f5414576a16640834fb73c99">snap2CombatMode</a> (<a class="el" href="namespace_m_l_space.html#ad05f79170d7c45c524dc5d7ffd3efbd9">WeaponMode</a> mode)</td></tr>
+<tr class="memdesc:a773dfaf5f5414576a16640834fb73c99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantly snap to holding a weapon  <a href="#a773dfaf5f5414576a16640834fb73c99">More...</a><br /></td></tr>
+<tr class="separator:a773dfaf5f5414576a16640834fb73c99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eaf95aaae4c1663bad39bb3a878edaa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a7eaf95aaae4c1663bad39bb3a878edaa">snap2UnarmedMode</a> ()</td></tr>
+<tr class="memdesc:a7eaf95aaae4c1663bad39bb3a878edaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantly snap to unarmed  <a href="#a7eaf95aaae4c1663bad39bb3a878edaa">More...</a><br /></td></tr>
+<tr class="separator:a7eaf95aaae4c1663bad39bb3a878edaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e816b83e348266b9e8c1aad91fb2d0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a78e816b83e348266b9e8c1aad91fb2d0">snap2CombatW2H</a> ()</td></tr>
+<tr class="memdesc:a78e816b83e348266b9e8c1aad91fb2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snap to 2 handed mode and wield  <a href="#a78e816b83e348266b9e8c1aad91fb2d0">More...</a><br /></td></tr>
+<tr class="separator:a78e816b83e348266b9e8c1aad91fb2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1df98ce09b767ab281943400d88b673d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a1df98ce09b767ab281943400d88b673d">snap2CombatW1HShield</a> ()</td></tr>
+<tr class="memdesc:a1df98ce09b767ab281943400d88b673d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snap to weapon shield mode and wield  <a href="#a1df98ce09b767ab281943400d88b673d">More...</a><br /></td></tr>
+<tr class="separator:a1df98ce09b767ab281943400d88b673d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a365dfa85cdf1742b73aa854da9284fa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a365dfa85cdf1742b73aa854da9284fa8">snap2CombatBow</a> ()</td></tr>
+<tr class="memdesc:a365dfa85cdf1742b73aa854da9284fa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snap to bow mode and wield  <a href="#a365dfa85cdf1742b73aa854da9284fa8">More...</a><br /></td></tr>
+<tr class="separator:a365dfa85cdf1742b73aa854da9284fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd91bfb2f87cf0889690b78364d610df"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#afd91bfb2f87cf0889690b78364d610df">snap2CombatDualWield</a> ()</td></tr>
+<tr class="memdesc:afd91bfb2f87cf0889690b78364d610df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Snap to dual wield mode and wield  <a href="#afd91bfb2f87cf0889690b78364d610df">More...</a><br /></td></tr>
+<tr class="separator:afd91bfb2f87cf0889690b78364d610df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a383852db07ba580d25e29631dc66e397"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a383852db07ba580d25e29631dc66e397">toggleCurrentWeapon</a> ()</td></tr>
 <tr class="memdesc:a383852db07ba580d25e29631dc66e397"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start drawing or sheathing current weapon set.  <a href="#a383852db07ba580d25e29631dc66e397">More...</a><br /></td></tr>
 <tr class="separator:a383852db07ba580d25e29631dc66e397"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,24 +164,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80084725064fa386f18af7b1fb8872c5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a80084725064fa386f18af7b1fb8872c5">revive</a> (int? health=null)</td></tr>
 <tr class="memdesc:a80084725064fa386f18af7b1fb8872c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revive character if dead.  <a href="#a80084725064fa386f18af7b1fb8872c5">More...</a><br /></td></tr>
 <tr class="separator:a80084725064fa386f18af7b1fb8872c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc2e3771d1df410a5b50046e300c64fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#abc2e3771d1df410a5b50046e300c64fe">startRagdoll</a> ()</td></tr>
-<tr class="memdesc:abc2e3771d1df410a5b50046e300c64fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start ragdoll.  <a href="#abc2e3771d1df410a5b50046e300c64fe">More...</a><br /></td></tr>
-<tr class="separator:abc2e3771d1df410a5b50046e300c64fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad993706fe49a1d66510d838619bdd46a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ad993706fe49a1d66510d838619bdd46a">returnToMecanim</a> ()</td></tr>
-<tr class="memdesc:ad993706fe49a1d66510d838619bdd46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return to mecanim from ragdoll state.  <a href="#ad993706fe49a1d66510d838619bdd46a">More...</a><br /></td></tr>
-<tr class="separator:ad993706fe49a1d66510d838619bdd46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f7914f1ec97abbb468896da4741d63b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a6f7914f1ec97abbb468896da4741d63b">startRagdoll</a> (int[] parts=null, Vector3? hitVelocity=null, Vector3? overallHitForce=null)</td></tr>
+<tr class="memdesc:a6f7914f1ec97abbb468896da4741d63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start ragdoll.  <a href="#a6f7914f1ec97abbb468896da4741d63b">More...</a><br /></td></tr>
+<tr class="separator:a6f7914f1ec97abbb468896da4741d63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6206f5ff25a5fd633e17e9738ea9db06"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a6206f5ff25a5fd633e17e9738ea9db06">returnToMecanim</a> ()</td></tr>
+<tr class="memdesc:a6206f5ff25a5fd633e17e9738ea9db06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return to mecanim from ragdoll state.  <a href="#a6206f5ff25a5fd633e17e9738ea9db06">More...</a><br /></td></tr>
+<tr class="separator:a6206f5ff25a5fd633e17e9738ea9db06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab5da48532d7626ab5cd61de48550e763"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ab5da48532d7626ab5cd61de48550e763">isEqupped</a> (GameObject obj)</td></tr>
 <tr class="memdesc:ab5da48532d7626ab5cd61de48550e763"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if game object is equipped.  <a href="#ab5da48532d7626ab5cd61de48550e763">More...</a><br /></td></tr>
 <tr class="separator:ab5da48532d7626ab5cd61de48550e763"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc96b0449181c69f0f10766a2b5015b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#adc96b0449181c69f0f10766a2b5015b8">dropItem</a> (<a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">PhysicsInventoryItem</a> item, bool drop=true)</td></tr>
-<tr class="memdesc:adc96b0449181c69f0f10766a2b5015b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop physics item.  <a href="#adc96b0449181c69f0f10766a2b5015b8">More...</a><br /></td></tr>
-<tr class="separator:adc96b0449181c69f0f10766a2b5015b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25f01f5dfad09e355397acedbd88d8e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a25f01f5dfad09e355397acedbd88d8e0">dropAllEquipment</a> (bool drop=true)</td></tr>
-<tr class="memdesc:a25f01f5dfad09e355397acedbd88d8e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop all not wielding equipment. You can drop next to the player or reset them on initial places and states.  <a href="#a25f01f5dfad09e355397acedbd88d8e0">More...</a><br /></td></tr>
-<tr class="separator:a25f01f5dfad09e355397acedbd88d8e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4da7930c8b671b4613bdb41dbac25c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#aa4da7930c8b671b4613bdb41dbac25c8">switchWeaponMode</a> (<a class="el" href="namespace_m_l_space.html#ad05f79170d7c45c524dc5d7ffd3efbd9">WeaponMode</a> mode)</td></tr>
-<tr class="memdesc:aa4da7930c8b671b4613bdb41dbac25c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch weapon mode.  <a href="#aa4da7930c8b671b4613bdb41dbac25c8">More...</a><br /></td></tr>
-<tr class="separator:aa4da7930c8b671b4613bdb41dbac25c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae69f45246abb65dec968dff55e82b52b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ae69f45246abb65dec968dff55e82b52b">dropItem</a> (<a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">PhysicsInventoryItem</a> item, bool drop=true)</td></tr>
+<tr class="memdesc:ae69f45246abb65dec968dff55e82b52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop physics item.  <a href="#ae69f45246abb65dec968dff55e82b52b">More...</a><br /></td></tr>
+<tr class="separator:ae69f45246abb65dec968dff55e82b52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd2074370bc6d17c8ba99e696f374bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a9dd2074370bc6d17c8ba99e696f374bb">dropAllEquipment</a> (bool drop=true, bool skipWielded=true)</td></tr>
+<tr class="memdesc:a9dd2074370bc6d17c8ba99e696f374bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop all not wielding equipment. You can drop next to the player or reset them on initial places and states.  <a href="#a9dd2074370bc6d17c8ba99e696f374bb">More...</a><br /></td></tr>
+<tr class="separator:a9dd2074370bc6d17c8ba99e696f374bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4893c3b28a928b71bc472bc70017423a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a4893c3b28a928b71bc472bc70017423a">switchWeaponMode</a> (<a class="el" href="namespace_m_l_space.html#ad05f79170d7c45c524dc5d7ffd3efbd9">WeaponMode</a> mode)</td></tr>
+<tr class="memdesc:a4893c3b28a928b71bc472bc70017423a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch weapon mode.  <a href="#a4893c3b28a928b71bc472bc70017423a">More...</a><br /></td></tr>
+<tr class="separator:a4893c3b28a928b71bc472bc70017423a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93e4014e1eab6ca6721ade31f006265c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a93e4014e1eab6ca6721ade31f006265c">breakAttack</a> ()</td></tr>
 <tr class="memdesc:a93e4014e1eab6ca6721ade31f006265c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Break attack combo.  <a href="#a93e4014e1eab6ca6721ade31f006265c">More...</a><br /></td></tr>
 <tr class="separator:a93e4014e1eab6ca6721ade31f006265c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,9 +198,9 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a4b2a4acdc31417875363a57fcaff2cc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Angle of attack jump.  <a href="#a4b2a4acdc31417875363a57fcaff2cc7">More...</a><br /></td></tr>
 <tr class="separator:a4b2a4acdc31417875363a57fcaff2cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfa983bba6dbc565540900f98ba29d08"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#acfa983bba6dbc565540900f98ba29d08">distanceToTarget</a> = 1.5f</td></tr>
-<tr class="memdesc:acfa983bba6dbc565540900f98ba29d08"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_player.html" title="Base player class. Controls camera, head ik , replacing animation clips. ">Player</a> distance to target upon attack.  <a href="#acfa983bba6dbc565540900f98ba29d08">More...</a><br /></td></tr>
+<tr class="memdesc:acfa983bba6dbc565540900f98ba29d08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used on jump attack. <a class="el" href="class_m_l_space_1_1_player.html" title="Base player class. Controls camera, head ik , replacing animation clips. ">Player</a> distance to target upon attack.  <a href="#acfa983bba6dbc565540900f98ba29d08">More...</a><br /></td></tr>
 <tr class="separator:acfa983bba6dbc565540900f98ba29d08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace94dfca6acea8f831792865911c5637"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ace94dfca6acea8f831792865911c5637">enableJumpToTarget</a> = true</td></tr>
+<tr class="memitem:ace94dfca6acea8f831792865911c5637"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ace94dfca6acea8f831792865911c5637">enableJumpToTarget</a> = false</td></tr>
 <tr class="memdesc:ace94dfca6acea8f831792865911c5637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable jump to target on attacK.  <a href="#ace94dfca6acea8f831792865911c5637">More...</a><br /></td></tr>
 <tr class="separator:ace94dfca6acea8f831792865911c5637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afbf7be90a978e4c42104760ac7a1cd75"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#afbf7be90a978e4c42104760ac7a1cd75">attackJumpDistance</a> = 10.0f</td></tr>
@@ -225,9 +260,12 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac6f9ca7d7b5051eb55efb5e70454ee0d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ac6f9ca7d7b5051eb55efb5e70454ee0d">update</a> ()</td></tr>
-<tr class="memdesc:ac6f9ca7d7b5051eb55efb5e70454ee0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update component.  <a href="#ac6f9ca7d7b5051eb55efb5e70454ee0d">More...</a><br /></td></tr>
-<tr class="separator:ac6f9ca7d7b5051eb55efb5e70454ee0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75fbeb3acc0b0943e36b3b62502947aa"><td class="memItemLeft" align="right" valign="top"><a id="a75fbeb3acc0b0943e36b3b62502947aa"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
+<tr class="separator:a75fbeb3acc0b0943e36b3b62502947aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a622e0ed598b040a6e630c62215afa0d2"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a622e0ed598b040a6e630c62215afa0d2">OnLevelWasLoaded</a> (int level)</td></tr>
+<tr class="memdesc:a622e0ed598b040a6e630c62215afa0d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by unity after level load  <a href="#a622e0ed598b040a6e630c62215afa0d2">More...</a><br /></td></tr>
+<tr class="separator:a622e0ed598b040a6e630c62215afa0d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69c7437d4b3ee289a9037c64e15434e4"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a69c7437d4b3ee289a9037c64e15434e4">_controlPlayer</a> ()</td></tr>
 <tr class="memdesc:a69c7437d4b3ee289a9037c64e15434e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Control player by input.  <a href="#a69c7437d4b3ee289a9037c64e15434e4">More...</a><br /></td></tr>
 <tr class="separator:a69c7437d4b3ee289a9037c64e15434e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,9 +329,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_switchToDWfromBOW</b
 <tr class="memitem:ad5b3fc1b81808152f2e309015693a963"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ad5b3fc1b81808152f2e309015693a963">_break_transition</a> ()</td></tr>
 <tr class="memdesc:ad5b3fc1b81808152f2e309015693a963"><td class="mdescLeft">&#160;</td><td class="mdescRight">break drawing/sheating items  <a href="#ad5b3fc1b81808152f2e309015693a963">More...</a><br /></td></tr>
 <tr class="separator:ad5b3fc1b81808152f2e309015693a963"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8ee671f112434516290f5695cad9426"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#af8ee671f112434516290f5695cad9426">_fallToDeathCheck</a> ()</td></tr>
-<tr class="memdesc:af8ee671f112434516290f5695cad9426"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if character is falling from too high height  <a href="#af8ee671f112434516290f5695cad9426">More...</a><br /></td></tr>
-<tr class="separator:af8ee671f112434516290f5695cad9426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aba94d15fe9989f44793fd57be3c197"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a0aba94d15fe9989f44793fd57be3c197">_fallToDeathCheck</a> ()</td></tr>
+<tr class="memdesc:a0aba94d15fe9989f44793fd57be3c197"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if character is falling from too high height  <a href="#a0aba94d15fe9989f44793fd57be3c197">More...</a><br /></td></tr>
+<tr class="separator:a0aba94d15fe9989f44793fd57be3c197"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c606ec3937a79db5eb5db63b5c8a999"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a3c606ec3937a79db5eb5db63b5c8a999">_attack_combo_end</a> ()</td></tr>
 <tr class="memdesc:a3c606ec3937a79db5eb5db63b5c8a999"><td class="mdescLeft">&#160;</td><td class="mdescRight">combo end setup  <a href="#a3c606ec3937a79db5eb5db63b5c8a999">More...</a><br /></td></tr>
 <tr class="separator:a3c606ec3937a79db5eb5db63b5c8a999"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,9 +344,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_switchToDWfromBOW</b
 <tr class="memitem:ad335884f198085b4ea5c56b8eb2296d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ad335884f198085b4ea5c56b8eb2296d1">_jumpToTarget</a> ()</td></tr>
 <tr class="memdesc:ad335884f198085b4ea5c56b8eb2296d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">rotate and jump towards npc  <a href="#ad335884f198085b4ea5c56b8eb2296d1">More...</a><br /></td></tr>
 <tr class="separator:ad335884f198085b4ea5c56b8eb2296d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a608a2b2bb0cf28c07014c2e2bc8e96a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a608a2b2bb0cf28c07014c2e2bc8e96a4">_getPrimaryTargetInZone</a> ()</td></tr>
-<tr class="memdesc:a608a2b2bb0cf28c07014c2e2bc8e96a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">get new target from npcs in the current zone/s  <a href="#a608a2b2bb0cf28c07014c2e2bc8e96a4">More...</a><br /></td></tr>
-<tr class="separator:a608a2b2bb0cf28c07014c2e2bc8e96a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe2d8913a88abbca75c0a338e3684ab"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#affe2d8913a88abbca75c0a338e3684ab">_getPrimaryTargetInZone</a> ()</td></tr>
+<tr class="memdesc:affe2d8913a88abbca75c0a338e3684ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">get new target from npcs in the current zone/s  <a href="#affe2d8913a88abbca75c0a338e3684ab">More...</a><br /></td></tr>
+<tr class="separator:affe2d8913a88abbca75c0a338e3684ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad74177be0cbdc642f25343790e70b1ab"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ad74177be0cbdc642f25343790e70b1ab">_sweepTest</a> (Vector3 direction)</td></tr>
 <tr class="memdesc:ad74177be0cbdc642f25343790e70b1ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">check is attack path is clear  <a href="#ad74177be0cbdc642f25343790e70b1ab">More...</a><br /></td></tr>
 <tr class="separator:ad74177be0cbdc642f25343790e70b1ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,6 +356,18 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_switchToDWfromBOW</b
 <tr class="memitem:a06017562a8ea6cd8a356692b720cbf5e"><td class="memItemLeft" align="right" valign="top"><a id="a06017562a8ea6cd8a356692b720cbf5e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>_takeArrowCheck</b> ()</td></tr>
 <tr class="separator:a06017562a8ea6cd8a356692b720cbf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf0f4f08188d33d116ceb9ee70537229"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#aaf0f4f08188d33d116ceb9ee70537229">_playerDeathFlag</a> ()</td></tr>
+<tr class="memdesc:aaf0f4f08188d33d116ceb9ee70537229"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set flag to restart level on player death.  <a href="#aaf0f4f08188d33d116ceb9ee70537229">More...</a><br /></td></tr>
+<tr class="separator:aaf0f4f08188d33d116ceb9ee70537229"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2e568ba2727c79ed0c627d1fc8c4236"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#aa2e568ba2727c79ed0c627d1fc8c4236">_breakCombo</a> ()</td></tr>
+<tr class="memdesc:aa2e568ba2727c79ed0c627d1fc8c4236"><td class="mdescLeft">&#160;</td><td class="mdescRight">Breal attack combo  <a href="#aa2e568ba2727c79ed0c627d1fc8c4236">More...</a><br /></td></tr>
+<tr class="separator:aa2e568ba2727c79ed0c627d1fc8c4236"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7175a04bebe5b29d8a2d73c449722a54"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a7175a04bebe5b29d8a2d73c449722a54">_AttackStartEvent</a> (AnimationEvent e)</td></tr>
+<tr class="memdesc:a7175a04bebe5b29d8a2d73c449722a54"><td class="mdescLeft">&#160;</td><td class="mdescRight">attack start method  <a href="#a7175a04bebe5b29d8a2d73c449722a54">More...</a><br /></td></tr>
+<tr class="separator:a7175a04bebe5b29d8a2d73c449722a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff8605ea216448c10828f44d49a9c57d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#aff8605ea216448c10828f44d49a9c57d">_AttackHitEvent</a> (AnimationEvent e)</td></tr>
+<tr class="memdesc:aff8605ea216448c10828f44d49a9c57d"><td class="mdescLeft">&#160;</td><td class="mdescRight">attack hit method fired by AttackHitEvent  <a href="#aff8605ea216448c10828f44d49a9c57d">More...</a><br /></td></tr>
+<tr class="separator:aff8605ea216448c10828f44d49a9c57d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7b3df8a3e76235e516a772904ecf7fe4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a7b3df8a3e76235e516a772904ecf7fe4">_startTakingWeapon1HShield</a> ()</td></tr>
 <tr class="memdesc:a7b3df8a3e76235e516a772904ecf7fe4"><td class="mdescLeft">&#160;</td><td class="mdescRight">start taking weapon and shield  <a href="#a7b3df8a3e76235e516a772904ecf7fe4">More...</a><br /></td></tr>
 <tr class="separator:a7b3df8a3e76235e516a772904ecf7fe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -339,24 +389,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_takeArrowCheck</b> (
 <tr class="memitem:a3cdc1d02c5b59854d5094f9a8ae0984a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a3cdc1d02c5b59854d5094f9a8ae0984a">_startSheathingWeapon1H</a> ()</td></tr>
 <tr class="memdesc:a3cdc1d02c5b59854d5094f9a8ae0984a"><td class="mdescLeft">&#160;</td><td class="mdescRight">start putting away weapon one handed  <a href="#a3cdc1d02c5b59854d5094f9a8ae0984a">More...</a><br /></td></tr>
 <tr class="separator:a3cdc1d02c5b59854d5094f9a8ae0984a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c204b69ea3605ab0da508d02b0445d3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a4c204b69ea3605ab0da508d02b0445d3">_takeWeapon1H</a> ()</td></tr>
-<tr class="memdesc:a4c204b69ea3605ab0da508d02b0445d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">take one handed weapon (switch bones)  <a href="#a4c204b69ea3605ab0da508d02b0445d3">More...</a><br /></td></tr>
-<tr class="separator:a4c204b69ea3605ab0da508d02b0445d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0989f5869ddf5b5ac80b436ddcd3d2c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ad0989f5869ddf5b5ac80b436ddcd3d2c">_sheatheWeapon1H</a> ()</td></tr>
-<tr class="memdesc:ad0989f5869ddf5b5ac80b436ddcd3d2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">put away one handed weapon (switch bones)  <a href="#ad0989f5869ddf5b5ac80b436ddcd3d2c">More...</a><br /></td></tr>
-<tr class="separator:ad0989f5869ddf5b5ac80b436ddcd3d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e369c8986b6b195773f60a093fe7944"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a1e369c8986b6b195773f60a093fe7944">_prepareToTakeWeapon1h</a> ()</td></tr>
+<tr class="memdesc:a1e369c8986b6b195773f60a093fe7944"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepare to take weapon1 h  <a href="#a1e369c8986b6b195773f60a093fe7944">More...</a><br /></td></tr>
+<tr class="separator:a1e369c8986b6b195773f60a093fe7944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92063fe3c33349dcaf782eab8e342406"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a92063fe3c33349dcaf782eab8e342406">_takeWeapon1H</a> ()</td></tr>
+<tr class="memdesc:a92063fe3c33349dcaf782eab8e342406"><td class="mdescLeft">&#160;</td><td class="mdescRight">take one handed weapon (switch bones)  <a href="#a92063fe3c33349dcaf782eab8e342406">More...</a><br /></td></tr>
+<tr class="separator:a92063fe3c33349dcaf782eab8e342406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a584f57a10ab64ef3e82d68f726a08fab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a584f57a10ab64ef3e82d68f726a08fab">_sheatheWeapon1H</a> ()</td></tr>
+<tr class="memdesc:a584f57a10ab64ef3e82d68f726a08fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">put away one handed weapon (switch bones)  <a href="#a584f57a10ab64ef3e82d68f726a08fab">More...</a><br /></td></tr>
+<tr class="separator:a584f57a10ab64ef3e82d68f726a08fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a017c92295977cf40ab82ef91e4415492"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a017c92295977cf40ab82ef91e4415492">_startTakingShield</a> (<a class="el" href="namespace_m_l_space.html#a3b4bbc938793f1f2b2cb1b522aad751d">AnimClipSheet</a> newClipSheet)</td></tr>
 <tr class="memdesc:a017c92295977cf40ab82ef91e4415492"><td class="mdescLeft">&#160;</td><td class="mdescRight">start reaching for shield  <a href="#a017c92295977cf40ab82ef91e4415492">More...</a><br /></td></tr>
 <tr class="separator:a017c92295977cf40ab82ef91e4415492"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae74f069174b676aa7f15c9c007c87d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#aae74f069174b676aa7f15c9c007c87d1">_startSheathingShield</a> ()</td></tr>
 <tr class="memdesc:aae74f069174b676aa7f15c9c007c87d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">start putting away shield  <a href="#aae74f069174b676aa7f15c9c007c87d1">More...</a><br /></td></tr>
 <tr class="separator:aae74f069174b676aa7f15c9c007c87d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e4ed23d58578c61b0d0f76f2ed7278"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a11e4ed23d58578c61b0d0f76f2ed7278">_takeShield</a> ()</td></tr>
-<tr class="memdesc:a11e4ed23d58578c61b0d0f76f2ed7278"><td class="mdescLeft">&#160;</td><td class="mdescRight">take shield (switch bones)  <a href="#a11e4ed23d58578c61b0d0f76f2ed7278">More...</a><br /></td></tr>
-<tr class="separator:a11e4ed23d58578c61b0d0f76f2ed7278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a270105eba74d934a7693b47cc45049c5"><td class="memItemLeft" align="right" valign="top"><a id="a270105eba74d934a7693b47cc45049c5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>_sheatheShield</b> ()</td></tr>
-<tr class="separator:a270105eba74d934a7693b47cc45049c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4f5acc90ea89a5f3add067f4ae7496"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a8e4f5acc90ea89a5f3add067f4ae7496">_takeShield</a> ()</td></tr>
+<tr class="memdesc:a8e4f5acc90ea89a5f3add067f4ae7496"><td class="mdescLeft">&#160;</td><td class="mdescRight">take shield (switch bones)  <a href="#a8e4f5acc90ea89a5f3add067f4ae7496">More...</a><br /></td></tr>
+<tr class="separator:a8e4f5acc90ea89a5f3add067f4ae7496"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c886e47be7f15e7994bdb4e1e8d106e"><td class="memItemLeft" align="right" valign="top"><a id="a8c886e47be7f15e7994bdb4e1e8d106e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_sheatheShield</b> ()</td></tr>
+<tr class="separator:a8c886e47be7f15e7994bdb4e1e8d106e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af277d5df561730004b941f0b64567e32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#af277d5df561730004b941f0b64567e32">_startTakingWeapon2H</a> ()</td></tr>
 <tr class="memdesc:af277d5df561730004b941f0b64567e32"><td class="mdescLeft">&#160;</td><td class="mdescRight">start animation for taking weapon 2h  <a href="#af277d5df561730004b941f0b64567e32">More...</a><br /></td></tr>
 <tr class="separator:af277d5df561730004b941f0b64567e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -390,9 +443,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_sheatheShield</b> ()
 <tr class="memitem:ae0b241f93466760d2c686211d07560c9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ae0b241f93466760d2c686211d07560c9">_drawBow</a> ()</td></tr>
 <tr class="memdesc:ae0b241f93466760d2c686211d07560c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">pull bow string  <a href="#ae0b241f93466760d2c686211d07560c9">More...</a><br /></td></tr>
 <tr class="separator:ae0b241f93466760d2c686211d07560c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a575f6dbcd119c963da2344de2ac395dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a575f6dbcd119c963da2344de2ac395dd">_releaseBow</a> (bool shoot=true)</td></tr>
-<tr class="memdesc:a575f6dbcd119c963da2344de2ac395dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">release bow string  <a href="#a575f6dbcd119c963da2344de2ac395dd">More...</a><br /></td></tr>
-<tr class="separator:a575f6dbcd119c963da2344de2ac395dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25faf51bf784b591a679f71f7c9cc5ca"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a25faf51bf784b591a679f71f7c9cc5ca">_releaseBow</a> (bool shoot=true)</td></tr>
+<tr class="memdesc:a25faf51bf784b591a679f71f7c9cc5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">release bow string  <a href="#a25faf51bf784b591a679f71f7c9cc5ca">More...</a><br /></td></tr>
+<tr class="separator:a25faf51bf784b591a679f71f7c9cc5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55adfd77ab0ca44ee2acff652696a699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a55adfd77ab0ca44ee2acff652696a699">_cancelDraw</a> ()</td></tr>
 <tr class="memdesc:a55adfd77ab0ca44ee2acff652696a699"><td class="mdescLeft">&#160;</td><td class="mdescRight">cancel draw  <a href="#a55adfd77ab0ca44ee2acff652696a699">More...</a><br /></td></tr>
 <tr class="separator:a55adfd77ab0ca44ee2acff652696a699"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -408,12 +461,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>_sheatheShield</b> ()
 <tr class="memitem:a8d572c158c8cc9c125872a4f2efba773"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a8d572c158c8cc9c125872a4f2efba773">_startSheathingSecondaryWeapon1H</a> ()</td></tr>
 <tr class="memdesc:a8d572c158c8cc9c125872a4f2efba773"><td class="mdescLeft">&#160;</td><td class="mdescRight">start removing secondary weapon  <a href="#a8d572c158c8cc9c125872a4f2efba773">More...</a><br /></td></tr>
 <tr class="separator:a8d572c158c8cc9c125872a4f2efba773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bc7325c3f56195acdb4acb6913710a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a4bc7325c3f56195acdb4acb6913710a6">_takeSecondaryWeapon1H</a> ()</td></tr>
-<tr class="memdesc:a4bc7325c3f56195acdb4acb6913710a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">take secondary weapon  <a href="#a4bc7325c3f56195acdb4acb6913710a6">More...</a><br /></td></tr>
-<tr class="separator:a4bc7325c3f56195acdb4acb6913710a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5137add5a7ffca9a0540111507cda992"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a5137add5a7ffca9a0540111507cda992">_sheatheSecondaryWeapon1H</a> ()</td></tr>
-<tr class="memdesc:a5137add5a7ffca9a0540111507cda992"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove secondary weapon  <a href="#a5137add5a7ffca9a0540111507cda992">More...</a><br /></td></tr>
-<tr class="separator:a5137add5a7ffca9a0540111507cda992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1415ea6637abff455953c5cb7839f781"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a1415ea6637abff455953c5cb7839f781">_takeSecondaryWeapon1H</a> ()</td></tr>
+<tr class="memdesc:a1415ea6637abff455953c5cb7839f781"><td class="mdescLeft">&#160;</td><td class="mdescRight">take secondary weapon  <a href="#a1415ea6637abff455953c5cb7839f781">More...</a><br /></td></tr>
+<tr class="separator:a1415ea6637abff455953c5cb7839f781"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74de08c418213c7b8cbc87edce1831ab"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a74de08c418213c7b8cbc87edce1831ab">_sheatheSecondaryWeapon1H</a> ()</td></tr>
+<tr class="memdesc:a74de08c418213c7b8cbc87edce1831ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">remove secondary weapon  <a href="#a74de08c418213c7b8cbc87edce1831ab">More...</a><br /></td></tr>
+<tr class="separator:a74de08c418213c7b8cbc87edce1831ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fbcf66a38a6924cdf7595091e2fc097"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a2fbcf66a38a6924cdf7595091e2fc097">_setDualWeaponClips</a> ()</td></tr>
 <tr class="memdesc:a2fbcf66a38a6924cdf7595091e2fc097"><td class="mdescLeft">&#160;</td><td class="mdescRight">change animation clips to dual wield weapon system  <a href="#a2fbcf66a38a6924cdf7595091e2fc097">More...</a><br /></td></tr>
 <tr class="separator:a2fbcf66a38a6924cdf7595091e2fc097"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -453,9 +506,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ad6c2c7254a6dff75f46135f3b19016da"><td class="memItemLeft" align="right" valign="top"><a id="ad6c2c7254a6dff75f46135f3b19016da"></a>
 <a class="el" href="class_m_l_space_1_1_n_p_c_manager.html">NPCManager</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_NpcMan</b></td></tr>
 <tr class="separator:ad6c2c7254a6dff75f46135f3b19016da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fa1e49bf327c2a34dae0b9b7b954da"><td class="memItemLeft" align="right" valign="top"><a id="a47fa1e49bf327c2a34dae0b9b7b954da"></a>
-<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrimaryTargetNPC</b></td></tr>
-<tr class="separator:a47fa1e49bf327c2a34dae0b9b7b954da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7f6bbdca62d8cc6ca9528be49713e39"><td class="memItemLeft" align="right" valign="top"><a id="aa7f6bbdca62d8cc6ca9528be49713e39"></a>
+<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrimaryTarget</b></td></tr>
+<tr class="separator:aa7f6bbdca62d8cc6ca9528be49713e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ef72ea8c9e1a3b1f9f585738292d0cf"><td class="memItemLeft" align="right" valign="top"><a id="a0ef72ea8c9e1a3b1f9f585738292d0cf"></a>
 <a class="el" href="class_m_l_space_1_1_predefines.html">Predefines</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_Materials</b></td></tr>
 <tr class="separator:a0ef72ea8c9e1a3b1f9f585738292d0cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -474,6 +527,12 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a223ea69addbba5befaf4500864ed2b70"><td class="memItemLeft" align="right" valign="top"><a id="a223ea69addbba5befaf4500864ed2b70"></a>
 Animator&#160;</td><td class="memItemRight" valign="bottom"><b>m_Animator</b></td></tr>
 <tr class="separator:a223ea69addbba5befaf4500864ed2b70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf0dc558f24eff70a3692367ffb55858"><td class="memItemLeft" align="right" valign="top"><a id="adf0dc558f24eff70a3692367ffb55858"></a>
+<a class="el" href="class_m_l_space_1_1_debug_u_i.html">DebugUI</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_DamageUI</b></td></tr>
+<tr class="separator:adf0dc558f24eff70a3692367ffb55858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d934c6beb11e015e7fad1108dfce8de"><td class="memItemLeft" align="right" valign="top"><a id="a1d934c6beb11e015e7fad1108dfce8de"></a>
+<a class="el" href="class_m_l_space_1_1_scene_control.html">SceneControl</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_SceneControl</b></td></tr>
+<tr class="separator:a1d934c6beb11e015e7fad1108dfce8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1275452fe1015dd8b7fafd1a4a16a06"><td class="memItemLeft" align="right" valign="top"><a id="ab1275452fe1015dd8b7fafd1a4a16a06"></a>
 <a class="el" href="namespace_m_l_space.html#a3b4bbc938793f1f2b2cb1b522aad751d">AnimClipSheet</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentClipSheet</b> = AnimClipSheet.None</td></tr>
 <tr class="separator:ab1275452fe1015dd8b7fafd1a4a16a06"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -495,12 +554,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_InCombat</b> = fals
 <tr class="memitem:ac17430b7ca7fbfe43dc7b7443e1bb93b"><td class="memItemLeft" align="right" valign="top"><a id="ac17430b7ca7fbfe43dc7b7443e1bb93b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_BreakCombo</b> = true</td></tr>
 <tr class="separator:ac17430b7ca7fbfe43dc7b7443e1bb93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a32af8d65884180b928a2caf05f3f7a"><td class="memItemLeft" align="right" valign="top"><a id="a7a32af8d65884180b928a2caf05f3f7a"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentAttackType</b> = 0</td></tr>
-<tr class="separator:a7a32af8d65884180b928a2caf05f3f7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95a5c93a14f0af0780957fd2feb3a6f0"><td class="memItemLeft" align="right" valign="top"><a id="a95a5c93a14f0af0780957fd2feb3a6f0"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>m_AdditionalAttackDamage</b> = 0</td></tr>
-<tr class="separator:a95a5c93a14f0af0780957fd2feb3a6f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24d526380779b5f5cad14bcdd6472304"><td class="memItemLeft" align="right" valign="top"><a id="a24d526380779b5f5cad14bcdd6472304"></a>
 Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>m_Direction2target</b></td></tr>
 <tr class="separator:a24d526380779b5f5cad14bcdd6472304"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -620,12 +673,45 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>m_ChasePosition</b
 <tr class="memitem:a582d11181baf1cebc344fc8383d2c577"><td class="memItemLeft" align="right" valign="top"><a id="a582d11181baf1cebc344fc8383d2c577"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_WeaponSwingUnderway</b> = false</td></tr>
 <tr class="separator:a582d11181baf1cebc344fc8383d2c577"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f29b171a2f6cb2edfd7de22eac423c"><td class="memItemLeft" align="right" valign="top"><a id="ac4f29b171a2f6cb2edfd7de22eac423c"></a>
+RaycastHit []&#160;</td><td class="memItemRight" valign="bottom"><b>m_ArrowTargetHits</b></td></tr>
+<tr class="separator:ac4f29b171a2f6cb2edfd7de22eac423c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91394705ddc3f249eda42ab6fc281d80"><td class="memItemLeft" align="right" valign="top"><a id="a91394705ddc3f249eda42ab6fc281d80"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_NumArrowTargetHits</b> = 0</td></tr>
+<tr class="separator:a91394705ddc3f249eda42ab6fc281d80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30d73db97e1802bbb275b939d8ba5654"><td class="memItemLeft" align="right" valign="top"><a id="a30d73db97e1802bbb275b939d8ba5654"></a>
+RaycastHit []&#160;</td><td class="memItemRight" valign="bottom"><b>m_ICharHits</b></td></tr>
+<tr class="separator:a30d73db97e1802bbb275b939d8ba5654"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af275e873122f50cd138ddaa3de1fbacb"><td class="memItemLeft" align="right" valign="top"><a id="af275e873122f50cd138ddaa3de1fbacb"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentICharHits</b> = 0</td></tr>
+<tr class="separator:af275e873122f50cd138ddaa3de1fbacb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:ab7622a5b00ae1bda9ee92de69f86acb7"><td class="memItemLeft" align="right" valign="top">Renderer []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ab7622a5b00ae1bda9ee92de69f86acb7">renderers</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:ab7622a5b00ae1bda9ee92de69f86acb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets array of renderers of game object and children  <a href="#ab7622a5b00ae1bda9ee92de69f86acb7">More...</a><br /></td></tr>
+<tr class="separator:ab7622a5b00ae1bda9ee92de69f86acb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c957ba37ddfe6baea4ad3045d8515c"><td class="memItemLeft" align="right" valign="top">Collider []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a73c957ba37ddfe6baea4ad3045d8515c">colliders</a><code> [get, protected set]</code></td></tr>
+<tr class="memdesc:a73c957ba37ddfe6baea4ad3045d8515c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets array of colliders of game object and children  <a href="#a73c957ba37ddfe6baea4ad3045d8515c">More...</a><br /></td></tr>
+<tr class="separator:a73c957ba37ddfe6baea4ad3045d8515c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a604505db99795df680baa18ee7693d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_equipment_script.html">EquipmentScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a604505db99795df680baa18ee7693d19">equipmentScript</a><code> [get]</code></td></tr>
+<tr class="memdesc:a604505db99795df680baa18ee7693d19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets reference to <a class="el" href="class_m_l_space_1_1_equipment_script.html" title="Class for manipulation of equipment. ">EquipmentScript</a>.  <a href="#a604505db99795df680baa18ee7693d19">More...</a><br /></td></tr>
+<tr class="separator:a604505db99795df680baa18ee7693d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac711ee2f5442541f427f6adb9f9d9969"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#ac711ee2f5442541f427f6adb9f9d9969">primaryTarget</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ac711ee2f5442541f427f6adb9f9d9969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current primary target  <a href="#ac711ee2f5442541f427f6adb9f9d9969">More...</a><br /></td></tr>
+<tr class="separator:ac711ee2f5442541f427f6adb9f9d9969"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1499c70ab17e0fc60a7c065b8253af7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#af1499c70ab17e0fc60a7c065b8253af7">OnDeath</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:af1499c70ab17e0fc60a7c065b8253af7"><td class="mdescLeft">&#160;</td><td class="mdescRight">On player death callback.  <a href="#af1499c70ab17e0fc60a7c065b8253af7">More...</a><br /></td></tr>
 <tr class="separator:af1499c70ab17e0fc60a7c065b8253af7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6878eaca244bd8a6da720361fd6a6ad6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a6878eaca244bd8a6da720361fd6a6ad6">initialized</a><code> [get]</code></td></tr>
+<tr class="memdesc:a6878eaca244bd8a6da720361fd6a6ad6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if component is initialize, otherwise false.  <a href="#a6878eaca244bd8a6da720361fd6a6ad6">More...</a><br /></td></tr>
+<tr class="separator:a6878eaca244bd8a6da720361fd6a6ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12551f1d68866cac8135754e17b55ca9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a12551f1d68866cac8135754e17b55ca9">guardZoneID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a12551f1d68866cac8135754e17b55ca9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets urrent npc zone ID  <a href="#a12551f1d68866cac8135754e17b55ca9">More...</a><br /></td></tr>
+<tr class="separator:a12551f1d68866cac8135754e17b55ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad6bf7843e8de6f333cdab323ce55621"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#aad6bf7843e8de6f333cdab323ce55621">attackComboUnderway</a><code> [get]</code></td></tr>
+<tr class="memdesc:aad6bf7843e8de6f333cdab323ce55621"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if attack combo is started otherway false.  <a href="#aad6bf7843e8de6f333cdab323ce55621">More...</a><br /></td></tr>
+<tr class="separator:aad6bf7843e8de6f333cdab323ce55621"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79b3ec202a5a30e51de2b656520398d5"><td class="memItemLeft" align="right" valign="top">virtual new <a class="el" href="class_m_l_space_1_1_base_camera.html">BaseCamera</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a79b3ec202a5a30e51de2b656520398d5">camera</a><code> [get]</code></td></tr>
 <tr class="memdesc:a79b3ec202a5a30e51de2b656520398d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to player's camera.  <a href="#a79b3ec202a5a30e51de2b656520398d5">More...</a><br /></td></tr>
 <tr class="separator:a79b3ec202a5a30e51de2b656520398d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -665,9 +751,6 @@ Properties</h2></td></tr>
 <tr class="memitem:a8db313756a09f16f5cd7df9459b64530"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a8db313756a09f16f5cd7df9459b64530">blocking</a><code> [get]</code></td></tr>
 <tr class="memdesc:a8db313756a09f16f5cd7df9459b64530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is blocking animation is on - otherwise false.  <a href="#a8db313756a09f16f5cd7df9459b64530">More...</a><br /></td></tr>
 <tr class="separator:a8db313756a09f16f5cd7df9459b64530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a604505db99795df680baa18ee7693d19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_equipment_script.html">EquipmentScript</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a604505db99795df680baa18ee7693d19">equipmentScript</a><code> [get]</code></td></tr>
-<tr class="memdesc:a604505db99795df680baa18ee7693d19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets reference to <a class="el" href="class_m_l_space_1_1_equipment_script.html" title="Class for manipulation of equipment. ">EquipmentScript</a>.  <a href="#a604505db99795df680baa18ee7693d19">More...</a><br /></td></tr>
-<tr class="separator:a604505db99795df680baa18ee7693d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40c5e260ddc37a2cd0009ad76dc9a3ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a40c5e260ddc37a2cd0009ad76dc9a3ca">triggers</a><code> [get]</code></td></tr>
 <tr class="memdesc:a40c5e260ddc37a2cd0009ad76dc9a3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets <a class="el" href="class_m_l_space_1_1_trigger_management.html" title="Interaction with scene triggers. ">TriggerManagement</a> component.  <a href="#a40c5e260ddc37a2cd0009ad76dc9a3ca">More...</a><br /></td></tr>
 <tr class="separator:a40c5e260ddc37a2cd0009ad76dc9a3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -683,7 +766,13 @@ Properties</h2></td></tr>
 <tr class="memitem:a5c3069440235faffd33a94d364eca55d"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a5c3069440235faffd33a94d364eca55d">chasePosition</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a5c3069440235faffd33a94d364eca55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chase position of player, usually transform.position, but sometimes when on triggers - trigger position.  <a href="#a5c3069440235faffd33a94d364eca55d">More...</a><br /></td></tr>
 <tr class="separator:a5c3069440235faffd33a94d364eca55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68829d8b540db30db8a9b8d204a205bc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_base.html#a68829d8b540db30db8a9b8d204a205bc">disableInput</a><code> [get]</code></td></tr>
+<tr class="memdesc:a68829d8b540db30db8a9b8d204a205bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if input is disabled otherwise false.  <a href="#a68829d8b540db30db8a9b8d204a205bc">More...</a><br /></td></tr>
+<tr class="separator:a68829d8b540db30db8a9b8d204a205bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header properties_interface_m_l_space_1_1_i_game_character"><td colspan="2" onclick="javascript:toggleInherit('properties_interface_m_l_space_1_1_i_game_character')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="interface_m_l_space_1_1_i_game_character.html">MLSpace.IGameCharacter</a></td></tr>
+<tr class="memitem:a4762811fff4f3d98f8f463dc94fc5977 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4762811fff4f3d98f8f463dc94fc5977">primaryTarget</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4762811fff4f3d98f8f463dc94fc5977 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets primary target of character  <a href="interface_m_l_space_1_1_i_game_character.html#a4762811fff4f3d98f8f463dc94fc5977">More...</a><br /></td></tr>
+<tr class="separator:a4762811fff4f3d98f8f463dc94fc5977 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f907bc8c24971d58972f9c8cc11efe6 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a6f907bc8c24971d58972f9c8cc11efe6">takingHit</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a6f907bc8c24971d58972f9c8cc11efe6 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets taking hit flag.  <a href="interface_m_l_space_1_1_i_game_character.html#a6f907bc8c24971d58972f9c8cc11efe6">More...</a><br /></td></tr>
 <tr class="separator:a6f907bc8c24971d58972f9c8cc11efe6 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -726,9 +815,18 @@ Properties</h2></td></tr>
 <tr class="memitem:ab09d6fc4218f72f31092a0dce11e4bc8 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ab09d6fc4218f72f31092a0dce11e4bc8">isAttacking</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab09d6fc4218f72f31092a0dce11e4bc8 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if attack combo is underway.  <a href="interface_m_l_space_1_1_i_game_character.html#ab09d6fc4218f72f31092a0dce11e4bc8">More...</a><br /></td></tr>
 <tr class="separator:ab09d6fc4218f72f31092a0dce11e4bc8 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eeb2fffcb8900ac1311c9bdfb611a5b inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4eeb2fffcb8900ac1311c9bdfb611a5b">guardZoneID</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a4eeb2fffcb8900ac1311c9bdfb611a5b inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently residing guard zone ID  <a href="interface_m_l_space_1_1_i_game_character.html#a4eeb2fffcb8900ac1311c9bdfb611a5b">More...</a><br /></td></tr>
+<tr class="separator:a4eeb2fffcb8900ac1311c9bdfb611a5b inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a734d53f50348629b90518c70c871377b inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a734d53f50348629b90518c70c871377b">OnDeath</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a734d53f50348629b90518c70c871377b inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">on death delegate  <a href="interface_m_l_space_1_1_i_game_character.html#a734d53f50348629b90518c70c871377b">More...</a><br /></td></tr>
 <tr class="separator:a734d53f50348629b90518c70c871377b inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a595b04c0e3c0e8634a2dc7c39bc35b08 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top">Renderer []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a595b04c0e3c0e8634a2dc7c39bc35b08">renderers</a><code> [get]</code></td></tr>
+<tr class="memdesc:a595b04c0e3c0e8634a2dc7c39bc35b08 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets array of character renderers  <a href="interface_m_l_space_1_1_i_game_character.html#a595b04c0e3c0e8634a2dc7c39bc35b08">More...</a><br /></td></tr>
+<tr class="separator:a595b04c0e3c0e8634a2dc7c39bc35b08 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15b01455d9b7e9e6012f88f091880784 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memItemLeft" align="right" valign="top">Collider []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a15b01455d9b7e9e6012f88f091880784">colliders</a><code> [get]</code></td></tr>
+<tr class="memdesc:a15b01455d9b7e9e6012f88f091880784 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets array of character colliders  <a href="interface_m_l_space_1_1_i_game_character.html#a15b01455d9b7e9e6012f88f091880784">More...</a><br /></td></tr>
+<tr class="separator:a15b01455d9b7e9e6012f88f091880784 inherit properties_interface_m_l_space_1_1_i_game_character"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class for combat framework controllers. </p>
@@ -751,12 +849,80 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>combo end setup </p>
+
+</div>
+</div>
+<a id="aff8605ea216448c10828f44d49a9c57d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff8605ea216448c10828f44d49a9c57d">&sect;&nbsp;</a></span>_AttackHitEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._AttackHitEvent </td>
+          <td>(</td>
+          <td class="paramtype">AnimationEvent&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>attack hit method fired by AttackHitEvent </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7175a04bebe5b29d8a2d73c449722a54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7175a04bebe5b29d8a2d73c449722a54">&sect;&nbsp;</a></span>_AttackStartEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._AttackStartEvent </td>
+          <td>(</td>
+          <td class="paramtype">AnimationEvent&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>attack start method </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -778,12 +944,39 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>break drawing/sheating items </p>
+
+</div>
+</div>
+<a id="aa2e568ba2727c79ed0c627d1fc8c4236"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e568ba2727c79ed0c627d1fc8c4236">&sect;&nbsp;</a></span>_breakCombo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._breakCombo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Breal attack combo </p>
 
 </div>
 </div>
@@ -805,7 +998,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -890,7 +1083,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -918,7 +1111,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -952,7 +1145,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -961,8 +1154,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="af8ee671f112434516290f5695cad9426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8ee671f112434516290f5695cad9426">&sect;&nbsp;</a></span>_fallToDeathCheck()</h2>
+<a id="a0aba94d15fe9989f44793fd57be3c197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aba94d15fe9989f44793fd57be3c197">&sect;&nbsp;</a></span>_fallToDeathCheck()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -971,7 +1164,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._fallToDeathCheck </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._fallToDeathCheck </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -979,7 +1172,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -988,8 +1181,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a608a2b2bb0cf28c07014c2e2bc8e96a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a608a2b2bb0cf28c07014c2e2bc8e96a4">&sect;&nbsp;</a></span>_getPrimaryTargetInZone()</h2>
+<a id="affe2d8913a88abbca75c0a338e3684ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affe2d8913a88abbca75c0a338e3684ab">&sect;&nbsp;</a></span>_getPrimaryTargetInZone()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -998,7 +1191,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a> MLSpace.PlayerControlBase._getPrimaryTargetInZone </td>
+          <td class="memname">virtual <a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> MLSpace.PlayerControlBase._getPrimaryTargetInZone </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1006,7 +1199,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1035,7 +1228,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1063,7 +1256,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1097,7 +1290,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1131,7 +1324,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1146,8 +1339,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a575f6dbcd119c963da2344de2ac395dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a575f6dbcd119c963da2344de2ac395dd">&sect;&nbsp;</a></span>_releaseBow()</h2>
+<a id="aaf0f4f08188d33d116ceb9ee70537229"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf0f4f08188d33d116ceb9ee70537229">&sect;&nbsp;</a></span>_playerDeathFlag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1156,7 +1349,61 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._releaseBow </td>
+          <td class="memname">void MLSpace.PlayerControlBase._playerDeathFlag </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set flag to restart level on player death. </p>
+
+</div>
+</div>
+<a id="a1e369c8986b6b195773f60a093fe7944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e369c8986b6b195773f60a093fe7944">&sect;&nbsp;</a></span>_prepareToTakeWeapon1h()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._prepareToTakeWeapon1h </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prepare to take weapon1 h </p>
+
+</div>
+</div>
+<a id="a25faf51bf784b591a679f71f7c9cc5ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25faf51bf784b591a679f71f7c9cc5ca">&sect;&nbsp;</a></span>_releaseBow()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._releaseBow </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
           <td class="paramname"><em>shoot</em> = <code>true</code></td><td>)</td>
@@ -1165,7 +1412,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1192,7 +1439,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1219,7 +1466,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1246,7 +1493,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1274,7 +1521,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1318,7 +1565,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1363,7 +1610,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1398,7 +1645,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1431,7 +1678,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1440,8 +1687,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5137add5a7ffca9a0540111507cda992"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5137add5a7ffca9a0540111507cda992">&sect;&nbsp;</a></span>_sheatheSecondaryWeapon1H()</h2>
+<a id="a74de08c418213c7b8cbc87edce1831ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74de08c418213c7b8cbc87edce1831ab">&sect;&nbsp;</a></span>_sheatheSecondaryWeapon1H()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1450,7 +1697,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._sheatheSecondaryWeapon1H </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._sheatheSecondaryWeapon1H </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1458,7 +1705,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1467,8 +1714,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ad0989f5869ddf5b5ac80b436ddcd3d2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0989f5869ddf5b5ac80b436ddcd3d2c">&sect;&nbsp;</a></span>_sheatheWeapon1H()</h2>
+<a id="a584f57a10ab64ef3e82d68f726a08fab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a584f57a10ab64ef3e82d68f726a08fab">&sect;&nbsp;</a></span>_sheatheWeapon1H()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1477,7 +1724,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._sheatheWeapon1H </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._sheatheWeapon1H </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1485,7 +1732,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1512,7 +1759,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1539,7 +1786,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1585,7 +1832,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1620,7 +1867,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1647,7 +1894,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1674,7 +1921,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1701,7 +1948,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1728,7 +1975,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1755,7 +2002,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1782,7 +2029,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1809,7 +2056,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1836,7 +2083,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1863,7 +2110,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1890,7 +2137,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1917,7 +2164,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1945,7 +2192,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1973,7 +2220,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2000,7 +2247,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2027,7 +2274,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2055,7 +2302,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2090,7 +2337,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2123,7 +2370,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2150,7 +2397,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2159,8 +2406,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4bc7325c3f56195acdb4acb6913710a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bc7325c3f56195acdb4acb6913710a6">&sect;&nbsp;</a></span>_takeSecondaryWeapon1H()</h2>
+<a id="a1415ea6637abff455953c5cb7839f781"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1415ea6637abff455953c5cb7839f781">&sect;&nbsp;</a></span>_takeSecondaryWeapon1H()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2169,7 +2416,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._takeSecondaryWeapon1H </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._takeSecondaryWeapon1H </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2177,7 +2424,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2186,8 +2433,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a11e4ed23d58578c61b0d0f76f2ed7278"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11e4ed23d58578c61b0d0f76f2ed7278">&sect;&nbsp;</a></span>_takeShield()</h2>
+<a id="a8e4f5acc90ea89a5f3add067f4ae7496"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4f5acc90ea89a5f3add067f4ae7496">&sect;&nbsp;</a></span>_takeShield()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2196,7 +2443,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._takeShield </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._takeShield </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2204,7 +2451,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2213,8 +2460,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c204b69ea3605ab0da508d02b0445d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c204b69ea3605ab0da508d02b0445d3">&sect;&nbsp;</a></span>_takeWeapon1H()</h2>
+<a id="a92063fe3c33349dcaf782eab8e342406"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92063fe3c33349dcaf782eab8e342406">&sect;&nbsp;</a></span>_takeWeapon1H()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2223,7 +2470,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase._takeWeapon1H </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase._takeWeapon1H </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -2231,7 +2478,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2258,7 +2505,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2296,7 +2543,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2313,14 +2560,17 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ada570286914c49cc0cb922c37df1c3b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada570286914c49cc0cb922c37df1c3b2">&sect;&nbsp;</a></span>attack_end_notify()</h2>
+<a id="ae46eac453063460b37b9fe934c5e59e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae46eac453063460b37b9fe934c5e59e7">&sect;&nbsp;</a></span>attack_end_notify()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.attack_end_notify </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.attack_end_notify </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td>
           <td class="paramname"><em>attacker</em>, </td>
@@ -2337,6 +2587,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Notify game character on attack end. </p>
@@ -2352,14 +2607,17 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9adce34f5095033d03d6d33ff55ad21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9adce34f5095033d03d6d33ff55ad21">&sect;&nbsp;</a></span>attack_hit_notify()</h2>
+<a id="ab5bb3270d7c5a8b440ff49aaf6e81083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5bb3270d7c5a8b440ff49aaf6e81083">&sect;&nbsp;</a></span>attack_hit_notify()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.PlayerControlBase.attack_hit_notify </td>
+          <td class="memname">virtual bool MLSpace.PlayerControlBase.attack_hit_notify </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td>
           <td class="paramname"><em>attacker</em>, </td>
@@ -2382,6 +2640,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Notify game character that he is attacked. </p>
@@ -2403,14 +2666,17 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f811aa54d756aba0776fb9fedf2dff3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f811aa54d756aba0776fb9fedf2dff3">&sect;&nbsp;</a></span>attack_start_notify()</h2>
+<a id="a249989dfe0c5ed2e843f467dd30f61db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a249989dfe0c5ed2e843f467dd30f61db">&sect;&nbsp;</a></span>attack_start_notify()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.attack_start_notify </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.attack_start_notify </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td>
           <td class="paramname"><em>attacker</em>, </td>
@@ -2427,6 +2693,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Notify game character on attack start. </p>
@@ -2447,6 +2718,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.PlayerControlBase.breakAttack </td>
@@ -2455,6 +2729,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Break attack combo. </p>
@@ -2481,7 +2760,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2492,14 +2771,71 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ab9ba0b304f05ec0124e7d3c6d3b68190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ba0b304f05ec0124e7d3c6d3b68190">&sect;&nbsp;</a></span>death()</h2>
+<a id="a3498c556dfffe66bed3e25fd1bcb8bbb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3498c556dfffe66bed3e25fd1bcb8bbb">&sect;&nbsp;</a></span>clearItemManager()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.death </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.clearItemManager </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear items from item manager </p>
+
+</div>
+</div>
+<a id="a1cbafb59f6ff900808d3a331316bdecc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbafb59f6ff900808d3a331316bdecc">&sect;&nbsp;</a></span>clearTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.clearTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clear target reference </p>
+
+</div>
+</div>
+<a id="a2da52e961c58041062f08d4ae947f835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da52e961c58041062f08d4ae947f835">&sect;&nbsp;</a></span>death()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.death </td>
           <td>(</td>
           <td class="paramtype">int []&#160;</td>
           <td class="paramname"><em>hitParts</em>, </td>
@@ -2516,6 +2852,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>player death setup </p>
@@ -2531,20 +2872,38 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a25f01f5dfad09e355397acedbd88d8e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25f01f5dfad09e355397acedbd88d8e0">&sect;&nbsp;</a></span>dropAllEquipment()</h2>
+<a id="a9dd2074370bc6d17c8ba99e696f374bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dd2074370bc6d17c8ba99e696f374bb">&sect;&nbsp;</a></span>dropAllEquipment()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.dropAllEquipment </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.dropAllEquipment </td>
           <td>(</td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>drop</em> = <code>true</code></td><td>)</td>
+          <td class="paramname"><em>drop</em> = <code>true</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>skipWielded</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Drop all not wielding equipment. You can drop next to the player or reset them on initial places and states. </p>
@@ -2557,14 +2916,17 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="adc96b0449181c69f0f10766a2b5015b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc96b0449181c69f0f10766a2b5015b8">&sect;&nbsp;</a></span>dropItem()</h2>
+<a id="ae69f45246abb65dec968dff55e82b52b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae69f45246abb65dec968dff55e82b52b">&sect;&nbsp;</a></span>dropItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.dropItem </td>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.dropItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">PhysicsInventoryItem</a>&#160;</td>
           <td class="paramname"><em>item</em>, </td>
@@ -2581,6 +2943,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Drop physics item. </p>
@@ -2612,7 +2979,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2629,6 +2996,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MLSpace.PlayerControlBase.isEqupped </td>
@@ -2638,6 +3008,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Checks if game object is equipped. </p>
@@ -2651,19 +3026,145 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="ad993706fe49a1d66510d838619bdd46a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad993706fe49a1d66510d838619bdd46a">&sect;&nbsp;</a></span>returnToMecanim()</h2>
+<a id="ac78b74ba1393f2d5462e02956a82017a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac78b74ba1393f2d5462e02956a82017a">&sect;&nbsp;</a></span>loadReady()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.returnToMecanim </td>
+          <td class="memname">virtual bool MLSpace.PlayerControlBase.loadReady </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Is player ready for loading new scene </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a58fd4c99d328f6b519d80229c0ecb0e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58fd4c99d328f6b519d80229c0ecb0e8">&sect;&nbsp;</a></span>onLevelLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.onLevelLoaded </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executed on level loaded </p>
+
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_player_control_top_down.html#a6799110001f4fa88d7b5d83c1b65646b">MLSpace.PlayerControlTopDown</a>, and <a class="el" href="class_m_l_space_1_1_player_control.html#a453aecf5476bd28b5880af5955aa3613">MLSpace.PlayerControl</a>.</p>
+
+</div>
+</div>
+<a id="a622e0ed598b040a6e630c62215afa0d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a622e0ed598b040a6e630c62215afa0d2">&sect;&nbsp;</a></span>OnLevelWasLoaded()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.OnLevelWasLoaded </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>level</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by unity after level load </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a334b41dc9f3f3e9a7175797e6c8fa5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334b41dc9f3f3e9a7175797e6c8fa5a2">&sect;&nbsp;</a></span>preLoad()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.preLoad </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If you have things to sort before loading new scene - this is the place </p>
+
+</div>
+</div>
+<a id="a6206f5ff25a5fd633e17e9738ea9db06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6206f5ff25a5fd633e17e9738ea9db06">&sect;&nbsp;</a></span>returnToMecanim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.returnToMecanim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Return to mecanim from ragdoll state. </p>
@@ -2689,7 +3190,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2706,20 +3207,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a10c3925aeddae1139beed048c0c11577"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10c3925aeddae1139beed048c0c11577">&sect;&nbsp;</a></span>setNewItem()</h2>
+<a id="a329dba7292b9d2c1e0862ddd16c0b09c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329dba7292b9d2c1e0862ddd16c0b09c">&sect;&nbsp;</a></span>setNewItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> MLSpace.PlayerControlBase.setNewItem </td>
+          <td class="memname">virtual <a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> MLSpace.PlayerControlBase.setNewItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td>
           <td class="paramname"><em>iItem</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set new item on character. </p>
@@ -2734,20 +3243,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a64dcb2d4b84fdc4abf42d732aeddc660"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64dcb2d4b84fdc4abf42d732aeddc660">&sect;&nbsp;</a></span>setSecondaryItem()</h2>
+<a id="ae55f935e5055f0f1a10badcb2c4c40c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae55f935e5055f0f1a10badcb2c4c40c1">&sect;&nbsp;</a></span>setSecondaryItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> MLSpace.PlayerControlBase.setSecondaryItem </td>
+          <td class="memname">virtual <a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> MLSpace.PlayerControlBase.setSecondaryItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td>
           <td class="paramname"><em>item</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set new secondary item on charater. </p>
@@ -2780,7 +3297,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2809,7 +3326,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2836,7 +3353,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2863,7 +3380,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2890,7 +3407,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2899,39 +3416,235 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="abc2e3771d1df410a5b50046e300c64fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc2e3771d1df410a5b50046e300c64fe">&sect;&nbsp;</a></span>startRagdoll()</h2>
+<a id="a365dfa85cdf1742b73aa854da9284fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a365dfa85cdf1742b73aa854da9284fa8">&sect;&nbsp;</a></span>snap2CombatBow()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.startRagdoll </td>
+          <td class="memname">void MLSpace.PlayerControlBase.snap2CombatBow </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Start ragdoll. </p>
+<p>Snap to bow mode and wield </p>
 
 </div>
 </div>
-<a id="aa4da7930c8b671b4613bdb41dbac25c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4da7930c8b671b4613bdb41dbac25c8">&sect;&nbsp;</a></span>switchWeaponMode()</h2>
+<a id="afd91bfb2f87cf0889690b78364d610df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd91bfb2f87cf0889690b78364d610df">&sect;&nbsp;</a></span>snap2CombatDualWield()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.PlayerControlBase.switchWeaponMode </td>
+          <td class="memname">void MLSpace.PlayerControlBase.snap2CombatDualWield </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Snap to dual wield mode and wield </p>
+
+</div>
+</div>
+<a id="a773dfaf5f5414576a16640834fb73c99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a773dfaf5f5414576a16640834fb73c99">&sect;&nbsp;</a></span>snap2CombatMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.PlayerControlBase.snap2CombatMode </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespace_m_l_space.html#ad05f79170d7c45c524dc5d7ffd3efbd9">WeaponMode</a>&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instantly snap to holding a weapon </p>
+
+</div>
+</div>
+<a id="a1df98ce09b767ab281943400d88b673d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1df98ce09b767ab281943400d88b673d">&sect;&nbsp;</a></span>snap2CombatW1HShield()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.PlayerControlBase.snap2CombatW1HShield </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Snap to weapon shield mode and wield </p>
+
+</div>
+</div>
+<a id="a78e816b83e348266b9e8c1aad91fb2d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e816b83e348266b9e8c1aad91fb2d0">&sect;&nbsp;</a></span>snap2CombatW2H()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.PlayerControlBase.snap2CombatW2H </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Snap to 2 handed mode and wield </p>
+
+</div>
+</div>
+<a id="a7eaf95aaae4c1663bad39bb3a878edaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eaf95aaae4c1663bad39bb3a878edaa">&sect;&nbsp;</a></span>snap2UnarmedMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.PlayerControlBase.snap2UnarmedMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instantly snap to unarmed </p>
+
+</div>
+</div>
+<a id="a6f7914f1ec97abbb468896da4741d63b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f7914f1ec97abbb468896da4741d63b">&sect;&nbsp;</a></span>startRagdoll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.startRagdoll </td>
+          <td>(</td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>parts</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3?&#160;</td>
+          <td class="paramname"><em>hitVelocity</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3?&#160;</td>
+          <td class="paramname"><em>overallHitForce</em> = <code>null</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start ragdoll. </p>
+
+</div>
+</div>
+<a id="a4893c3b28a928b71bc472bc70017423a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4893c3b28a928b71bc472bc70017423a">&sect;&nbsp;</a></span>switchWeaponMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.PlayerControlBase.switchWeaponMode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_m_l_space.html#ad05f79170d7c45c524dc5d7ffd3efbd9">WeaponMode</a>&#160;</td>
+          <td class="paramname"><em>mode</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Switch weapon mode. </p>
@@ -2962,7 +3675,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2991,7 +3704,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3018,7 +3731,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3045,7 +3758,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3072,7 +3785,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3099,39 +3812,12 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Start drawing or sheathing current weapon set. </p>
-
-</div>
-</div>
-<a id="ac6f9ca7d7b5051eb55efb5e70454ee0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6f9ca7d7b5051eb55efb5e70454ee0d">&sect;&nbsp;</a></span>update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MLSpace.PlayerControlBase.update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Update component. </p>
 
 </div>
 </div>
@@ -3212,7 +3898,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_m_l_space_1_1_player.html" title="Base player class. Controls camera, head ik , replacing animation clips. ">Player</a> distance to target upon attack. </p>
+<p>Used on jump attack. <a class="el" href="class_m_l_space_1_1_player.html" title="Base player class. Controls camera, head ik , replacing animation clips. ">Player</a> distance to target upon attack. </p>
 
 </div>
 </div>
@@ -3319,7 +4005,7 @@ Properties</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.PlayerControlBase.enableJumpToTarget = true</td>
+          <td class="memname">bool MLSpace.PlayerControlBase.enableJumpToTarget = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3551,6 +4237,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aad6bf7843e8de6f333cdab323ce55621"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6bf7843e8de6f333cdab323ce55621">&sect;&nbsp;</a></span>attackComboUnderway</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.PlayerControlBase.attackComboUnderway</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return true if attack combo is started otherway false. </p>
+
+</div>
+</div>
 <a id="ae296f21dda335e1766b5646bdf0d9046"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae296f21dda335e1766b5646bdf0d9046">&sect;&nbsp;</a></span>audioManager</h2>
 
@@ -3671,6 +4381,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a73c957ba37ddfe6baea4ad3045d8515c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73c957ba37ddfe6baea4ad3045d8515c">&sect;&nbsp;</a></span>colliders</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider [] MLSpace.PlayerControlBase.colliders</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets array of colliders of game object and children </p>
+
+</div>
+</div>
 <a id="a1f25e5dbcbdfc15545d91a64a252b929"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f25e5dbcbdfc15545d91a64a252b929">&sect;&nbsp;</a></span>currentWeaponMode</h2>
 
@@ -3692,6 +4426,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get current weapon mode. </p>
+
+</div>
+</div>
+<a id="a68829d8b540db30db8a9b8d204a205bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68829d8b540db30db8a9b8d204a205bc">&sect;&nbsp;</a></span>disableInput</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.PlayerControlBase.disableInput</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return true if input is disabled otherwise false. </p>
 
 </div>
 </div>
@@ -3743,6 +4501,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a12551f1d68866cac8135754e17b55ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12551f1d68866cac8135754e17b55ca9">&sect;&nbsp;</a></span>guardZoneID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MLSpace.PlayerControlBase.guardZoneID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets urrent npc zone ID </p>
+
+</div>
+</div>
 <a id="ab0ef2c6b172ede12ea0d012902281de7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab0ef2c6b172ede12ea0d012902281de7">&sect;&nbsp;</a></span>inCombat</h2>
 
@@ -3764,6 +4546,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Return true if player is in combat ( taking hit or attacking. </p>
+
+</div>
+</div>
+<a id="a6878eaca244bd8a6da720361fd6a6ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6878eaca244bd8a6da720361fd6a6ad6">&sect;&nbsp;</a></span>initialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.PlayerControlBase.initialized</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if component is initialize, otherwise false. </p>
 
 </div>
 </div>
@@ -3863,6 +4669,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="ac711ee2f5442541f427f6adb9f9d9969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac711ee2f5442541f427f6adb9f9d9969">&sect;&nbsp;</a></span>primaryTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> MLSpace.PlayerControlBase.primaryTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets current primary target </p>
+
+</div>
+</div>
 <a id="a59ea268f3fbbfd307c0fdb6c59b5f418"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a59ea268f3fbbfd307c0fdb6c59b5f418">&sect;&nbsp;</a></span>ragdoll</h2>
 
@@ -3884,6 +4714,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets reference to ragdoll manager. </p>
+
+</div>
+</div>
+<a id="ab7622a5b00ae1bda9ee92de69f86acb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7622a5b00ae1bda9ee92de69f86acb7">&sect;&nbsp;</a></span>renderers</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Renderer [] MLSpace.PlayerControlBase.renderers</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">protected set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets array of renderers of game object and children </p>
 
 </div>
 </div>

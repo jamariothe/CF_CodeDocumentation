@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v3.3: Class Members - Functions</title>
+<title>CF_v34: Class Members - Functions</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v3.3
+   <div id="projectname">CF_v34
    </div>
   </td>
  </tr>
@@ -59,6 +59,9 @@ $(function() {
 <li>setBow()
 : <a class="el" href="class_m_l_space_1_1_equipment_script.html#a648b2533e03370846a9ae276e52b2caa">MLSpace.EquipmentScript</a>
 </li>
+<li>setCameraPosition()
+: <a class="el" href="class_m_l_space_1_1_orbit_camera_controller.html#a68b021facd1fa653087186f2de5d0eda">MLSpace.OrbitCameraController</a>
+</li>
 <li>setClips()
 : <a class="el" href="class_m_l_space_1_1_player.html#af795bad2de90c600290b5889d4d8edae">MLSpace.Player</a>
 </li>
@@ -66,7 +69,7 @@ $(function() {
 : <a class="el" href="class_m_l_space_1_1_stats.html#a1c7a5fdfd4821a1e0cfea1ba67c4b8ab">MLSpace.Stats</a>
 </li>
 <li>setCurrentHealth()
-: <a class="el" href="class_m_l_space_1_1_stats.html#a63a4f1067ebe4618adf54e473638caf5">MLSpace.Stats</a>
+: <a class="el" href="class_m_l_space_1_1_stats.html#a1b650806932ba0b737844379e80b4eb9">MLSpace.Stats</a>
 </li>
 <li>setHitStrength()
 : <a class="el" href="class_m_l_space_1_1_projectile.html#adaf202cfeae068ec723316f81c39289f">MLSpace.Projectile</a>
@@ -80,6 +83,9 @@ $(function() {
 <li>setItem()
 : <a class="el" href="class_m_l_space_1_1_equipment_script.html#a73e098b0d87d748624be81c7698be3ee">MLSpace.EquipmentScript</a>
 </li>
+<li>SetItemsLevel()
+: <a class="el" href="class_m_l_space_1_1_manager_of_items.html#a2e5e7b82d2860d276d70e9fc3c73b5fc">MLSpace.ManagerOfItems</a>
+</li>
 <li>setLedge()
 : <a class="el" href="class_m_l_space_1_1_t_p_character.html#adbf10bf5e2e55c8f09dda2eca37a03dd">MLSpace.TPCharacter</a>
 </li>
@@ -92,10 +98,13 @@ $(function() {
 <li>setNewItem()
 : <a class="el" href="interface_m_l_space_1_1_i_game_character.html#a733e5f685fc5b54b966b9efb2d70c7df">MLSpace.IGameCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a24d60fa86719d1c8338af246b98b59c3">MLSpace.NPCScript</a>
-, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a10c3925aeddae1139beed048c0c11577">MLSpace.PlayerControlBase</a>
+, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a329dba7292b9d2c1e0862ddd16c0b09c">MLSpace.PlayerControlBase</a>
 </li>
 <li>setPause()
 : <a class="el" href="class_m_l_space_1_1_scene_control.html#acbb0959c21897002339b54e171e30d64">MLSpace.SceneControl</a>
+</li>
+<li>setQualityLevel()
+: <a class="el" href="class_m_l_space_1_1_scene_control.html#abb17ac98666ac05c434238efed6fa6f5">MLSpace.SceneControl</a>
 </li>
 <li>setQuiver()
 : <a class="el" href="class_m_l_space_1_1_equipment_script.html#aac0a86a9117e809ade67f537f922834e">MLSpace.EquipmentScript</a>
@@ -106,7 +115,7 @@ $(function() {
 <li>setSecondaryItem()
 : <a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4662e600f1c63743bbf7a5396db00169">MLSpace.IGameCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a5b0a541aeb6770d836fd0c5e80cd044d">MLSpace.NPCScript</a>
-, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a64dcb2d4b84fdc4abf42d732aeddc660">MLSpace.PlayerControlBase</a>
+, <a class="el" href="class_m_l_space_1_1_player_control_base.html#ae55f935e5055f0f1a10badcb2c4c40c1">MLSpace.PlayerControlBase</a>
 </li>
 <li>setShield()
 : <a class="el" href="class_m_l_space_1_1_equipment_script.html#ad497a4e4f38529d04acc4c6e39c54b69">MLSpace.EquipmentScript</a>
@@ -165,7 +174,31 @@ $(function() {
 , <a class="el" href="class_m_l_space_1_1_mech_control.html#afcdb85fcef9d2f4854d68d66b54ae858">MLSpace.MechControl</a>
 </li>
 <li>ShootArrow()
-: <a class="el" href="class_m_l_space_1_1_arrow_pool.html#ae37c455a1e11212cfd571d9336630018">MLSpace.ArrowPool</a>
+: <a class="el" href="class_m_l_space_1_1_arrow_pool.html#a97bcd57ff44a1ec05c81d59fa086d5b9">MLSpace.ArrowPool</a>
+</li>
+<li>Snap2Black()
+: <a class="el" href="class_m_l_space_1_1_scene_control.html#afc9295fb97a643f7e75817d4ddf366a1">MLSpace.SceneControl</a>
+</li>
+<li>snap2CombatBow()
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a365dfa85cdf1742b73aa854da9284fa8">MLSpace.PlayerControlBase</a>
+</li>
+<li>snap2CombatDualWield()
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#afd91bfb2f87cf0889690b78364d610df">MLSpace.PlayerControlBase</a>
+</li>
+<li>snap2CombatMode()
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a773dfaf5f5414576a16640834fb73c99">MLSpace.PlayerControlBase</a>
+</li>
+<li>snap2CombatW1HShield()
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a1df98ce09b767ab281943400d88b673d">MLSpace.PlayerControlBase</a>
+</li>
+<li>snap2CombatW2H()
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a78e816b83e348266b9e8c1aad91fb2d0">MLSpace.PlayerControlBase</a>
+</li>
+<li>snap2UnarmedMode()
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a7eaf95aaae4c1663bad39bb3a878edaa">MLSpace.PlayerControlBase</a>
+</li>
+<li>Snapshot()
+: <a class="el" href="class_m_l_space_1_1_manager_of_items.html#a4beadd947b9220546faa088bfd7bcca9">MLSpace.ManagerOfItems</a>
 </li>
 <li>start()
 : <a class="el" href="class_m_l_space_1_1_climb_on_trigger.html#a566185b6b0c829fd06fe07fe242fb691">MLSpace.ClimbOnTrigger</a>
@@ -198,9 +231,15 @@ $(function() {
 <li>startLedgeAdjust()
 : <a class="el" href="class_m_l_space_1_1_i_k_helper.html#ae83e854e1f4185a244842ca26dc988e7">MLSpace.IKHelper</a>
 </li>
+<li>startLedgeAnimation()
+: <a class="el" href="class_m_l_space_1_1_trigger_management.html#a7d51b4880549a9fe297a63fec4a525c0">MLSpace.TriggerManagement</a>
+</li>
+<li>startOver()
+: <a class="el" href="class_m_l_space_1_1_scene_control.html#a6f9d5379575a56bfb6e602df5bfd8eac">MLSpace.SceneControl</a>
+</li>
 <li>startRagdoll()
 : <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#ac6ae9f410f6c5b988721b8aaf7aac8a1">MLSpace.NPCScript</a>
-, <a class="el" href="class_m_l_space_1_1_player_control_base.html#abc2e3771d1df410a5b50046e300c64fe">MLSpace.PlayerControlBase</a>
+, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a6f7914f1ec97abbb468896da4741d63b">MLSpace.PlayerControlBase</a>
 , <a class="el" href="class_m_l_space_1_1_ragdoll_manager.html#a8196298c4872f7841d8fb1495a5954ca">MLSpace.RagdollManager</a>
 , <a class="el" href="class_m_l_space_1_1_ragdoll_manager_hum.html#abcfcc59c222158864afbe3d912d6cadb">MLSpace.RagdollManagerHum</a>
 </li>
@@ -225,11 +264,11 @@ $(function() {
 </li>
 <li>switchTargets()
 : <a class="el" href="class_m_l_space_1_1_base_camera.html#a7afdb3e6cb2d2ae38f945aba71181b5b">MLSpace.BaseCamera</a>
-, <a class="el" href="class_m_l_space_1_1_orbit_camera_controller.html#aa6feb1c65f25a9f0798432266a047c1a">MLSpace.OrbitCameraController</a>
+, <a class="el" href="class_m_l_space_1_1_orbit_camera_controller.html#a3021656695fb361d7eb08eb958e5a493">MLSpace.OrbitCameraController</a>
 , <a class="el" href="class_m_l_space_1_1_top_down_camera.html#a48946ec2b7e31875e074f325aab43a69">MLSpace.TopDownCamera</a>
 </li>
 <li>switchWeaponMode()
-: <a class="el" href="class_m_l_space_1_1_player_control_base.html#aa4da7930c8b671b4613bdb41dbac25c8">MLSpace.PlayerControlBase</a>
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a4893c3b28a928b71bc472bc70017423a">MLSpace.PlayerControlBase</a>
 </li>
 </ul>
 </div><!-- contents -->

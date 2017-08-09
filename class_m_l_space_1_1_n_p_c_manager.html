@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v3.3: MLSpace.NPCManager Class Reference</title>
+<title>CF_v34: MLSpace.NPCManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v3.3
+   <div id="projectname">CF_v34
    </div>
   </td>
  </tr>
@@ -44,6 +44,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_n_p_c_manager-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -64,6 +65,9 @@ Inheritance diagram for MLSpace.NPCManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a370dcc02df659764c0419e86b13218ff"><td class="memItemLeft" align="right" valign="top"><a id="a370dcc02df659764c0419e86b13218ff"></a>
+<a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a>&#160;</td><td class="memItemRight" valign="bottom"><b>getNPCbyID</b> (int id)</td></tr>
+<tr class="separator:a370dcc02df659764c0419e86b13218ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb8ca4963940120a19600fd690ac86d6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_manager.html#acb8ca4963940120a19600fd690ac86d6">initialize</a> ()</td></tr>
 <tr class="memdesc:acb8ca4963940120a19600fd690ac86d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialize component.  <a href="#acb8ca4963940120a19600fd690ac86d6">More...</a><br /></td></tr>
 <tr class="separator:acb8ca4963940120a19600fd690ac86d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,6 +135,12 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>offMeshLinkRadius</b
 <tr class="memdesc:a7c8cb73e02cd6aae952b55f82ac1dead"><td class="mdescLeft">&#160;</td><td class="mdescRight">global num,ber of chasers.  <a href="#a7c8cb73e02cd6aae952b55f82ac1dead">More...</a><br /></td></tr>
 <tr class="separator:a7c8cb73e02cd6aae952b55f82ac1dead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a60da75bd57b794984c89c11ba3b4df4f"><td class="memItemLeft" align="right" valign="top"><a id="a60da75bd57b794984c89c11ba3b4df4f"></a>
+static Dictionary&lt; int, <a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>npcGroup</b> = new Dictionary&lt;int, <a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a>&gt;()</td></tr>
+<tr class="separator:a60da75bd57b794984c89c11ba3b4df4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a005525479a000a90f72b8c2e678509e0"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html">NPCGuardZone</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_manager.html#a005525479a000a90f72b8c2e678509e0">currentZones</a><code> [get]</code></td></tr>
@@ -154,6 +164,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.add2DestroyList </td>
@@ -163,6 +176,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add npc to destory list. Npc will be destroey in next turn LateUpdate method </p>
@@ -180,6 +198,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MLSpace.NPCManager.AnyNpcAttackingInZone </td>
@@ -189,6 +210,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Provides info is any npc is attacking in current zone. </p>
@@ -207,6 +233,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MLSpace.NPCManager.AnyNpcInCombat </td>
@@ -216,6 +245,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Provides info is any npc in combat. </p>
@@ -234,6 +268,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MLSpace.NPCManager.AnyNpcInCombatInZone </td>
@@ -243,6 +280,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Provides info is any npc in combat in current zone. </p>
@@ -261,6 +303,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.clear </td>
@@ -269,6 +314,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>clear references </p>
@@ -280,6 +330,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.CollectEnemyTypeNeighborsInRange </td>
@@ -305,6 +358,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Collect npcs of enemy type in current zones in alert range. </p>
@@ -324,6 +382,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.CollectNpcsInRangeAngle </td>
@@ -361,6 +422,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add all npcs that are in range and under angle from direction to the list. </p>
@@ -382,6 +448,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.CollectNpcsInRangeAngle </td>
@@ -419,6 +488,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add all npcs that are in range and under angle from direction to the list. </p>
@@ -440,6 +514,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.CollectNpcsInRangeAngleInZone </td>
@@ -477,6 +554,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>In current zone/s add all npcs that are in range and under angle of transform.forward to the list. </p>
@@ -497,6 +579,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.CollectNpcsInRangeAngleInZone </td>
@@ -534,6 +619,11 @@ Properties</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>In current zone/s add all npcs that are in range and under angle of transform.forward to the list. </p>
@@ -554,6 +644,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.destroyNpcs </td>
@@ -562,6 +655,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destroy npcs in destory queue </p>
@@ -573,6 +671,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.initialize </td>
@@ -581,6 +682,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>initialize component. </p>
@@ -592,6 +698,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int MLSpace.NPCManager.NumChasingInZone </td>
@@ -600,6 +709,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Number of npcs chasing in current zone/s. </p>
@@ -612,6 +726,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int MLSpace.NPCManager.NumInRangeInZone </td>
@@ -620,6 +737,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Number of npcs in range in current zone/s. </p>
@@ -632,6 +754,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int MLSpace.NPCManager.NumNpcAttackingInZone </td>
@@ -640,6 +765,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Return number of attacker in current zone. </p>
@@ -652,6 +782,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int MLSpace.NPCManager.NumNpcInCombatInZone </td>
@@ -660,6 +793,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Provides info of number of npc enemies in combat in current zone. </p>
@@ -672,6 +810,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MLSpace.NPCManager.onOffMeshLink </td>
@@ -681,6 +822,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Is position on nav mesh link ( in proximity ) </p>
@@ -699,6 +845,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCManager.reviveAll </td>
@@ -707,6 +856,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Revive all npcs with their max health. </p>

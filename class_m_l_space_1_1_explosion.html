@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v3.3: MLSpace.Explosion Class Reference</title>
+<title>CF_v34: MLSpace.Explosion Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v3.3
+   <div id="projectname">CF_v34
    </div>
   </td>
  </tr>
@@ -49,6 +49,9 @@ $(function() {
 <div class="title">MLSpace.Explosion Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="class_m_l_space_1_1_explosion.html" title="Explosion effect class. ">Explosion</a> effect class.  
+ <a href="class_m_l_space_1_1_explosion.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for MLSpace.Explosion:</div>
 <div class="dyncontent">
@@ -72,13 +75,21 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a7622478d4f13903443139c9009ffa289"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion.html#a7622478d4f13903443139c9009ffa289">lifetime</a> = 5.0f</td></tr>
 <tr class="memdesc:a7622478d4f13903443139c9009ffa289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Life duration of explosion  <a href="#a7622478d4f13903443139c9009ffa289">More...</a><br /></td></tr>
 <tr class="separator:a7622478d4f13903443139c9009ffa289"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87ddeca8047eba7b470cc6fd886d2d3e"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion.html#a87ddeca8047eba7b470cc6fd886d2d3e">explosionMask</a></td></tr>
+<tr class="memdesc:a87ddeca8047eba7b470cc6fd886d2d3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assign collision layer of explosion to prevent applying force to items behind walls.  <a href="#a87ddeca8047eba7b470cc6fd886d2d3e">More...</a><br /></td></tr>
+<tr class="separator:a87ddeca8047eba7b470cc6fd886d2d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="class_m_l_space_1_1_explosion.html" title="Explosion effect class. ">Explosion</a> effect class. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aa360741cf000384c973be049d5f02a28"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa360741cf000384c973be049d5f02a28">&sect;&nbsp;</a></span>startExplosion()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.Explosion.startExplosion </td>
@@ -98,6 +109,11 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Start explosition at position </p>
@@ -112,6 +128,22 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a87ddeca8047eba7b470cc6fd886d2d3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87ddeca8047eba7b470cc6fd886d2d3e">&sect;&nbsp;</a></span>explosionMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LayerMask MLSpace.Explosion.explosionMask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assign collision layer of explosion to prevent applying force to items behind walls. </p>
+
+</div>
+</div>
 <a id="a7622478d4f13903443139c9009ffa289"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7622478d4f13903443139c9009ffa289">&sect;&nbsp;</a></span>lifetime</h2>
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v3.3: MLSpace.NPCGuardZone Class Reference</title>
+<title>CF_v34: MLSpace.NPCGuardZone Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v3.3
+   <div id="projectname">CF_v34
    </div>
   </td>
  </tr>
@@ -64,6 +64,12 @@ Inheritance diagram for MLSpace.NPCGuardZone:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a07d9b84fd99fdef8e81e88484d23d506"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#a07d9b84fd99fdef8e81e88484d23d506">awakeSetup</a> ()</td></tr>
+<tr class="memdesc:a07d9b84fd99fdef8e81e88484d23d506"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup called from photon scene script  <a href="#a07d9b84fd99fdef8e81e88484d23d506">More...</a><br /></td></tr>
+<tr class="separator:a07d9b84fd99fdef8e81e88484d23d506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbe24304aa8bebe6106163dc0c0132d4"><td class="memItemLeft" align="right" valign="top"><a id="adbe24304aa8bebe6106163dc0c0132d4"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isEnemyInZone</b> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> enemy)</td></tr>
+<tr class="separator:adbe24304aa8bebe6106163dc0c0132d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4252d9adfb242a14b236d6720b70c8ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#a4252d9adfb242a14b236d6720b70c8ef">initialize</a> ()</td></tr>
 <tr class="memdesc:a4252d9adfb242a14b236d6720b70c8ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="#a4252d9adfb242a14b236d6720b70c8ef">More...</a><br /></td></tr>
 <tr class="separator:a4252d9adfb242a14b236d6720b70c8ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -103,6 +109,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af07d29a2b9fc9883ce628143707269b3"><td class="memItemLeft" align="right" valign="top">GuardZoneDelegate&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#af07d29a2b9fc9883ce628143707269b3">OnCollectingEnd</a> = null</td></tr>
 <tr class="memdesc:af07d29a2b9fc9883ce628143707269b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event called upon ending of npc collection. If you need any kind of modification of npcs on start - do it here.  <a href="#af07d29a2b9fc9883ce628143707269b3">More...</a><br /></td></tr>
 <tr class="separator:af07d29a2b9fc9883ce628143707269b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88b3b73adfc19c59449c87f3985c8726"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#a88b3b73adfc19c59449c87f3985c8726">playersInZone</a> = new List&lt;<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&gt;()</td></tr>
+<tr class="memdesc:a88b3b73adfc19c59449c87f3985c8726"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of current players in zone  <a href="#a88b3b73adfc19c59449c87f3985c8726">More...</a><br /></td></tr>
+<tr class="separator:a88b3b73adfc19c59449c87f3985c8726"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e404e1e30f88280fc73783cc6d5fba7"><td class="memItemLeft" align="right" valign="top"><a id="a7e404e1e30f88280fc73783cc6d5fba7"></a>
 GuardZoneDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>OnPlayerEnter</b> = null</td></tr>
 <tr class="separator:a7e404e1e30f88280fc73783cc6d5fba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,10 +121,13 @@ GuardZoneDelegate&#160;</td><td class="memItemRight" valign="bottom"><b>OnPlayer
 <tr class="memitem:ac3bd1e832e1e95b8283c588ad9e15ae8"><td class="memItemLeft" align="right" valign="top"><a id="ac3bd1e832e1e95b8283c588ad9e15ae8"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>PREV_IN_ZONE</b> = false</td></tr>
 <tr class="separator:ac3bd1e832e1e95b8283c588ad9e15ae8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9b9b5b5d2b8929badbf1bc5449e1ed0"><td class="memItemLeft" align="right" valign="top"><a id="af9b9b5b5d2b8929badbf1bc5449e1ed0"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>ID</b> = -1</td></tr>
+<tr class="separator:af9b9b5b5d2b8929badbf1bc5449e1ed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:acf7339f07fd7cbc5edbe3746447da157"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#acf7339f07fd7cbc5edbe3746447da157">playerInZone</a><code> [get, set]</code></td></tr>
+<tr class="memitem:acf7339f07fd7cbc5edbe3746447da157"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#acf7339f07fd7cbc5edbe3746447da157">playerInZone</a><code> [get]</code></td></tr>
 <tr class="memdesc:acf7339f07fd7cbc5edbe3746447da157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets player in zone flag.  <a href="#acf7339f07fd7cbc5edbe3746447da157">More...</a><br /></td></tr>
 <tr class="separator:acf7339f07fd7cbc5edbe3746447da157"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb81740dada6e7da50d4bda044e32d02"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#acb81740dada6e7da50d4bda044e32d02">numChasers</a><code> [get, set]</code></td></tr>
@@ -133,6 +145,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCGuardZone.addToZone </td>
@@ -142,6 +157,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Add npc to lists. </p>
@@ -154,11 +174,41 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a07d9b84fd99fdef8e81e88484d23d506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07d9b84fd99fdef8e81e88484d23d506">&sect;&nbsp;</a></span>awakeSetup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.NPCGuardZone.awakeSetup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Setup called from photon scene script </p>
+
+</div>
+</div>
 <a id="af07537da8c000c61cf28e11239927294"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af07537da8c000c61cf28e11239927294">&sect;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCGuardZone.clear </td>
@@ -167,6 +217,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Clear references. </p>
@@ -178,6 +233,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCGuardZone.initialize </td>
@@ -186,6 +244,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Initialize component. </p>
@@ -197,6 +260,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCGuardZone.npcReturn </td>
@@ -205,6 +271,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Return npcs to guard position. </p>
@@ -216,6 +287,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.NPCGuardZone.removeFromZone </td>
@@ -225,6 +299,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Remove npc from lists. </p>
@@ -334,6 +413,22 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a88b3b73adfc19c59449c87f3985c8726"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b3b73adfc19c59449c87f3985c8726">&sect;&nbsp;</a></span>playersInZone</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&gt; MLSpace.NPCGuardZone.playersInZone = new List&lt;<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>List of current players in zone </p>
+
+</div>
+</div>
 <a id="a8712a8db5132d5659bcebc19c8bfc291"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8712a8db5132d5659bcebc19c8bfc291">&sect;&nbsp;</a></span>visibleNpcs</h2>
 
@@ -414,7 +509,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
