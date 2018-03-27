@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v34: MLSpace.TPCharacter Class Reference</title>
+<title>CF_v37: MLSpace.TPCharacter Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v34
+   <div id="projectname">CF_v37
    </div>
   </td>
  </tr>
@@ -45,7 +45,6 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_t_p_character-members.html">List of all members</a>  </div>
@@ -74,12 +73,6 @@ Public Types</h2></td></tr>
  }<tr class="memdesc:a9a5c1fb8ae1662fed6d9009853679245"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ik modes.  <a href="class_m_l_space_1_1_t_p_character.html#a9a5c1fb8ae1662fed6d9009853679245">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a9a5c1fb8ae1662fed6d9009853679245"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e719b6a5605e6bd7576c0561758b4d9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MovingMode</a> { <b>RotateToDirection</b>, 
-<b>Strafe</b>, 
-<b>Ledge</b>
- }<tr class="memdesc:a7e719b6a5605e6bd7576c0561758b4d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move modes.  <a href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a7e719b6a5605e6bd7576c0561758b4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -107,12 +100,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a248259e2bdddcb5ef50c95dbedac8028"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a9a5c1fb8ae1662fed6d9009853679245">IKMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a248259e2bdddcb5ef50c95dbedac8028">getIKMode</a> ()</td></tr>
 <tr class="memdesc:a248259e2bdddcb5ef50c95dbedac8028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current head IK mode.  <a href="#a248259e2bdddcb5ef50c95dbedac8028">More...</a><br /></td></tr>
 <tr class="separator:a248259e2bdddcb5ef50c95dbedac8028"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addbcf66454703c5b2c6ba9ce78ec0f62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#addbcf66454703c5b2c6ba9ce78ec0f62">setMoveMode</a> (<a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MovingMode</a> mmode)</td></tr>
-<tr class="memdesc:addbcf66454703c5b2c6ba9ce78ec0f62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set character move mode.  <a href="#addbcf66454703c5b2c6ba9ce78ec0f62">More...</a><br /></td></tr>
-<tr class="separator:addbcf66454703c5b2c6ba9ce78ec0f62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbf10bf5e2e55c8f09dda2eca37a03dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#adbf10bf5e2e55c8f09dda2eca37a03dd">setLedge</a> (Transform xform, bool reversed=false, float zoffset=0.0f)</td></tr>
-<tr class="memdesc:adbf10bf5e2e55c8f09dda2eca37a03dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set current ledge.  <a href="#adbf10bf5e2e55c8f09dda2eca37a03dd">More...</a><br /></td></tr>
-<tr class="separator:adbf10bf5e2e55c8f09dda2eca37a03dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82b66527a2f663756b93936c94d3ed56"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a82b66527a2f663756b93936c94d3ed56">setMoveMode</a> (<a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a> mmode)</td></tr>
+<tr class="memdesc:a82b66527a2f663756b93936c94d3ed56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set character move mode.  <a href="#a82b66527a2f663756b93936c94d3ed56">More...</a><br /></td></tr>
+<tr class="separator:a82b66527a2f663756b93936c94d3ed56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd496cda4407116dfacd8cda2fe1d484"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#acd496cda4407116dfacd8cda2fe1d484">setLedge</a> (<a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a> <a class="el" href="class_m_l_space_1_1_t_p_character.html#a99038ba5c6c0f5ee9bc8a99833caf120">ledge</a>, bool reversed)</td></tr>
+<tr class="memdesc:acd496cda4407116dfacd8cda2fe1d484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set reference to ledge  <a href="#acd496cda4407116dfacd8cda2fe1d484">More...</a><br /></td></tr>
+<tr class="separator:acd496cda4407116dfacd8cda2fe1d484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d54b2ecf2cd2ed2f901dbb896c93fe"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a30d54b2ecf2cd2ed2f901dbb896c93fe">getLedgeDirection</a> ()</td></tr>
 <tr class="memdesc:a30d54b2ecf2cd2ed2f901dbb896c93fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get ledge direction.  <a href="#a30d54b2ecf2cd2ed2f901dbb896c93fe">More...</a><br /></td></tr>
 <tr class="separator:a30d54b2ecf2cd2ed2f901dbb896c93fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3912babff6782f292a33da439f38423"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab3912babff6782f292a33da439f38423">scaleCapsuleToHalf</a> (float heightOffset=0.0f)</td></tr>
 <tr class="memdesc:ab3912babff6782f292a33da439f38423"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale character capsule.  <a href="#ab3912babff6782f292a33da439f38423">More...</a><br /></td></tr>
 <tr class="separator:ab3912babff6782f292a33da439f38423"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af50df6066a5e96e283065071dbd560fb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#af50df6066a5e96e283065071dbd560fb">scaleCapsule</a> (float scale, float heightOffset=0.0f)</td></tr>
+<tr class="memdesc:af50df6066a5e96e283065071dbd560fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scale character move collider capsule  <a href="#af50df6066a5e96e283065071dbd560fb">More...</a><br /></td></tr>
+<tr class="separator:af50df6066a5e96e283065071dbd560fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96aa694b504fa937162472bddfd85acb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a96aa694b504fa937162472bddfd85acb">restoreCapsuleSize</a> ()</td></tr>
 <tr class="memdesc:a96aa694b504fa937162472bddfd85acb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Restore original character capsule size.  <a href="#a96aa694b504fa937162472bddfd85acb">More...</a><br /></td></tr>
 <tr class="separator:a96aa694b504fa937162472bddfd85acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -149,6 +145,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a135200ae8954843b5e7dca8c122bcc9a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a135200ae8954843b5e7dca8c122bcc9a">checkGroundStatus</a> ()</td></tr>
 <tr class="memdesc:a135200ae8954843b5e7dca8c122bcc9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check ground status, material, slope, distance from ground ...  <a href="#a135200ae8954843b5e7dca8c122bcc9a">More...</a><br /></td></tr>
 <tr class="separator:a135200ae8954843b5e7dca8c122bcc9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2f0da786506ba86ead42d018faf20e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a8d2f0da786506ba86ead42d018faf20e">setMoveObject</a> (Transform go, bool pushAndPull)</td></tr>
+<tr class="memdesc:a8d2f0da786506ba86ead42d018faf20e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set object to move.  <a href="#a8d2f0da786506ba86ead42d018faf20e">More...</a><br /></td></tr>
+<tr class="separator:a8d2f0da786506ba86ead42d018faf20e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2f146ee0ad8415336f93d1664154183"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab2f146ee0ad8415336f93d1664154183">unsetMoveObject</a> ()</td></tr>
+<tr class="memdesc:ab2f146ee0ad8415336f93d1664154183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unset move object and exit from move PushPull mode  <a href="#ab2f146ee0ad8415336f93d1664154183">More...</a><br /></td></tr>
+<tr class="separator:ab2f146ee0ad8415336f93d1664154183"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -158,12 +160,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:afd00223b6d736f1a3fffa81aea737678"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#afd00223b6d736f1a3fffa81aea737678">movingTurnSpeed</a> = 360</td></tr>
 <tr class="memdesc:afd00223b6d736f1a3fffa81aea737678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn speed when moving.  <a href="#afd00223b6d736f1a3fffa81aea737678">More...</a><br /></td></tr>
 <tr class="separator:afd00223b6d736f1a3fffa81aea737678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1bf7faa37a40be4b31e66348652788f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ac1bf7faa37a40be4b31e66348652788f">ledgeSpeedHanging</a> = 1.5f</td></tr>
+<tr class="memdesc:ac1bf7faa37a40be4b31e66348652788f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move speed on ledges when hanging  <a href="#ac1bf7faa37a40be4b31e66348652788f">More...</a><br /></td></tr>
+<tr class="separator:ac1bf7faa37a40be4b31e66348652788f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14084f2f7ec2ea9d59a9644a56ad68dc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a14084f2f7ec2ea9d59a9644a56ad68dc">ledgeSpeedWalled</a> = 2.5f</td></tr>
+<tr class="memdesc:a14084f2f7ec2ea9d59a9644a56ad68dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move speed on ledges when supported by wall  <a href="#a14084f2f7ec2ea9d59a9644a56ad68dc">More...</a><br /></td></tr>
+<tr class="separator:a14084f2f7ec2ea9d59a9644a56ad68dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8cc65f45ea0aef29e9c1228bbca2ca1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab8cc65f45ea0aef29e9c1228bbca2ca1">stationaryTurnSpeed</a> = 180</td></tr>
 <tr class="memdesc:ab8cc65f45ea0aef29e9c1228bbca2ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turn speed when stationary.  <a href="#ab8cc65f45ea0aef29e9c1228bbca2ca1">More...</a><br /></td></tr>
 <tr class="separator:ab8cc65f45ea0aef29e9c1228bbca2ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f57f252d21e7fb8ac5ffb3db6792ca"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab8f57f252d21e7fb8ac5ffb3db6792ca">ledgeSpeed</a> = 160.0f</td></tr>
-<tr class="memdesc:ab8f57f252d21e7fb8ac5ffb3db6792ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move speed on ledges.  <a href="#ab8f57f252d21e7fb8ac5ffb3db6792ca">More...</a><br /></td></tr>
-<tr class="separator:ab8f57f252d21e7fb8ac5ffb3db6792ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a402244646104b080260ee7d136f38dc1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a402244646104b080260ee7d136f38dc1">jumpPower</a> = 8.0f</td></tr>
 <tr class="memdesc:a402244646104b080260ee7d136f38dc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">How high to jump.  <a href="#a402244646104b080260ee7d136f38dc1">More...</a><br /></td></tr>
 <tr class="separator:a402244646104b080260ee7d136f38dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -206,9 +211,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1777dda6da9e0ee197fcf577d70ade18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a1777dda6da9e0ee197fcf577d70ade18">OnLand</a> = null</td></tr>
 <tr class="memdesc:a1777dda6da9e0ee197fcf577d70ade18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event fired on land after jump.  <a href="#a1777dda6da9e0ee197fcf577d70ade18">More...</a><br /></td></tr>
 <tr class="separator:a1777dda6da9e0ee197fcf577d70ade18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50361dcd968013ab0b0998d2c8410f07"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a50361dcd968013ab0b0998d2c8410f07">ledgeMove</a> = false</td></tr>
-<tr class="memdesc:a50361dcd968013ab0b0998d2c8410f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does character is moving on ledge.  <a href="#a50361dcd968013ab0b0998d2c8410f07">More...</a><br /></td></tr>
-<tr class="separator:a50361dcd968013ab0b0998d2c8410f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3352add242c69abe3bd3ed6ea6f5698"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ac3352add242c69abe3bd3ed6ea6f5698">moveSpeedMultiplier</a> = 1.0f</td></tr>
 <tr class="memdesc:ac3352add242c69abe3bd3ed6ea6f5698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed multipler.  <a href="#ac3352add242c69abe3bd3ed6ea6f5698">More...</a><br /></td></tr>
 <tr class="separator:ac3352add242c69abe3bd3ed6ea6f5698"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,14 +218,8 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:af411316cc72c431dadf5f29826cdc5d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slope speed multipler ( used by slope control script ).  <a href="#af411316cc72c431dadf5f29826cdc5d0">More...</a><br /></td></tr>
 <tr class="separator:af411316cc72c431dadf5f29826cdc5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a989e16b44dabc94deb256068b27cef17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a989e16b44dabc94deb256068b27cef17">triggerRootMotion</a> = false</td></tr>
-<tr class="memdesc:a989e16b44dabc94deb256068b27cef17"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> animation root motion ( applied when in trigger action but not grounded .  <a href="#a989e16b44dabc94deb256068b27cef17">More...</a><br /></td></tr>
+<tr class="memdesc:a989e16b44dabc94deb256068b27cef17"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> animation root motion ( applied when in trigger action but not grounded ).  <a href="#a989e16b44dabc94deb256068b27cef17">More...</a><br /></td></tr>
 <tr class="separator:a989e16b44dabc94deb256068b27cef17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2e5c509b511c3d47cf68f676a1c58076"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a2e5c509b511c3d47cf68f676a1c58076">OnLevelWasLoaded</a> (int level)</td></tr>
-<tr class="memdesc:a2e5c509b511c3d47cf68f676a1c58076"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by unity after level load  <a href="#a2e5c509b511c3d47cf68f676a1c58076">More...</a><br /></td></tr>
-<tr class="separator:a2e5c509b511c3d47cf68f676a1c58076"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -275,9 +271,9 @@ Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>m_CapsuleCenter</b
 <tr class="memitem:ae5ba933252f589a44b02dbb17241b673"><td class="memItemLeft" align="right" valign="top"><a id="ae5ba933252f589a44b02dbb17241b673"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Crouching</b></td></tr>
 <tr class="separator:ae5ba933252f589a44b02dbb17241b673"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0385c27edd07dbc950a89ea76c1a92e"><td class="memItemLeft" align="right" valign="top"><a id="aa0385c27edd07dbc950a89ea76c1a92e"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_initialized</b> = false</td></tr>
-<tr class="separator:aa0385c27edd07dbc950a89ea76c1a92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9309634a88853b29120df908d3baf412"><td class="memItemLeft" align="right" valign="top"><a id="a9309634a88853b29120df908d3baf412"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = false</td></tr>
+<tr class="separator:a9309634a88853b29120df908d3baf412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0117eeac4bfd5366726dd2cea4b47612"><td class="memItemLeft" align="right" valign="top"><a id="a0117eeac4bfd5366726dd2cea4b47612"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_DisableMove</b> = false</td></tr>
 <tr class="separator:a0117eeac4bfd5366726dd2cea4b47612"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -306,7 +302,7 @@ float&#160;</td><td class="memItemRight" valign="bottom"><b>m_DampTime</b> = 0.1
 float&#160;</td><td class="memItemRight" valign="bottom"><b>m_StrafeAmount</b> = 0.0f</td></tr>
 <tr class="separator:abdb2cfbbe266d249cebe20f3d45f81cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae89a8ac8d22ee0b8ab6493408a9332cc"><td class="memItemLeft" align="right" valign="top"><a id="ae89a8ac8d22ee0b8ab6493408a9332cc"></a>
-<a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MovingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevMode</b> = MovingMode.RotateToDirection</td></tr>
+<a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevMode</b> = MovingMode.RotateToDirection</td></tr>
 <tr class="separator:ae89a8ac8d22ee0b8ab6493408a9332cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a3a586a9ff73fc9f9ab9b793c8d0009"><td class="memItemLeft" align="right" valign="top"><a id="a0a3a586a9ff73fc9f9ab9b793c8d0009"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevGrounded</b> = false</td></tr>
@@ -375,7 +371,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_DiveAllowed</b> = t
 PhysicMaterial&#160;</td><td class="memItemRight" valign="bottom"><b>m_Material</b></td></tr>
 <tr class="separator:aa72be548b16b57200dcf1ee6ebe4de0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae049dbce935da2966b832ae582d0b520"><td class="memItemLeft" align="right" valign="top"><a id="ae049dbce935da2966b832ae582d0b520"></a>
-<a class="el" href="struct_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentLedge</b></td></tr>
+<a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentLedge</b></td></tr>
 <tr class="separator:ae049dbce935da2966b832ae582d0b520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55798271c35d4cec6580fa24e7c6ca35"><td class="memItemLeft" align="right" valign="top"><a id="a55798271c35d4cec6580fa24e7c6ca35"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_IsInsideLedge</b> = false</td></tr>
@@ -386,9 +382,6 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_WaitForNextTurn</b>
 <tr class="memitem:a43e87513782d948b5e7c4cbaed083e90"><td class="memItemLeft" align="right" valign="top"><a id="a43e87513782d948b5e7c4cbaed083e90"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>m_CurrentGroundLayer</b> = -1</td></tr>
 <tr class="separator:a43e87513782d948b5e7c4cbaed083e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a106913d69a4aa0d1bbea2e9c328c7583"><td class="memItemLeft" align="right" valign="top"><a id="a106913d69a4aa0d1bbea2e9c328c7583"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_OnLedgeEdgeA</b> = false</td></tr>
-<tr class="separator:a106913d69a4aa0d1bbea2e9c328c7583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a052aedc6ed8b6c4f29e90a04acf35f99"><td class="memItemLeft" align="right" valign="top"><a id="a052aedc6ed8b6c4f29e90a04acf35f99"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_LowHeadroom</b> = false</td></tr>
 <tr class="separator:a052aedc6ed8b6c4f29e90a04acf35f99"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -401,18 +394,63 @@ const float&#160;</td><td class="memItemRight" valign="bottom"><b>GROUND_PULL_DI
 <tr class="memitem:af7bed9dfdec3448e43a0bd9d6361daef"><td class="memItemLeft" align="right" valign="top"><a id="af7bed9dfdec3448e43a0bd9d6361daef"></a>
 const float&#160;</td><td class="memItemRight" valign="bottom"><b>GROUND_PULL_FORCE</b> = 1.95f</td></tr>
 <tr class="separator:af7bed9dfdec3448e43a0bd9d6361daef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9223ca26cfab6f51c630f1339756c61a"><td class="memItemLeft" align="right" valign="top"><a id="a9223ca26cfab6f51c630f1339756c61a"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>m_MoveDirection</b></td></tr>
+<tr class="separator:a9223ca26cfab6f51c630f1339756c61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa814ee4c46b996118b351f4546762c98"><td class="memItemLeft" align="right" valign="top"><a id="aa814ee4c46b996118b351f4546762c98"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_LedgeMoving</b> = false</td></tr>
+<tr class="separator:aa814ee4c46b996118b351f4546762c98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a588dc905b6b7d7e100b9f23a91722a57"><td class="memItemLeft" align="right" valign="top"><a id="a588dc905b6b7d7e100b9f23a91722a57"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_MoveMultiplier</b> = 1.0f</td></tr>
+<tr class="separator:a588dc905b6b7d7e100b9f23a91722a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cbad91071dc6be8323d404518da6200"><td class="memItemLeft" align="right" valign="top"><a id="a8cbad91071dc6be8323d404518da6200"></a>
+Vector2&#160;</td><td class="memItemRight" valign="bottom"><b>m_Distances2edges</b> = Vector2.zero</td></tr>
+<tr class="separator:a8cbad91071dc6be8323d404518da6200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a166b2529e5f35fc4597af7dc9f86bfba"><td class="memItemLeft" align="right" valign="top"><a id="a166b2529e5f35fc4597af7dc9f86bfba"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_NearEdgeA</b> = false</td></tr>
+<tr class="separator:a166b2529e5f35fc4597af7dc9f86bfba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a564ee642ef8c01cc2cfafa0be8d0e8bc"><td class="memItemLeft" align="right" valign="top"><a id="a564ee642ef8c01cc2cfafa0be8d0e8bc"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_WaitTurnCounter</b> = 0</td></tr>
+<tr class="separator:a564ee642ef8c01cc2cfafa0be8d0e8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d8d94916e6516cc65dab27085d22d44"><td class="memItemLeft" align="right" valign="top"><a id="a0d8d94916e6516cc65dab27085d22d44"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_WaitTurnCount</b> = 1</td></tr>
+<tr class="separator:a0d8d94916e6516cc65dab27085d22d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fc5d44951a69f2a6265c0f96ca1ba0f"><td class="memItemLeft" align="right" valign="top"><a id="a1fc5d44951a69f2a6265c0f96ca1ba0f"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>ledgePointA</b></td></tr>
+<tr class="separator:a1fc5d44951a69f2a6265c0f96ca1ba0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5b593217ea8212d7d05cfe70f0e714"><td class="memItemLeft" align="right" valign="top"><a id="a2c5b593217ea8212d7d05cfe70f0e714"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_MoveObjectOriginalMass</b> = 1.0f</td></tr>
+<tr class="separator:a2c5b593217ea8212d7d05cfe70f0e714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37483e6779de01a73e5b21f4eba3c4a1"><td class="memItemLeft" align="right" valign="top"><a id="a37483e6779de01a73e5b21f4eba3c4a1"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_PushTimer</b> = 0.0f</td></tr>
+<tr class="separator:a37483e6779de01a73e5b21f4eba3c4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5edde81896f8e05bc932ecb7d75d4257"><td class="memItemLeft" align="right" valign="top"><a id="a5edde81896f8e05bc932ecb7d75d4257"></a>
+float&#160;</td><td class="memItemRight" valign="bottom"><b>m_PushTime</b> = 0.45f</td></tr>
+<tr class="separator:a5edde81896f8e05bc932ecb7d75d4257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45ebfeaf305d448a0b2898c0ef8cf583"><td class="memItemLeft" align="right" valign="top"><a id="a45ebfeaf305d448a0b2898c0ef8cf583"></a>
+<a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_OnWaitEnd</b> = null</td></tr>
+<tr class="separator:a45ebfeaf305d448a0b2898c0ef8cf583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
 <tr class="memitem:a93dd5985b77fc2e9d8749d672de39d4f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a93dd5985b77fc2e9d8749d672de39d4f">lowHeadroom</a><code> [get]</code></td></tr>
 <tr class="memdesc:a93dd5985b77fc2e9d8749d672de39d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if there is no space to stand up.  <a href="#a93dd5985b77fc2e9d8749d672de39d4f">More...</a><br /></td></tr>
 <tr class="separator:a93dd5985b77fc2e9d8749d672de39d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96433e31b7bb7baf1bbf587d87acb907"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a96433e31b7bb7baf1bbf587d87acb907">onLedgeEdgeA</a><code> [get]</code></td></tr>
-<tr class="memdesc:a96433e31b7bb7baf1bbf587d87acb907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is on ledge left edge.  <a href="#a96433e31b7bb7baf1bbf587d87acb907">More...</a><br /></td></tr>
-<tr class="separator:a96433e31b7bb7baf1bbf587d87acb907"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ab507148c4a6207b53e937b5fd4b27b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a0ab507148c4a6207b53e937b5fd4b27b">onLedgeEdgeB</a><code> [get]</code></td></tr>
-<tr class="memdesc:a0ab507148c4a6207b53e937b5fd4b27b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is on ledge right edge.  <a href="#a0ab507148c4a6207b53e937b5fd4b27b">More...</a><br /></td></tr>
-<tr class="separator:a0ab507148c4a6207b53e937b5fd4b27b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67b46654ada68e63936f50548aabdfd4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a67b46654ada68e63936f50548aabdfd4">nearEdgeA</a><code> [get]</code></td></tr>
+<tr class="memdesc:a67b46654ada68e63936f50548aabdfd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is on ledge left edge.  <a href="#a67b46654ada68e63936f50548aabdfd4">More...</a><br /></td></tr>
+<tr class="separator:a67b46654ada68e63936f50548aabdfd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad34d7b541a8748ae050676389722bb3c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ad34d7b541a8748ae050676389722bb3c">nearEdgeB</a><code> [get]</code></td></tr>
+<tr class="memdesc:ad34d7b541a8748ae050676389722bb3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is on ledge right edge.  <a href="#ad34d7b541a8748ae050676389722bb3c">More...</a><br /></td></tr>
+<tr class="separator:ad34d7b541a8748ae050676389722bb3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a283567ddaa4f64f0eb9296a942a4a0d3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a283567ddaa4f64f0eb9296a942a4a0d3">nearEdgeUp</a><code> [get]</code></td></tr>
+<tr class="memdesc:a283567ddaa4f64f0eb9296a942a4a0d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is on ledge upper edge.  <a href="#a283567ddaa4f64f0eb9296a942a4a0d3">More...</a><br /></td></tr>
+<tr class="separator:a283567ddaa4f64f0eb9296a942a4a0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac8cba181fbeac6a74043345d823fac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a9ac8cba181fbeac6a74043345d823fac">nearEdgeDown</a><code> [get]</code></td></tr>
+<tr class="memdesc:a9ac8cba181fbeac6a74043345d823fac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is on ledge bottom edge.  <a href="#a9ac8cba181fbeac6a74043345d823fac">More...</a><br /></td></tr>
+<tr class="separator:a9ac8cba181fbeac6a74043345d823fac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab03f075933d2ed1ac6eddee7679a30e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab03f075933d2ed1ac6eddee7679a30e2">nearEdge</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab03f075933d2ed1ac6eddee7679a30e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if character is near edge of ledge or cover  <a href="#ab03f075933d2ed1ac6eddee7679a30e2">More...</a><br /></td></tr>
+<tr class="separator:ab03f075933d2ed1ac6eddee7679a30e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1949816ad9e9f91cf3e7d7e38c3d7431"><td class="memItemLeft" align="right" valign="top">Collider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a1949816ad9e9f91cf3e7d7e38c3d7431">currentGroundCollider</a><code> [get]</code></td></tr>
 <tr class="memdesc:a1949816ad9e9f91cf3e7d7e38c3d7431"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current collider under capsule.  <a href="#a1949816ad9e9f91cf3e7d7e38c3d7431">More...</a><br /></td></tr>
 <tr class="separator:a1949816ad9e9f91cf3e7d7e38c3d7431"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -446,7 +484,7 @@ Properties</h2></td></tr>
 <tr class="memitem:a3d200390cce16ab9e310857c647a6690"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a3d200390cce16ab9e310857c647a6690">forwardAmount</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a3d200390cce16ab9e310857c647a6690"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets forward amount.  <a href="#a3d200390cce16ab9e310857c647a6690">More...</a><br /></td></tr>
 <tr class="separator:a3d200390cce16ab9e310857c647a6690"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab77dfbf7433267de3c09256eed17e8f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MovingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab77dfbf7433267de3c09256eed17e8f1">moveMode</a><code> [get]</code></td></tr>
+<tr class="memitem:ab77dfbf7433267de3c09256eed17e8f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ab77dfbf7433267de3c09256eed17e8f1">moveMode</a><code> [get]</code></td></tr>
 <tr class="memdesc:ab77dfbf7433267de3c09256eed17e8f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current move mode.  <a href="#ab77dfbf7433267de3c09256eed17e8f1">More...</a><br /></td></tr>
 <tr class="separator:ab77dfbf7433267de3c09256eed17e8f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad351104950c6c3576c7707bf36d119e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#ad351104950c6c3576c7707bf36d119e4">isCrouching</a><code> [get]</code></td></tr>
@@ -476,7 +514,7 @@ Properties</h2></td></tr>
 <tr class="memitem:af8e7b93308b4da34f04166232676f5e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#af8e7b93308b4da34f04166232676f5e2">disableLedgeConstraint</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:af8e7b93308b4da34f04166232676f5e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets flag to constraint character between ledge ends.  <a href="#af8e7b93308b4da34f04166232676f5e2">More...</a><br /></td></tr>
 <tr class="separator:af8e7b93308b4da34f04166232676f5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99038ba5c6c0f5ee9bc8a99833caf120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a99038ba5c6c0f5ee9bc8a99833caf120">ledge</a><code> [get]</code></td></tr>
+<tr class="memitem:a99038ba5c6c0f5ee9bc8a99833caf120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a99038ba5c6c0f5ee9bc8a99833caf120">ledge</a><code> [get]</code></td></tr>
 <tr class="memdesc:a99038ba5c6c0f5ee9bc8a99833caf120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current edge.  <a href="#a99038ba5c6c0f5ee9bc8a99833caf120">More...</a><br /></td></tr>
 <tr class="separator:a99038ba5c6c0f5ee9bc8a99833caf120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ffa3470a0b89eb0d4124dcf6e443e47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a9ffa3470a0b89eb0d4124dcf6e443e47">isOnGround</a><code> [get]</code></td></tr>
@@ -485,6 +523,18 @@ Properties</h2></td></tr>
 <tr class="memitem:af4d8a0f03ef1006c653269cdf86468ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_audio_manager.html">AudioManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#af4d8a0f03ef1006c653269cdf86468ad">audioManager</a><code> [get]</code></td></tr>
 <tr class="memdesc:af4d8a0f03ef1006c653269cdf86468ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get reference to audio manager.  <a href="#af4d8a0f03ef1006c653269cdf86468ad">More...</a><br /></td></tr>
 <tr class="separator:af4d8a0f03ef1006c653269cdf86468ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fc33dc3e62bc931d290e672548742ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7fc33dc3e62bc931d290e672548742ba">enableLedgeMove</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a7fc33dc3e62bc931d290e672548742ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets enabling move on ledges  <a href="#a7fc33dc3e62bc931d290e672548742ba">More...</a><br /></td></tr>
+<tr class="separator:a7fc33dc3e62bc931d290e672548742ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa418bc60e185a09c511983359470ad18"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#aa418bc60e185a09c511983359470ad18">edgeDistances</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa418bc60e185a09c511983359470ad18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets distances from edges ( x = left edge, y = right edge )  <a href="#aa418bc60e185a09c511983359470ad18">More...</a><br /></td></tr>
+<tr class="separator:aa418bc60e185a09c511983359470ad18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa934b3bf5c5b922358590a2e5038b308"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#aa934b3bf5c5b922358590a2e5038b308">moveObject</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa934b3bf5c5b922358590a2e5038b308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets reference to current push/pull object  <a href="#aa934b3bf5c5b922358590a2e5038b308">More...</a><br /></td></tr>
+<tr class="separator:aa934b3bf5c5b922358590a2e5038b308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee1f28d7006a8622041094c6e2d32d17"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_t_p_character.html#aee1f28d7006a8622041094c6e2d32d17">restrictedMoveModes</a><code> [get]</code></td></tr>
+<tr class="memdesc:aee1f28d7006a8622041094c6e2d32d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retruns true if character is in one of restricted move mode ( ledge, pushPull )  <a href="#aee1f28d7006a8622041094c6e2d32d17">More...</a><br /></td></tr>
+<tr class="separator:aee1f28d7006a8622041094c6e2d32d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Main class for control of third person character. </p>
@@ -510,30 +560,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Ik modes. </p>
-
-</div>
-</div>
-<a id="a7e719b6a5605e6bd7576c0561758b4d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e719b6a5605e6bd7576c0561758b4d9">&sect;&nbsp;</a></span>MovingMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MLSpace.TPCharacter.MovingMode</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Move modes. </p>
 
 </div>
 </div>
@@ -936,46 +962,15 @@ Properties</h2></td></tr>
 <p>Character move function. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">move</td><td>move velocity</td></tr>
-    <tr><td class="paramname">crouch</td><td>crouch flag</td></tr>
-    <tr><td class="paramname">jump</td><td>jump flag</td></tr>
-    <tr><td class="paramname">rotateDir</td><td>body rotation direction</td></tr>
-    <tr><td class="paramname">headLookPos</td><td>head look position</td></tr>
-    <tr><td class="paramname">turn</td><td>turn amount nullable</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a2e5c509b511c3d47cf68f676a1c58076"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e5c509b511c3d47cf68f676a1c58076">&sect;&nbsp;</a></span>OnLevelWasLoaded()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MLSpace.TPCharacter.OnLevelWasLoaded </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Called by unity after level load </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">level</td><td></td></tr>
+    <tr><td class="paramname">move</td><td></td></tr>
+    <tr><td class="paramname">speed</td><td></td></tr>
+    <tr><td class="paramname">crouch</td><td></td></tr>
+    <tr><td class="paramname">jump</td><td></td></tr>
+    <tr><td class="paramname">diveRoll</td><td></td></tr>
+    <tr><td class="paramname">rotateDir</td><td></td></tr>
+    <tr><td class="paramname">headLookPos</td><td></td></tr>
+    <tr><td class="paramname">side</td><td></td></tr>
+    <tr><td class="paramname">diveDirection</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1024,6 +1019,43 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Restore original character capsule size. </p>
+
+</div>
+</div>
+<a id="af50df6066a5e96e283065071dbd560fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af50df6066a5e96e283065071dbd560fb">&sect;&nbsp;</a></span>scaleCapsule()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.TPCharacter.scaleCapsule </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>scale</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>heightOffset</em> = <code>0.0f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Scale character move collider capsule </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">scale</td><td></td></tr>
+    <tr><td class="paramname">heightOffset</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -1079,8 +1111,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="adbf10bf5e2e55c8f09dda2eca37a03dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbf10bf5e2e55c8f09dda2eca37a03dd">&sect;&nbsp;</a></span>setLedge()</h2>
+<a id="acd496cda4407116dfacd8cda2fe1d484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd496cda4407116dfacd8cda2fe1d484">&sect;&nbsp;</a></span>setLedge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1088,20 +1120,14 @@ Properties</h2></td></tr>
         <tr>
           <td class="memname">bool MLSpace.TPCharacter.setLedge </td>
           <td>(</td>
-          <td class="paramtype">Transform&#160;</td>
-          <td class="paramname"><em>xform</em>, </td>
+          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a>&#160;</td>
+          <td class="paramname"><em>ledge</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>reversed</em> = <code>false</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>zoffset</em> = <code>0.0f</code>&#160;</td>
+          <td class="paramname"><em>reversed</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1111,14 +1137,15 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set current ledge. </p>
+<p>Set reference to ledge </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">xform</td><td>transform from which ledge will be calculated</td></tr>
+    <tr><td class="paramname">ledge</td><td></td></tr>
+    <tr><td class="paramname">reversed</td><td></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>ledge creation success</dd></dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -1141,26 +1168,71 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="addbcf66454703c5b2c6ba9ce78ec0f62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addbcf66454703c5b2c6ba9ce78ec0f62">&sect;&nbsp;</a></span>setMoveMode()</h2>
+<a id="a82b66527a2f663756b93936c94d3ed56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82b66527a2f663756b93936c94d3ed56">&sect;&nbsp;</a></span>setMoveMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.TPCharacter.setMoveMode </td>
+          <td class="memname">virtual void MLSpace.TPCharacter.setMoveMode </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MovingMode</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a>&#160;</td>
           <td class="paramname"><em>mmode</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Set character move mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mmode</td><td>new move mode</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8d2f0da786506ba86ead42d018faf20e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2f0da786506ba86ead42d018faf20e">&sect;&nbsp;</a></span>setMoveObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.TPCharacter.setMoveObject </td>
+          <td>(</td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>go</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>pushAndPull</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set object to move. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">go</td><td></td></tr>
+    <tr><td class="paramname">pushAndPull</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -1253,6 +1325,25 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ab2f146ee0ad8415336f93d1664154183"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab2f146ee0ad8415336f93d1664154183">&sect;&nbsp;</a></span>unsetMoveObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.TPCharacter.unsetMoveObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Unset move object and exit from move PushPull mode </p>
 
 </div>
 </div>
@@ -1433,35 +1524,35 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a50361dcd968013ab0b0998d2c8410f07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50361dcd968013ab0b0998d2c8410f07">&sect;&nbsp;</a></span>ledgeMove</h2>
+<a id="ac1bf7faa37a40be4b31e66348652788f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1bf7faa37a40be4b31e66348652788f">&sect;&nbsp;</a></span>ledgeSpeedHanging</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.TPCharacter.ledgeMove = false</td>
+          <td class="memname">float MLSpace.TPCharacter.ledgeSpeedHanging = 1.5f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Does character is moving on ledge. </p>
+<p>Move speed on ledges when hanging </p>
 
 </div>
 </div>
-<a id="ab8f57f252d21e7fb8ac5ffb3db6792ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8f57f252d21e7fb8ac5ffb3db6792ca">&sect;&nbsp;</a></span>ledgeSpeed</h2>
+<a id="a14084f2f7ec2ea9d59a9644a56ad68dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14084f2f7ec2ea9d59a9644a56ad68dc">&sect;&nbsp;</a></span>ledgeSpeedWalled</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MLSpace.TPCharacter.ledgeSpeed = 160.0f</td>
+          <td class="memname">float MLSpace.TPCharacter.ledgeSpeedWalled = 2.5f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Move speed on ledges. </p>
+<p>Move speed on ledges when supported by wall </p>
 
 </div>
 </div>
@@ -1605,7 +1696,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> animation root motion ( applied when in trigger action but not grounded . </p>
+<p><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> animation root motion ( applied when in trigger action but not grounded ). </p>
 
 </div>
 </div>
@@ -1874,6 +1965,54 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="aa418bc60e185a09c511983359470ad18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa418bc60e185a09c511983359470ad18">&sect;&nbsp;</a></span>edgeDistances</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 MLSpace.TPCharacter.edgeDistances</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets distances from edges ( x = left edge, y = right edge ) </p>
+
+</div>
+</div>
+<a id="a7fc33dc3e62bc931d290e672548742ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc33dc3e62bc931d290e672548742ba">&sect;&nbsp;</a></span>enableLedgeMove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.TPCharacter.enableLedgeMove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and sets enabling move on ledges </p>
+
+</div>
+</div>
 <a id="a3d200390cce16ab9e310857c647a6690"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3d200390cce16ab9e310857c647a6690">&sect;&nbsp;</a></span>forwardAmount</h2>
 
@@ -2052,7 +2191,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_m_l_space_1_1_ledge.html">Ledge</a> MLSpace.TPCharacter.ledge</td>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_ledge.html">Ledge</a> MLSpace.TPCharacter.ledge</td>
         </tr>
       </table>
   </td>
@@ -2100,7 +2239,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">MovingMode</a> MLSpace.TPCharacter.moveMode</td>
+          <td class="memname"><a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a> MLSpace.TPCharacter.moveMode</td>
         </tr>
       </table>
   </td>
@@ -2111,6 +2250,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets current move mode. </p>
+
+</div>
+</div>
+<a id="aa934b3bf5c5b922358590a2e5038b308"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa934b3bf5c5b922358590a2e5038b308">&sect;&nbsp;</a></span>moveObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform MLSpace.TPCharacter.moveObject</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets reference to current push/pull object </p>
 
 </div>
 </div>
@@ -2138,8 +2301,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a96433e31b7bb7baf1bbf587d87acb907"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96433e31b7bb7baf1bbf587d87acb907">&sect;&nbsp;</a></span>onLedgeEdgeA</h2>
+<a id="ab03f075933d2ed1ac6eddee7679a30e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab03f075933d2ed1ac6eddee7679a30e2">&sect;&nbsp;</a></span>nearEdge</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2148,7 +2311,31 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.TPCharacter.onLedgeEdgeA</td>
+          <td class="memname">bool MLSpace.TPCharacter.nearEdge</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if character is near edge of ledge or cover </p>
+
+</div>
+</div>
+<a id="a67b46654ada68e63936f50548aabdfd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67b46654ada68e63936f50548aabdfd4">&sect;&nbsp;</a></span>nearEdgeA</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.TPCharacter.nearEdgeA</td>
         </tr>
       </table>
   </td>
@@ -2162,8 +2349,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a0ab507148c4a6207b53e937b5fd4b27b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ab507148c4a6207b53e937b5fd4b27b">&sect;&nbsp;</a></span>onLedgeEdgeB</h2>
+<a id="ad34d7b541a8748ae050676389722bb3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad34d7b541a8748ae050676389722bb3c">&sect;&nbsp;</a></span>nearEdgeB</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2172,7 +2359,7 @@ Properties</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.TPCharacter.onLedgeEdgeB</td>
+          <td class="memname">bool MLSpace.TPCharacter.nearEdgeB</td>
         </tr>
       </table>
   </td>
@@ -2183,6 +2370,54 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Returns true if character is on ledge right edge. </p>
+
+</div>
+</div>
+<a id="a9ac8cba181fbeac6a74043345d823fac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac8cba181fbeac6a74043345d823fac">&sect;&nbsp;</a></span>nearEdgeDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.TPCharacter.nearEdgeDown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if character is on ledge bottom edge. </p>
+
+</div>
+</div>
+<a id="a283567ddaa4f64f0eb9296a942a4a0d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a283567ddaa4f64f0eb9296a942a4a0d3">&sect;&nbsp;</a></span>nearEdgeUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.TPCharacter.nearEdgeUp</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if character is on ledge upper edge. </p>
 
 </div>
 </div>
@@ -2207,6 +2442,30 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets reference to material holder script. </p>
+
+</div>
+</div>
+<a id="aee1f28d7006a8622041094c6e2d32d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee1f28d7006a8622041094c6e2d32d17">&sect;&nbsp;</a></span>restrictedMoveModes</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.TPCharacter.restrictedMoveModes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retruns true if character is in one of restricted move mode ( ledge, pushPull ) </p>
 
 </div>
 </div>

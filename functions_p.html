@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v34: Class Members</title>
+<title>CF_v37: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v34
+   <div id="projectname">CF_v37
    </div>
   </td>
  </tr>
@@ -65,23 +65,27 @@ $(function() {
 : <a class="el" href="class_m_l_space_1_1_item_picker.html#afb069a9bf384ef66635e38bc328a6ca7">MLSpace.ItemPicker</a>
 </li>
 <li>plane
-: <a class="el" href="struct_m_l_space_1_1_ledge.html#abc73e2e5c3644ed25e3d80c5079688cf">MLSpace.Ledge</a>
+: <a class="el" href="class_m_l_space_1_1_ledge.html#abc73e2e5c3644ed25e3d80c5079688cf">MLSpace.Ledge</a>
+</li>
+<li>platformObject
+: <a class="el" href="class_m_l_space_1_1_platform_script.html#ae76b5c222ef7922f89e9440a87776823">MLSpace.PlatformScript</a>
+</li>
+<li>playAlert()
+: <a class="el" href="class_m_l_space_1_1_audio_manager.html#acce76ae12b4200e120b660dfba84e7b0">MLSpace.AudioManager</a>
 </li>
 <li>playDiveRollSound()
 : <a class="el" href="class_m_l_space_1_1_audio_manager.html#a711a6ff8493984d16b9d6f8d931cbb55">MLSpace.AudioManager</a>
 </li>
 <li>player
 : <a class="el" href="class_m_l_space_1_1_scene_control.html#ab37425ea392605713809034d6c404fb5">MLSpace.SceneControl</a>
+, <a class="el" href="class_m_l_space_1_1_trigger_management.html#a79e20595ae6e82b6ab0e8d26d499de10">MLSpace.TriggerManagement</a>
 </li>
-<li>playerAlert()
-: <a class="el" href="class_m_l_space_1_1_audio_manager.html#a52091bc15abad60fa16f7273b286413a">MLSpace.AudioManager</a>
+<li>playerCF
+: <a class="el" href="class_m_l_space_1_1_trigger_management.html#a85cfe5efaf2a0810747eaf4d7026578b">MLSpace.TriggerManagement</a>
 </li>
 <li>playerInZone
 : <a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#acf7339f07fd7cbc5edbe3746447da157">MLSpace.NPCGuardZone</a>
 , <a class="el" href="class_m_l_space_1_1_scene_zone.html#ae67cc837d97ceae1887e8c4991402d8b">MLSpace.SceneZone</a>
-</li>
-<li>playerInZoneAlert()
-: <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#aab84885da6f71ed72b1930ad19d4990d">MLSpace.NPCScript</a>
 </li>
 <li>playerLayer
 : <a class="el" href="class_m_l_space_1_1_scene_zone.html#a060ae998dd58a50710251c1f84f00947">MLSpace.SceneZone</a>
@@ -91,9 +95,6 @@ $(function() {
 </li>
 <li>playersInZone
 : <a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#a88b3b73adfc19c59449c87f3985c8726">MLSpace.NPCGuardZone</a>
-</li>
-<li>playerTransform
-: <a class="el" href="class_m_l_space_1_1_n_p_c_shoot_script.html#ab86cea78a5679e239d0a792e08032958">MLSpace.NPCShootScript</a>
 </li>
 <li>playFootstepSound()
 : <a class="el" href="class_m_l_space_1_1_audio_manager.html#a29ab3532ba2dd04bbeac7f339036bf70">MLSpace.AudioManager</a>
@@ -107,8 +108,8 @@ $(function() {
 </li>
 <li>position
 : <a class="el" href="class_m_l_space_1_1_arrow.html#a8656f2d3407bd3b958954e438689a3d9">MLSpace.Arrow</a>
+, <a class="el" href="class_m_l_space_1_1_base_camera_holder.html#afc180a1b59d027ea87bf3513f7caf198">MLSpace.BaseCameraHolder</a>
 , <a class="el" href="class_m_l_space_1_1_float_text_info.html#a26616a104f695ddab7d3036ad3af3ecf">MLSpace.FloatTextInfo</a>
-, <a class="el" href="interface_m_l_space_1_1_i_game_character.html#ad369ad1fc03b80a6787bf99c15087e5d">MLSpace.IGameCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a7c185d1346ce8754e9d215bca0b694f4">MLSpace.NPCScript</a>
 , <a class="el" href="class_m_l_space_1_1_player_control_base.html#ab05b91841332f8e0c7c786a276fb335a">MLSpace.PlayerControlBase</a>
 , <a class="el" href="class_m_l_space_1_1_trigger_info.html#a7c4d5b60714464d0c637ab7754093f51">MLSpace.TriggerInfo</a>
@@ -116,11 +117,14 @@ $(function() {
 <li>positionCameraBehind()
 : <a class="el" href="class_m_l_space_1_1_player_control.html#a9b6dff94140f130202bd47c11e2e59dd">MLSpace.PlayerControl</a>
 </li>
+<li>positionLerpTime
+: <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a77ff9072d8ab3a37786fb0d38e0f0fa8">MLSpace.GenericTrigger</a>
+</li>
 <li>potentialEnemy
 : <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a5077cd8e677e1fe59b187737686536cc">MLSpace.NPCScript</a>
 </li>
 <li>preLoad()
-: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a334b41dc9f3f3e9a7175797e6c8fa5a2">MLSpace.PlayerControlBase</a>
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#ab55f278d9164e0a6568b32adee4db983">MLSpace.PlayerControlBase</a>
 </li>
 <li>previusPosition
 : <a class="el" href="class_m_l_space_1_1_ragdoll_manager_1_1_body_part_info.html#ae6ef847047ab1e2b2fda42de8081f013">MLSpace.RagdollManager.BodyPartInfo</a>
@@ -133,20 +137,20 @@ $(function() {
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#ab63ca1186589067fcf499d2fb44fcb39">MLSpace.NPCScript</a>
 , <a class="el" href="class_m_l_space_1_1_player_control_base.html#ac711ee2f5442541f427f6adb9f9d9969">MLSpace.PlayerControlBase</a>
 </li>
-<li>ProjectileCount
-: <a class="el" href="class_m_l_space_1_1_projectile.html#a886f8501496cda22dca12f4ccad8f788">MLSpace.Projectile</a>
+<li>priority
+: <a class="el" href="class_m_l_space_1_1_trigger.html#aaa9094cfc6879681fbf42e34f9ece7cf">MLSpace.Trigger</a>
 </li>
-<li>projectileMode
-: <a class="el" href="class_m_l_space_1_1_projectile.html#a74513e718c2ad72f95e23f035cdfaa3d">MLSpace.Projectile</a>
+<li>pull
+: <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#ae639e8ef7873eb59d6b8e6e9ac5dce67">MLSpace.OpenDoorTrigger</a>
 </li>
-<li>ProjectilePrefab
-: <a class="el" href="class_m_l_space_1_1_shoot_script.html#a5d2f31804eba8066c73546b5ecf4aa59">MLSpace.ShootScript</a>
+<li>pushAndPull
+: <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a37cbbe692242834d31532bdc55f53949">MLSpace.PushPullTrigger</a>
 </li>
-<li>ProjectileStates
-: <a class="el" href="class_m_l_space_1_1_projectile.html#a85d65a5a445578d080b7a4dfc1962a52">MLSpace.Projectile</a>
+<li>pushObject
+: <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#ad80b2258aa5747e8378c1c668d4b65f5">MLSpace.PushPullTrigger</a>
 </li>
-<li>pullUpTarget
-: <a class="el" href="class_m_l_space_1_1_ledge2_ledge_trigger.html#a0cb4bf029ce3002900123b34b38cf4e0">MLSpace.Ledge2LedgeTrigger</a>
+<li>putawayItems
+: <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a5be4f5d0ee619621b71dd8d39f4ff244">MLSpace.GenericTrigger</a>
 </li>
 </ul>
 </div><!-- contents -->

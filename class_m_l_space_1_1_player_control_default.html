@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v34: MLSpace.PlayerControlDefault Class Reference</title>
+<title>CF_v37: MLSpace.PlayerControlDefault Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v34
+   <div id="projectname">CF_v37
    </div>
   </td>
  </tr>
@@ -70,15 +70,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a04f047e9c12326467faefe8c1a7fab90"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_default.html#a04f047e9c12326467faefe8c1a7fab90">clear</a> ()</td></tr>
 <tr class="memdesc:a04f047e9c12326467faefe8c1a7fab90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="#a04f047e9c12326467faefe8c1a7fab90">More...</a><br /></td></tr>
 <tr class="separator:a04f047e9c12326467faefe8c1a7fab90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d814ae75c50c7cfbc53e5611bd1d4f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_default.html#ae6d814ae75c50c7cfbc53e5611bd1d4f">releaseObject</a> ()</td></tr>
+<tr class="memdesc:ae6d814ae75c50c7cfbc53e5611bd1d4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Release current push/pull object  <a href="#ae6d814ae75c50c7cfbc53e5611bd1d4f">More...</a><br /></td></tr>
+<tr class="separator:ae6d814ae75c50c7cfbc53e5611bd1d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a99c620f4a997a605ccd13f4f76fa6047"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_default.html#a99c620f4a997a605ccd13f4f76fa6047">Update</a> ()</td></tr>
 <tr class="memdesc:a99c620f4a997a605ccd13f4f76fa6047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unity Update method Update is called every frame, if the MonoBehaviour is enabled  <a href="#a99c620f4a997a605ccd13f4f76fa6047">More...</a><br /></td></tr>
 <tr class="separator:a99c620f4a997a605ccd13f4f76fa6047"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ee7e9d9a610855cf1e38aa584e5213e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_player_control_default.html#a1ee7e9d9a610855cf1e38aa584e5213e">OnLevelWasLoaded</a> (int level)</td></tr>
-<tr class="memdesc:a1ee7e9d9a610855cf1e38aa584e5213e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by unity after level load  <a href="#a1ee7e9d9a610855cf1e38aa584e5213e">More...</a><br /></td></tr>
-<tr class="separator:a1ee7e9d9a610855cf1e38aa584e5213e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72d55ee6b92bab9f19df3e0bb3c27ab7"><td class="memItemLeft" align="right" valign="top"><a id="a72d55ee6b92bab9f19df3e0bb3c27ab7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>LateUpdate</b> ()</td></tr>
+<tr class="separator:a72d55ee6b92bab9f19df3e0bb3c27ab7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa160517a122b9612c22764c6957346e8"><td class="memItemLeft" align="right" valign="top"><a id="aa160517a122b9612c22764c6957346e8"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>OnSceneLoaded</b> (Scene scene, LoadSceneMode m)</td></tr>
+<tr class="separator:aa160517a122b9612c22764c6957346e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -91,11 +97,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 <tr class="memitem:ae439fbaede91e9b8556607aa89b55937"><td class="memItemLeft" align="right" valign="top"><a id="ae439fbaede91e9b8556607aa89b55937"></a>
 <a class="el" href="class_m_l_space_1_1_t_p_character.html#a9a5c1fb8ae1662fed6d9009853679245">TPCharacter.IKMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevIKmode</b> = TPCharacter.IKMode.None</td></tr>
 <tr class="separator:ae439fbaede91e9b8556607aa89b55937"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a840d4840bda1353a03c17ffd740fedc2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">TPCharacter.MovingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevMoveMode</b></td></tr>
-<tr class="separator:a840d4840bda1353a03c17ffd740fedc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a366cb40b332589c10d2a33d326e9e1d8"><td class="memItemLeft" align="right" valign="top"><a id="a366cb40b332589c10d2a33d326e9e1d8"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevStrafing</b> = false</td></tr>
-<tr class="separator:a366cb40b332589c10d2a33d326e9e1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb29ab337015e3b6885fdd75675d8bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevMoveMode</b></td></tr>
+<tr class="separator:a8fb29ab337015e3b6885fdd75675d8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Default player control script. Passing input to '<a class="el" href="class_m_l_space_1_1_player_third_person.html" title="Controls camera and head ik, switching between stand and crouch camera targets. Derived from &#39;Player&#39;...">PlayerThirdPerson</a>' class. You can exted it as you wish. </p>
@@ -154,37 +157,22 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevStrafing</b> = 
 
 </div>
 </div>
-<a id="a1ee7e9d9a610855cf1e38aa584e5213e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ee7e9d9a610855cf1e38aa584e5213e">&sect;&nbsp;</a></span>OnLevelWasLoaded()</h2>
+<a id="ae6d814ae75c50c7cfbc53e5611bd1d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6d814ae75c50c7cfbc53e5611bd1d4f">&sect;&nbsp;</a></span>releaseObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void MLSpace.PlayerControlDefault.OnLevelWasLoaded </td>
+          <td class="memname">void MLSpace.PlayerControlDefault.releaseObject </td>
           <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>level</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Called by unity after level load </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">level</td><td></td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Release current push/pull object </p>
 
 </div>
 </div>
@@ -216,8 +204,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevStrafing</b> = 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a840d4840bda1353a03c17ffd740fedc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a840d4840bda1353a03c17ffd740fedc2">&sect;&nbsp;</a></span>m_PrevMoveMode</h2>
+<a id="a8fb29ab337015e3b6885fdd75675d8bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fb29ab337015e3b6885fdd75675d8bd">&sect;&nbsp;</a></span>m_PrevMoveMode</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,7 +214,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevStrafing</b> = 
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_t_p_character.html#a7e719b6a5605e6bd7576c0561758b4d9">TPCharacter.MovingMode</a> MLSpace.PlayerControlDefault.m_PrevMoveMode</td>
+          <td class="memname"><a class="el" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a> MLSpace.PlayerControlDefault.m_PrevMoveMode</td>
         </tr>
       </table>
   </td>
@@ -235,7 +223,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_PrevStrafing</b> = 
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            TPCharacter.MovingMode.RotateToDirection</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">            <a class="code" href="namespace_m_l_space.html#a36b2edc0ce69bdd0431fdbc534217cd3">MovingMode</a>.RotateToDirection</div></div><!-- fragment -->
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

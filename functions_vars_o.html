@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v34: Class Members - Variables</title>
+<title>CF_v37: Class Members - Variables</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v34
+   <div id="projectname">CF_v37
    </div>
   </td>
  </tr>
@@ -53,15 +53,6 @@ $(function() {
 <li>OnArrowHit
 : <a class="el" href="class_m_l_space_1_1_arrow.html#a88c833cbb2c20927eb598f17a3c055c2">MLSpace.Arrow</a>
 </li>
-<li>OnAttackEndNotify
-: <a class="el" href="class_m_l_space_1_1_player.html#a05f7d24429eb97b94f86b884cd1598e8">MLSpace.Player</a>
-</li>
-<li>OnAttackHit
-: <a class="el" href="class_m_l_space_1_1_player.html#aa99dbd73fc4626bdef9cee8b7af14f8e">MLSpace.Player</a>
-</li>
-<li>OnAttackStartNotify
-: <a class="el" href="class_m_l_space_1_1_player.html#a5eadbc8a23a7a4eb0b171a304bbc8562">MLSpace.Player</a>
-</li>
 <li>OnBlack
 : <a class="el" href="class_m_l_space_1_1_scene_control.html#a22d1989108e230b8dc30a69064fa775b">MLSpace.SceneControl</a>
 </li>
@@ -80,11 +71,23 @@ $(function() {
 <li>OnLand
 : <a class="el" href="class_m_l_space_1_1_t_p_character.html#a1777dda6da9e0ee197fcf577d70ade18">MLSpace.TPCharacter</a>
 </li>
+<li>OnLedgeExitEnd
+: <a class="el" href="class_m_l_space_1_1_ledge_manager.html#afef614b83f8e18ef75a76c461fbaa648">MLSpace.LedgeManager</a>
+</li>
+<li>OnLedgeSwitchEnd
+: <a class="el" href="class_m_l_space_1_1_ledge_manager.html#ab30cb22fb3daf1a9d5da4c43e2bf6646">MLSpace.LedgeManager</a>
+</li>
 <li>OnLerpEnd
 : <a class="el" href="class_m_l_space_1_1_t_p_character.html#aea00160cc177179c42861791c52fd274">MLSpace.TPCharacter</a>
 </li>
-<li>onlyPlayer
-: <a class="el" href="class_m_l_space_1_1_trigger.html#a5c24eb36695d15cf349759011b82bd3f">MLSpace.Trigger</a>
+<li>OnMatchTargetStart
+: <a class="el" href="class_m_l_space_1_1_generic_trigger.html#aa431c88f172c320fce4ea89764dc28f8">MLSpace.GenericTrigger</a>
+</li>
+<li>OnMaxZPlus
+: <a class="el" href="class_m_l_space_1_1_orbit_aim_camera.html#a6e35b5cf91c7509be063f615639dbff8">MLSpace.OrbitAimCamera</a>
+</li>
+<li>OnMinZMinus
+: <a class="el" href="class_m_l_space_1_1_orbit_aim_camera.html#adc8d54aabb192a02dddaac03cbc7762d">MLSpace.OrbitAimCamera</a>
 </li>
 <li>OnPlayerEnter
 : <a class="el" href="class_m_l_space_1_1_scene_zone.html#ae531617e2400f6fdb52143cd0c219c05">MLSpace.SceneZone</a>
@@ -92,23 +95,14 @@ $(function() {
 <li>OnPlayerExit
 : <a class="el" href="class_m_l_space_1_1_scene_zone.html#a8250bcef4969b7cce2dc76f4aa6f93f5">MLSpace.SceneZone</a>
 </li>
+<li>onPunchControlsClip
+: <a class="el" href="class_m_l_space_1_1_player_misc.html#aecf673826879cb0d9f10a4852d7394b8">MLSpace.PlayerMisc</a>
+</li>
 <li>OnPutawayBow
 : <a class="el" href="class_m_l_space_1_1_player_control_base.html#a676be5294e73ff84a0ffbc7423d7c3cd">MLSpace.PlayerControlBase</a>
 </li>
 <li>OnPutawayShield
 : <a class="el" href="class_m_l_space_1_1_player_control_base.html#ac81c1ad9cb76942a7e51328040f63739">MLSpace.PlayerControlBase</a>
-</li>
-<li>OnReachZeroLF
-: <a class="el" href="class_m_l_space_1_1_i_k_helper.html#a36739b980738b190ec1958c610d12903">MLSpace.IKHelper</a>
-</li>
-<li>OnReachZeroLH
-: <a class="el" href="class_m_l_space_1_1_i_k_helper.html#a3249f5424f87d85859016897e8555216">MLSpace.IKHelper</a>
-</li>
-<li>OnReachZeroRF
-: <a class="el" href="class_m_l_space_1_1_i_k_helper.html#ab8740c65f473f58a3b3c45537c9d6d97">MLSpace.IKHelper</a>
-</li>
-<li>OnReachZeroRH
-: <a class="el" href="class_m_l_space_1_1_i_k_helper.html#a0482463c6a836673cd7b98705e0a575f">MLSpace.IKHelper</a>
 </li>
 <li>OnSetTransform
 : <a class="el" href="class_m_l_space_1_1_t_p_character.html#a33394d2e2f3df1ab0f174a174ae207ee">MLSpace.TPCharacter</a>
@@ -162,10 +156,15 @@ $(function() {
 : <a class="el" href="class_m_l_space_1_1_player_control_base.html#a4dfe6cc879713993ed1a7790bd6347a5">MLSpace.PlayerControlBase</a>
 </li>
 <li>OnTriggerEnd
-: <a class="el" href="class_m_l_space_1_1_trigger_management.html#ab438a92eded6fc395330d1e6ac3cb636">MLSpace.TriggerManagement</a>
+: <a class="el" href="class_m_l_space_1_1_generic_trigger.html#ae1339d42ce96fafa213c32d0a261dbe5">MLSpace.GenericTrigger</a>
+, <a class="el" href="class_m_l_space_1_1_trigger_management.html#ab438a92eded6fc395330d1e6ac3cb636">MLSpace.TriggerManagement</a>
 </li>
 <li>OnTriggerStart
-: <a class="el" href="class_m_l_space_1_1_trigger_management.html#aa234ef66e7d8d44534a45b1905b9d545">MLSpace.TriggerManagement</a>
+: <a class="el" href="class_m_l_space_1_1_generic_trigger.html#aace3fdf70ea97153149fa002be8a8cc8">MLSpace.GenericTrigger</a>
+, <a class="el" href="class_m_l_space_1_1_trigger_management.html#aa234ef66e7d8d44534a45b1905b9d545">MLSpace.TriggerManagement</a>
+</li>
+<li>openDoorAudioClip
+: <a class="el" href="class_m_l_space_1_1_door.html#a7c805cb6452d281b36994017f8442139">MLSpace.Door</a>
 </li>
 <li>orig_hash
 : <a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html#a111e926584e8fefab08d982aac9e7772">MLSpace.AnimationClipReplacementInfo</a>
@@ -188,6 +187,9 @@ $(function() {
 <li>original_scale
 : <a class="el" href="class_m_l_space_1_1_laserblade.html#ab43dea9936a6344bbade6c5add7618fc">MLSpace.Laserblade</a>
 </li>
+<li>originalLocalPosition
+: <a class="el" href="class_m_l_space_1_1_camera_info.html#acf9bfada93e937b6f021a670e20d1194">MLSpace.CameraInfo</a>
+</li>
 <li>originalPrefabName
 : <a class="el" href="class_m_l_space_1_1_inventory_item.html#a40ae584a168a195b4c37e22a036f3b1f">MLSpace.InventoryItem</a>
 </li>
@@ -203,17 +205,18 @@ $(function() {
 <li>outlineColor
 : <a class="el" href="class_m_l_space_1_1_item_picker.html#a2fb6d39e5561e22560eb2ca720d10b62">MLSpace.ItemPicker</a>
 </li>
+<li>outlineLockOnMaterial
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#acc73d194f80157edd78766159444b0f4">MLSpace.PlayerControlBase</a>
+</li>
 <li>outlineMaterial
 : <a class="el" href="class_m_l_space_1_1_item_picker.html#a2691cd8db4e3ae9213d7d331dff0dade">MLSpace.ItemPicker</a>
 </li>
 <li>outlineWidth
 : <a class="el" href="class_m_l_space_1_1_item_picker.html#aa1a2cab1751978e9011e2883894d65c5">MLSpace.ItemPicker</a>
+, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a9130ee453859619c8d5a1289a9baebe5">MLSpace.PlayerControlBase</a>
 </li>
 <li>owner
 : <a class="el" href="class_m_l_space_1_1_arrow.html#a76f6065ebd04e6045d5e0c0b84ba1923">MLSpace.Arrow</a>
-</li>
-<li>Owner
-: <a class="el" href="class_m_l_space_1_1_shoot_script.html#aa4e16e5ecc51c232c040206785972c5c">MLSpace.ShootScript</a>
 </li>
 </ul>
 </div><!-- contents -->

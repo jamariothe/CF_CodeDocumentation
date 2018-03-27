@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v34: Class Members</title>
+<title>CF_v37: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v34
+   <div id="projectname">CF_v37
    </div>
   </td>
  </tr>
@@ -65,22 +65,31 @@ $(function() {
 : <a class="el" href="class_m_l_space_1_1_player_control_base.html#aa14c1449d243a12234b56dba3ee70b1f">MLSpace.PlayerControlBase</a>
 </li>
 <li>additiveRotation
-: <a class="el" href="class_m_l_space_1_1_base_camera.html#af2b3e8c29a462fa23c2c2cd20c1d3aa3">MLSpace.BaseCamera</a>
-, <a class="el" href="class_m_l_space_1_1_orbit_camera_controller.html#a4d2f30941d2e4f0e2c4dda0ab053f8ca">MLSpace.OrbitCameraController</a>
-, <a class="el" href="class_m_l_space_1_1_top_down_camera.html#ad6d52e7ae8d66e3455b2a0cb247ac593">MLSpace.TopDownCamera</a>
+: <a class="el" href="class_m_l_space_1_1_base_camera_holder.html#a74c58c6f1050f5a14842415c2817b53b">MLSpace.BaseCameraHolder</a>
+, <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#a73ce5a5148b388bb5280bd715bfbd2ee">MLSpace.OrbitCameraHolder</a>
+, <a class="el" href="class_m_l_space_1_1_top_down_camera_holder.html#a417c41e86a4fabd30c926ac32c54e7d0">MLSpace.TopDownCameraHolder</a>
+</li>
+<li>addPlayer()
+: <a class="el" href="class_m_l_space_1_1_player_manager.html#af3590563fc1fb013cd706e4a7ff1d469">MLSpace.PlayerManager</a>
+</li>
+<li>addTimedFunc()
+: <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a40b09e4c274f0e762c1792e487d8601f">MLSpace.NPCScript</a>
+, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a7664bfbd1f5ef05bf760238cf3d96178">MLSpace.PlayerControlBase</a>
 </li>
 <li>addToZone()
 : <a class="el" href="class_m_l_space_1_1_n_p_c_guard_zone.html#a42f0632e67bef1adc32bb09100624a1d">MLSpace.NPCGuardZone</a>
 </li>
 <li>adjustPosition2Ledge
-: <a class="el" href="class_m_l_space_1_1_i_k_helper.html#a08780448c4066fb9d3477346d1c30b13">MLSpace.IKHelper</a>
+: <a class="el" href="class_m_l_space_1_1_ledge_manager.html#a7915cc9bd196e6d6a28a570f6c975ee6">MLSpace.LedgeManager</a>
 </li>
 <li>advanceLifetime
 : <a class="el" href="class_m_l_space_1_1_arrow.html#a0cfb4fb3566855ec0e143b7813dd3373">MLSpace.Arrow</a>
 </li>
 <li>aimBone
-: <a class="el" href="class_m_l_space_1_1_player_control.html#a3a87f94cfcbf356f1a98d104ad2f2cd1">MLSpace.PlayerControl</a>
-, <a class="el" href="class_m_l_space_1_1_player_control_top_down.html#a426b31784339c1abdfdc86a2c1181c09">MLSpace.PlayerControlTopDown</a>
+: <a class="el" href="class_m_l_space_1_1_player_control_base.html#a9c97ac6041865a768573afc02d89d06f">MLSpace.PlayerControlBase</a>
+</li>
+<li>aimClip
+: <a class="el" href="class_m_l_space_1_1_bow_item.html#aa9d07d8f8dd5982b5b8ef7828c8732f3">MLSpace.BowItem</a>
 </li>
 <li>airControl
 : <a class="el" href="class_m_l_space_1_1_t_p_character.html#a3dc1192f62f69e9b5d380abd5a9830da">MLSpace.TPCharacter</a>
@@ -92,7 +101,7 @@ $(function() {
 : <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a11ed699423ac7a3e3f9cfd3c918f0d2b">MLSpace.NPCScript</a>
 </li>
 <li>alerted()
-: <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#ae6a093a9e2b8129468836ad58f05e797">MLSpace.NPCScript</a>
+: <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a638048c77cfad920e77ca344812cbe23">MLSpace.NPCScript</a>
 </li>
 <li>alertRange
 : <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#aad87e678d9a1180b981d68a1eb9b9ecf">MLSpace.NPCScript</a>
@@ -109,11 +118,18 @@ $(function() {
 <li>angleCondition
 : <a class="el" href="class_m_l_space_1_1_trigger.html#a14f52c8845681008fdd252320f6cbe5a">MLSpace.Trigger</a>
 </li>
+<li>angleX
+: <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#a7fc4af9ed08bfedce600165c68b13a16">MLSpace.OrbitCameraHolder</a>
+</li>
+<li>angleY
+: <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#a0fbfc9af8aa268f5e73ffadef04fed29">MLSpace.OrbitCameraHolder</a>
+</li>
 <li>angularSpeed
-: <a class="el" href="class_m_l_space_1_1_orbit_camera_controller.html#abdc6ed519f2d9388f8f01ba97d413073">MLSpace.OrbitCameraController</a>
+: <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#acc4441db3cdb57ca1d264bcbeb84855f">MLSpace.OrbitCameraHolder</a>
 </li>
 <li>animator
 : <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a68d03fba71862affbb8d2dedf9d280bb">MLSpace.NPCScript</a>
+, <a class="el" href="class_m_l_space_1_1_platform.html#a6f5bddeef25c13a0891eebcb46034949">MLSpace.Platform</a>
 , <a class="el" href="class_m_l_space_1_1_player.html#ab661ed1bf9d347c8d7acc0cedba6e480">MLSpace.Player</a>
 , <a class="el" href="class_m_l_space_1_1_t_p_character.html#a7471a2e192ea5ceaf179413096447d11">MLSpace.TPCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_trigger_management.html#aa8d32cdd1dc017950814957f404b327c">MLSpace.TriggerManagement</a>
@@ -178,19 +194,16 @@ $(function() {
 <li>attack_end_notify()
 : <a class="el" href="interface_m_l_space_1_1_i_game_character.html#aaafd07e33acac18c65edabc7ce4af948">MLSpace.IGameCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a0e8fa8edfaa95d8b9d650ea29139d0d9">MLSpace.NPCScript</a>
-, <a class="el" href="class_m_l_space_1_1_player.html#a4ff5941574ccd74f98851db06bee1d54">MLSpace.Player</a>
 , <a class="el" href="class_m_l_space_1_1_player_control_base.html#ae46eac453063460b37b9fe934c5e59e7">MLSpace.PlayerControlBase</a>
 </li>
 <li>attack_hit_notify()
 : <a class="el" href="interface_m_l_space_1_1_i_game_character.html#aca6d4805cce9c5e7af981a677743946b">MLSpace.IGameCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a4b8314ab2bd4925726170fe6417cc2a6">MLSpace.NPCScript</a>
-, <a class="el" href="class_m_l_space_1_1_player.html#a10f6c1e009fcd1f29b6171a8d176988f">MLSpace.Player</a>
 , <a class="el" href="class_m_l_space_1_1_player_control_base.html#ab5bb3270d7c5a8b440ff49aaf6e81083">MLSpace.PlayerControlBase</a>
 </li>
 <li>attack_start_notify()
 : <a class="el" href="interface_m_l_space_1_1_i_game_character.html#a7cf6a9bd05940920f11e1735992deb5e">MLSpace.IGameCharacter</a>
 , <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a9f1e2ff723cf8e4a8a628e96f11aaa1c">MLSpace.NPCScript</a>
-, <a class="el" href="class_m_l_space_1_1_player.html#ac4e23c2586ddde8ca713e810be9031ee">MLSpace.Player</a>
 , <a class="el" href="class_m_l_space_1_1_player_control_base.html#a249989dfe0c5ed2e843f467dd30f61db">MLSpace.PlayerControlBase</a>
 </li>
 <li>attackAngle
@@ -203,8 +216,16 @@ $(function() {
 <li>attackComboUnderway
 : <a class="el" href="class_m_l_space_1_1_player_control_base.html#aad6bf7843e8de6f333cdab323ce55621">MLSpace.PlayerControlBase</a>
 </li>
+<li>attacker
+: <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#af1a3bbaada8d62fc46ea43de362a71d7">MLSpace.NPCScript</a>
+</li>
 <li>attackHitSounds
 : <a class="el" href="class_m_l_space_1_1_weapon_audio.html#a2ad993178f58c9f0b75ddfada87cbb23">MLSpace.WeaponAudio</a>
+</li>
+<li>attackInfo
+: <a class="el" href="interface_m_l_space_1_1_i_game_character.html#a2cd7540a1d384a1b05f2247d3c6cc2b8">MLSpace.IGameCharacter</a>
+, <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a2e3a93ba3171015917db253326665ff5">MLSpace.NPCScript</a>
+, <a class="el" href="class_m_l_space_1_1_player_control_base.html#aaaa5f21caac345c9f88289998941e428">MLSpace.PlayerControlBase</a>
 </li>
 <li>attackInterval
 : <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a97e794e58f055ba27ed48f159e11951e">MLSpace.NPCScript</a>
