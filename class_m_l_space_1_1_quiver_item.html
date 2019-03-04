@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.QuiverItem Class Reference</title>
+<title>CF_v4.0: MLSpace.QuiverItem Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -44,6 +44,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_quiver_item-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -59,8 +60,7 @@ Inheritance diagram for MLSpace.QuiverItem:</div>
  <div class="center">
   <img src="class_m_l_space_1_1_quiver_item.png" usemap="#MLSpace.QuiverItem_map" alt=""/>
   <map id="MLSpace.QuiverItem_map" name="MLSpace.QuiverItem_map">
-<area href="class_m_l_space_1_1_physics_inventory_item.html" title="Inventory item base class for items that have physics properties ( rigid body, collider etc..." alt="MLSpace.PhysicsInventoryItem" shape="rect" coords="0,112,189,136"/>
-<area href="class_m_l_space_1_1_inventory_item.html" title="Base abstract class for all inventory items. " alt="MLSpace.InventoryItem" shape="rect" coords="0,56,189,80"/>
+<area href="class_m_l_space_1_1_physics_inventory_item.html" title="Inventory item base class for items that have physics properties ( rigid body, collider etc..." alt="MLSpace.PhysicsInventoryItem" shape="rect" coords="0,56,189,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -72,10 +72,22 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30c7dd1970fd8675d2d0702e282c2f42"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a30c7dd1970fd8675d2d0702e282c2f42">clear</a> ()</td></tr>
 <tr class="memdesc:a30c7dd1970fd8675d2d0702e282c2f42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="#a30c7dd1970fd8675d2d0702e282c2f42">More...</a><br /></td></tr>
 <tr class="separator:a30c7dd1970fd8675d2d0702e282c2f42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37ec085d3aa5529995f80ed10f6625ae"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a37ec085d3aa5529995f80ed10f6625ae">startOnHitParticles</a> (RaycastHit rHit)</td></tr>
+<tr class="memdesc:a37ec085d3aa5529995f80ed10f6625ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start on hit particle effect/s  <a href="#a37ec085d3aa5529995f80ed10f6625ae">More...</a><br /></td></tr>
+<tr class="separator:a37ec085d3aa5529995f80ed10f6625ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa78896d103fb0582dbdb044c622d9c2e"><td class="memItemLeft" align="right" valign="top">ParticleSystem []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#aa78896d103fb0582dbdb044c622d9c2e">getFreeParticlEffect</a> ()</td></tr>
+<tr class="memdesc:aa78896d103fb0582dbdb044c622d9c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get free default particle effect from pool  <a href="#aa78896d103fb0582dbdb044c622d9c2e">More...</a><br /></td></tr>
+<tr class="separator:aa78896d103fb0582dbdb044c622d9c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
 <tr class="memitem:a5dd644fa2cbbea329852792075ed59af inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a5dd644fa2cbbea329852792075ed59af">EnvCollisionDelegate</a> (PhysicMaterial material)</td></tr>
 <tr class="memdesc:a5dd644fa2cbbea329852792075ed59af inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enviroment collision delegate with collision physics material parameter.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a5dd644fa2cbbea329852792075ed59af">More...</a><br /></td></tr>
 <tr class="separator:a5dd644fa2cbbea329852792075ed59af inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814e21cdf9258cf4cffe6a625c73c000 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a814e21cdf9258cf4cffe6a625c73c000">initialize</a> ()</td></tr>
+<tr class="memdesc:a814e21cdf9258cf4cffe6a625c73c000 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a814e21cdf9258cf4cffe6a625c73c000">More...</a><br /></td></tr>
+<tr class="separator:a814e21cdf9258cf4cffe6a625c73c000 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2464221e648eb83e22a5b033e95dc306 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a2464221e648eb83e22a5b033e95dc306">clear</a> ()</td></tr>
+<tr class="memdesc:a2464221e648eb83e22a5b033e95dc306 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a2464221e648eb83e22a5b033e95dc306">More...</a><br /></td></tr>
+<tr class="separator:a2464221e648eb83e22a5b033e95dc306 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51010874f172f49f31ef7fbc48c2175b inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a51010874f172f49f31ef7fbc48c2175b">resetItem</a> ()</td></tr>
 <tr class="memdesc:a51010874f172f49f31ef7fbc48c2175b inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset item.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a51010874f172f49f31ef7fbc48c2175b">More...</a><br /></td></tr>
 <tr class="separator:a51010874f172f49f31ef7fbc48c2175b inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -85,31 +97,27 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d4893923b9ec1ee0a437251855c7224 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a3d4893923b9ec1ee0a437251855c7224">equipSetup</a> ()</td></tr>
 <tr class="memdesc:a3d4893923b9ec1ee0a437251855c7224 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup item states for equipping.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a3d4893923b9ec1ee0a437251855c7224">More...</a><br /></td></tr>
 <tr class="separator:a3d4893923b9ec1ee0a437251855c7224 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bac9dcffe7207e70c531961f7c1fad1 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a4bac9dcffe7207e70c531961f7c1fad1">setupPhysicsForWearing</a> (bool detectCollisions=false)</td></tr>
-<tr class="memdesc:a4bac9dcffe7207e70c531961f7c1fad1 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup item physics ( disabling) for wearing.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a4bac9dcffe7207e70c531961f7c1fad1">More...</a><br /></td></tr>
-<tr class="separator:a4bac9dcffe7207e70c531961f7c1fad1 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:aed6550d498080be44a38ba453a857a7e inherit pub_methods_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="aed6550d498080be44a38ba453a857a7e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setRendererVisibility</b> (bool visible)</td></tr>
-<tr class="separator:aed6550d498080be44a38ba453a857a7e inherit pub_methods_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:abdb9b704d9d6b050fb43b8053a019cfb"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#abdb9b704d9d6b050fb43b8053a019cfb">arrowPrefab</a></td></tr>
 <tr class="memdesc:abdb9b704d9d6b050fb43b8053a019cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> model prefab.  <a href="#abdb9b704d9d6b050fb43b8053a019cfb">More...</a><br /></td></tr>
 <tr class="separator:abdb9b704d9d6b050fb43b8053a019cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afca44e162bf2076e8f3a22a1d2a5f730"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#afca44e162bf2076e8f3a22a1d2a5f730">arrowLength</a> = 1.0f</td></tr>
+<tr class="memitem:afca44e162bf2076e8f3a22a1d2a5f730"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#afca44e162bf2076e8f3a22a1d2a5f730">arrowLength</a> = 0.75f</td></tr>
 <tr class="memdesc:afca44e162bf2076e8f3a22a1d2a5f730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of arrow. Used on arrow - material penetration.  <a href="#afca44e162bf2076e8f3a22a1d2a5f730">More...</a><br /></td></tr>
 <tr class="separator:afca44e162bf2076e8f3a22a1d2a5f730"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4d557126ff05d05654ec0f81b4247e75"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a4d557126ff05d05654ec0f81b4247e75">arrowLifetime</a> = 12.0f</td></tr>
 <tr class="memdesc:a4d557126ff05d05654ec0f81b4247e75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lifetime of arrow before returns to pool.  <a href="#a4d557126ff05d05654ec0f81b4247e75">More...</a><br /></td></tr>
 <tr class="separator:a4d557126ff05d05654ec0f81b4247e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a034192c956cc32fed574f00744abb0e8"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a034192c956cc32fed574f00744abb0e8">layers</a></td></tr>
-<tr class="memdesc:a034192c956cc32fed574f00744abb0e8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> impact layer/s.  <a href="#a034192c956cc32fed574f00744abb0e8">More...</a><br /></td></tr>
-<tr class="separator:a034192c956cc32fed574f00744abb0e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1818e765c3d1e6ae57663a40da05791e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a1818e765c3d1e6ae57663a40da05791e">damage</a> = 1</td></tr>
 <tr class="memdesc:a1818e765c3d1e6ae57663a40da05791e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack damage of arrows from quiver.  <a href="#a1818e765c3d1e6ae57663a40da05791e">More...</a><br /></td></tr>
 <tr class="separator:a1818e765c3d1e6ae57663a40da05791e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e765b8a86156832968c2749991dd4e6"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a9e765b8a86156832968c2749991dd4e6">onHitEffect</a></td></tr>
+<tr class="memdesc:a9e765b8a86156832968c2749991dd4e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">ParticleSystem effect/s that play on hit Its GameObject so its collecting children particle systems  <a href="#a9e765b8a86156832968c2749991dd4e6">More...</a><br /></td></tr>
+<tr class="separator:a9e765b8a86156832968c2749991dd4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2be19f79d6d00a6749611c3277f681"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a4e2be19f79d6d00a6749611c3277f681">useOnHitEffectInstances</a> = false</td></tr>
+<tr class="memdesc:a4e2be19f79d6d00a6749611c3277f681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create instance of effect for every hit  <a href="#a4e2be19f79d6d00a6749611c3277f681">More...</a><br /></td></tr>
+<tr class="separator:a4e2be19f79d6d00a6749611c3277f681"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
 <tr class="memitem:a93c19c8f7572b6a588b32a1739eaeb82 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a93c19c8f7572b6a588b32a1739eaeb82">keepScaling</a> = true</td></tr>
 <tr class="memdesc:a93c19c8f7572b6a588b32a1739eaeb82 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should item scale be reset to one upon equipping.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a93c19c8f7572b6a588b32a1739eaeb82">More...</a><br /></td></tr>
@@ -117,60 +125,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8967fcae08c30aafa6def61932c59072 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a8967fcae08c30aafa6def61932c59072">triggerObject</a></td></tr>
 <tr class="memdesc:a8967fcae08c30aafa6def61932c59072 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> collider object for detecting if character has collided with it to pick it up.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a8967fcae08c30aafa6def61932c59072">More...</a><br /></td></tr>
 <tr class="separator:a8967fcae08c30aafa6def61932c59072 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:a6f85d86f688bef88ae920874978cc468 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a6f85d86f688bef88ae920874978cc468">itemName</a></td></tr>
-<tr class="memdesc:a6f85d86f688bef88ae920874978cc468 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item name.  <a href="class_m_l_space_1_1_inventory_item.html#a6f85d86f688bef88ae920874978cc468">More...</a><br /></td></tr>
-<tr class="separator:a6f85d86f688bef88ae920874978cc468 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af37bc637880b126ba43762740d4765b6 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#af37bc637880b126ba43762740d4765b6">itemDescription</a></td></tr>
-<tr class="memdesc:af37bc637880b126ba43762740d4765b6 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item description.  <a href="class_m_l_space_1_1_inventory_item.html#af37bc637880b126ba43762740d4765b6">More...</a><br /></td></tr>
-<tr class="separator:af37bc637880b126ba43762740d4765b6 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a356bb0e6453b6dcede0343f6166b1474 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a356bb0e6453b6dcede0343f6166b1474">equipped</a> = false</td></tr>
-<tr class="memdesc:a356bb0e6453b6dcede0343f6166b1474 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is item equipped ?  <a href="class_m_l_space_1_1_inventory_item.html#a356bb0e6453b6dcede0343f6166b1474">More...</a><br /></td></tr>
-<tr class="separator:a356bb0e6453b6dcede0343f6166b1474 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40ae584a168a195b4c37e22a036f3b1f inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a40ae584a168a195b4c37e22a036f3b1f">originalPrefabName</a> = &quot;NONE&quot;</td></tr>
-<tr class="memdesc:a40ae584a168a195b4c37e22a036f3b1f inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original prefab/resource name. 'NONE' if prefab dont exist. Needed for scene transitions.  <a href="class_m_l_space_1_1_inventory_item.html#a40ae584a168a195b4c37e22a036f3b1f">More...</a><br /></td></tr>
-<tr class="separator:a40ae584a168a195b4c37e22a036f3b1f inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:a68efc5a0537515a99270f56b1e87de18"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a68efc5a0537515a99270f56b1e87de18">itemType</a><code> [get]</code></td></tr>
-<tr class="memdesc:a68efc5a0537515a99270f56b1e87de18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item type.  <a href="#a68efc5a0537515a99270f56b1e87de18">More...</a><br /></td></tr>
-<tr class="separator:a68efc5a0537515a99270f56b1e87de18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('properties_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:a32f991e28ad0bdad11434f7a9e31f80b inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a32f991e28ad0bdad11434f7a9e31f80b">ID</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a32f991e28ad0bdad11434f7a9e31f80b inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns unique ID of item based on level index and position. NOTE: Do not place items on the same position on the same level.  <a href="class_m_l_space_1_1_inventory_item.html#a32f991e28ad0bdad11434f7a9e31f80b">More...</a><br /></td></tr>
-<tr class="separator:a32f991e28ad0bdad11434f7a9e31f80b inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95de2470406879261dd18636e254c35 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#ae95de2470406879261dd18636e254c35">levelID</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae95de2470406879261dd18636e254c35 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current scene index  <a href="class_m_l_space_1_1_inventory_item.html#ae95de2470406879261dd18636e254c35">More...</a><br /></td></tr>
-<tr class="separator:ae95de2470406879261dd18636e254c35 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa847deda5352257e6dabbc1a0c289e07 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#aa847deda5352257e6dabbc1a0c289e07">item</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa847deda5352257e6dabbc1a0c289e07 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item game object.  <a href="class_m_l_space_1_1_inventory_item.html#aa847deda5352257e6dabbc1a0c289e07">More...</a><br /></td></tr>
-<tr class="separator:aa847deda5352257e6dabbc1a0c289e07 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a263be071ad345d7d5907cba038814 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#ae6a263be071ad345d7d5907cba038814">ownerGameObject</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae6a263be071ad345d7d5907cba038814 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets owner if item.  <a href="class_m_l_space_1_1_inventory_item.html#ae6a263be071ad345d7d5907cba038814">More...</a><br /></td></tr>
-<tr class="separator:ae6a263be071ad345d7d5907cba038814 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a547651303ef0ab99573de2437b853bf7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a547651303ef0ab99573de2437b853bf7">ownerGC</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a547651303ef0ab99573de2437b853bf7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets owner <a class="el" href="interface_m_l_space_1_1_i_game_character.html" title="Common properties of player and npc characters. ">IGameCharacter</a>.  <a href="class_m_l_space_1_1_inventory_item.html#a547651303ef0ab99573de2437b853bf7">More...</a><br /></td></tr>
-<tr class="separator:a547651303ef0ab99573de2437b853bf7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accdfb796f0170d9f8adc6538339a6ecf inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#accdfb796f0170d9f8adc6538339a6ecf">itemType</a><code> [get]</code></td></tr>
-<tr class="memdesc:accdfb796f0170d9f8adc6538339a6ecf inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item type.  <a href="class_m_l_space_1_1_inventory_item.html#accdfb796f0170d9f8adc6538339a6ecf">More...</a><br /></td></tr>
-<tr class="separator:accdfb796f0170d9f8adc6538339a6ecf inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5006e4942ac180cc7e9b54573a413da7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a5006e4942ac180cc7e9b54573a413da7">initialized</a><code> [get]</code></td></tr>
-<tr class="memdesc:a5006e4942ac180cc7e9b54573a413da7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if class is initialized, otherwise false.  <a href="class_m_l_space_1_1_inventory_item.html#a5006e4942ac180cc7e9b54573a413da7">More...</a><br /></td></tr>
-<tr class="separator:a5006e4942ac180cc7e9b54573a413da7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
-<tr class="memitem:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#ad8b13673dcf0af712404e20c41909cc7">_resetRB</a> ()</td></tr>
-<tr class="memdesc:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets items rigid bodies and colliders to original setup.  <a href="class_m_l_space_1_1_physics_inventory_item.html#ad8b13673dcf0af712404e20c41909cc7">More...</a><br /></td></tr>
-<tr class="separator:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#aeb957ed44d0cd92adffa1b040cbca205">_dropRB</a> (Vector3 velocity)</td></tr>
-<tr class="memdesc:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creating setup for item drop.  <a href="class_m_l_space_1_1_physics_inventory_item.html#aeb957ed44d0cd92adffa1b040cbca205">More...</a><br /></td></tr>
-<tr class="separator:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a82821d7b5a694e52d797c2462505b374">_resetJoints</a> ()</td></tr>
-<tr class="memdesc:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset configurable joints if any exist.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a82821d7b5a694e52d797c2462505b374">More...</a><br /></td></tr>
-<tr class="separator:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a97cf34e2149e0ac6cab2a53128da38c8"><td class="memItemLeft" align="right" valign="top"><a id="a97cf34e2149e0ac6cab2a53128da38c8"></a>
+ParticleSystem []&#160;</td><td class="memItemRight" valign="bottom"><b>m_OnHitEffects</b></td></tr>
+<tr class="separator:a97cf34e2149e0ac6cab2a53128da38c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a133607a67b10b22736c1c06ea55642df"><td class="memItemLeft" align="right" valign="top"><a id="a133607a67b10b22736c1c06ea55642df"></a>
+List&lt; ParticleSystem[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_EffectsPool</b></td></tr>
+<tr class="separator:a133607a67b10b22736c1c06ea55642df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
 <tr class="memitem:ad87df476dcc9182588ed6270915445a9 inherit pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="ad87df476dcc9182588ed6270915445a9"></a>
 Collider []&#160;</td><td class="memItemRight" valign="bottom"><b>m_Colliders</b></td></tr>
@@ -208,22 +171,28 @@ Transform []&#160;</td><td class="memItemRight" valign="bottom"><b>m_Transforms<
 <tr class="memitem:a5e0687270e687dea84873737e62e9a5e inherit pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a5e0687270e687dea84873737e62e9a5e"></a>
 Transform&#160;</td><td class="memItemRight" valign="bottom"><b>m_OrigParent</b></td></tr>
 <tr class="separator:a5e0687270e687dea84873737e62e9a5e inherit pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:ac54092100fd950ca226a7f85f402df59 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="ac54092100fd950ca226a7f85f402df59"></a>
-<a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_ItemType</b></td></tr>
-<tr class="separator:ac54092100fd950ca226a7f85f402df59 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfb4ebb62584ecf5f2264d5cffb6feb9 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="abfb4ebb62584ecf5f2264d5cffb6feb9"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_ItemGO</b></td></tr>
-<tr class="separator:abfb4ebb62584ecf5f2264d5cffb6feb9 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd724f07b4f4f8f839432900823ebe0f inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="acd724f07b4f4f8f839432900823ebe0f"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_OwnerGO</b></td></tr>
-<tr class="separator:acd724f07b4f4f8f839432900823ebe0f inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd9c13d0cacb77b51459242712fcb35 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a4bd9c13d0cacb77b51459242712fcb35"></a>
-<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_OwnerGC</b></td></tr>
-<tr class="separator:a4bd9c13d0cacb77b51459242712fcb35 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0f2e88d61561b1b7882a4ce0988b94c inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="aa0f2e88d61561b1b7882a4ce0988b94c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = false</td></tr>
-<tr class="separator:aa0f2e88d61561b1b7882a4ce0988b94c inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a68efc5a0537515a99270f56b1e87de18"><td class="memItemLeft" align="right" valign="top">override InventoryItemType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_quiver_item.html#a68efc5a0537515a99270f56b1e87de18">itemType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a68efc5a0537515a99270f56b1e87de18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item type.  <a href="#a68efc5a0537515a99270f56b1e87de18">More...</a><br /></td></tr>
+<tr class="separator:a68efc5a0537515a99270f56b1e87de18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
+<tr class="memitem:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="ad8b13673dcf0af712404e20c41909cc7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_resetRB</b> ()</td></tr>
+<tr class="separator:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="aeb957ed44d0cd92adffa1b040cbca205"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_dropRB</b> (Vector3 velocity)</td></tr>
+<tr class="separator:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a82821d7b5a694e52d797c2462505b374"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_resetJoints</b> ()</td></tr>
+<tr class="separator:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5017da4abad6f6d337bb86703b366b23 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a5017da4abad6f6d337bb86703b366b23"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_collectPhysicsComponents</b> ()</td></tr>
+<tr class="separator:a5017da4abad6f6d337bb86703b366b23 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Quiver item class. </p>
@@ -246,14 +215,40 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Clear references. </p>
 
-<p>Reimplemented from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a2464221e648eb83e22a5b033e95dc306">MLSpace.PhysicsInventoryItem</a>.</p>
+</div>
+</div>
+<a id="aa78896d103fb0582dbdb044c622d9c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa78896d103fb0582dbdb044c622d9c2e">&sect;&nbsp;</a></span>getFreeParticlEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ParticleSystem [] MLSpace.QuiverItem.getFreeParticlEffect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get free default particle effect from pool </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -275,14 +270,46 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Initializes quiver component. </p>
 
-<p>Reimplemented from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a814e21cdf9258cf4cffe6a625c73c000">MLSpace.PhysicsInventoryItem</a>.</p>
+</div>
+</div>
+<a id="a37ec085d3aa5529995f80ed10f6625ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37ec085d3aa5529995f80ed10f6625ae">&sect;&nbsp;</a></span>startOnHitParticles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MLSpace.QuiverItem.startOnHitParticles </td>
+          <td>(</td>
+          <td class="paramtype">RaycastHit&#160;</td>
+          <td class="paramname"><em>rHit</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start on hit particle effect/s </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rHit</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -294,7 +321,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float MLSpace.QuiverItem.arrowLength = 1.0f</td>
+          <td class="memname">float MLSpace.QuiverItem.arrowLength = 0.75f</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -351,19 +378,35 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 
 </div>
 </div>
-<a id="a034192c956cc32fed574f00744abb0e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a034192c956cc32fed574f00744abb0e8">&sect;&nbsp;</a></span>layers</h2>
+<a id="a9e765b8a86156832968c2749991dd4e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e765b8a86156832968c2749991dd4e6">&sect;&nbsp;</a></span>onHitEffect</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">LayerMask MLSpace.QuiverItem.layers</td>
+          <td class="memname">GameObject MLSpace.QuiverItem.onHitEffect</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> impact layer/s. </p>
+<p>ParticleSystem effect/s that play on hit Its GameObject so its collecting children particle systems </p>
+
+</div>
+</div>
+<a id="a4e2be19f79d6d00a6749611c3277f681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2be19f79d6d00a6749611c3277f681">&sect;&nbsp;</a></span>useOnHitEffectInstances</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.QuiverItem.useOnHitEffectInstances = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Create instance of effect for every hit </p>
 
 </div>
 </div>
@@ -378,7 +421,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override <a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a> MLSpace.QuiverItem.itemType</td>
+          <td class="memname">override InventoryItemType MLSpace.QuiverItem.itemType</td>
         </tr>
       </table>
   </td>

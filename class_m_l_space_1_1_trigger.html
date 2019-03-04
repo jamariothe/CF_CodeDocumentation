@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.Trigger Class Reference</title>
+<title>CF_v4.0: MLSpace.Trigger Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -45,7 +45,9 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_trigger-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MLSpace.Trigger Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -60,33 +62,49 @@ Inheritance diagram for MLSpace.Trigger:</div>
  <div class="center">
   <img src="class_m_l_space_1_1_trigger.png" usemap="#MLSpace.Trigger_map" alt=""/>
   <map id="MLSpace.Trigger_map" name="MLSpace.Trigger_map">
-<area href="class_m_l_space_1_1_climb_on.html" alt="MLSpace.ClimbOn" shape="rect" coords="185,112,360,136"/>
-<area href="class_m_l_space_1_1_enter_ledge_down.html" title="Enter down to ledge trigger " alt="MLSpace.EnterLedgeDown" shape="rect" coords="185,168,360,192"/>
-<area href="class_m_l_space_1_1_generic_trigger.html" title="Generic trigger class " alt="MLSpace.GenericTrigger" shape="rect" coords="185,224,360,248"/>
-<area href="class_m_l_space_1_1_item_trigger.html" title="Item collecting trigger. Fired by walking over them. " alt="MLSpace.ItemTrigger" shape="rect" coords="185,280,360,304"/>
-<area href="class_m_l_space_1_1_jump2_ledge.html" title="Jump from ground to ledge and enter ledge mode. " alt="MLSpace.Jump2Ledge" shape="rect" coords="185,336,360,360"/>
-<area href="class_m_l_space_1_1_jump_down.html" title="Trigger firing jump down animation. " alt="MLSpace.JumpDown" shape="rect" coords="185,392,360,416"/>
-<area href="class_m_l_space_1_1_jump_over.html" title="Jump over something trigger. " alt="MLSpace.JumpOver" shape="rect" coords="185,448,360,472"/>
-<area href="class_m_l_space_1_1_ladder.html" title="Climb on ladders trigger. " alt="MLSpace.Ladder" shape="rect" coords="185,504,360,528"/>
-<area href="class_m_l_space_1_1_leap.html" title="Leap forward trigger. " alt="MLSpace.Leap" shape="rect" coords="185,560,360,584"/>
-<area href="class_m_l_space_1_1_ledge_trigger.html" title="Jump to ledge trigger class " alt="MLSpace.LedgeTrigger" shape="rect" coords="185,616,360,640"/>
-<area href="class_m_l_space_1_1_open_door_trigger.html" title="Open door trigger class. " alt="MLSpace.OpenDoorTrigger" shape="rect" coords="185,672,360,696"/>
-<area href="class_m_l_space_1_1_push_pull_trigger.html" title="Move object trigger ( push / pull ) " alt="MLSpace.PushPullTrigger" shape="rect" coords="185,728,360,752"/>
-<area href="class_m_l_space_1_1_run2_swing2_ledge.html" title="Trigger that start run and swing to ledge action " alt="MLSpace.Run2Swing2Ledge" shape="rect" coords="185,784,360,808"/>
+<area href="class_m_l_space_1_1_climb_on.html" title="&#39;Climb on&#39; trigger " alt="MLSpace.ClimbOn" shape="rect" coords="212,112,414,136"/>
+<area href="class_m_l_space_1_1_door_modifier_trigger.html" title="Locks door when entered " alt="MLSpace.DoorModifierTrigger" shape="rect" coords="212,168,414,192"/>
+<area href="class_m_l_space_1_1_enter_ledge_down.html" title="Enter down to ledge trigger " alt="MLSpace.EnterLedgeDown" shape="rect" coords="212,224,414,248"/>
+<area href="class_m_l_space_1_1_generic_trigger.html" title="Generic trigger class " alt="MLSpace.GenericTrigger" shape="rect" coords="212,280,414,304"/>
+<area href="class_m_l_space_1_1_item_trigger.html" title="Item collecting trigger. Fired by walking over them. " alt="MLSpace.ItemTrigger" shape="rect" coords="212,336,414,360"/>
+<area href="class_m_l_space_1_1_jump2_ledge.html" title="Jump from ground to ledge and enter ledge mode. " alt="MLSpace.Jump2Ledge" shape="rect" coords="212,392,414,416"/>
+<area href="class_m_l_space_1_1_jump_down.html" title="Trigger firing jump down animation. " alt="MLSpace.JumpDown" shape="rect" coords="212,448,414,472"/>
+<area href="class_m_l_space_1_1_jump_over.html" title="Jump over something trigger. " alt="MLSpace.JumpOver" shape="rect" coords="212,504,414,528"/>
+<area href="class_m_l_space_1_1_ladder.html" title="Climb on ladders trigger. " alt="MLSpace.Ladder" shape="rect" coords="212,560,414,584"/>
+<area href="class_m_l_space_1_1_leap.html" title="Leap forward trigger. " alt="MLSpace.Leap" shape="rect" coords="212,616,414,640"/>
+<area href="class_m_l_space_1_1_ledge_trigger.html" title="Jump to ledge trigger class " alt="MLSpace.LedgeTrigger" shape="rect" coords="212,672,414,696"/>
+<area href="class_m_l_space_1_1_open_door_trigger.html" title="Open door trigger class. " alt="MLSpace.OpenDoorTrigger" shape="rect" coords="212,728,414,752"/>
+<area href="class_m_l_space_1_1_pickup.html" title="Base pickup class " alt="MLSpace.Pickup" shape="rect" coords="212,784,414,808"/>
+<area href="class_m_l_space_1_1_push_pull_trigger.html" title="Move object trigger ( push / pull ) " alt="MLSpace.PushPullTrigger" shape="rect" coords="212,840,414,864"/>
+<area href="class_m_l_space_1_1_run2_swing2_ledge.html" title="Trigger that start run and swing to ledge action " alt="MLSpace.Run2Swing2Ledge" shape="rect" coords="212,896,414,920"/>
+<area href="class_m_l_space_1_1_scene_transition_trigger.html" title="Upon triggering loads new scene. " alt="MLSpace.SceneTransitionTrigger" shape="rect" coords="212,952,414,976"/>
 </map>
  </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a379723c0cda09b30170f806d1a3ce4d1"><td class="memItemLeft" align="right" valign="top"><a id="a379723c0cda09b30170f806d1a3ce4d1"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>TypeFilter</b> { <b>All</b>, 
+<tr class="memitem:a379723c0cda09b30170f806d1a3ce4d1"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a379723c0cda09b30170f806d1a3ce4d1">TypeFilter</a> { <b>All</b>, 
 <b>Player</b>, 
 <b>Npc</b>
- }</td></tr>
+ }<tr class="memdesc:a379723c0cda09b30170f806d1a3ce4d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Character filter  <a href="class_m_l_space_1_1_trigger.html#a379723c0cda09b30170f806d1a3ce4d1">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a379723c0cda09b30170f806d1a3ce4d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82bedf3a3a5cb9e548cd7aa4faefe1d6"><td class="memItemLeft" align="right" valign="top"><a id="a82bedf3a3a5cb9e548cd7aa4faefe1d6"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>DisablePhysicsTime</b> { <b>None</b>, 
+<tr class="memitem:a8b316bbc5091da8d34a2589d4639b049"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a8b316bbc5091da8d34a2589d4639b049">ItemAction</a> { <br />
+&#160;&#160;<b>None</b>, 
+<b>Sheathe</b>, 
+<b>HideAll</b>, 
+<b>HideWielded</b>, 
+<br />
+&#160;&#160;<b>SheatheSnap</b>
+<br />
+ }<tr class="memdesc:a8b316bbc5091da8d34a2589d4639b049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Items action upon starting trigger  <a href="class_m_l_space_1_1_trigger.html#a8b316bbc5091da8d34a2589d4639b049">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a8b316bbc5091da8d34a2589d4639b049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82bedf3a3a5cb9e548cd7aa4faefe1d6"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a82bedf3a3a5cb9e548cd7aa4faefe1d6">DisablePhysicsTime</a> { <b>None</b>, 
 <b>TriggerStart</b>, 
 <b>MatchTargetStart</b>
- }</td></tr>
+ }<tr class="memdesc:a82bedf3a3a5cb9e548cd7aa4faefe1d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable physics on start, on match target start or not  <a href="class_m_l_space_1_1_trigger.html#a82bedf3a3a5cb9e548cd7aa4faefe1d6">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a82bedf3a3a5cb9e548cd7aa4faefe1d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71d14f378a82d3081f59053e1c1f830e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">InputType</a> { <b>Use</b> = 1, 
 <b>Jump</b> = 2, 
@@ -98,30 +116,27 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acce95c9b44a8a1eb68f5fd65d380281f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#acce95c9b44a8a1eb68f5fd65d380281f">npcCondition</a> (<a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a> npc)</td></tr>
-<tr class="memdesc:acce95c9b44a8a1eb68f5fd65d380281f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get trigger condition for npcs.  <a href="#acce95c9b44a8a1eb68f5fd65d380281f">More...</a><br /></td></tr>
-<tr class="separator:acce95c9b44a8a1eb68f5fd65d380281f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d1afaacfef57fc1e0a3e0206972bcc4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a0d1afaacfef57fc1e0a3e0206972bcc4">initialize</a> ()</td></tr>
 <tr class="memdesc:a0d1afaacfef57fc1e0a3e0206972bcc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="#a0d1afaacfef57fc1e0a3e0206972bcc4">More...</a><br /></td></tr>
 <tr class="separator:a0d1afaacfef57fc1e0a3e0206972bcc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a613862cf4832d27c58a73d14fb8014ce"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a613862cf4832d27c58a73d14fb8014ce">clear</a> ()</td></tr>
 <tr class="memdesc:a613862cf4832d27c58a73d14fb8014ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="#a613862cf4832d27c58a73d14fb8014ce">More...</a><br /></td></tr>
 <tr class="separator:a613862cf4832d27c58a73d14fb8014ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acce95c9b44a8a1eb68f5fd65d380281f"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#acce95c9b44a8a1eb68f5fd65d380281f">npcCondition</a> (<a class="el" href="class_m_l_space_1_1_n_p_c_script.html">NPCScript</a> npc)</td></tr>
+<tr class="memdesc:acce95c9b44a8a1eb68f5fd65d380281f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get trigger condition for npcs.  <a href="#acce95c9b44a8a1eb68f5fd65d380281f">More...</a><br /></td></tr>
+<tr class="separator:acce95c9b44a8a1eb68f5fd65d380281f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d859749be0d082364b4644d4f1cd136"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a9d859749be0d082364b4644d4f1cd136">condition</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
 <tr class="memdesc:a9d859749be0d082364b4644d4f1cd136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Early exit conditions.  <a href="#a9d859749be0d082364b4644d4f1cd136">More...</a><br /></td></tr>
 <tr class="separator:a9d859749be0d082364b4644d4f1cd136"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a54290031b8d225d0e0ba405adcc64487"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a54290031b8d225d0e0ba405adcc64487">get_info_text</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan)</td></tr>
 <tr class="memdesc:a54290031b8d225d0e0ba405adcc64487"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get display info text.  <a href="#a54290031b8d225d0e0ba405adcc64487">More...</a><br /></td></tr>
 <tr class="separator:a54290031b8d225d0e0ba405adcc64487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9abb85e961c7f8ceef7400865f93ee11"><td class="memItemLeft" align="right" valign="top"><a id="a9abb85e961c7f8ceef7400865f93ee11"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>passInput</b> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, bool use, bool secondaryUse, bool jump, float v, float h)</td></tr>
-<tr class="separator:a9abb85e961c7f8ceef7400865f93ee11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25f885cddd84e12cd130d33bfa680b41"><td class="memItemLeft" align="right" valign="top">abstract bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a25f885cddd84e12cd130d33bfa680b41">start</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK, bool use, bool secondaryUse, bool jump, float v, float h)</td></tr>
 <tr class="memdesc:a25f885cddd84e12cd130d33bfa680b41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start trigger interaction.  <a href="#a25f885cddd84e12cd130d33bfa680b41">More...</a><br /></td></tr>
 <tr class="separator:a25f885cddd84e12cd130d33bfa680b41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a933340fb2e66afc6443ad68f36318ada"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a933340fb2e66afc6443ad68f36318ada">end</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK)</td></tr>
-<tr class="memdesc:a933340fb2e66afc6443ad68f36318ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">End trigger animations.  <a href="#a933340fb2e66afc6443ad68f36318ada">More...</a><br /></td></tr>
-<tr class="separator:a933340fb2e66afc6443ad68f36318ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae55fde60b3a98f09d7ef5ac32cb2c112"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#ae55fde60b3a98f09d7ef5ac32cb2c112">end</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK)</td></tr>
+<tr class="memdesc:ae55fde60b3a98f09d7ef5ac32cb2c112"><td class="mdescLeft">&#160;</td><td class="mdescRight">End trigger animations.  <a href="#ae55fde60b3a98f09d7ef5ac32cb2c112">More...</a><br /></td></tr>
+<tr class="separator:ae55fde60b3a98f09d7ef5ac32cb2c112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9362dc7ecc9baf22e73f403ee15e4bb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#af9362dc7ecc9baf22e73f403ee15e4bb">onMatchTargetStart</a> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, <a class="el" href="class_m_l_space_1_1_i_k_helper.html">IKHelper</a> limbsIK)</td></tr>
 <tr class="memdesc:af9362dc7ecc9baf22e73f403ee15e4bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on match target start.  <a href="#af9362dc7ecc9baf22e73f403ee15e4bb">More...</a><br /></td></tr>
 <tr class="separator:af9362dc7ecc9baf22e73f403ee15e4bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -152,37 +167,82 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a53b689c9c00d2f92eb4e7fd89960f448"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a53b689c9c00d2f92eb4e7fd89960f448">showInfoText</a> = true</td></tr>
 <tr class="memdesc:a53b689c9c00d2f92eb4e7fd89960f448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show display text info on trigger upon. enter ?  <a href="#a53b689c9c00d2f92eb4e7fd89960f448">More...</a><br /></td></tr>
 <tr class="separator:a53b689c9c00d2f92eb4e7fd89960f448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96b3af08ad6c7c3b98eaec60507de573"><td class="memItemLeft" align="right" valign="top">TypeFilter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a96b3af08ad6c7c3b98eaec60507de573">typeFilter</a> = TypeFilter.All</td></tr>
+<tr class="memitem:a96b3af08ad6c7c3b98eaec60507de573"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger.html#a379723c0cda09b30170f806d1a3ce4d1">TypeFilter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a96b3af08ad6c7c3b98eaec60507de573">typeFilter</a> = TypeFilter.All</td></tr>
 <tr class="memdesc:a96b3af08ad6c7c3b98eaec60507de573"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable npcs to use this trigger.  <a href="#a96b3af08ad6c7c3b98eaec60507de573">More...</a><br /></td></tr>
 <tr class="separator:a96b3af08ad6c7c3b98eaec60507de573"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3cbe915fa434b659d394c1020b5f151"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#aa3cbe915fa434b659d394c1020b5f151">tagged</a></td></tr>
 <tr class="memdesc:aa3cbe915fa434b659d394c1020b5f151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Optional assign connected object if needed  <a href="#aa3cbe915fa434b659d394c1020b5f151">More...</a><br /></td></tr>
 <tr class="separator:aa3cbe915fa434b659d394c1020b5f151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a399be59d3b91dc67afd28eb778378535"><td class="memItemLeft" align="right" valign="top"><a id="a399be59d3b91dc67afd28eb778378535"></a>
-<a class="el" href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">InputType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>inputTypeToStartTrigger</b> = InputType.Use</td></tr>
+<tr class="memitem:a399be59d3b91dc67afd28eb778378535"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">InputType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a399be59d3b91dc67afd28eb778378535">inputTypeToStartTrigger</a> = InputType.Use</td></tr>
+<tr class="memdesc:a399be59d3b91dc67afd28eb778378535"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> input  <a href="#a399be59d3b91dc67afd28eb778378535">More...</a><br /></td></tr>
 <tr class="separator:a399be59d3b91dc67afd28eb778378535"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26e49469665c35749c52d792f97a580f"><td class="memItemLeft" align="right" valign="top">DisablePhysicsTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a26e49469665c35749c52d792f97a580f">disablePhysics</a> = DisablePhysicsTime.None</td></tr>
+<tr class="memitem:a26e49469665c35749c52d792f97a580f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger.html#a82bedf3a3a5cb9e548cd7aa4faefe1d6">DisablePhysicsTime</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a26e49469665c35749c52d792f97a580f">disablePhysics</a> = DisablePhysicsTime.None</td></tr>
 <tr class="memdesc:a26e49469665c35749c52d792f97a580f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable physics upon trigger start or match target start or none  <a href="#a26e49469665c35749c52d792f97a580f">More...</a><br /></td></tr>
 <tr class="separator:a26e49469665c35749c52d792f97a580f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440ffbe8539e8b3a6488c1722fbb8676"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger.html#a8b316bbc5091da8d34a2589d4639b049">ItemAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a440ffbe8539e8b3a6488c1722fbb8676">itemAction</a> = ItemAction.None</td></tr>
+<tr class="memdesc:a440ffbe8539e8b3a6488c1722fbb8676"><td class="mdescLeft">&#160;</td><td class="mdescRight">What do do with items upon starting trigger  <a href="#a440ffbe8539e8b3a6488c1722fbb8676">More...</a><br /></td></tr>
+<tr class="separator:a440ffbe8539e8b3a6488c1722fbb8676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4ed0e32e4657070433eeaff84e94279"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#af4ed0e32e4657070433eeaff84e94279">usingOffMeshLinks</a> = true</td></tr>
+<tr class="memdesc:af4ed0e32e4657070433eeaff84e94279"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true, npc will need additional condion checks.  <a href="#af4ed0e32e4657070433eeaff84e94279">More...</a><br /></td></tr>
+<tr class="separator:af4ed0e32e4657070433eeaff84e94279"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a864ef56d673346a36ec99871af3fb496"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a864ef56d673346a36ec99871af3fb496">colliding</a> = false</td></tr>
 <tr class="memdesc:a864ef56d673346a36ec99871af3fb496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently colliding with character flag.  <a href="#a864ef56d673346a36ec99871af3fb496">More...</a><br /></td></tr>
 <tr class="separator:a864ef56d673346a36ec99871af3fb496"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc6920d912934178b7f976c29c249def"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#afc6920d912934178b7f976c29c249def">active</a> = false</td></tr>
-<tr class="memdesc:afc6920d912934178b7f976c29c249def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current someone fored this trigger.  <a href="#afc6920d912934178b7f976c29c249def">More...</a><br /></td></tr>
+<tr class="memdesc:afc6920d912934178b7f976c29c249def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is this trigger currently active ?  <a href="#afc6920d912934178b7f976c29c249def">More...</a><br /></td></tr>
 <tr class="separator:afc6920d912934178b7f976c29c249def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a9abb85e961c7f8ceef7400865f93ee11"><td class="memItemLeft" align="right" valign="top"><a id="a9abb85e961c7f8ceef7400865f93ee11"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>passInput</b> (<a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a> trigMan, bool use, bool secondaryUse, bool jump, float v, float h)</td></tr>
+<tr class="separator:a9abb85e961c7f8ceef7400865f93ee11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
+<tr class="memitem:a2ff6d663b66bc791883e29fda89fa540"><td class="memItemLeft" align="right" valign="top"><a id="a2ff6d663b66bc791883e29fda89fa540"></a>
+Collider&#160;</td><td class="memItemRight" valign="bottom"><b>m_TriggerCollider</b></td></tr>
+<tr class="separator:a2ff6d663b66bc791883e29fda89fa540"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14cf2596ebd4cf3e428c8fa5250635b2"><td class="memItemLeft" align="right" valign="top"><a id="a14cf2596ebd4cf3e428c8fa5250635b2"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_ConditionPassed</b> = false</td></tr>
 <tr class="separator:a14cf2596ebd4cf3e428c8fa5250635b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace6a0095825bf8fa19cc21bd885cabd4"><td class="memItemLeft" align="right" valign="top"><a id="ace6a0095825bf8fa19cc21bd885cabd4"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = false</td></tr>
 <tr class="separator:ace6a0095825bf8fa19cc21bd885cabd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a8a1f6a3e813ac2dd3e680074918cd589"><td class="memItemLeft" align="right" valign="top">Collider&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_trigger.html#a8a1f6a3e813ac2dd3e680074918cd589">triggerCollider</a><code> [get]</code></td></tr>
+<tr class="memdesc:a8a1f6a3e813ac2dd3e680074918cd589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets array of this trigger colliders  <a href="#a8a1f6a3e813ac2dd3e680074918cd589">More...</a><br /></td></tr>
+<tr class="separator:a8a1f6a3e813ac2dd3e680074918cd589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base trigger class. NOTE: Be carefull with state names, they are used for matching target. Remeber to change matching target name strings on triggers if state name is changed. </p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a82bedf3a3a5cb9e548cd7aa4faefe1d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82bedf3a3a5cb9e548cd7aa4faefe1d6">&sect;&nbsp;</a></span>DisablePhysicsTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_m_l_space_1_1_trigger.html#a82bedf3a3a5cb9e548cd7aa4faefe1d6">MLSpace.Trigger.DisablePhysicsTime</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Disable physics on start, on match target start or not </p>
+
+</div>
+</div>
 <a id="a71d14f378a82d3081f59053e1c1f830e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a71d14f378a82d3081f59053e1c1f830e">&sect;&nbsp;</a></span>InputType</h2>
 
@@ -207,6 +267,54 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 
 </div>
 </div>
+<a id="a8b316bbc5091da8d34a2589d4639b049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b316bbc5091da8d34a2589d4639b049">&sect;&nbsp;</a></span>ItemAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_m_l_space_1_1_trigger.html#a8b316bbc5091da8d34a2589d4639b049">MLSpace.Trigger.ItemAction</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Items action upon starting trigger </p>
+
+</div>
+</div>
+<a id="a379723c0cda09b30170f806d1a3ce4d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a379723c0cda09b30170f806d1a3ce4d1">&sect;&nbsp;</a></span>TypeFilter</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_m_l_space_1_1_trigger.html#a379723c0cda09b30170f806d1a3ce4d1">MLSpace.Trigger.TypeFilter</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Character filter </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a613862cf4832d27c58a73d14fb8014ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a613862cf4832d27c58a73d14fb8014ce">&sect;&nbsp;</a></span>clear()</h2>
@@ -226,7 +334,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -256,7 +364,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -270,12 +378,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>condition</dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a3884e6113dd82cd219351a4bfef115ae">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#a38ff603d0685117ef55b11b0beabfed4">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a25e78009863bf92e49196e223d4e8a00">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a89ed26b9a1c61cb6d94e5c13085d1d65">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a46dfe2a00788f5d98f09028968f7380f">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#ae78d832a16557bb79dc0e550ad6cc2cb">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a8e51bac2bc094c12b9d63882df86d633">MLSpace.LedgeTrigger</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a415a358721a20e3f3fc57070c8caab72">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a7381970d1324bd345ca61e842281d5e7">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a1db2e3968c3a8a898688f249b5cee785">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#a2f4d16f7416207fbf95620527c62e71a">MLSpace.OpenDoorTrigger</a>, and <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a33471620b78c8ab1f6f3bd38a48fe91d">MLSpace.EnterLedgeDown</a>.</p>
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a3884e6113dd82cd219351a4bfef115ae">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#a38ff603d0685117ef55b11b0beabfed4">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a25e78009863bf92e49196e223d4e8a00">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a89ed26b9a1c61cb6d94e5c13085d1d65">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a46dfe2a00788f5d98f09028968f7380f">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#ae78d832a16557bb79dc0e550ad6cc2cb">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a8e51bac2bc094c12b9d63882df86d633">MLSpace.LedgeTrigger</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a415a358721a20e3f3fc57070c8caab72">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a1db2e3968c3a8a898688f249b5cee785">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a7381970d1324bd345ca61e842281d5e7">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#a2f4d16f7416207fbf95620527c62e71a">MLSpace.OpenDoorTrigger</a>, and <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a33471620b78c8ab1f6f3bd38a48fe91d">MLSpace.EnterLedgeDown</a>.</p>
 
 </div>
 </div>
-<a id="a933340fb2e66afc6443ad68f36318ada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a933340fb2e66afc6443ad68f36318ada">&sect;&nbsp;</a></span>end()</h2>
+<a id="ae55fde60b3a98f09d7ef5ac32cb2c112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae55fde60b3a98f09d7ef5ac32cb2c112">&sect;&nbsp;</a></span>end()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +392,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">abstract void MLSpace.Trigger.end </td>
+          <td class="memname">virtual void MLSpace.Trigger.end </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="class_m_l_space_1_1_trigger_management.html">TriggerManagement</a>&#160;</td>
           <td class="paramname"><em>trigMan</em>, </td>
@@ -303,7 +411,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -317,7 +425,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#ae484f1166e371e5004a8991d99a90411">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a3f19cbf4b56292613af19410ed0b5efb">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a7e0bccadbb47fd1b77688c765bee5f7b">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#ac456fb0e9444010a6a1a7b13202261db">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a76da7d22815c55a4158351159e56d994">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a8b9794bbb2f7f0d77de63e5bf9dafe0b">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a41204d227cffbd3082e52ffe67485fd2">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#af3a2d3a4aaa263d454fa3db543a4f2e6">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a84d60d01246bb997a3b30cdd896c8666">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a14b6ee48973ddf612a227ab4a1f95445">MLSpace.EnterLedgeDown</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#af717855daf9a726c1607884a789189bd">MLSpace.OpenDoorTrigger</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a575a46b14047cdad8f41cf91ff171744">MLSpace.LedgeTrigger</a>, and <a class="el" href="class_m_l_space_1_1_item_trigger.html#a94a020bb3dc30c0918402061ca584225">MLSpace.ItemTrigger</a>.</p>
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_climb_on.html#a3f19cbf4b56292613af19410ed0b5efb">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#ae484f1166e371e5004a8991d99a90411">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a8b9794bbb2f7f0d77de63e5bf9dafe0b">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a41204d227cffbd3082e52ffe67485fd2">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a76da7d22815c55a4158351159e56d994">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#ac456fb0e9444010a6a1a7b13202261db">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#af3a2d3a4aaa263d454fa3db543a4f2e6">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a84d60d01246bb997a3b30cdd896c8666">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a7e0bccadbb47fd1b77688c765bee5f7b">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#af717855daf9a726c1607884a789189bd">MLSpace.OpenDoorTrigger</a>, <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a14b6ee48973ddf612a227ab4a1f95445">MLSpace.EnterLedgeDown</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a575a46b14047cdad8f41cf91ff171744">MLSpace.LedgeTrigger</a>, <a class="el" href="class_m_l_space_1_1_scene_transition_trigger.html#aa43a90861cb83a3474bf2a623072c86a">MLSpace.SceneTransitionTrigger</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a94a020bb3dc30c0918402061ca584225">MLSpace.ItemTrigger</a>, <a class="el" href="class_m_l_space_1_1_ammo_trigger.html#a26e3d194f1cb9ac5c7db9b8b78716a14">MLSpace.AmmoTrigger</a>, <a class="el" href="class_m_l_space_1_1_health_trigger.html#a2b147e99e94021f82c9af40534547971">MLSpace.HealthTrigger</a>, and <a class="el" href="class_m_l_space_1_1_door_modifier_trigger.html#ad2abf95b7498ccf6645a4ef50aa66ac7">MLSpace.DoorModifierTrigger</a>.</p>
 
 </div>
 </div>
@@ -340,7 +448,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -352,6 +460,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#ade40ec4e2d1980562a686f279e2a345b">MLSpace.GenericTrigger</a>.</p>
 
 </div>
 </div>
@@ -374,7 +484,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -388,7 +498,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>returns info string</dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_climb_on.html#af6b620ed95778af9ffb6cb44efa50854">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#af30cc41206906ebe5df347213eb0a968">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a674db209f3b571790f5136c04ea518cb">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a81921114942d92ed7c3b0ab4c2d112e6">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a24f796607211906b2e435e8eba18b80f">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_leap.html#af5328c6ac6c0e619b274ab691f3cf63c">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#a4d41e4e3fddc7afd0899ab6601f06ad3">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a642143c023f4df136ad3b6daaf5ca757">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#a3b41b89471143b4ef81cf75b3897b58f">MLSpace.OpenDoorTrigger</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a6084619faf23b5af82b13c9b5a6d3376">MLSpace.ItemTrigger</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a90725ef1444e0ead76cb14792ef85c29">MLSpace.LedgeTrigger</a>, and <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a6b814d749c11ca0dd16980081dd2c9ee">MLSpace.EnterLedgeDown</a>.</p>
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_ladder.html#af30cc41206906ebe5df347213eb0a968">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#af6b620ed95778af9ffb6cb44efa50854">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a674db209f3b571790f5136c04ea518cb">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#a4d41e4e3fddc7afd0899ab6601f06ad3">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_leap.html#af5328c6ac6c0e619b274ab691f3cf63c">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a24f796607211906b2e435e8eba18b80f">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a642143c023f4df136ad3b6daaf5ca757">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a81921114942d92ed7c3b0ab4c2d112e6">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#a3b41b89471143b4ef81cf75b3897b58f">MLSpace.OpenDoorTrigger</a>, <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a6b814d749c11ca0dd16980081dd2c9ee">MLSpace.EnterLedgeDown</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a6084619faf23b5af82b13c9b5a6d3376">MLSpace.ItemTrigger</a>, and <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a90725ef1444e0ead76cb14792ef85c29">MLSpace.LedgeTrigger</a>.</p>
 
 </div>
 </div>
@@ -410,14 +520,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Initialize component. </p>
 
-<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a89be3b4855531d5a1cba0f3d549a779f">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#a2034c93c618bf48aba0e9ac2c2c259e2">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#ad421826b07311d606bc64ebc9163ada1">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a0b68bce2e6b1f57ddf4f287d8f4a5b54">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#adf8df371b431c23cb534e1b529953044">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#add4277d3d03e826140ea35a1f9f8b39d">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a21807eb7577dab78cc7fd4e1cf3ad5c8">MLSpace.ItemTrigger</a>, and <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a1388bd465943f1be3740bdcec49784b8">MLSpace.LedgeTrigger</a>.</p>
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a89be3b4855531d5a1cba0f3d549a779f">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#a2034c93c618bf48aba0e9ac2c2c259e2">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_scene_transition_trigger.html#a450cfc57b6011da3b3d3eee473817992">MLSpace.SceneTransitionTrigger</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#ad421826b07311d606bc64ebc9163ada1">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_ammo_trigger.html#a2e61e0b54bdacf847712f84733726dab">MLSpace.AmmoTrigger</a>, <a class="el" href="class_m_l_space_1_1_health_trigger.html#a0c92f255dd6ea7197f09795c0b86dcfb">MLSpace.HealthTrigger</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a0b68bce2e6b1f57ddf4f287d8f4a5b54">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#adf8df371b431c23cb534e1b529953044">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#add4277d3d03e826140ea35a1f9f8b39d">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a21807eb7577dab78cc7fd4e1cf3ad5c8">MLSpace.ItemTrigger</a>, <a class="el" href="class_m_l_space_1_1_door_modifier_trigger.html#a4d46a70fdbce987cf9e27144de34d40d">MLSpace.DoorModifierTrigger</a>, and <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#a1388bd465943f1be3740bdcec49784b8">MLSpace.LedgeTrigger</a>.</p>
 
 </div>
 </div>
@@ -440,7 +550,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -454,7 +564,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>condition passes?</dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_ladder.html#a92b9f4d1ab81c003a790023008c72a40">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a95f7daa1cefaea1a37c5951a3e1f2f9f">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a27e1991fc4a82626eb5be4fa3a298cd8">MLSpace.JumpDown</a>, and <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#a76a8ab0453b3fc78da195b9e594ecb05">MLSpace.Jump2Ledge</a>.</p>
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_ladder.html#a92b9f4d1ab81c003a790023008c72a40">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a95f7daa1cefaea1a37c5951a3e1f2f9f">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#a76a8ab0453b3fc78da195b9e594ecb05">MLSpace.Jump2Ledge</a>, and <a class="el" href="class_m_l_space_1_1_jump_down.html#a27e1991fc4a82626eb5be4fa3a298cd8">MLSpace.JumpDown</a>.</p>
 
 </div>
 </div>
@@ -487,7 +597,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -532,7 +642,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -546,7 +656,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#ab361f99748b714bf302836eeae05f432">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a488206ed267a5a45d2ec30ba519f9c7a">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a592901bf298285f1cc2072421b037274">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a6e6dd7f8181142e47f0c5fd173ab187c">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a98c202dbe737aa8987e1d2fc2db048ab">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a32c8346f4e434954c5b3f6d65a98fe33">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a5b0ea54b2887c7ca2e0cfeec538c313c">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a36164eb3a2ca9f9546bf2df38b61f52f">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a84688c21916c793214149e0cbcb1d13b">MLSpace.EnterLedgeDown</a>, and <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#ad242832c78dd04b9ebec8314de10d580">MLSpace.OpenDoorTrigger</a>.</p>
+<p>Reimplemented in <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#ab361f99748b714bf302836eeae05f432">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a488206ed267a5a45d2ec30ba519f9c7a">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#a98c202dbe737aa8987e1d2fc2db048ab">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a6e6dd7f8181142e47f0c5fd173ab187c">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a32c8346f4e434954c5b3f6d65a98fe33">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#a5b0ea54b2887c7ca2e0cfeec538c313c">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#a36164eb3a2ca9f9546bf2df38b61f52f">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#a592901bf298285f1cc2072421b037274">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#ad242832c78dd04b9ebec8314de10d580">MLSpace.OpenDoorTrigger</a>, and <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a84688c21916c793214149e0cbcb1d13b">MLSpace.EnterLedgeDown</a>.</p>
 
 </div>
 </div>
@@ -629,7 +739,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>trigger fired</dd></dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a49e72f35876cb655bc663519f34f97ad">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a46abcd144fce62b536ac973aa7ac01e5">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#a38ddda541da7f65dbe537b7d5c10e13c">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#ab52785b89791fc781bb45b235f62b257">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#aa51e63008ae697744b6b12d3e1d39776">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#abb430e7b73423eb9ebb139d03b390143">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a07ac71303a581d5cc79b5010e2733e9c">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#afe762331b2af28e3661a849d3b940b9f">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#abee613aeeb45cc77ea1b35d900665968">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#ada329b907bbcf1ee07c34f2e227d24f8">MLSpace.LedgeTrigger</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#a8b0b20cc3fefcc1eb358d3481305ed01">MLSpace.OpenDoorTrigger</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a68ade0f643bc31faccf26016edf6b886">MLSpace.ItemTrigger</a>, and <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a0f9a2bef48aefa7353c01a42d8c1ee34">MLSpace.EnterLedgeDown</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_generic_trigger.html#a49e72f35876cb655bc663519f34f97ad">MLSpace.GenericTrigger</a>, <a class="el" href="class_m_l_space_1_1_ladder.html#a38ddda541da7f65dbe537b7d5c10e13c">MLSpace.Ladder</a>, <a class="el" href="class_m_l_space_1_1_climb_on.html#a46abcd144fce62b536ac973aa7ac01e5">MLSpace.ClimbOn</a>, <a class="el" href="class_m_l_space_1_1_push_pull_trigger.html#ab52785b89791fc781bb45b235f62b257">MLSpace.PushPullTrigger</a>, <a class="el" href="class_m_l_space_1_1_jump2_ledge.html#afe762331b2af28e3661a849d3b940b9f">MLSpace.Jump2Ledge</a>, <a class="el" href="class_m_l_space_1_1_leap.html#a07ac71303a581d5cc79b5010e2733e9c">MLSpace.Leap</a>, <a class="el" href="class_m_l_space_1_1_jump_over.html#abb430e7b73423eb9ebb139d03b390143">MLSpace.JumpOver</a>, <a class="el" href="class_m_l_space_1_1_jump_down.html#aa51e63008ae697744b6b12d3e1d39776">MLSpace.JumpDown</a>, <a class="el" href="class_m_l_space_1_1_run2_swing2_ledge.html#abee613aeeb45cc77ea1b35d900665968">MLSpace.Run2Swing2Ledge</a>, <a class="el" href="class_m_l_space_1_1_ledge_trigger.html#ada329b907bbcf1ee07c34f2e227d24f8">MLSpace.LedgeTrigger</a>, <a class="el" href="class_m_l_space_1_1_scene_transition_trigger.html#a5469d06329fb57227a398f1383f50627">MLSpace.SceneTransitionTrigger</a>, <a class="el" href="class_m_l_space_1_1_ammo_trigger.html#abb051f68b0cbd1c7d72fe32bd0bc2807">MLSpace.AmmoTrigger</a>, <a class="el" href="class_m_l_space_1_1_open_door_trigger.html#a8b0b20cc3fefcc1eb358d3481305ed01">MLSpace.OpenDoorTrigger</a>, <a class="el" href="class_m_l_space_1_1_health_trigger.html#a09d0bb56436a84d28e44b9790db37c9b">MLSpace.HealthTrigger</a>, <a class="el" href="class_m_l_space_1_1_item_trigger.html#a68ade0f643bc31faccf26016edf6b886">MLSpace.ItemTrigger</a>, <a class="el" href="class_m_l_space_1_1_enter_ledge_down.html#a0f9a2bef48aefa7353c01a42d8c1ee34">MLSpace.EnterLedgeDown</a>, and <a class="el" href="class_m_l_space_1_1_door_modifier_trigger.html#a7fe1f41cf39b553888c0037dd1b7a657">MLSpace.DoorModifierTrigger</a>.</p>
 
 </div>
 </div>
@@ -646,7 +756,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
 </div><div class="memdoc">
 
-<p>Current someone fored this trigger. </p>
+<p>Is this trigger currently active ? </p>
 
 </div>
 </div>
@@ -689,7 +799,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">DisablePhysicsTime MLSpace.Trigger.disablePhysics = DisablePhysicsTime.None</td>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_trigger.html#a82bedf3a3a5cb9e548cd7aa4faefe1d6">DisablePhysicsTime</a> MLSpace.Trigger.disablePhysics = DisablePhysicsTime.None</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -711,6 +821,38 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 </div><div class="memdoc">
 
 <p>Text taht will be displayed upon player entering trigger </p>
+
+</div>
+</div>
+<a id="a399be59d3b91dc67afd28eb778378535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a399be59d3b91dc67afd28eb778378535">&sect;&nbsp;</a></span>inputTypeToStartTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_trigger.html#a71d14f378a82d3081f59053e1c1f830e">InputType</a> MLSpace.Trigger.inputTypeToStartTrigger = InputType.Use</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> input </p>
+
+</div>
+</div>
+<a id="a440ffbe8539e8b3a6488c1722fbb8676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440ffbe8539e8b3a6488c1722fbb8676">&sect;&nbsp;</a></span>itemAction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_trigger.html#a8b316bbc5091da8d34a2589d4639b049">ItemAction</a> MLSpace.Trigger.itemAction = ItemAction.None</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>What do do with items upon starting trigger </p>
 
 </div>
 </div>
@@ -801,12 +943,53 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">TypeFilter MLSpace.Trigger.typeFilter = TypeFilter.All</td>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_trigger.html#a379723c0cda09b30170f806d1a3ce4d1">TypeFilter</a> MLSpace.Trigger.typeFilter = TypeFilter.All</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Disable npcs to use this trigger. </p>
+
+</div>
+</div>
+<a id="af4ed0e32e4657070433eeaff84e94279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4ed0e32e4657070433eeaff84e94279">&sect;&nbsp;</a></span>usingOffMeshLinks</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.Trigger.usingOffMeshLinks = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If true, npc will need additional condion checks. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a8a1f6a3e813ac2dd3e680074918cd589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a1f6a3e813ac2dd3e680074918cd589">&sect;&nbsp;</a></span>triggerCollider</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Collider MLSpace.Trigger.triggerCollider</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets array of this trigger colliders </p>
 
 </div>
 </div>

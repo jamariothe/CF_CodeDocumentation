@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.BodyColliderScript Class Reference</title>
+<title>CF_v4.0: MLSpace.BodyColliderScript Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -68,15 +68,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2569f32b5fafdee450f55b2b858c83cf"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_body_collider_script.html#a2569f32b5fafdee450f55b2b858c83cf">initialize</a> (GameObject parentObject)</td></tr>
 <tr class="memdesc:a2569f32b5fafdee450f55b2b858c83cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize script.  <a href="#a2569f32b5fafdee450f55b2b858c83cf">More...</a><br /></td></tr>
 <tr class="separator:a2569f32b5fafdee450f55b2b858c83cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab27c6145064bf9866de3f7edb345bbb7"><td class="memItemLeft" align="right" valign="top"><a id="ab27c6145064bf9866de3f7edb345bbb7"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>startRagdoll</b> (int[] parts, Vector3? hitVel, Vector3? overallVel=null)</td></tr>
+<tr class="separator:ab27c6145064bf9866de3f7edb345bbb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a417142f04fbf49b2116e8a3a49089baa"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_body_collider_script.html#a417142f04fbf49b2116e8a3a49089baa">clear</a> ()</td></tr>
 <tr class="memdesc:a417142f04fbf49b2116e8a3a49089baa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="#a417142f04fbf49b2116e8a3a49089baa">More...</a><br /></td></tr>
 <tr class="separator:a417142f04fbf49b2116e8a3a49089baa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:af0cb147c0f296ecf54e27270dd1bfa59"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_body_collider_script.html#af0cb147c0f296ecf54e27270dd1bfa59">critical</a> = false</td></tr>
-<tr class="memdesc:af0cb147c0f296ecf54e27270dd1bfa59"><td class="mdescLeft">&#160;</td><td class="mdescRight">You can apply additional damage if critial.  <a href="#af0cb147c0f296ecf54e27270dd1bfa59">More...</a><br /></td></tr>
-<tr class="separator:af0cb147c0f296ecf54e27270dd1bfa59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a862c35bb9481315308d94a3f8cc380bf"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_body_collider_script.html#a862c35bb9481315308d94a3f8cc380bf">damageMultiplier</a> = 1.0f</td></tr>
+<tr class="memdesc:a862c35bb9481315308d94a3f8cc380bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply damge multipler  <a href="#a862c35bb9481315308d94a3f8cc380bf">More...</a><br /></td></tr>
+<tr class="separator:a862c35bb9481315308d94a3f8cc380bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a529528d2cf5936377396a2b1a0b95d8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a8dfff8b0845c9e7e47afeffc1d0bae5b">BodyParts</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_body_collider_script.html#a529528d2cf5936377396a2b1a0b95d8a">bodyPart</a> = BodyParts.None</td></tr>
 <tr class="memdesc:a529528d2cf5936377396a2b1a0b95d8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collider body part.  <a href="#a529528d2cf5936377396a2b1a0b95d8a">More...</a><br /></td></tr>
 <tr class="separator:a529528d2cf5936377396a2b1a0b95d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -90,6 +93,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0acee1ea8e632a143b84995b5ec14b02 inherit pub_attribs_class_m_l_space_1_1_collider_script"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_collider_script.html#a0acee1ea8e632a143b84995b5ec14b02">ParentObject</a></td></tr>
 <tr class="memdesc:a0acee1ea8e632a143b84995b5ec14b02 inherit pub_attribs_class_m_l_space_1_1_collider_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parent game object of collider.  <a href="class_m_l_space_1_1_collider_script.html#a0acee1ea8e632a143b84995b5ec14b02">More...</a><br /></td></tr>
 <tr class="separator:a0acee1ea8e632a143b84995b5ec14b02 inherit pub_attribs_class_m_l_space_1_1_collider_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57575e1fef02b4901af565400fdac6a9 inherit pub_attribs_class_m_l_space_1_1_collider_script"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_impact_event.html">ImpactEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_collider_script.html#a57575e1fef02b4901af565400fdac6a9">onImpact</a> = null</td></tr>
+<tr class="memdesc:a57575e1fef02b4901af565400fdac6a9 inherit pub_attribs_class_m_l_space_1_1_collider_script"><td class="mdescLeft">&#160;</td><td class="mdescRight">Event that play on impact  <a href="class_m_l_space_1_1_collider_script.html#a57575e1fef02b4901af565400fdac6a9">More...</a><br /></td></tr>
+<tr class="separator:a57575e1fef02b4901af565400fdac6a9 inherit pub_attribs_class_m_l_space_1_1_collider_script"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -121,7 +127,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -151,7 +157,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -180,19 +186,19 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="af0cb147c0f296ecf54e27270dd1bfa59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0cb147c0f296ecf54e27270dd1bfa59">&sect;&nbsp;</a></span>critical</h2>
+<a id="a862c35bb9481315308d94a3f8cc380bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a862c35bb9481315308d94a3f8cc380bf">&sect;&nbsp;</a></span>damageMultiplier</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool MLSpace.BodyColliderScript.critical = false</td>
+          <td class="memname">float MLSpace.BodyColliderScript.damageMultiplier = 1.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>You can apply additional damage if critial. </p>
+<p>Apply damge multipler </p>
 
 </div>
 </div>

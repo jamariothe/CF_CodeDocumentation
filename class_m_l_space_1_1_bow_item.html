@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.BowItem Class Reference</title>
+<title>CF_v4.0: MLSpace.BowItem Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -44,6 +44,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_bow_item-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -59,9 +60,8 @@ Inheritance diagram for MLSpace.BowItem:</div>
  <div class="center">
   <img src="class_m_l_space_1_1_bow_item.png" usemap="#MLSpace.BowItem_map" alt=""/>
   <map id="MLSpace.BowItem_map" name="MLSpace.BowItem_map">
-<area href="class_m_l_space_1_1_weapon_item.html" title="Abstract base class of all weapons. " alt="MLSpace.WeaponItem" shape="rect" coords="0,168,189,192"/>
-<area href="class_m_l_space_1_1_physics_inventory_item.html" title="Inventory item base class for items that have physics properties ( rigid body, collider etc..." alt="MLSpace.PhysicsInventoryItem" shape="rect" coords="0,112,189,136"/>
-<area href="class_m_l_space_1_1_inventory_item.html" title="Base abstract class for all inventory items. " alt="MLSpace.InventoryItem" shape="rect" coords="0,56,189,80"/>
+<area href="class_m_l_space_1_1_weapon_item.html" title="Abstract base class of all weapons. " alt="MLSpace.WeaponItem" shape="rect" coords="0,112,189,136"/>
+<area href="class_m_l_space_1_1_physics_inventory_item.html" title="Inventory item base class for items that have physics properties ( rigid body, collider etc..." alt="MLSpace.PhysicsInventoryItem" shape="rect" coords="0,56,189,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -73,13 +73,71 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3f345e9ffa9d0fb5616b067633584e3"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#ab3f345e9ffa9d0fb5616b067633584e3">clear</a> ()</td></tr>
 <tr class="memdesc:ab3f345e9ffa9d0fb5616b067633584e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="#ab3f345e9ffa9d0fb5616b067633584e3">More...</a><br /></td></tr>
 <tr class="separator:ab3f345e9ffa9d0fb5616b067633584e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaee495b3dcdf0475c687981bd6a7972f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#aaee495b3dcdf0475c687981bd6a7972f">startOnHitParticles</a> (RaycastHit rHit)</td></tr>
+<tr class="memdesc:aaee495b3dcdf0475c687981bd6a7972f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start on hit particle effect/s  <a href="#aaee495b3dcdf0475c687981bd6a7972f">More...</a><br /></td></tr>
+<tr class="separator:aaee495b3dcdf0475c687981bd6a7972f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1428f24a24a81b335cfd01f08a9325d9"><td class="memItemLeft" align="right" valign="top">ParticleSystem []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a1428f24a24a81b335cfd01f08a9325d9">getFreeParticlEffect</a> ()</td></tr>
+<tr class="memdesc:a1428f24a24a81b335cfd01f08a9325d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get free default particle effect from pool  <a href="#a1428f24a24a81b335cfd01f08a9325d9">More...</a><br /></td></tr>
+<tr class="separator:a1428f24a24a81b335cfd01f08a9325d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a488aa286719d7a12455236bf29b76910"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a488aa286719d7a12455236bf29b76910">resetString</a> ()</td></tr>
 <tr class="memdesc:a488aa286719d7a12455236bf29b76910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset string position / rotation.  <a href="#a488aa286719d7a12455236bf29b76910">More...</a><br /></td></tr>
 <tr class="separator:a488aa286719d7a12455236bf29b76910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_m_l_space_1_1_weapon_item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_l_space_1_1_weapon_item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_l_space_1_1_weapon_item.html">MLSpace.WeaponItem</a></td></tr>
+<tr class="memitem:a151716020da18ed27f7bc1b7723339db inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a151716020da18ed27f7bc1b7723339db">initialize</a> ()</td></tr>
+<tr class="memdesc:a151716020da18ed27f7bc1b7723339db inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="class_m_l_space_1_1_weapon_item.html#a151716020da18ed27f7bc1b7723339db">More...</a><br /></td></tr>
+<tr class="separator:a151716020da18ed27f7bc1b7723339db inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a649d807b1827c87bdc3f439eced3af73 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a649d807b1827c87bdc3f439eced3af73">clear</a> ()</td></tr>
+<tr class="memdesc:a649d807b1827c87bdc3f439eced3af73 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="class_m_l_space_1_1_weapon_item.html#a649d807b1827c87bdc3f439eced3af73">More...</a><br /></td></tr>
+<tr class="separator:a649d807b1827c87bdc3f439eced3af73 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5c89ad1ab50806f9d84b0b35158461 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#aac5c89ad1ab50806f9d84b0b35158461">startReload</a> ()</td></tr>
+<tr class="memdesc:aac5c89ad1ab50806f9d84b0b35158461 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start reloading weapon  <a href="class_m_l_space_1_1_weapon_item.html#aac5c89ad1ab50806f9d84b0b35158461">More...</a><br /></td></tr>
+<tr class="separator:aac5c89ad1ab50806f9d84b0b35158461 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96fd7e18bea0c85b135613977a5ef6f9 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a96fd7e18bea0c85b135613977a5ef6f9">update</a> ()</td></tr>
+<tr class="memdesc:a96fd7e18bea0c85b135613977a5ef6f9 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update component  <a href="class_m_l_space_1_1_weapon_item.html#a96fd7e18bea0c85b135613977a5ef6f9">More...</a><br /></td></tr>
+<tr class="separator:a96fd7e18bea0c85b135613977a5ef6f9 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc421191a70aaf0333445679466fae3e inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#adc421191a70aaf0333445679466fae3e">fire</a> (bool fire, bool fireClick, bool startRecoil=false)</td></tr>
+<tr class="memdesc:adc421191a70aaf0333445679466fae3e inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fire weapon  <a href="class_m_l_space_1_1_weapon_item.html#adc421191a70aaf0333445679466fae3e">More...</a><br /></td></tr>
+<tr class="separator:adc421191a70aaf0333445679466fae3e inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2633eb5b3d14fe5a084b5e262a5691d7 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a2633eb5b3d14fe5a084b5e262a5691d7">onRecoilEnd</a> ()</td></tr>
+<tr class="memdesc:a2633eb5b3d14fe5a084b5e262a5691d7 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fire on recoil end  <a href="class_m_l_space_1_1_weapon_item.html#a2633eb5b3d14fe5a084b5e262a5691d7">More...</a><br /></td></tr>
+<tr class="separator:a2633eb5b3d14fe5a084b5e262a5691d7 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10503181bb52f894ad84f747aa710a34 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a10503181bb52f894ad84f747aa710a34">onReload</a> ()</td></tr>
+<tr class="memdesc:a10503181bb52f894ad84f747aa710a34 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fired on reload weapon moment  <a href="class_m_l_space_1_1_weapon_item.html#a10503181bb52f894ad84f747aa710a34">More...</a><br /></td></tr>
+<tr class="separator:a10503181bb52f894ad84f747aa710a34 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf53c4ad30a3669af228ded7f16e04ea inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#aaf53c4ad30a3669af228ded7f16e04ea">onTakeAmmo</a> (Transform parent, Vector3 position, Quaternion rotation)</td></tr>
+<tr class="memdesc:aaf53c4ad30a3669af228ded7f16e04ea inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fired on taking ammo magazine from back  <a href="class_m_l_space_1_1_weapon_item.html#aaf53c4ad30a3669af228ded7f16e04ea">More...</a><br /></td></tr>
+<tr class="separator:aaf53c4ad30a3669af228ded7f16e04ea inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae872a1e22a13af9b91c97211d7235d3b inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ae872a1e22a13af9b91c97211d7235d3b">ejectMagazine</a> ()</td></tr>
+<tr class="memdesc:ae872a1e22a13af9b91c97211d7235d3b inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on eject empty ammo magazine  <a href="class_m_l_space_1_1_weapon_item.html#ae872a1e22a13af9b91c97211d7235d3b">More...</a><br /></td></tr>
+<tr class="separator:ae872a1e22a13af9b91c97211d7235d3b inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d073a6abf2475fdba866482639836a2 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a5d073a6abf2475fdba866482639836a2">onCockTheHandle</a> ()</td></tr>
+<tr class="memdesc:a5d073a6abf2475fdba866482639836a2 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on cocking the weapon handle  <a href="class_m_l_space_1_1_weapon_item.html#a5d073a6abf2475fdba866482639836a2">More...</a><br /></td></tr>
+<tr class="separator:a5d073a6abf2475fdba866482639836a2 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86dedc6ade7873a4a36d5637d78e52f0 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a86dedc6ade7873a4a36d5637d78e52f0">insertAmmo</a> ()</td></tr>
+<tr class="memdesc:a86dedc6ade7873a4a36d5637d78e52f0 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on inserting ammo  <a href="class_m_l_space_1_1_weapon_item.html#a86dedc6ade7873a4a36d5637d78e52f0">More...</a><br /></td></tr>
+<tr class="separator:a86dedc6ade7873a4a36d5637d78e52f0 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a357db0e9d8e01ad7375bc91bf91203e4 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a357db0e9d8e01ad7375bc91bf91203e4">onEjectShell</a> ()</td></tr>
+<tr class="memdesc:a357db0e9d8e01ad7375bc91bf91203e4 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on eject empty shell  <a href="class_m_l_space_1_1_weapon_item.html#a357db0e9d8e01ad7375bc91bf91203e4">More...</a><br /></td></tr>
+<tr class="separator:a357db0e9d8e01ad7375bc91bf91203e4 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38888f7e90ba7097e0003cdcdf826812 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a38888f7e90ba7097e0003cdcdf826812">onAmmoCheck</a> ()</td></tr>
+<tr class="memdesc:a38888f7e90ba7097e0003cdcdf826812 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check ammo count  <a href="class_m_l_space_1_1_weapon_item.html#a38888f7e90ba7097e0003cdcdf826812">More...</a><br /></td></tr>
+<tr class="separator:a38888f7e90ba7097e0003cdcdf826812 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab11235a294f8b7426e72177223356c30 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ab11235a294f8b7426e72177223356c30">dropItem</a> (Vector3? pos, Quaternion? rot)</td></tr>
+<tr class="memdesc:ab11235a294f8b7426e72177223356c30 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes on drop item  <a href="class_m_l_space_1_1_weapon_item.html#ab11235a294f8b7426e72177223356c30">More...</a><br /></td></tr>
+<tr class="separator:ab11235a294f8b7426e72177223356c30 inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3baf6629d351b3b8d1e7cd89d0614b4c inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a3baf6629d351b3b8d1e7cd89d0614b4c">resetItem</a> ()</td></tr>
+<tr class="memdesc:a3baf6629d351b3b8d1e7cd89d0614b4c inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset item.  <a href="class_m_l_space_1_1_weapon_item.html#a3baf6629d351b3b8d1e7cd89d0614b4c">More...</a><br /></td></tr>
+<tr class="separator:a3baf6629d351b3b8d1e7cd89d0614b4c inherit pub_methods_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
 <tr class="memitem:a5dd644fa2cbbea329852792075ed59af inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">delegate void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a5dd644fa2cbbea329852792075ed59af">EnvCollisionDelegate</a> (PhysicMaterial material)</td></tr>
 <tr class="memdesc:a5dd644fa2cbbea329852792075ed59af inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enviroment collision delegate with collision physics material parameter.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a5dd644fa2cbbea329852792075ed59af">More...</a><br /></td></tr>
 <tr class="separator:a5dd644fa2cbbea329852792075ed59af inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814e21cdf9258cf4cffe6a625c73c000 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a814e21cdf9258cf4cffe6a625c73c000">initialize</a> ()</td></tr>
+<tr class="memdesc:a814e21cdf9258cf4cffe6a625c73c000 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a814e21cdf9258cf4cffe6a625c73c000">More...</a><br /></td></tr>
+<tr class="separator:a814e21cdf9258cf4cffe6a625c73c000 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2464221e648eb83e22a5b033e95dc306 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a2464221e648eb83e22a5b033e95dc306">clear</a> ()</td></tr>
+<tr class="memdesc:a2464221e648eb83e22a5b033e95dc306 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a2464221e648eb83e22a5b033e95dc306">More...</a><br /></td></tr>
+<tr class="separator:a2464221e648eb83e22a5b033e95dc306 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51010874f172f49f31ef7fbc48c2175b inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a51010874f172f49f31ef7fbc48c2175b">resetItem</a> ()</td></tr>
 <tr class="memdesc:a51010874f172f49f31ef7fbc48c2175b inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset item.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a51010874f172f49f31ef7fbc48c2175b">More...</a><br /></td></tr>
 <tr class="separator:a51010874f172f49f31ef7fbc48c2175b inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -89,13 +147,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3d4893923b9ec1ee0a437251855c7224 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a3d4893923b9ec1ee0a437251855c7224">equipSetup</a> ()</td></tr>
 <tr class="memdesc:a3d4893923b9ec1ee0a437251855c7224 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup item states for equipping.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a3d4893923b9ec1ee0a437251855c7224">More...</a><br /></td></tr>
 <tr class="separator:a3d4893923b9ec1ee0a437251855c7224 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bac9dcffe7207e70c531961f7c1fad1 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a4bac9dcffe7207e70c531961f7c1fad1">setupPhysicsForWearing</a> (bool detectCollisions=false)</td></tr>
-<tr class="memdesc:a4bac9dcffe7207e70c531961f7c1fad1 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Setup item physics ( disabling) for wearing.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a4bac9dcffe7207e70c531961f7c1fad1">More...</a><br /></td></tr>
-<tr class="separator:a4bac9dcffe7207e70c531961f7c1fad1 inherit pub_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:aed6550d498080be44a38ba453a857a7e inherit pub_methods_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="aed6550d498080be44a38ba453a857a7e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setRendererVisibility</b> (bool visible)</td></tr>
-<tr class="separator:aed6550d498080be44a38ba453a857a7e inherit pub_methods_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -105,34 +156,40 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aee36c4e247c1e1858485d5ac193d0940"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#aee36c4e247c1e1858485d5ac193d0940">arrowStabilizer</a> = null</td></tr>
 <tr class="memdesc:aee36c4e247c1e1858485d5ac193d0940"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper transform for orienting arrow.  <a href="#aee36c4e247c1e1858485d5ac193d0940">More...</a><br /></td></tr>
 <tr class="separator:aee36c4e247c1e1858485d5ac193d0940"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9d07d8f8dd5982b5b8ef7828c8732f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#aa9d07d8f8dd5982b5b8ef7828c8732f3">aimClip</a></td></tr>
-<tr class="memdesc:aa9d07d8f8dd5982b5b8ef7828c8732f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace aim animation clip  <a href="#aa9d07d8f8dd5982b5b8ef7828c8732f3">More...</a><br /></td></tr>
-<tr class="separator:aa9d07d8f8dd5982b5b8ef7828c8732f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5411887274218d89d84e68544b1ee2fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a5411887274218d89d84e68544b1ee2fc">drawClip</a></td></tr>
-<tr class="memdesc:a5411887274218d89d84e68544b1ee2fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace aim animation clip  <a href="#a5411887274218d89d84e68544b1ee2fc">More...</a><br /></td></tr>
-<tr class="separator:a5411887274218d89d84e68544b1ee2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a967e4ea68dca5c6e562ee9cb0c86a2d0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a967e4ea68dca5c6e562ee9cb0c86a2d0">releaseClip</a></td></tr>
-<tr class="memdesc:a967e4ea68dca5c6e562ee9cb0c86a2d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace aim animation clip  <a href="#a967e4ea68dca5c6e562ee9cb0c86a2d0">More...</a><br /></td></tr>
-<tr class="separator:a967e4ea68dca5c6e562ee9cb0c86a2d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc72595c0c1e9bba972ee7734c1a0231"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#adc72595c0c1e9bba972ee7734c1a0231">locomotionClips</a></td></tr>
-<tr class="memdesc:adc72595c0c1e9bba972ee7734c1a0231"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace aim animation clip  <a href="#adc72595c0c1e9bba972ee7734c1a0231">More...</a><br /></td></tr>
-<tr class="separator:adc72595c0c1e9bba972ee7734c1a0231"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a140bc8d47ceabbcafe5dec82eb491d55"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a140bc8d47ceabbcafe5dec82eb491d55">strafeClips</a></td></tr>
-<tr class="memdesc:a140bc8d47ceabbcafe5dec82eb491d55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace aim animation clip  <a href="#a140bc8d47ceabbcafe5dec82eb491d55">More...</a><br /></td></tr>
-<tr class="separator:a140bc8d47ceabbcafe5dec82eb491d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae064cda45d508aeb2c806472826c9f98"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#ae064cda45d508aeb2c806472826c9f98">replacement_clips</a></td></tr>
-<tr class="memdesc:ae064cda45d508aeb2c806472826c9f98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement clips list.  <a href="#ae064cda45d508aeb2c806472826c9f98">More...</a><br /></td></tr>
-<tr class="separator:ae064cda45d508aeb2c806472826c9f98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd31d417570d3f32354b734a396a578a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#acd31d417570d3f32354b734a396a578a">range</a> = 160.0f</td></tr>
+<tr class="memdesc:acd31d417570d3f32354b734a396a578a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bow range  <a href="#acd31d417570d3f32354b734a396a578a">More...</a><br /></td></tr>
+<tr class="separator:acd31d417570d3f32354b734a396a578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae072e3741ddb22ff445ee64b8fcd2ad9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#ae072e3741ddb22ff445ee64b8fcd2ad9">hitForceMultiplier</a> = 1.0f</td></tr>
+<tr class="memdesc:ae072e3741ddb22ff445ee64b8fcd2ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hit force multiplier  <a href="#ae072e3741ddb22ff445ee64b8fcd2ad9">More...</a><br /></td></tr>
+<tr class="separator:ae072e3741ddb22ff445ee64b8fcd2ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78328a077fcfa8f3e59c4e930b606463"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a78328a077fcfa8f3e59c4e930b606463">useOnHitEffectInstances</a> = false</td></tr>
+<tr class="memdesc:a78328a077fcfa8f3e59c4e930b606463"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create instance of effect for every hit  <a href="#a78328a077fcfa8f3e59c4e930b606463">More...</a><br /></td></tr>
+<tr class="separator:a78328a077fcfa8f3e59c4e930b606463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c55fa032c6e19e958bc614174df1cc2"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a2c55fa032c6e19e958bc614174df1cc2">onHitEffect</a></td></tr>
+<tr class="memdesc:a2c55fa032c6e19e958bc614174df1cc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">ParticleSystem effect/s that play on hit Its GameObject so its collecting children particle systems  <a href="#a2c55fa032c6e19e958bc614174df1cc2">More...</a><br /></td></tr>
+<tr class="separator:a2c55fa032c6e19e958bc614174df1cc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_m_l_space_1_1_weapon_item"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_weapon_item')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_weapon_item.html">MLSpace.WeaponItem</a></td></tr>
-<tr class="memitem:a01b2d3c75276f0644cfec53866c50708 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a01b2d3c75276f0644cfec53866c50708">damage</a> = 1</td></tr>
-<tr class="memdesc:a01b2d3c75276f0644cfec53866c50708 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Attack damage of weapon.  <a href="class_m_l_space_1_1_weapon_item.html#a01b2d3c75276f0644cfec53866c50708">More...</a><br /></td></tr>
-<tr class="separator:a01b2d3c75276f0644cfec53866c50708 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5c3b25507f74204a4a137ea033b3743 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ae5c3b25507f74204a4a137ea033b3743">range</a> = 1.5f</td></tr>
-<tr class="memdesc:ae5c3b25507f74204a4a137ea033b3743 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of weapon.  <a href="class_m_l_space_1_1_weapon_item.html#ae5c3b25507f74204a4a137ea033b3743">More...</a><br /></td></tr>
-<tr class="separator:ae5c3b25507f74204a4a137ea033b3743 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c3c8e6510ad9494a12bb4c30b7deaed inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_weapon_audio.html">WeaponAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a3c3c8e6510ad9494a12bb4c30b7deaed">weaponAudio</a> = null</td></tr>
-<tr class="memdesc:a3c3c8e6510ad9494a12bb4c30b7deaed inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon sounds on attacks, blocks.  <a href="class_m_l_space_1_1_weapon_item.html#a3c3c8e6510ad9494a12bb4c30b7deaed">More...</a><br /></td></tr>
-<tr class="separator:a3c3c8e6510ad9494a12bb4c30b7deaed inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8386cb0c750d8c5d283e130b78afbaa inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#af8386cb0c750d8c5d283e130b78afbaa">modelReference</a></td></tr>
+<tr class="memdesc:af8386cb0c750d8c5d283e130b78afbaa inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to model object  <a href="class_m_l_space_1_1_weapon_item.html#af8386cb0c750d8c5d283e130b78afbaa">More...</a><br /></td></tr>
+<tr class="separator:af8386cb0c750d8c5d283e130b78afbaa inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb571ee11a2aca88f6b8dc2b0e390bb3 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#afb571ee11a2aca88f6b8dc2b0e390bb3">meleeDamage</a> = 1</td></tr>
+<tr class="memdesc:afb571ee11a2aca88f6b8dc2b0e390bb3 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Melee attack damage of weapon.  <a href="class_m_l_space_1_1_weapon_item.html#afb571ee11a2aca88f6b8dc2b0e390bb3">More...</a><br /></td></tr>
+<tr class="separator:afb571ee11a2aca88f6b8dc2b0e390bb3 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd2d7dcf653d4a79429c31e1c0d5aa2b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#acd2d7dcf653d4a79429c31e1c0d5aa2b">rangedDamage</a> = 1</td></tr>
+<tr class="memdesc:acd2d7dcf653d4a79429c31e1c0d5aa2b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ranged attack damage of weapon.  <a href="class_m_l_space_1_1_weapon_item.html#acd2d7dcf653d4a79429c31e1c0d5aa2b">More...</a><br /></td></tr>
+<tr class="separator:acd2d7dcf653d4a79429c31e1c0d5aa2b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c2f374f75238d67d166700903657984 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a7c2f374f75238d67d166700903657984">meleeRange</a> = 1.5f</td></tr>
+<tr class="memdesc:a7c2f374f75238d67d166700903657984 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of weapon.  <a href="class_m_l_space_1_1_weapon_item.html#a7c2f374f75238d67d166700903657984">More...</a><br /></td></tr>
+<tr class="separator:a7c2f374f75238d67d166700903657984 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0eb62a9a870173d97bb01716e358853 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_combat_audio.html">CombatAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#aa0eb62a9a870173d97bb01716e358853">weaponAudio</a> = null</td></tr>
+<tr class="memdesc:aa0eb62a9a870173d97bb01716e358853 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon sounds on attacks, blocks.  <a href="class_m_l_space_1_1_weapon_item.html#aa0eb62a9a870173d97bb01716e358853">More...</a><br /></td></tr>
+<tr class="separator:aa0eb62a9a870173d97bb01716e358853 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40cec8915c6e28d5ba8ac56b2dd740f8 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a40cec8915c6e28d5ba8ac56b2dd740f8">aimTransform</a></td></tr>
+<tr class="memdesc:a40cec8915c6e28d5ba8ac56b2dd740f8 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon aiming transform  <a href="class_m_l_space_1_1_weapon_item.html#a40cec8915c6e28d5ba8ac56b2dd740f8">More...</a><br /></td></tr>
+<tr class="separator:a40cec8915c6e28d5ba8ac56b2dd740f8 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94d2751fb86d42680dc347d8d5debcd8 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a94d2751fb86d42680dc347d8d5debcd8">currentFireTransform</a></td></tr>
+<tr class="memdesc:a94d2751fb86d42680dc347d8d5debcd8 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon fire position transform  <a href="class_m_l_space_1_1_weapon_item.html#a94d2751fb86d42680dc347d8d5debcd8">More...</a><br /></td></tr>
+<tr class="separator:a94d2751fb86d42680dc347d8d5debcd8 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59c8e7120724a9c8a7a14db66315dd5b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a59c8e7120724a9c8a7a14db66315dd5b">weaponSwitchTime</a> = 0.0f</td></tr>
 <tr class="memdesc:a59c8e7120724a9c8a7a14db66315dd5b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon switch time from rest to wield transform.  <a href="class_m_l_space_1_1_weapon_item.html#a59c8e7120724a9c8a7a14db66315dd5b">More...</a><br /></td></tr>
 <tr class="separator:a59c8e7120724a9c8a7a14db66315dd5b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,6 +205,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a732e822cbb77945d63d310c16640ba21 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a732e822cbb77945d63d310c16640ba21">blockResistance</a> = 0</td></tr>
 <tr class="memdesc:a732e822cbb77945d63d310c16640ba21 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon lock break resistance. If weapon is used as blocking.  <a href="class_m_l_space_1_1_weapon_item.html#a732e822cbb77945d63d310c16640ba21">More...</a><br /></td></tr>
 <tr class="separator:a732e822cbb77945d63d310c16640ba21 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fe154d72646d725d828470af3ed98a5 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a5fe154d72646d725d828470af3ed98a5">isWielded</a> = false</td></tr>
+<tr class="memdesc:a5fe154d72646d725d828470af3ed98a5 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is item wielded by character or rested/sheated  <a href="class_m_l_space_1_1_weapon_item.html#a5fe154d72646d725d828470af3ed98a5">More...</a><br /></td></tr>
+<tr class="separator:a5fe154d72646d725d828470af3ed98a5 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa973dfb024af29ce81e166c2d1e06476 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#aa973dfb024af29ce81e166c2d1e06476">soundRadius</a> = 10.0f</td></tr>
+<tr class="memdesc:aa973dfb024af29ce81e166c2d1e06476 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sound radius  <a href="class_m_l_space_1_1_weapon_item.html#aa973dfb024af29ce81e166c2d1e06476">More...</a><br /></td></tr>
+<tr class="separator:aa973dfb024af29ce81e166c2d1e06476 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d9078550bc6f637ad94ab42f09576af inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a2d9078550bc6f637ad94ab42f09576af">OnStartTaking</a></td></tr>
 <tr class="memdesc:a2d9078550bc6f637ad94ab42f09576af inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate fires on start taking weapon item.  <a href="class_m_l_space_1_1_weapon_item.html#a2d9078550bc6f637ad94ab42f09576af">More...</a><br /></td></tr>
 <tr class="separator:a2d9078550bc6f637ad94ab42f09576af inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,6 +235,54 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0ecce6f426b04cabf8bf977e3cc5dd38 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_m_l_space.html#a32a47e3bab93d44c0aeb4e2ee22a4f09">VoidFunc</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a0ecce6f426b04cabf8bf977e3cc5dd38">OnBlock</a> = null</td></tr>
 <tr class="memdesc:a0ecce6f426b04cabf8bf977e3cc5dd38 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Delegate fires on opponent block.  <a href="class_m_l_space_1_1_weapon_item.html#a0ecce6f426b04cabf8bf977e3cc5dd38">More...</a><br /></td></tr>
 <tr class="separator:a0ecce6f426b04cabf8bf977e3cc5dd38 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b2f7b17fd06f6f85ea49eb0b7f9eb3 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a83b2f7b17fd06f6f85ea49eb0b7f9eb3">wallMinimimDistance</a> = 1.0f</td></tr>
+<tr class="memdesc:a83b2f7b17fd06f6f85ea49eb0b7f9eb3 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of weapon. Used in checking wall collision  <a href="class_m_l_space_1_1_weapon_item.html#a83b2f7b17fd06f6f85ea49eb0b7f9eb3">More...</a><br /></td></tr>
+<tr class="separator:a83b2f7b17fd06f6f85ea49eb0b7f9eb3 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad6510b1990c356775af4c593a482e0 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_l_space_1_1_attack_info.html#a73f8235cda4f5aaea4ea9821e834220a">AttackInfo.HitReactionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a8ad6510b1990c356775af4c593a482e0">hitReactionOverride</a> = AttackInfo.HitReactionType.None</td></tr>
+<tr class="memdesc:a8ad6510b1990c356775af4c593a482e0 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Override player hit reaction  <a href="class_m_l_space_1_1_weapon_item.html#a8ad6510b1990c356775af4c593a482e0">More...</a><br /></td></tr>
+<tr class="separator:a8ad6510b1990c356775af4c593a482e0 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a891da8e634871fc6ba2fbd9464913829 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a891da8e634871fc6ba2fbd9464913829">animatedHitReactionType</a> = 0</td></tr>
+<tr class="memdesc:a891da8e634871fc6ba2fbd9464913829 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hit reaction applied on this weapon ranged hit if hitReactionOverride is set to Animated  <a href="class_m_l_space_1_1_weapon_item.html#a891da8e634871fc6ba2fbd9464913829">More...</a><br /></td></tr>
+<tr class="separator:a891da8e634871fc6ba2fbd9464913829 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a073a64673a4859133bd5b6c174eb5f82 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a073a64673a4859133bd5b6c174eb5f82">leftHandIK</a></td></tr>
+<tr class="memdesc:a073a64673a4859133bd5b6c174eb5f82 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">IK transform for left hand  <a href="class_m_l_space_1_1_weapon_item.html#a073a64673a4859133bd5b6c174eb5f82">More...</a><br /></td></tr>
+<tr class="separator:a073a64673a4859133bd5b6c174eb5f82 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af35319830926f0fcf8b8acd1332989 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a7af35319830926f0fcf8b8acd1332989">leftHandAimIK</a></td></tr>
+<tr class="memdesc:a7af35319830926f0fcf8b8acd1332989 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">IK transform for left hand while aiming  <a href="class_m_l_space_1_1_weapon_item.html#a7af35319830926f0fcf8b8acd1332989">More...</a><br /></td></tr>
+<tr class="separator:a7af35319830926f0fcf8b8acd1332989 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad49346317dcf7ed71e9bace4f57db06b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ad49346317dcf7ed71e9bace4f57db06b">leftHandRotation</a> = Quaternion.identity</td></tr>
+<tr class="memdesc:ad49346317dcf7ed71e9bace4f57db06b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional left hand rotation  <a href="class_m_l_space_1_1_weapon_item.html#ad49346317dcf7ed71e9bace4f57db06b">More...</a><br /></td></tr>
+<tr class="separator:ad49346317dcf7ed71e9bace4f57db06b inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0751d36d7aff9fdf53bc833626cd2a72 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a0751d36d7aff9fdf53bc833626cd2a72">leftHandEuler</a> = Vector3.zero</td></tr>
+<tr class="memdesc:a0751d36d7aff9fdf53bc833626cd2a72 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional left hand rotation euler values  <a href="class_m_l_space_1_1_weapon_item.html#a0751d36d7aff9fdf53bc833626cd2a72">More...</a><br /></td></tr>
+<tr class="separator:a0751d36d7aff9fdf53bc833626cd2a72 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8eeeec37d19401d9a7c2457141b2e92 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#aa8eeeec37d19401d9a7c2457141b2e92">leftHandAimRotation</a> = Quaternion.identity</td></tr>
+<tr class="memdesc:aa8eeeec37d19401d9a7c2457141b2e92 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional left hand rotation aim mode  <a href="class_m_l_space_1_1_weapon_item.html#aa8eeeec37d19401d9a7c2457141b2e92">More...</a><br /></td></tr>
+<tr class="separator:aa8eeeec37d19401d9a7c2457141b2e92 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebd7438fb7b5200928fde49e1ab20a77 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#aebd7438fb7b5200928fde49e1ab20a77">leftHandAimEuler</a> = Vector3.zero</td></tr>
+<tr class="memdesc:aebd7438fb7b5200928fde49e1ab20a77 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Additional left hand rotation euler values aim mode  <a href="class_m_l_space_1_1_weapon_item.html#aebd7438fb7b5200928fde49e1ab20a77">More...</a><br /></td></tr>
+<tr class="separator:aebd7438fb7b5200928fde49e1ab20a77 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbf68f568c16cf15ec598f5de21fde78 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#afbf68f568c16cf15ec598f5de21fde78">leftHandFistWeight</a> = 0.0f</td></tr>
+<tr class="memdesc:afbf68f568c16cf15ec598f5de21fde78 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight of left hand if zero - player uses original animation if 1 - player left fist is closed if -1 - player left fist is open You can use any value in between  <a href="class_m_l_space_1_1_weapon_item.html#afbf68f568c16cf15ec598f5de21fde78">More...</a><br /></td></tr>
+<tr class="separator:afbf68f568c16cf15ec598f5de21fde78 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9aef19f2060eb969514ef8a8e411114 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ad9aef19f2060eb969514ef8a8e411114">leftHandAimFistWeight</a> = 0.0f</td></tr>
+<tr class="memdesc:ad9aef19f2060eb969514ef8a8e411114 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weight of left hand if zero - player uses original animation if 1 - player left fist is closed if -1 - player left fist is open You can use any value in between  <a href="class_m_l_space_1_1_weapon_item.html#ad9aef19f2060eb969514ef8a8e411114">More...</a><br /></td></tr>
+<tr class="separator:ad9aef19f2060eb969514ef8a8e411114 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a278cfef617b643d702bf7718cdc97f6d inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a278cfef617b643d702bf7718cdc97f6d">cameras</a></td></tr>
+<tr class="memdesc:a278cfef617b643d702bf7718cdc97f6d inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon cameras  <a href="class_m_l_space_1_1_weapon_item.html#a278cfef617b643d702bf7718cdc97f6d">More...</a><br /></td></tr>
+<tr class="separator:a278cfef617b643d702bf7718cdc97f6d inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac08a8e71568ae9ed15776abc5ad00fc5 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_camera_info.html">CameraInfo</a> []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ac08a8e71568ae9ed15776abc5ad00fc5">cameraInfoScripts</a></td></tr>
+<tr class="memdesc:ac08a8e71568ae9ed15776abc5ad00fc5 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">weapon cameras info scripts  <a href="class_m_l_space_1_1_weapon_item.html#ac08a8e71568ae9ed15776abc5ad00fc5">More...</a><br /></td></tr>
+<tr class="separator:ac08a8e71568ae9ed15776abc5ad00fc5 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3350b97aa8fa50feef84fc7f51a1a036 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a3350b97aa8fa50feef84fc7f51a1a036">currentWieldTransform</a></td></tr>
+<tr class="memdesc:a3350b97aa8fa50feef84fc7f51a1a036 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon current wield ( parent ) transform  <a href="class_m_l_space_1_1_weapon_item.html#a3350b97aa8fa50feef84fc7f51a1a036">More...</a><br /></td></tr>
+<tr class="separator:a3350b97aa8fa50feef84fc7f51a1a036 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947eb641b5cffba8c35ab585615ef9c0 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a947eb641b5cffba8c35ab585615ef9c0">currentRestTransform</a></td></tr>
+<tr class="memdesc:a947eb641b5cffba8c35ab585615ef9c0 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weapon current rest ( parent ) transform  <a href="class_m_l_space_1_1_weapon_item.html#a947eb641b5cffba8c35ab585615ef9c0">More...</a><br /></td></tr>
+<tr class="separator:a947eb641b5cffba8c35ab585615ef9c0 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afff5ef8aab23b89ef0428c464a6e3562 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#afff5ef8aab23b89ef0428c464a6e3562">playerSpineOffset</a> = 34.0f</td></tr>
+<tr class="memdesc:afff5ef8aab23b89ef0428c464a6e3562 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_player.html" title="Base player class. Controls camera, head ik , replacing animation clips. ">Player</a> spine offset on Y axis  <a href="class_m_l_space_1_1_weapon_item.html#afff5ef8aab23b89ef0428c464a6e3562">More...</a><br /></td></tr>
+<tr class="separator:afff5ef8aab23b89ef0428c464a6e3562 inherit pub_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
 <tr class="memitem:a93c19c8f7572b6a588b32a1739eaeb82 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a93c19c8f7572b6a588b32a1739eaeb82">keepScaling</a> = true</td></tr>
 <tr class="memdesc:a93c19c8f7572b6a588b32a1739eaeb82 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should item scale be reset to one upon equipping.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a93c19c8f7572b6a588b32a1739eaeb82">More...</a><br /></td></tr>
@@ -179,60 +290,22 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8967fcae08c30aafa6def61932c59072 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a8967fcae08c30aafa6def61932c59072">triggerObject</a></td></tr>
 <tr class="memdesc:a8967fcae08c30aafa6def61932c59072 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> collider object for detecting if character has collided with it to pick it up.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a8967fcae08c30aafa6def61932c59072">More...</a><br /></td></tr>
 <tr class="separator:a8967fcae08c30aafa6def61932c59072 inherit pub_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_attribs_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:a6f85d86f688bef88ae920874978cc468 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a6f85d86f688bef88ae920874978cc468">itemName</a></td></tr>
-<tr class="memdesc:a6f85d86f688bef88ae920874978cc468 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item name.  <a href="class_m_l_space_1_1_inventory_item.html#a6f85d86f688bef88ae920874978cc468">More...</a><br /></td></tr>
-<tr class="separator:a6f85d86f688bef88ae920874978cc468 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af37bc637880b126ba43762740d4765b6 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#af37bc637880b126ba43762740d4765b6">itemDescription</a></td></tr>
-<tr class="memdesc:af37bc637880b126ba43762740d4765b6 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item description.  <a href="class_m_l_space_1_1_inventory_item.html#af37bc637880b126ba43762740d4765b6">More...</a><br /></td></tr>
-<tr class="separator:af37bc637880b126ba43762740d4765b6 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a356bb0e6453b6dcede0343f6166b1474 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a356bb0e6453b6dcede0343f6166b1474">equipped</a> = false</td></tr>
-<tr class="memdesc:a356bb0e6453b6dcede0343f6166b1474 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is item equipped ?  <a href="class_m_l_space_1_1_inventory_item.html#a356bb0e6453b6dcede0343f6166b1474">More...</a><br /></td></tr>
-<tr class="separator:a356bb0e6453b6dcede0343f6166b1474 inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40ae584a168a195b4c37e22a036f3b1f inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a40ae584a168a195b4c37e22a036f3b1f">originalPrefabName</a> = &quot;NONE&quot;</td></tr>
-<tr class="memdesc:a40ae584a168a195b4c37e22a036f3b1f inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Original prefab/resource name. 'NONE' if prefab dont exist. Needed for scene transitions.  <a href="class_m_l_space_1_1_inventory_item.html#a40ae584a168a195b4c37e22a036f3b1f">More...</a><br /></td></tr>
-<tr class="separator:a40ae584a168a195b4c37e22a036f3b1f inherit pub_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
-Properties</h2></td></tr>
-<tr class="memitem:aa747aad16c4facdb33ecd0eba2cc6018"><td class="memItemLeft" align="right" valign="top">override <a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#aa747aad16c4facdb33ecd0eba2cc6018">itemType</a><code> [get]</code></td></tr>
-<tr class="memdesc:aa747aad16c4facdb33ecd0eba2cc6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item type bow.  <a href="#aa747aad16c4facdb33ecd0eba2cc6018">More...</a><br /></td></tr>
-<tr class="separator:aa747aad16c4facdb33ecd0eba2cc6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('properties_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:a32f991e28ad0bdad11434f7a9e31f80b inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a32f991e28ad0bdad11434f7a9e31f80b">ID</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a32f991e28ad0bdad11434f7a9e31f80b inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns unique ID of item based on level index and position. NOTE: Do not place items on the same position on the same level.  <a href="class_m_l_space_1_1_inventory_item.html#a32f991e28ad0bdad11434f7a9e31f80b">More...</a><br /></td></tr>
-<tr class="separator:a32f991e28ad0bdad11434f7a9e31f80b inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae95de2470406879261dd18636e254c35 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#ae95de2470406879261dd18636e254c35">levelID</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae95de2470406879261dd18636e254c35 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current scene index  <a href="class_m_l_space_1_1_inventory_item.html#ae95de2470406879261dd18636e254c35">More...</a><br /></td></tr>
-<tr class="separator:ae95de2470406879261dd18636e254c35 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa847deda5352257e6dabbc1a0c289e07 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#aa847deda5352257e6dabbc1a0c289e07">item</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:aa847deda5352257e6dabbc1a0c289e07 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item game object.  <a href="class_m_l_space_1_1_inventory_item.html#aa847deda5352257e6dabbc1a0c289e07">More...</a><br /></td></tr>
-<tr class="separator:aa847deda5352257e6dabbc1a0c289e07 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6a263be071ad345d7d5907cba038814 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#ae6a263be071ad345d7d5907cba038814">ownerGameObject</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:ae6a263be071ad345d7d5907cba038814 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets owner if item.  <a href="class_m_l_space_1_1_inventory_item.html#ae6a263be071ad345d7d5907cba038814">More...</a><br /></td></tr>
-<tr class="separator:ae6a263be071ad345d7d5907cba038814 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a547651303ef0ab99573de2437b853bf7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a547651303ef0ab99573de2437b853bf7">ownerGC</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a547651303ef0ab99573de2437b853bf7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets owner <a class="el" href="interface_m_l_space_1_1_i_game_character.html" title="Common properties of player and npc characters. ">IGameCharacter</a>.  <a href="class_m_l_space_1_1_inventory_item.html#a547651303ef0ab99573de2437b853bf7">More...</a><br /></td></tr>
-<tr class="separator:a547651303ef0ab99573de2437b853bf7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accdfb796f0170d9f8adc6538339a6ecf inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#accdfb796f0170d9f8adc6538339a6ecf">itemType</a><code> [get]</code></td></tr>
-<tr class="memdesc:accdfb796f0170d9f8adc6538339a6ecf inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets item type.  <a href="class_m_l_space_1_1_inventory_item.html#accdfb796f0170d9f8adc6538339a6ecf">More...</a><br /></td></tr>
-<tr class="separator:accdfb796f0170d9f8adc6538339a6ecf inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5006e4942ac180cc7e9b54573a413da7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_inventory_item.html#a5006e4942ac180cc7e9b54573a413da7">initialized</a><code> [get]</code></td></tr>
-<tr class="memdesc:a5006e4942ac180cc7e9b54573a413da7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if class is initialized, otherwise false.  <a href="class_m_l_space_1_1_inventory_item.html#a5006e4942ac180cc7e9b54573a413da7">More...</a><br /></td></tr>
-<tr class="separator:a5006e4942ac180cc7e9b54573a413da7 inherit properties_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
-<tr class="memitem:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#ad8b13673dcf0af712404e20c41909cc7">_resetRB</a> ()</td></tr>
-<tr class="memdesc:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets items rigid bodies and colliders to original setup.  <a href="class_m_l_space_1_1_physics_inventory_item.html#ad8b13673dcf0af712404e20c41909cc7">More...</a><br /></td></tr>
-<tr class="separator:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#aeb957ed44d0cd92adffa1b040cbca205">_dropRB</a> (Vector3 velocity)</td></tr>
-<tr class="memdesc:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creating setup for item drop.  <a href="class_m_l_space_1_1_physics_inventory_item.html#aeb957ed44d0cd92adffa1b040cbca205">More...</a><br /></td></tr>
-<tr class="separator:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_physics_inventory_item.html#a82821d7b5a694e52d797c2462505b374">_resetJoints</a> ()</td></tr>
-<tr class="memdesc:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset configurable joints if any exist.  <a href="class_m_l_space_1_1_physics_inventory_item.html#a82821d7b5a694e52d797c2462505b374">More...</a><br /></td></tr>
-<tr class="separator:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a981b2bb45e8bcc2ee4984a53f039b41e"><td class="memItemLeft" align="right" valign="top"><a id="a981b2bb45e8bcc2ee4984a53f039b41e"></a>
+LayerMask&#160;</td><td class="memItemRight" valign="bottom"><b>m_HitMask</b></td></tr>
+<tr class="separator:a981b2bb45e8bcc2ee4984a53f039b41e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d311164cace47cab612b6ab7b547aa"><td class="memItemLeft" align="right" valign="top"><a id="a02d311164cace47cab612b6ab7b547aa"></a>
+ParticleSystem []&#160;</td><td class="memItemRight" valign="bottom"><b>m_OnHitEffects</b></td></tr>
+<tr class="separator:a02d311164cace47cab612b6ab7b547aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3214a4fcb3ebddb35b1a8981fe9f7870"><td class="memItemLeft" align="right" valign="top"><a id="a3214a4fcb3ebddb35b1a8981fe9f7870"></a>
+List&lt; ParticleSystem[]&gt;&#160;</td><td class="memItemRight" valign="bottom"><b>m_EffectsPool</b></td></tr>
+<tr class="separator:a3214a4fcb3ebddb35b1a8981fe9f7870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_m_l_space_1_1_weapon_item"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_l_space_1_1_weapon_item')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_l_space_1_1_weapon_item.html">MLSpace.WeaponItem</a></td></tr>
+<tr class="memitem:aace4db4851572ce310b975b97ab5eab9 inherit pro_attribs_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a id="aace4db4851572ce310b975b97ab5eab9"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>m_NumRemainingShots</b> = 0</td></tr>
+<tr class="separator:aace4db4851572ce310b975b97ab5eab9 inherit pro_attribs_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
 <tr class="memitem:ad87df476dcc9182588ed6270915445a9 inherit pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="ad87df476dcc9182588ed6270915445a9"></a>
 Collider []&#160;</td><td class="memItemRight" valign="bottom"><b>m_Colliders</b></td></tr>
@@ -270,22 +343,47 @@ Transform []&#160;</td><td class="memItemRight" valign="bottom"><b>m_Transforms<
 <tr class="memitem:a5e0687270e687dea84873737e62e9a5e inherit pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a5e0687270e687dea84873737e62e9a5e"></a>
 Transform&#160;</td><td class="memItemRight" valign="bottom"><b>m_OrigParent</b></td></tr>
 <tr class="separator:a5e0687270e687dea84873737e62e9a5e inherit pro_attribs_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_class_m_l_space_1_1_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_m_l_space_1_1_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="class_m_l_space_1_1_inventory_item.html">MLSpace.InventoryItem</a></td></tr>
-<tr class="memitem:ac54092100fd950ca226a7f85f402df59 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="ac54092100fd950ca226a7f85f402df59"></a>
-<a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_ItemType</b></td></tr>
-<tr class="separator:ac54092100fd950ca226a7f85f402df59 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfb4ebb62584ecf5f2264d5cffb6feb9 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="abfb4ebb62584ecf5f2264d5cffb6feb9"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_ItemGO</b></td></tr>
-<tr class="separator:abfb4ebb62584ecf5f2264d5cffb6feb9 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd724f07b4f4f8f839432900823ebe0f inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="acd724f07b4f4f8f839432900823ebe0f"></a>
-GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>m_OwnerGO</b></td></tr>
-<tr class="separator:acd724f07b4f4f8f839432900823ebe0f inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bd9c13d0cacb77b51459242712fcb35 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a4bd9c13d0cacb77b51459242712fcb35"></a>
-<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_OwnerGC</b></td></tr>
-<tr class="separator:a4bd9c13d0cacb77b51459242712fcb35 inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0f2e88d61561b1b7882a4ce0988b94c inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="aa0f2e88d61561b1b7882a4ce0988b94c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = false</td></tr>
-<tr class="separator:aa0f2e88d61561b1b7882a4ce0988b94c inherit pro_attribs_class_m_l_space_1_1_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:aa747aad16c4facdb33ecd0eba2cc6018"><td class="memItemLeft" align="right" valign="top">override InventoryItemType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#aa747aad16c4facdb33ecd0eba2cc6018">itemType</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa747aad16c4facdb33ecd0eba2cc6018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Item type bow.  <a href="#aa747aad16c4facdb33ecd0eba2cc6018">More...</a><br /></td></tr>
+<tr class="separator:aa747aad16c4facdb33ecd0eba2cc6018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08401af5631593bdd42d9cdd28d47e34"><td class="memItemLeft" align="right" valign="top">override LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a08401af5631593bdd42d9cdd28d47e34">hitMask</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a08401af5631593bdd42d9cdd28d47e34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and set bow hit mask  <a href="#a08401af5631593bdd42d9cdd28d47e34">More...</a><br /></td></tr>
+<tr class="separator:a08401af5631593bdd42d9cdd28d47e34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f819b72ffcba9468796e1188e140478"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_bow_item.html#a4f819b72ffcba9468796e1188e140478">isRanged</a><code> [get]</code></td></tr>
+<tr class="memdesc:a4f819b72ffcba9468796e1188e140478"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if weapon is ranged, otherwise false  <a href="#a4f819b72ffcba9468796e1188e140478">More...</a><br /></td></tr>
+<tr class="separator:a4f819b72ffcba9468796e1188e140478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header properties_class_m_l_space_1_1_weapon_item"><td colspan="2" onclick="javascript:toggleInherit('properties_class_m_l_space_1_1_weapon_item')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="class_m_l_space_1_1_weapon_item.html">MLSpace.WeaponItem</a></td></tr>
+<tr class="memitem:a050c2cd621d203704c32183c24d7dc7c inherit properties_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a050c2cd621d203704c32183c24d7dc7c">numRemainingShots</a><code> [get]</code></td></tr>
+<tr class="memdesc:a050c2cd621d203704c32183c24d7dc7c inherit properties_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets number of remaining shots  <a href="class_m_l_space_1_1_weapon_item.html#a050c2cd621d203704c32183c24d7dc7c">More...</a><br /></td></tr>
+<tr class="separator:a050c2cd621d203704c32183c24d7dc7c inherit properties_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0bcea5e85c1cece02ef8fd90663ef79 inherit properties_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#ab0bcea5e85c1cece02ef8fd90663ef79">isRanged</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab0bcea5e85c1cece02ef8fd90663ef79 inherit properties_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if weapon is ranged, else false  <a href="class_m_l_space_1_1_weapon_item.html#ab0bcea5e85c1cece02ef8fd90663ef79">More...</a><br /></td></tr>
+<tr class="separator:ab0bcea5e85c1cece02ef8fd90663ef79 inherit properties_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247308b6238981b1e698ae010c2137c8 inherit properties_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_animation_clip_list.html">AnimationClipList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a247308b6238981b1e698ae010c2137c8">animationList</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a247308b6238981b1e698ae010c2137c8 inherit properties_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets animation clip list  <a href="class_m_l_space_1_1_weapon_item.html#a247308b6238981b1e698ae010c2137c8">More...</a><br /></td></tr>
+<tr class="separator:a247308b6238981b1e698ae010c2137c8 inherit properties_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19570c144b8e46ed26cf3c35de2adc48 inherit properties_class_m_l_space_1_1_weapon_item"><td class="memItemLeft" align="right" valign="top">virtual LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_weapon_item.html#a19570c144b8e46ed26cf3c35de2adc48">hitMask</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a19570c144b8e46ed26cf3c35de2adc48 inherit properties_class_m_l_space_1_1_weapon_item"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets hit mask  <a href="class_m_l_space_1_1_weapon_item.html#a19570c144b8e46ed26cf3c35de2adc48">More...</a><br /></td></tr>
+<tr class="separator:a19570c144b8e46ed26cf3c35de2adc48 inherit properties_class_m_l_space_1_1_weapon_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_methods_class_m_l_space_1_1_physics_inventory_item"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_m_l_space_1_1_physics_inventory_item')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="class_m_l_space_1_1_physics_inventory_item.html">MLSpace.PhysicsInventoryItem</a></td></tr>
+<tr class="memitem:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="ad8b13673dcf0af712404e20c41909cc7"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_resetRB</b> ()</td></tr>
+<tr class="separator:ad8b13673dcf0af712404e20c41909cc7 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="aeb957ed44d0cd92adffa1b040cbca205"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_dropRB</b> (Vector3 velocity)</td></tr>
+<tr class="separator:aeb957ed44d0cd92adffa1b040cbca205 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a82821d7b5a694e52d797c2462505b374"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>_resetJoints</b> ()</td></tr>
+<tr class="separator:a82821d7b5a694e52d797c2462505b374 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5017da4abad6f6d337bb86703b366b23 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memItemLeft" align="right" valign="top"><a id="a5017da4abad6f6d337bb86703b366b23"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>_collectPhysicsComponents</b> ()</td></tr>
+<tr class="separator:a5017da4abad6f6d337bb86703b366b23 inherit pro_methods_class_m_l_space_1_1_physics_inventory_item"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Bow weapon item class. </p>
@@ -308,14 +406,40 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Clear references. </p>
 
-<p>Reimplemented from <a class="el" href="class_m_l_space_1_1_weapon_item.html#a649d807b1827c87bdc3f439eced3af73">MLSpace.WeaponItem</a>.</p>
+</div>
+</div>
+<a id="a1428f24a24a81b335cfd01f08a9325d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1428f24a24a81b335cfd01f08a9325d9">&sect;&nbsp;</a></span>getFreeParticlEffect()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ParticleSystem [] MLSpace.BowItem.getFreeParticlEffect </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get free default particle effect from pool </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
 </div>
@@ -337,15 +461,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Initialize component. </p>
 <dl class="section return"><dt>Returns</dt><dd>retuns initialization success</dd></dl>
-
-<p>Reimplemented from <a class="el" href="class_m_l_space_1_1_weapon_item.html#a151716020da18ed27f7bc1b7723339db">MLSpace.WeaponItem</a>.</p>
 
 </div>
 </div>
@@ -354,6 +476,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.BowItem.resetString </td>
@@ -362,29 +487,52 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Reset string position / rotation. </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa9d07d8f8dd5982b5b8ef7828c8732f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9d07d8f8dd5982b5b8ef7828c8732f3">&sect;&nbsp;</a></span>aimClip</h2>
+<a id="aaee495b3dcdf0475c687981bd6a7972f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaee495b3dcdf0475c687981bd6a7972f">&sect;&nbsp;</a></span>startOnHitParticles()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a> MLSpace.BowItem.aimClip</td>
+          <td class="memname">virtual void MLSpace.BowItem.startOnHitParticles </td>
+          <td>(</td>
+          <td class="paramtype">RaycastHit&#160;</td>
+          <td class="paramname"><em>rHit</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Replace aim animation clip </p>
+<p>Start on hit particle effect/s </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rHit</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
 <a id="aee36c4e247c1e1858485d5ac193d0940"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aee36c4e247c1e1858485d5ac193d0940">&sect;&nbsp;</a></span>arrowStabilizer</h2>
 
@@ -417,87 +565,119 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
 
 </div>
 </div>
-<a id="a5411887274218d89d84e68544b1ee2fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5411887274218d89d84e68544b1ee2fc">&sect;&nbsp;</a></span>drawClip</h2>
+<a id="ae072e3741ddb22ff445ee64b8fcd2ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae072e3741ddb22ff445ee64b8fcd2ad9">&sect;&nbsp;</a></span>hitForceMultiplier</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a> MLSpace.BowItem.drawClip</td>
+          <td class="memname">float MLSpace.BowItem.hitForceMultiplier = 1.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Replace aim animation clip </p>
+<p>Hit force multiplier </p>
 
 </div>
 </div>
-<a id="adc72595c0c1e9bba972ee7734c1a0231"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc72595c0c1e9bba972ee7734c1a0231">&sect;&nbsp;</a></span>locomotionClips</h2>
+<a id="a2c55fa032c6e19e958bc614174df1cc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c55fa032c6e19e958bc614174df1cc2">&sect;&nbsp;</a></span>onHitEffect</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a>&gt; MLSpace.BowItem.locomotionClips</td>
+          <td class="memname">GameObject MLSpace.BowItem.onHitEffect</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Replace aim animation clip </p>
+<p>ParticleSystem effect/s that play on hit Its GameObject so its collecting children particle systems </p>
 
 </div>
 </div>
-<a id="a967e4ea68dca5c6e562ee9cb0c86a2d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a967e4ea68dca5c6e562ee9cb0c86a2d0">&sect;&nbsp;</a></span>releaseClip</h2>
+<a id="acd31d417570d3f32354b734a396a578a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd31d417570d3f32354b734a396a578a">&sect;&nbsp;</a></span>range</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a> MLSpace.BowItem.releaseClip</td>
+          <td class="memname">float MLSpace.BowItem.range = 160.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Replace aim animation clip </p>
+<p>Bow range </p>
 
 </div>
 </div>
-<a id="ae064cda45d508aeb2c806472826c9f98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae064cda45d508aeb2c806472826c9f98">&sect;&nbsp;</a></span>replacement_clips</h2>
+<a id="a78328a077fcfa8f3e59c4e930b606463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78328a077fcfa8f3e59c4e930b606463">&sect;&nbsp;</a></span>useOnHitEffectInstances</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a>&gt; MLSpace.BowItem.replacement_clips</td>
+          <td class="memname">bool MLSpace.BowItem.useOnHitEffectInstances = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Replacement clips list. </p>
-
-</div>
-</div>
-<a id="a140bc8d47ceabbcafe5dec82eb491d55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a140bc8d47ceabbcafe5dec82eb491d55">&sect;&nbsp;</a></span>strafeClips</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;<a class="el" href="class_m_l_space_1_1_animation_clip_replacement_info.html">AnimationClipReplacementInfo</a>&gt; MLSpace.BowItem.strafeClips</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Replace aim animation clip </p>
+<p>Create instance of effect for every hit </p>
 
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a08401af5631593bdd42d9cdd28d47e34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08401af5631593bdd42d9cdd28d47e34">&sect;&nbsp;</a></span>hitMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override LayerMask MLSpace.BowItem.hitMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and set bow hit mask </p>
+
+</div>
+</div>
+<a id="a4f819b72ffcba9468796e1188e140478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f819b72ffcba9468796e1188e140478">&sect;&nbsp;</a></span>isRanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool MLSpace.BowItem.isRanged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if weapon is ranged, otherwise false </p>
+
+</div>
+</div>
 <a id="aa747aad16c4facdb33ecd0eba2cc6018"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa747aad16c4facdb33ecd0eba2cc6018">&sect;&nbsp;</a></span>itemType</h2>
 
@@ -508,7 +688,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = f
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override <a class="el" href="namespace_m_l_space.html#a574c8d28a6cf4b7bacf62c58d9667f48">InventoryItemType</a> MLSpace.BowItem.itemType</td>
+          <td class="memname">override InventoryItemType MLSpace.BowItem.itemType</td>
         </tr>
       </table>
   </td>

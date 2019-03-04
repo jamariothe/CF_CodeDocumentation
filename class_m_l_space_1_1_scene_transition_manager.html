@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.SceneTransitionManager Class Reference</title>
+<title>CF_v4.0: MLSpace.SceneTransitionManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -66,12 +66,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aba4795321a8da6e0122cf4bc1708b340"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#aba4795321a8da6e0122cf4bc1708b340">clear</a> ()</td></tr>
 <tr class="memdesc:aba4795321a8da6e0122cf4bc1708b340"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references  <a href="#aba4795321a8da6e0122cf4bc1708b340">More...</a><br /></td></tr>
 <tr class="separator:aba4795321a8da6e0122cf4bc1708b340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d153bb2554e3c8deb1e38f538f1a8c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#a7d153bb2554e3c8deb1e38f538f1a8c1">loadScene</a> (string sceneName, string spawnTransform, <a class="el" href="class_m_l_space_1_1_player_control_base.html">PlayerControlBase</a> curPlayer, float fadeInSpeed)</td></tr>
-<tr class="memdesc:a7d153bb2554e3c8deb1e38f538f1a8c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">load next scene and spwn player on named transform  <a href="#a7d153bb2554e3c8deb1e38f538f1a8c1">More...</a><br /></td></tr>
-<tr class="separator:a7d153bb2554e3c8deb1e38f538f1a8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4f71e55e1b0244b2f268bdfc7fce68a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#ae4f71e55e1b0244b2f268bdfc7fce68a">loadScene</a> (string sceneName, string spawnTransform, <a class="el" href="class_m_l_space_1_1_player_control_base.html">PlayerControlBase</a> curPlayer, float fadeInSpeed, bool _loadAsync, LoadSceneMode _loadMode, bool destroyNonDestroyedOnLoad)</td></tr>
+<tr class="memdesc:ae4f71e55e1b0244b2f268bdfc7fce68a"><td class="mdescLeft">&#160;</td><td class="mdescRight">load next scene and spwn player on named transform  <a href="#ae4f71e55e1b0244b2f268bdfc7fce68a">More...</a><br /></td></tr>
+<tr class="separator:ae4f71e55e1b0244b2f268bdfc7fce68a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a276966235075d77362d3619992f2d15a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#a276966235075d77362d3619992f2d15a">unloadScene</a> (string sceneName)</td></tr>
+<tr class="memdesc:a276966235075d77362d3619992f2d15a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unload scene by name  <a href="#a276966235075d77362d3619992f2d15a">More...</a><br /></td></tr>
+<tr class="separator:a276966235075d77362d3619992f2d15a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a65952f6a00a5e45f6e19ba23c7aedc26"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#a65952f6a00a5e45f6e19ba23c7aedc26">loadingIcon</a></td></tr>
+<tr class="memdesc:a65952f6a00a5e45f6e19ba23c7aedc26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to loading icon  <a href="#a65952f6a00a5e45f6e19ba23c7aedc26">More...</a><br /></td></tr>
+<tr class="separator:a65952f6a00a5e45f6e19ba23c7aedc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1b33033a3c89e8e5cd7336d61bb7634"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#ad1b33033a3c89e8e5cd7336d61bb7634">rotateSpeed</a> = 1.0f</td></tr>
+<tr class="memdesc:ad1b33033a3c89e8e5cd7336d61bb7634"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loading icon rotation speed  <a href="#ad1b33033a3c89e8e5cd7336d61bb7634">More...</a><br /></td></tr>
+<tr class="separator:ad1b33033a3c89e8e5cd7336d61bb7634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a4c9d276f7456d89f2e59610297809a"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#a5a4c9d276f7456d89f2e59610297809a">loadIconGoName</a> = &quot;LoadSceneImage&quot;</td></tr>
+<tr class="memdesc:a5a4c9d276f7456d89f2e59610297809a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loading icon game object name.  <a href="#a5a4c9d276f7456d89f2e59610297809a">More...</a><br /></td></tr>
+<tr class="separator:a5a4c9d276f7456d89f2e59610297809a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6cbfc357b73d657da849d4d854bcf58"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; int, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_scene_transition_manager.html#ad6cbfc357b73d657da849d4d854bcf58">scenesVisited</a> = new Dictionary&lt;int, string&gt;()</td></tr>
 <tr class="memdesc:ad6cbfc357b73d657da849d4d854bcf58"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of scenes visited.  <a href="#ad6cbfc357b73d657da849d4d854bcf58">More...</a><br /></td></tr>
 <tr class="separator:ad6cbfc357b73d657da849d4d854bcf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -84,6 +96,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.SceneTransitionManager.clear </td>
@@ -92,17 +107,25 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Clear references </p>
 
 </div>
 </div>
-<a id="a7d153bb2554e3c8deb1e38f538f1a8c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d153bb2554e3c8deb1e38f538f1a8c1">&sect;&nbsp;</a></span>loadScene()</h2>
+<a id="ae4f71e55e1b0244b2f268bdfc7fce68a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4f71e55e1b0244b2f268bdfc7fce68a">&sect;&nbsp;</a></span>loadScene()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.SceneTransitionManager.loadScene </td>
@@ -126,7 +149,25 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>fadeInSpeed</em>&#160;</td>
+          <td class="paramname"><em>fadeInSpeed</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_loadAsync</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">LoadSceneMode&#160;</td>
+          <td class="paramname"><em>_loadMode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>destroyNonDestroyedOnLoad</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -134,13 +175,57 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>load next scene and spwn player on named transform </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sceneName</td><td>scene name to load</td></tr>
-    <tr><td class="paramname">spawnTransform</td><td>next scene spawn transform name</td></tr>
+    <tr><td class="paramname">sceneName</td><td></td></tr>
+    <tr><td class="paramname">spawnTransform</td><td></td></tr>
+    <tr><td class="paramname">curPlayer</td><td></td></tr>
+    <tr><td class="paramname">fadeInSpeed</td><td></td></tr>
+    <tr><td class="paramname">_loadAsync</td><td></td></tr>
+    <tr><td class="paramname">_loadMode</td><td></td></tr>
+    <tr><td class="paramname">destroyAll</td><td>Destroy objects tagged 'DoneDestroyOnLoad'</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a276966235075d77362d3619992f2d15a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a276966235075d77362d3619992f2d15a">&sect;&nbsp;</a></span>unloadScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.SceneTransitionManager.unloadScene </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>sceneName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Unload scene by name </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sceneName</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -148,6 +233,54 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5a4c9d276f7456d89f2e59610297809a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a4c9d276f7456d89f2e59610297809a">&sect;&nbsp;</a></span>loadIconGoName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string MLSpace.SceneTransitionManager.loadIconGoName = &quot;LoadSceneImage&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loading icon game object name. </p>
+
+</div>
+</div>
+<a id="a65952f6a00a5e45f6e19ba23c7aedc26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65952f6a00a5e45f6e19ba23c7aedc26">&sect;&nbsp;</a></span>loadingIcon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject MLSpace.SceneTransitionManager.loadingIcon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reference to loading icon </p>
+
+</div>
+</div>
+<a id="ad1b33033a3c89e8e5cd7336d61bb7634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1b33033a3c89e8e5cd7336d61bb7634">&sect;&nbsp;</a></span>rotateSpeed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MLSpace.SceneTransitionManager.rotateSpeed = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Loading icon rotation speed </p>
+
+</div>
+</div>
 <a id="ad6cbfc357b73d657da849d4d854bcf58"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad6cbfc357b73d657da849d4d854bcf58">&sect;&nbsp;</a></span>scenesVisited</h2>
 

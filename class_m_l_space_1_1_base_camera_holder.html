@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.BaseCameraHolder Class Reference</title>
+<title>CF_v4.0: MLSpace.BaseCameraHolder Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -61,8 +61,8 @@ Inheritance diagram for MLSpace.BaseCameraHolder:</div>
   <img src="class_m_l_space_1_1_base_camera_holder.png" usemap="#MLSpace.BaseCameraHolder_map" alt=""/>
   <map id="MLSpace.BaseCameraHolder_map" name="MLSpace.BaseCameraHolder_map">
 <area href="class_m_l_space_1_1_orbit_camera_holder.html" title="Orbit Camera Controller class. Rotates, follows and zooms to target " alt="MLSpace.OrbitCameraHolder" shape="rect" coords="0,112,205,136"/>
-<area href="class_m_l_space_1_1_top_down_camera_holder.html" alt="MLSpace.TopDownCameraHolder" shape="rect" coords="215,112,420,136"/>
-<area href="class_m_l_space_1_1_orbit_aim_camera.html" title="Obit camera that holds zoom calbacks " alt="MLSpace.OrbitAimCamera" shape="rect" coords="0,168,205,192"/>
+<area href="class_m_l_space_1_1_top_down_camera_holder.html" title="Top down camera. Derived from BaseCameraHolder " alt="MLSpace.TopDownCameraHolder" shape="rect" coords="215,112,420,136"/>
+<area href="class_m_l_space_1_1_orbit_aim_camera.html" title="Orbit camera that holds zoom callbacks " alt="MLSpace.OrbitAimCamera" shape="rect" coords="0,168,205,192"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -71,18 +71,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9bb714f63da26e9bfc765e5f9b53dea9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#a9bb714f63da26e9bfc765e5f9b53dea9">initialize</a> ()</td></tr>
 <tr class="memdesc:a9bb714f63da26e9bfc765e5f9b53dea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component.  <a href="#a9bb714f63da26e9bfc765e5f9b53dea9">More...</a><br /></td></tr>
 <tr class="separator:a9bb714f63da26e9bfc765e5f9b53dea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20e0724dea4473a7c0c12fbcb329c171"><td class="memItemLeft" align="right" valign="top"><a id="a20e0724dea4473a7c0c12fbcb329c171"></a>
-abstract void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> ()</td></tr>
+<tr class="memitem:a20e0724dea4473a7c0c12fbcb329c171"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#a20e0724dea4473a7c0c12fbcb329c171">update</a> ()</td></tr>
+<tr class="memdesc:a20e0724dea4473a7c0c12fbcb329c171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update camera holder  <a href="#a20e0724dea4473a7c0c12fbcb329c171">More...</a><br /></td></tr>
 <tr class="separator:a20e0724dea4473a7c0c12fbcb329c171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fc56d9bd9c53cfcf7a105a5385b1799"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#a2fc56d9bd9c53cfcf7a105a5385b1799">clear</a> ()</td></tr>
 <tr class="memdesc:a2fc56d9bd9c53cfcf7a105a5385b1799"><td class="mdescLeft">&#160;</td><td class="mdescRight">clear references.  <a href="#a2fc56d9bd9c53cfcf7a105a5385b1799">More...</a><br /></td></tr>
 <tr class="separator:a2fc56d9bd9c53cfcf7a105a5385b1799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac85f484a6824c6b73169015322715c35"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#ac85f484a6824c6b73169015322715c35">switchTargets</a> (Transform newTarget, float speed=1.0f)</td></tr>
-<tr class="memdesc:ac85f484a6824c6b73169015322715c35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch camera targets.  <a href="#ac85f484a6824c6b73169015322715c35">More...</a><br /></td></tr>
-<tr class="separator:ac85f484a6824c6b73169015322715c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4832c55d6c1b65b1dea0597ad6cff8ce"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#a4832c55d6c1b65b1dea0597ad6cff8ce">switchTargets</a> (Transform newTarget, Vector3 targetOffset, float speed=1.0f)</td></tr>
-<tr class="memdesc:a4832c55d6c1b65b1dea0597ad6cff8ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch camera targets.  <a href="#a4832c55d6c1b65b1dea0597ad6cff8ce">More...</a><br /></td></tr>
-<tr class="separator:a4832c55d6c1b65b1dea0597ad6cff8ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c8e25ba47f24cbec912da5594e43f7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#ae8c8e25ba47f24cbec912da5594e43f7">switchTargets</a> (Transform newTarget, float speed=1.0f, bool rotationOnly=false)</td></tr>
+<tr class="memdesc:ae8c8e25ba47f24cbec912da5594e43f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch camera targets.  <a href="#ae8c8e25ba47f24cbec912da5594e43f7">More...</a><br /></td></tr>
+<tr class="separator:ae8c8e25ba47f24cbec912da5594e43f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea5d4134e9692a9780910b2895ee6e7"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#aaea5d4134e9692a9780910b2895ee6e7">switchTargets</a> (Transform newTarget, Vector3 targetOffset, float speed=1.0f, bool rotationOnly=false)</td></tr>
+<tr class="memdesc:aaea5d4134e9692a9780910b2895ee6e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Switch camera targets.  <a href="#aaea5d4134e9692a9780910b2895ee6e7">More...</a><br /></td></tr>
+<tr class="separator:aaea5d4134e9692a9780910b2895ee6e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -98,15 +98,18 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:adadd94ceecac885d129f6f505b79cf2c"><td class="memItemLeft" align="right" valign="top"><a id="adadd94ceecac885d129f6f505b79cf2c"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_Initialized</b> = false</td></tr>
 <tr class="separator:adadd94ceecac885d129f6f505b79cf2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a53ba4dbf7090f6839995f44de22ca3"><td class="memItemLeft" align="right" valign="top"><a id="a6a53ba4dbf7090f6839995f44de22ca3"></a>
-Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>target_position_offset</b> = Vector3.zero</td></tr>
-<tr class="separator:a6a53ba4dbf7090f6839995f44de22ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203ec3c9ef935a0725a1bace01e0a61b"><td class="memItemLeft" align="right" valign="top"><a id="a203ec3c9ef935a0725a1bace01e0a61b"></a>
+Vector3&#160;</td><td class="memItemRight" valign="bottom"><b>m_PositionOffset</b> = Vector3.zero</td></tr>
+<tr class="separator:a203ec3c9ef935a0725a1bace01e0a61b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7077006d54fd16d2a22d405bce0e993e"><td class="memItemLeft" align="right" valign="top"><a id="a7077006d54fd16d2a22d405bce0e993e"></a>
 <a class="el" href="class_m_l_space_1_1_protect_from_walls.html">ProtectFromWalls</a>&#160;</td><td class="memItemRight" valign="bottom"><b>m_ProtectFromWalls</b></td></tr>
 <tr class="separator:a7077006d54fd16d2a22d405bce0e993e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63c6af1106a0f6208d815299a0c45d5d"><td class="memItemLeft" align="right" valign="top"><a id="a63c6af1106a0f6208d815299a0c45d5d"></a>
 Camera&#160;</td><td class="memItemRight" valign="bottom"><b>m_CameraComponent</b></td></tr>
 <tr class="separator:a63c6af1106a0f6208d815299a0c45d5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4f204af3e2036b52d8963bf1a3aeca8"><td class="memItemLeft" align="right" valign="top"><a id="ad4f204af3e2036b52d8963bf1a3aeca8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>m_OnlyRotation</b> = false</td></tr>
+<tr class="separator:ad4f204af3e2036b52d8963bf1a3aeca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
@@ -125,8 +128,8 @@ Properties</h2></td></tr>
 <tr class="memitem:a8247d850ad696afce799df3c69077010"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#a8247d850ad696afce799df3c69077010">rotation</a><code> [get]</code></td></tr>
 <tr class="memdesc:a8247d850ad696afce799df3c69077010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rotation of objet  <a href="#a8247d850ad696afce799df3c69077010">More...</a><br /></td></tr>
 <tr class="separator:a8247d850ad696afce799df3c69077010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7b1ef9fb3569cf6f51aabd3d85d2741"><td class="memItemLeft" align="right" valign="top"><a id="af7b1ef9fb3569cf6f51aabd3d85d2741"></a>
-Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b><code> [get]</code></td></tr>
+<tr class="memitem:af7b1ef9fb3569cf6f51aabd3d85d2741"><td class="memItemLeft" align="right" valign="top">Camera&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_base_camera_holder.html#af7b1ef9fb3569cf6f51aabd3d85d2741">cameraComponent</a><code> [get]</code></td></tr>
+<tr class="memdesc:af7b1ef9fb3569cf6f51aabd3d85d2741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets camera component  <a href="#af7b1ef9fb3569cf6f51aabd3d85d2741">More...</a><br /></td></tr>
 <tr class="separator:af7b1ef9fb3569cf6f51aabd3d85d2741"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -150,7 +153,7 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -179,7 +182,7 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -190,8 +193,8 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
 
 </div>
 </div>
-<a id="ac85f484a6824c6b73169015322715c35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac85f484a6824c6b73169015322715c35">&sect;&nbsp;</a></span>switchTargets() <span class="overload">[1/2]</span></h2>
+<a id="ae8c8e25ba47f24cbec912da5594e43f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8c8e25ba47f24cbec912da5594e43f7">&sect;&nbsp;</a></span>switchTargets() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +212,13 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>speed</em> = <code>1.0f</code>&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>1.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>rotationOnly</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -233,12 +242,12 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#ae16b685f0e405c0d60403f6bf4a229e3">MLSpace.OrbitCameraHolder</a>, and <a class="el" href="class_m_l_space_1_1_top_down_camera_holder.html#a396311c328d47449b613460e7e23bc77">MLSpace.TopDownCameraHolder</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#aba71433934e322ce771447ddd3e1b356">MLSpace.OrbitCameraHolder</a>, and <a class="el" href="class_m_l_space_1_1_top_down_camera_holder.html#a172198c7eb3bdee6dd6255a63948d68a">MLSpace.TopDownCameraHolder</a>.</p>
 
 </div>
 </div>
-<a id="a4832c55d6c1b65b1dea0597ad6cff8ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4832c55d6c1b65b1dea0597ad6cff8ce">&sect;&nbsp;</a></span>switchTargets() <span class="overload">[2/2]</span></h2>
+<a id="aaea5d4134e9692a9780910b2895ee6e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea5d4134e9692a9780910b2895ee6e7">&sect;&nbsp;</a></span>switchTargets() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,7 +271,13 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>speed</em> = <code>1.0f</code>&#160;</td>
+          <td class="paramname"><em>speed</em> = <code>1.0f</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>rotationOnly</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -286,7 +301,36 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#a012536671899362e0d1f86bb2063a19f">MLSpace.OrbitCameraHolder</a>, and <a class="el" href="class_m_l_space_1_1_top_down_camera_holder.html#af1730a299fa8900adaf608a72deb1304">MLSpace.TopDownCameraHolder</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#a3d931005b37c86448c120e91bbec400e">MLSpace.OrbitCameraHolder</a>, and <a class="el" href="class_m_l_space_1_1_top_down_camera_holder.html#a65b4a362c655a67fa0277cd8bbd03a73">MLSpace.TopDownCameraHolder</a>.</p>
+
+</div>
+</div>
+<a id="a20e0724dea4473a7c0c12fbcb329c171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20e0724dea4473a7c0c12fbcb329c171">&sect;&nbsp;</a></span>update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void MLSpace.BaseCameraHolder.update </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Update camera holder </p>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_orbit_camera_holder.html#af658e1801bcdde8ce124c005f648fda4">MLSpace.OrbitCameraHolder</a>, <a class="el" href="class_m_l_space_1_1_top_down_camera_holder.html#ac127b6e3cc011ebc728139a8e1a9967f">MLSpace.TopDownCameraHolder</a>, and <a class="el" href="class_m_l_space_1_1_orbit_aim_camera.html#a2601d0d6c1363ae46d2cc4cb13024a56">MLSpace.OrbitAimCamera</a>.</p>
 
 </div>
 </div>
@@ -345,6 +389,30 @@ Camera&#160;</td><td class="memItemRight" valign="bottom"><b>cameraComponent</b>
 </div><div class="memdoc">
 
 <p>Gets and sets adding player rotation with input rotation. </p>
+
+</div>
+</div>
+<a id="af7b1ef9fb3569cf6f51aabd3d85d2741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7b1ef9fb3569cf6f51aabd3d85d2741">&sect;&nbsp;</a></span>cameraComponent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Camera MLSpace.BaseCameraHolder.cameraComponent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets camera component </p>
 
 </div>
 </div>

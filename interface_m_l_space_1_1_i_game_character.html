@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.IGameCharacter Interface Reference</title>
+<title>CF_v4.0: MLSpace.IGameCharacter Interface Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -61,7 +61,7 @@ Inheritance diagram for MLSpace.IGameCharacter:</div>
 <area href="class_m_l_space_1_1_n_p_c_script.html" title="Base npc class. " alt="MLSpace.NPCScript" shape="rect" coords="316,56,517,80"/>
 <area href="class_m_l_space_1_1_player_control_base.html" title="Base class for combat framework controllers. " alt="MLSpace.PlayerControlBase" shape="rect" coords="949,56,1150,80"/>
 <area href="class_m_l_space_1_1_mech_control.html" title="Derived from NPCScript for usage on mech robots with ranged and melee combat. " alt="MLSpace.MechControl" shape="rect" coords="0,112,201,136"/>
-<area href="class_m_l_space_1_1_n_p_c_guard.html" title="Guard npc stands in place looking towards initial direction. If enemy, chasing player and if player d..." alt="MLSpace.NPCGuard" shape="rect" coords="211,112,412,136"/>
+<area href="class_m_l_space_1_1_n_p_c_guard.html" title="Guard npc stands in place looking towards initial direction. If type of enemy, then chasing player an..." alt="MLSpace.NPCGuard" shape="rect" coords="211,112,412,136"/>
 <area href="class_m_l_space_1_1_n_p_c_patrol.html" title="Implementation of Npc doing patrol work during CombatIdle time Derived from NPCScript ..." alt="MLSpace.NPCPatrol" shape="rect" coords="422,112,623,136"/>
 <area href="class_m_l_space_1_1_zombie.html" title="Derived from NPCSCript. Reduced features for performance increase. " alt="MLSpace.Zombie" shape="rect" coords="633,112,834,136"/>
 <area href="class_m_l_space_1_1_player_control.html" title="Class that controls third person player in combat framework system. " alt="MLSpace.PlayerControl" shape="rect" coords="844,112,1045,136"/>
@@ -72,6 +72,18 @@ Inheritance diagram for MLSpace.IGameCharacter:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aaefd0778bfdfec865d41a1bc2ac8f303"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#aaefd0778bfdfec865d41a1bc2ac8f303">chaseConditions</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> target)</td></tr>
+<tr class="memdesc:aaefd0778bfdfec865d41a1bc2ac8f303"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chase conditions  <a href="#aaefd0778bfdfec865d41a1bc2ac8f303">More...</a><br /></td></tr>
+<tr class="separator:aaefd0778bfdfec865d41a1bc2ac8f303"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab28fcc4be3fe8c420a4b29acb9b67ea2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ab28fcc4be3fe8c420a4b29acb9b67ea2">setTarget</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> target)</td></tr>
+<tr class="memdesc:ab28fcc4be3fe8c420a4b29acb9b67ea2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set target  <a href="#ab28fcc4be3fe8c420a4b29acb9b67ea2">More...</a><br /></td></tr>
+<tr class="separator:ab28fcc4be3fe8c420a4b29acb9b67ea2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a17139960fabe431938cdbb691e51c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_combat_audio.html">CombatAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a3a17139960fabe431938cdbb691e51c6">getCurrentAttackSound</a> (int source)</td></tr>
+<tr class="memdesc:a3a17139960fabe431938cdbb691e51c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current attack sound  <a href="#a3a17139960fabe431938cdbb691e51c6">More...</a><br /></td></tr>
+<tr class="separator:a3a17139960fabe431938cdbb691e51c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb54d28e077b495fbd42a629a21fd898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_combat_audio.html">CombatAudio</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#adb54d28e077b495fbd42a629a21fd898">getCurrentBlockSound</a> (int source)</td></tr>
+<tr class="memdesc:adb54d28e077b495fbd42a629a21fd898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get current block sound  <a href="#adb54d28e077b495fbd42a629a21fd898">More...</a><br /></td></tr>
+<tr class="separator:adb54d28e077b495fbd42a629a21fd898"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74f72576d6765f630f589bf3de6ac166"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a74f72576d6765f630f589bf3de6ac166">breakAttack</a> ()</td></tr>
 <tr class="memdesc:a74f72576d6765f630f589bf3de6ac166"><td class="mdescLeft">&#160;</td><td class="mdescRight">Break attack combo.  <a href="#a74f72576d6765f630f589bf3de6ac166">More...</a><br /></td></tr>
 <tr class="separator:a74f72576d6765f630f589bf3de6ac166"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -81,33 +93,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7cf6a9bd05940920f11e1735992deb5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a7cf6a9bd05940920f11e1735992deb5e">attack_start_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, int attackType)</td></tr>
 <tr class="memdesc:a7cf6a9bd05940920f11e1735992deb5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify character of attack start.  <a href="#a7cf6a9bd05940920f11e1735992deb5e">More...</a><br /></td></tr>
 <tr class="separator:a7cf6a9bd05940920f11e1735992deb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca6d4805cce9c5e7af981a677743946b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#aca6d4805cce9c5e7af981a677743946b">attack_hit_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, ref <a class="el" href="struct_m_l_space_1_1_attack_info.html">AttackInfo</a> aInfo, ref bool blocking)</td></tr>
-<tr class="memdesc:aca6d4805cce9c5e7af981a677743946b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify character of attack hit.  <a href="#aca6d4805cce9c5e7af981a677743946b">More...</a><br /></td></tr>
-<tr class="separator:aca6d4805cce9c5e7af981a677743946b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a733e5f685fc5b54b966b9efb2d70c7df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a733e5f685fc5b54b966b9efb2d70c7df">setNewItem</a> (<a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> item)</td></tr>
-<tr class="memdesc:a733e5f685fc5b54b966b9efb2d70c7df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new item on character.  <a href="#a733e5f685fc5b54b966b9efb2d70c7df">More...</a><br /></td></tr>
-<tr class="separator:a733e5f685fc5b54b966b9efb2d70c7df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4662e600f1c63743bbf7a5396db00169"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4662e600f1c63743bbf7a5396db00169">setSecondaryItem</a> (<a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> item)</td></tr>
-<tr class="memdesc:a4662e600f1c63743bbf7a5396db00169"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new secondary item.  <a href="#a4662e600f1c63743bbf7a5396db00169">More...</a><br /></td></tr>
-<tr class="separator:a4662e600f1c63743bbf7a5396db00169"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab49b6e378e2977e2dfd31814264b0d3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ab49b6e378e2977e2dfd31814264b0d3f">attack_hit_notify</a> (<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> attacker, ref <a class="el" href="struct_m_l_space_1_1_attack_info.html">AttackInfo</a> aInfo)</td></tr>
+<tr class="memdesc:ab49b6e378e2977e2dfd31814264b0d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify character of attack hit.  <a href="#ab49b6e378e2977e2dfd31814264b0d3f">More...</a><br /></td></tr>
+<tr class="separator:ab49b6e378e2977e2dfd31814264b0d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb329f8ca4f770da06cf5764f943a50f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#abb329f8ca4f770da06cf5764f943a50f">add_damage</a> (int damage)</td></tr>
+<tr class="memdesc:abb329f8ca4f770da06cf5764f943a50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add damage to character of non direct origin ( explosion )  <a href="#abb329f8ca4f770da06cf5764f943a50f">More...</a><br /></td></tr>
+<tr class="separator:abb329f8ca4f770da06cf5764f943a50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae984ec61322cbd1e91d055c43ee0646a"><td class="memItemLeft" align="right" valign="top">InventoryItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ae984ec61322cbd1e91d055c43ee0646a">setNewItem</a> (InventoryItem item, bool textDisplay=true)</td></tr>
+<tr class="memdesc:ae984ec61322cbd1e91d055c43ee0646a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new item on character.  <a href="#ae984ec61322cbd1e91d055c43ee0646a">More...</a><br /></td></tr>
+<tr class="separator:ae984ec61322cbd1e91d055c43ee0646a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6edb1951fa74f3cafb2a8c24ff194e01"><td class="memItemLeft" align="right" valign="top">InventoryItem&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a6edb1951fa74f3cafb2a8c24ff194e01">setSecondaryItem</a> (InventoryItem item, bool textDisplay=true)</td></tr>
+<tr class="memdesc:a6edb1951fa74f3cafb2a8c24ff194e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set new secondary item.  <a href="#a6edb1951fa74f3cafb2a8c24ff194e01">More...</a><br /></td></tr>
+<tr class="separator:a6edb1951fa74f3cafb2a8c24ff194e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30c72332a09d2bf2ec362ae8d961445f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a30c72332a09d2bf2ec362ae8d961445f">revive</a> (int? health=null)</td></tr>
 <tr class="memdesc:a30c72332a09d2bf2ec362ae8d961445f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Revive game character.  <a href="#a30c72332a09d2bf2ec362ae8d961445f">More...</a><br /></td></tr>
 <tr class="separator:a30c72332a09d2bf2ec362ae8d961445f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27719aa284d584b956b58ad2dde1b38c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a27719aa284d584b956b58ad2dde1b38c">death</a> (int[] hitParts, Vector3? hitVelocity)</td></tr>
-<tr class="memdesc:a27719aa284d584b956b58ad2dde1b38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup game character for death  <a href="#a27719aa284d584b956b58ad2dde1b38c">More...</a><br /></td></tr>
-<tr class="separator:a27719aa284d584b956b58ad2dde1b38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad41e557416d21a867099786f6542f634"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ad41e557416d21a867099786f6542f634">death</a> (int[] hitParts, Vector3? hitVelocity, int attackType)</td></tr>
+<tr class="memdesc:ad41e557416d21a867099786f6542f634"><td class="mdescLeft">&#160;</td><td class="mdescRight">setup game character for death  <a href="#ad41e557416d21a867099786f6542f634">More...</a><br /></td></tr>
+<tr class="separator:ad41e557416d21a867099786f6542f634"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11aa5802f368c07011a69513e5b788e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a11aa5802f368c07011a69513e5b788e7">clearTarget</a> ()</td></tr>
+<tr class="memdesc:a11aa5802f368c07011a69513e5b788e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear current target  <a href="#a11aa5802f368c07011a69513e5b788e7">More...</a><br /></td></tr>
+<tr class="separator:a11aa5802f368c07011a69513e5b788e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa07f30364cd1e7300627c85caaae2de4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#aa07f30364cd1e7300627c85caaae2de4">startRagdoll</a> (int[] parts, Vector3? force, Vector3? overallForce)</td></tr>
+<tr class="memdesc:aa07f30364cd1e7300627c85caaae2de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start ragdoll  <a href="#aa07f30364cd1e7300627c85caaae2de4">More...</a><br /></td></tr>
+<tr class="separator:aa07f30364cd1e7300627c85caaae2de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a4762811fff4f3d98f8f463dc94fc5977"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4762811fff4f3d98f8f463dc94fc5977">primaryTarget</a><code> [get, set]</code></td></tr>
+<tr class="memitem:a4762811fff4f3d98f8f463dc94fc5977"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4762811fff4f3d98f8f463dc94fc5977">primaryTarget</a><code> [get]</code></td></tr>
 <tr class="memdesc:a4762811fff4f3d98f8f463dc94fc5977"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets primary target of character  <a href="#a4762811fff4f3d98f8f463dc94fc5977">More...</a><br /></td></tr>
 <tr class="separator:a4762811fff4f3d98f8f463dc94fc5977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43af2fe5e5eaeeeaa582700d8d32430"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ad43af2fe5e5eaeeeaa582700d8d32430">potentialTarget</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:ad43af2fe5e5eaeeeaa582700d8d32430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Potential target. Used by npc in searching for target.  <a href="#ad43af2fe5e5eaeeeaa582700d8d32430">More...</a><br /></td></tr>
+<tr class="separator:ad43af2fe5e5eaeeeaa582700d8d32430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78793da7ef9b02291e7aa0236924381e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a78793da7ef9b02291e7aa0236924381e">lockOnTarget</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a78793da7ef9b02291e7aa0236924381e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets current locked on target  <a href="#a78793da7ef9b02291e7aa0236924381e">More...</a><br /></td></tr>
 <tr class="separator:a78793da7ef9b02291e7aa0236924381e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f907bc8c24971d58972f9c8cc11efe6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a6f907bc8c24971d58972f9c8cc11efe6">takingHit</a><code> [get, set]</code></td></tr>
-<tr class="memdesc:a6f907bc8c24971d58972f9c8cc11efe6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets taking hit flag.  <a href="#a6f907bc8c24971d58972f9c8cc11efe6">More...</a><br /></td></tr>
-<tr class="separator:a6f907bc8c24971d58972f9c8cc11efe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc5c5e7a858c8b997a656f0bb633f9b8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#abc5c5e7a858c8b997a656f0bb633f9b8">engaged</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:abc5c5e7a858c8b997a656f0bb633f9b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of combat engaged characters  <a href="#abc5c5e7a858c8b997a656f0bb633f9b8">More...</a><br /></td></tr>
+<tr class="separator:abc5c5e7a858c8b997a656f0bb633f9b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62932e13a4bae72f4219eab0681fd096"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a62932e13a4bae72f4219eab0681fd096">chaserCount</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a62932e13a4bae72f4219eab0681fd096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count of chasing characters  <a href="#a62932e13a4bae72f4219eab0681fd096">More...</a><br /></td></tr>
+<tr class="separator:a62932e13a4bae72f4219eab0681fd096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6844af23214274d45a825f3a8a99550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_weapon_item.html">WeaponItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#aa6844af23214274d45a825f3a8a99550">currentWeapon</a><code> [get]</code></td></tr>
+<tr class="memdesc:aa6844af23214274d45a825f3a8a99550"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets current weapon  <a href="#aa6844af23214274d45a825f3a8a99550">More...</a><br /></td></tr>
+<tr class="separator:aa6844af23214274d45a825f3a8a99550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c5458bc258c2d7e1900a7b54fc08af1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a5c5458bc258c2d7e1900a7b54fc08af1">inCombat</a><code> [get]</code></td></tr>
 <tr class="memdesc:a5c5458bc258c2d7e1900a7b54fc08af1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets in combat flag.  <a href="#a5c5458bc258c2d7e1900a7b54fc08af1">More...</a><br /></td></tr>
 <tr class="separator:a5c5458bc258c2d7e1900a7b54fc08af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -144,12 +174,24 @@ Properties</h2></td></tr>
 <tr class="memitem:a723fe5441bcfd1c8917340c7ea9c528d"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a723fe5441bcfd1c8917340c7ea9c528d">chestPosition</a><code> [get]</code></td></tr>
 <tr class="memdesc:a723fe5441bcfd1c8917340c7ea9c528d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets character chest position  <a href="#a723fe5441bcfd1c8917340c7ea9c528d">More...</a><br /></td></tr>
 <tr class="separator:a723fe5441bcfd1c8917340c7ea9c528d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73113f51183ce01c13c1120296c66467"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a73113f51183ce01c13c1120296c66467">weaponSwingUnderway</a><code> [get]</code></td></tr>
-<tr class="memdesc:a73113f51183ce01c13c1120296c66467"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if attack swing is started.  <a href="#a73113f51183ce01c13c1120296c66467">More...</a><br /></td></tr>
-<tr class="separator:a73113f51183ce01c13c1120296c66467"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab09d6fc4218f72f31092a0dce11e4bc8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ab09d6fc4218f72f31092a0dce11e4bc8">isAttacking</a><code> [get]</code></td></tr>
+<tr class="memitem:ab09d6fc4218f72f31092a0dce11e4bc8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#ab09d6fc4218f72f31092a0dce11e4bc8">isAttacking</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:ab09d6fc4218f72f31092a0dce11e4bc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if attack combo is underway.  <a href="#ab09d6fc4218f72f31092a0dce11e4bc8">More...</a><br /></td></tr>
 <tr class="separator:ab09d6fc4218f72f31092a0dce11e4bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b203ade905b1c5312aeb28c6c0dfe75"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a6b203ade905b1c5312aeb28c6c0dfe75">isTakingHit</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a6b203ade905b1c5312aeb28c6c0dfe75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets taking hit flag.  <a href="#a6b203ade905b1c5312aeb28c6c0dfe75">More...</a><br /></td></tr>
+<tr class="separator:a6b203ade905b1c5312aeb28c6c0dfe75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c4b67e63f25c97191eb7a84e0696dd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a92c4b67e63f25c97191eb7a84e0696dd">isBlockingHit</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a92c4b67e63f25c97191eb7a84e0696dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets blocking hit flag  <a href="#a92c4b67e63f25c97191eb7a84e0696dd">More...</a><br /></td></tr>
+<tr class="separator:a92c4b67e63f25c97191eb7a84e0696dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d62c542b338560807c2cf64fd3df45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a95d62c542b338560807c2cf64fd3df45">isReloading</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a95d62c542b338560807c2cf64fd3df45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets player reload  <a href="#a95d62c542b338560807c2cf64fd3df45">More...</a><br /></td></tr>
+<tr class="separator:a95d62c542b338560807c2cf64fd3df45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3840369dba324c04779293e071ec36ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a3840369dba324c04779293e071ec36ce">isRecoiling</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a3840369dba324c04779293e071ec36ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets player recoiling / firing  <a href="#a3840369dba324c04779293e071ec36ce">More...</a><br /></td></tr>
+<tr class="separator:a3840369dba324c04779293e071ec36ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ce113382466b3d4e6b8209a9d0bf1ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a1ce113382466b3d4e6b8209a9d0bf1ca">isAiming</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1ce113382466b3d4e6b8209a9d0bf1ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets and sets aiming flag  <a href="#a1ce113382466b3d4e6b8209a9d0bf1ca">More...</a><br /></td></tr>
+<tr class="separator:a1ce113382466b3d4e6b8209a9d0bf1ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4eeb2fffcb8900ac1311c9bdfb611a5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a4eeb2fffcb8900ac1311c9bdfb611a5b">guardZoneID</a><code> [get, set]</code></td></tr>
 <tr class="memdesc:a4eeb2fffcb8900ac1311c9bdfb611a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Currently residing guard zone ID  <a href="#a4eeb2fffcb8900ac1311c9bdfb611a5b">More...</a><br /></td></tr>
 <tr class="separator:a4eeb2fffcb8900ac1311c9bdfb611a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,16 +207,41 @@ Properties</h2></td></tr>
 <tr class="memitem:a15b01455d9b7e9e6012f88f091880784"><td class="memItemLeft" align="right" valign="top">Collider []&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a15b01455d9b7e9e6012f88f091880784">colliders</a><code> [get]</code></td></tr>
 <tr class="memdesc:a15b01455d9b7e9e6012f88f091880784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets array of character colliders  <a href="#a15b01455d9b7e9e6012f88f091880784">More...</a><br /></td></tr>
 <tr class="separator:a15b01455d9b7e9e6012f88f091880784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00940103b197dc59187c078e73ee261a"><td class="memItemLeft" align="right" valign="top">List&lt; Material &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a00940103b197dc59187c078e73ee261a">materials</a><code> [get]</code></td></tr>
-<tr class="memdesc:a00940103b197dc59187c078e73ee261a"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of character materials  <a href="#a00940103b197dc59187c078e73ee261a">More...</a><br /></td></tr>
-<tr class="separator:a00940103b197dc59187c078e73ee261a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a655ac97fcc0dbacf66c81cca3984179f"><td class="memItemLeft" align="right" valign="top">List&lt; Shader &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a655ac97fcc0dbacf66c81cca3984179f">shaders</a><code> [get]</code></td></tr>
-<tr class="memdesc:a655ac97fcc0dbacf66c81cca3984179f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of character original shaders  <a href="#a655ac97fcc0dbacf66c81cca3984179f">More...</a><br /></td></tr>
-<tr class="separator:a655ac97fcc0dbacf66c81cca3984179f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a52b22fe45c1e7527ddd6e896146c5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_m_l_space_1_1_attack_info.html#a73f8235cda4f5aaea4ea9821e834220a">AttackInfo.HitReactionType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_m_l_space_1_1_i_game_character.html#a5a52b22fe45c1e7527ddd6e896146c5a">rangedHitReactionType</a><code> [get]</code></td></tr>
+<tr class="memdesc:a5a52b22fe45c1e7527ddd6e896146c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hit reaction type in ranged combat  <a href="#a5a52b22fe45c1e7527ddd6e896146c5a">More...</a><br /></td></tr>
+<tr class="separator:a5a52b22fe45c1e7527ddd6e896146c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Common properties of player and npc characters. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="abb329f8ca4f770da06cf5764f943a50f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb329f8ca4f770da06cf5764f943a50f">&sect;&nbsp;</a></span>add_damage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.IGameCharacter.add_damage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>damage</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add damage to character of non direct origin ( explosion ) </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">damage</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#af3de38412fc4aac1b8231c58652e00dd">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#adaa0619cb7420617d83fbb1dc1651e16">MLSpace.NPCScript</a>.</p>
+
+</div>
+</div>
 <a id="aaafd07e33acac18c65edabc7ce4af948"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaafd07e33acac18c65edabc7ce4af948">&sect;&nbsp;</a></span>attack_end_notify()</h2>
 
@@ -214,8 +281,8 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="aca6d4805cce9c5e7af981a677743946b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca6d4805cce9c5e7af981a677743946b">&sect;&nbsp;</a></span>attack_hit_notify()</h2>
+<a id="ab49b6e378e2977e2dfd31814264b0d3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab49b6e378e2977e2dfd31814264b0d3f">&sect;&nbsp;</a></span>attack_hit_notify()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -230,13 +297,7 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">ref <a class="el" href="struct_m_l_space_1_1_attack_info.html">AttackInfo</a>&#160;</td>
-          <td class="paramname"><em>aInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ref bool&#160;</td>
-          <td class="paramname"><em>blocking</em>&#160;</td>
+          <td class="paramname"><em>aInfo</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -257,7 +318,7 @@ Properties</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>success of attack hit</dd></dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a4b8314ab2bd4925726170fe6417cc2a6">MLSpace.NPCScript</a>, and <a class="el" href="class_m_l_space_1_1_player_control_base.html#ab5bb3270d7c5a8b440ff49aaf6e81083">MLSpace.PlayerControlBase</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#aa19584f5a443a2a6bd4c675ab57ccb56">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a18487abb5340b863195179de73c5c2e7">MLSpace.NPCScript</a>.</p>
 
 </div>
 </div>
@@ -321,8 +382,58 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a27719aa284d584b956b58ad2dde1b38c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27719aa284d584b956b58ad2dde1b38c">&sect;&nbsp;</a></span>death()</h2>
+<a id="aaefd0778bfdfec865d41a1bc2ac8f303"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaefd0778bfdfec865d41a1bc2ac8f303">&sect;&nbsp;</a></span>chaseConditions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.IGameCharacter.chaseConditions </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Chase conditions </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#ae0a31f991c6a21234f4e19b47226e3fd">MLSpace.NPCScript</a>, and <a class="el" href="class_m_l_space_1_1_player_control_base.html#a69eda0b321d4685e143582b698b62b6f">MLSpace.PlayerControlBase</a>.</p>
+
+</div>
+</div>
+<a id="a11aa5802f368c07011a69513e5b788e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11aa5802f368c07011a69513e5b788e7">&sect;&nbsp;</a></span>clearTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.IGameCharacter.clearTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear current target </p>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a88ec693ad75e651bbd1a935c75ee91f2">MLSpace.NPCScript</a>, and <a class="el" href="class_m_l_space_1_1_player_control_base.html#a1cbafb59f6ff900808d3a331316bdecc">MLSpace.PlayerControlBase</a>.</p>
+
+</div>
+</div>
+<a id="ad41e557416d21a867099786f6542f634"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad41e557416d21a867099786f6542f634">&sect;&nbsp;</a></span>death()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -337,7 +448,13 @@ Properties</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">Vector3?&#160;</td>
-          <td class="paramname"><em>hitVelocity</em>&#160;</td>
+          <td class="paramname"><em>hitVelocity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>attackType</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -356,7 +473,51 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#ae66e2208f286ab1a477c003f25a501a1">MLSpace.NPCScript</a>, <a class="el" href="class_m_l_space_1_1_player_control_base.html#a2da52e961c58041062f08d4ae947f835">MLSpace.PlayerControlBase</a>, <a class="el" href="class_m_l_space_1_1_mech_control.html#a252f23dde00eefc285424a19d5d2143a">MLSpace.MechControl</a>, and <a class="el" href="class_m_l_space_1_1_spiderbot.html#abee9812ab580c51720861e0b839c467e">MLSpace.Spiderbot</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#abd55b75ecbde39c6a904c9ebe6888e47">MLSpace.PlayerControlBase</a>, <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#ae8bb55398f4cef8ffa59f27a07b11938">MLSpace.NPCScript</a>, <a class="el" href="class_m_l_space_1_1_player_control.html#a72721d1874c67fbfb9bb8b9f6c94eaa1">MLSpace.PlayerControl</a>, <a class="el" href="class_m_l_space_1_1_mech_control.html#ae9e58ff893d8d98394719cd2042d0063">MLSpace.MechControl</a>, and <a class="el" href="class_m_l_space_1_1_spiderbot.html#aedf5953f1c23164d24d5853c92a51685">MLSpace.Spiderbot</a>.</p>
+
+</div>
+</div>
+<a id="a3a17139960fabe431938cdbb691e51c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a17139960fabe431938cdbb691e51c6">&sect;&nbsp;</a></span>getCurrentAttackSound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_combat_audio.html">CombatAudio</a> MLSpace.IGameCharacter.getCurrentAttackSound </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get current attack sound </p>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#a46cd52e8c3bc1361f60a8ca12b56f327">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#afb12e82af992f9e0cafb0135f2b78801">MLSpace.NPCScript</a>.</p>
+
+</div>
+</div>
+<a id="adb54d28e077b495fbd42a629a21fd898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb54d28e077b495fbd42a629a21fd898">&sect;&nbsp;</a></span>getCurrentBlockSound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_combat_audio.html">CombatAudio</a> MLSpace.IGameCharacter.getCurrentBlockSound </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>source</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get current block sound </p>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#a6ba97f671f272f27120e17c21b47caa0">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a8b1329fd83b46d1e6901d01c4224cc49">MLSpace.NPCScript</a>.</p>
 
 </div>
 </div>
@@ -388,18 +549,28 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a733e5f685fc5b54b966b9efb2d70c7df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a733e5f685fc5b54b966b9efb2d70c7df">&sect;&nbsp;</a></span>setNewItem()</h2>
+<a id="ae984ec61322cbd1e91d055c43ee0646a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae984ec61322cbd1e91d055c43ee0646a">&sect;&nbsp;</a></span>setNewItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> MLSpace.IGameCharacter.setNewItem </td>
+          <td class="memname">InventoryItem MLSpace.IGameCharacter.setNewItem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td>
-          <td class="paramname"><em>item</em></td><td>)</td>
+          <td class="paramtype">InventoryItem&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>textDisplay</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -412,22 +583,32 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#a329dba7292b9d2c1e0862ddd16c0b09c">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a24d60fa86719d1c8338af246b98b59c3">MLSpace.NPCScript</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#a6e8f8c36fb11d2cbaf08abf81b640f8b">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a7c561a99334e61c7efc6908c587937af">MLSpace.NPCScript</a>.</p>
 
 </div>
 </div>
-<a id="a4662e600f1c63743bbf7a5396db00169"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4662e600f1c63743bbf7a5396db00169">&sect;&nbsp;</a></span>setSecondaryItem()</h2>
+<a id="a6edb1951fa74f3cafb2a8c24ff194e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6edb1951fa74f3cafb2a8c24ff194e01">&sect;&nbsp;</a></span>setSecondaryItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a> MLSpace.IGameCharacter.setSecondaryItem </td>
+          <td class="memname">InventoryItem MLSpace.IGameCharacter.setSecondaryItem </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_inventory_item.html">InventoryItem</a>&#160;</td>
-          <td class="paramname"><em>item</em></td><td>)</td>
+          <td class="paramtype">InventoryItem&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>textDisplay</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -440,7 +621,81 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#ae55f935e5055f0f1a10badcb2c4c40c1">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a5b0a541aeb6770d836fd0c5e80cd044d">MLSpace.NPCScript</a>.</p>
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#a09a585e500938b3bc8aac99633de48de">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#af744c1fa9a34118829767926c013c6a8">MLSpace.NPCScript</a>.</p>
+
+</div>
+</div>
+<a id="ab28fcc4be3fe8c420a4b29acb9b67ea2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab28fcc4be3fe8c420a4b29acb9b67ea2">&sect;&nbsp;</a></span>setTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.IGameCharacter.setTarget </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td>
+          <td class="paramname"><em>target</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set target </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">target</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a81e1cc52591cd880520ab2a0b4241ae1">MLSpace.NPCScript</a>, and <a class="el" href="class_m_l_space_1_1_player_control_base.html#a28f29f2511e5533ff7b7cacfc779d18f">MLSpace.PlayerControlBase</a>.</p>
+
+</div>
+</div>
+<a id="aa07f30364cd1e7300627c85caaae2de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa07f30364cd1e7300627c85caaae2de4">&sect;&nbsp;</a></span>startRagdoll()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.IGameCharacter.startRagdoll </td>
+          <td>(</td>
+          <td class="paramtype">int []&#160;</td>
+          <td class="paramname"><em>parts</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3?&#160;</td>
+          <td class="paramname"><em>force</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3?&#160;</td>
+          <td class="paramname"><em>overallForce</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Start ragdoll </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parts</td><td></td></tr>
+    <tr><td class="paramname">force</td><td></td></tr>
+    <tr><td class="paramname">overallForce</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Implemented in <a class="el" href="class_m_l_space_1_1_player_control_base.html#a6f7914f1ec97abbb468896da4741d63b">MLSpace.PlayerControlBase</a>, and <a class="el" href="class_m_l_space_1_1_n_p_c_script.html#a019e45cf7a12f3cf19259bea65111986">MLSpace.NPCScript</a>.</p>
 
 </div>
 </div>
@@ -541,6 +796,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a62932e13a4bae72f4219eab0681fd096"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62932e13a4bae72f4219eab0681fd096">&sect;&nbsp;</a></span>chaserCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int MLSpace.IGameCharacter.chaserCount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Count of chasing characters </p>
+
+</div>
+</div>
 <a id="a723fe5441bcfd1c8917340c7ea9c528d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a723fe5441bcfd1c8917340c7ea9c528d">&sect;&nbsp;</a></span>chestPosition</h2>
 
@@ -586,6 +865,54 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets array of character colliders </p>
+
+</div>
+</div>
+<a id="aa6844af23214274d45a825f3a8a99550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6844af23214274d45a825f3a8a99550">&sect;&nbsp;</a></span>currentWeapon</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_weapon_item.html">WeaponItem</a> MLSpace.IGameCharacter.currentWeapon</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets current weapon </p>
+
+</div>
+</div>
+<a id="abc5c5e7a858c8b997a656f0bb633f9b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc5c5e7a858c8b997a656f0bb633f9b8">&sect;&nbsp;</a></span>engaged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> &gt; MLSpace.IGameCharacter.engaged</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of combat engaged characters </p>
 
 </div>
 </div>
@@ -661,6 +988,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a1ce113382466b3d4e6b8209a9d0bf1ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ce113382466b3d4e6b8209a9d0bf1ca">&sect;&nbsp;</a></span>isAiming</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.IGameCharacter.isAiming</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and sets aiming flag </p>
+
+</div>
+</div>
 <a id="ab09d6fc4218f72f31092a0dce11e4bc8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab09d6fc4218f72f31092a0dce11e4bc8">&sect;&nbsp;</a></span>isAttacking</h2>
 
@@ -676,12 +1027,36 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns true if attack combo is underway. </p>
+
+</div>
+</div>
+<a id="a92c4b67e63f25c97191eb7a84e0696dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c4b67e63f25c97191eb7a84e0696dd">&sect;&nbsp;</a></span>isBlockingHit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.IGameCharacter.isBlockingHit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and sets blocking hit flag </p>
 
 </div>
 </div>
@@ -709,6 +1084,78 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a3840369dba324c04779293e071ec36ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3840369dba324c04779293e071ec36ce">&sect;&nbsp;</a></span>isRecoiling</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.IGameCharacter.isRecoiling</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and sets player recoiling / firing </p>
+
+</div>
+</div>
+<a id="a95d62c542b338560807c2cf64fd3df45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d62c542b338560807c2cf64fd3df45">&sect;&nbsp;</a></span>isReloading</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.IGameCharacter.isReloading</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and sets player reload </p>
+
+</div>
+</div>
+<a id="a6b203ade905b1c5312aeb28c6c0dfe75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b203ade905b1c5312aeb28c6c0dfe75">&sect;&nbsp;</a></span>isTakingHit</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.IGameCharacter.isTakingHit</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets and sets taking hit flag. </p>
+
+</div>
+</div>
 <a id="a78793da7ef9b02291e7aa0236924381e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a78793da7ef9b02291e7aa0236924381e">&sect;&nbsp;</a></span>lockOnTarget</h2>
 
@@ -730,30 +1177,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets and sets current locked on target </p>
-
-</div>
-</div>
-<a id="a00940103b197dc59187c078e73ee261a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00940103b197dc59187c078e73ee261a">&sect;&nbsp;</a></span>materials</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Material&gt; MLSpace.IGameCharacter.materials</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of character materials </p>
 
 </div>
 </div>
@@ -781,6 +1204,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="ad43af2fe5e5eaeeeaa582700d8d32430"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad43af2fe5e5eaeeeaa582700d8d32430">&sect;&nbsp;</a></span>potentialTarget</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> MLSpace.IGameCharacter.potentialTarget</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Potential target. Used by npc in searching for target. </p>
+
+</div>
+</div>
 <a id="a4762811fff4f3d98f8f463dc94fc5977"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4762811fff4f3d98f8f463dc94fc5977">&sect;&nbsp;</a></span>primaryTarget</h2>
 
@@ -796,7 +1243,7 @@ Properties</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -829,6 +1276,30 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a5a52b22fe45c1e7527ddd6e896146c5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a52b22fe45c1e7527ddd6e896146c5a">&sect;&nbsp;</a></span>rangedHitReactionType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_m_l_space_1_1_attack_info.html#a73f8235cda4f5aaea4ea9821e834220a">AttackInfo.HitReactionType</a> MLSpace.IGameCharacter.rangedHitReactionType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Hit reaction type in ranged combat </p>
+
+</div>
+</div>
 <a id="a595b04c0e3c0e8634a2dc7c39bc35b08"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a595b04c0e3c0e8634a2dc7c39bc35b08">&sect;&nbsp;</a></span>renderers</h2>
 
@@ -853,30 +1324,6 @@ Properties</h2></td></tr>
 
 </div>
 </div>
-<a id="a655ac97fcc0dbacf66c81cca3984179f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a655ac97fcc0dbacf66c81cca3984179f">&sect;&nbsp;</a></span>shaders</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">List&lt;Shader&gt; MLSpace.IGameCharacter.shaders</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>List of character original shaders </p>
-
-</div>
-</div>
 <a id="ad2622d3b172b3f3fedb230d42112d307"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad2622d3b172b3f3fedb230d42112d307">&sect;&nbsp;</a></span>stats</h2>
 
@@ -898,30 +1345,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets reference to <a class="el" href="class_m_l_space_1_1_stats.html" title="Holds player and npc statistics ">Stats</a> class. </p>
-
-</div>
-</div>
-<a id="a6f907bc8c24971d58972f9c8cc11efe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f907bc8c24971d58972f9c8cc11efe6">&sect;&nbsp;</a></span>takingHit</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MLSpace.IGameCharacter.takingHit</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gets and sets taking hit flag. </p>
 
 </div>
 </div>
@@ -994,30 +1417,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_m_l_space_1_1_trigger.html" title="Base trigger class. NOTE: Be carefull with state names, they are used for matching target...">Trigger</a> management reference. </p>
-
-</div>
-</div>
-<a id="a73113f51183ce01c13c1120296c66467"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73113f51183ce01c13c1120296c66467">&sect;&nbsp;</a></span>weaponSwingUnderway</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MLSpace.IGameCharacter.weaponSwingUnderway</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">get</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Return true if attack swing is started. </p>
 
 </div>
 </div>

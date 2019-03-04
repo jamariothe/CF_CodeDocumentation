@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.AttackInfo Struct Reference</title>
+<title>CF_v4.0: MLSpace.AttackInfo Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -56,6 +56,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a73f8235cda4f5aaea4ea9821e834220a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_l_space_1_1_attack_info.html#a73f8235cda4f5aaea4ea9821e834220a">HitReactionType</a> { <b>None</b>, 
+<b>NoReaction</b>, 
 <b>Physics</b>, 
 <b>Animated</b>
  }<tr class="memdesc:a73f8235cda4f5aaea4ea9821e834220a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Hit reaction types enum  <a href="struct_m_l_space_1_1_attack_info.html#a73f8235cda4f5aaea4ea9821e834220a">More...</a><br /></td></tr>
@@ -91,6 +92,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a3b555e525ed904c7df7df80f11595db6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_l_space_1_1_attack_info.html#a3b555e525ed904c7df7df80f11595db6">attackRange</a></td></tr>
 <tr class="memdesc:a3b555e525ed904c7df7df80f11595db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of current attack  <a href="#a3b555e525ed904c7df7df80f11595db6">More...</a><br /></td></tr>
 <tr class="separator:a3b555e525ed904c7df7df80f11595db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add138f565481ce3bcf15edf406fac713"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_l_space_1_1_attack_info.html#add138f565481ce3bcf15edf406fac713">damageMultipler</a></td></tr>
+<tr class="memdesc:add138f565481ce3bcf15edf406fac713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damage multipler  <a href="#add138f565481ce3bcf15edf406fac713">More...</a><br /></td></tr>
+<tr class="separator:add138f565481ce3bcf15edf406fac713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5904d43393dfd412652be697d22655f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_l_space_1_1_attack_info.html#ac5904d43393dfd412652be697d22655f">soundRadius</a></td></tr>
+<tr class="memdesc:ac5904d43393dfd412652be697d22655f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sound radius  <a href="#ac5904d43393dfd412652be697d22655f">More...</a><br /></td></tr>
+<tr class="separator:ac5904d43393dfd412652be697d22655f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a7387f2dea237cdd44a2a520844700e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_m_l_space_1_1_attack_info.html#a4a7387f2dea237cdd44a2a520844700e">blockPenetration</a></td></tr>
 <tr class="memdesc:a4a7387f2dea237cdd44a2a520844700e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block braking value. If weapon block penetration is higher than defender block resistance - weapon attack is unblockable.  <a href="#a4a7387f2dea237cdd44a2a520844700e">More...</a><br /></td></tr>
 <tr class="separator:a4a7387f2dea237cdd44a2a520844700e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +210,22 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="add138f565481ce3bcf15edf406fac713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add138f565481ce3bcf15edf406fac713">&sect;&nbsp;</a></span>damageMultipler</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MLSpace.AttackInfo.damageMultipler</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Damage multipler </p>
+
+</div>
+</div>
 <a id="adaadb9faa8d614d46e91eb8e16ed3b63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adaadb9faa8d614d46e91eb8e16ed3b63">&sect;&nbsp;</a></span>extraDamage</h2>
 
@@ -280,6 +303,22 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Is this ranged attack. </p>
+
+</div>
+</div>
+<a id="ac5904d43393dfd412652be697d22655f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5904d43393dfd412652be697d22655f">&sect;&nbsp;</a></span>soundRadius</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MLSpace.AttackInfo.soundRadius</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sound radius </p>
 
 </div>
 </div>

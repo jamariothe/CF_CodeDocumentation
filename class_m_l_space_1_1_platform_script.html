@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.PlatformScript Class Reference</title>
+<title>CF_v4.0: MLSpace.PlatformScript Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -69,6 +69,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa3f73efaa20adb5c61723617812c411a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_platform_script.html#aa3f73efaa20adb5c61723617812c411a">startPlatform</a> ()</td></tr>
 <tr class="memdesc:aa3f73efaa20adb5c61723617812c411a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start platform down or up depends where is platform currently residing  <a href="#aa3f73efaa20adb5c61723617812c411a">More...</a><br /></td></tr>
 <tr class="separator:aa3f73efaa20adb5c61723617812c411a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a139ba14d890aeef5296c3df73bac3499"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_platform_script.html#a139ba14d890aeef5296c3df73bac3499">CALL_PLATFORM_DOWN</a> ()</td></tr>
+<tr class="memdesc:a139ba14d890aeef5296c3df73bac3499"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call platform to arrive down  <a href="#a139ba14d890aeef5296c3df73bac3499">More...</a><br /></td></tr>
+<tr class="separator:a139ba14d890aeef5296c3df73bac3499"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87fdcbe6edc7780b7d608430fb27d31b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_platform_script.html#a87fdcbe6edc7780b7d608430fb27d31b">CALL_PLATFORM_UP</a> ()</td></tr>
+<tr class="memdesc:a87fdcbe6edc7780b7d608430fb27d31b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call platform to arrive up  <a href="#a87fdcbe6edc7780b7d608430fb27d31b">More...</a><br /></td></tr>
+<tr class="separator:a87fdcbe6edc7780b7d608430fb27d31b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -81,15 +87,78 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a26ce9a12d105fd4f3ef82ed003dac66f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_platform_script.html#a26ce9a12d105fd4f3ef82ed003dac66f">downHeight</a> = 0.0f</td></tr>
 <tr class="memdesc:a26ce9a12d105fd4f3ef82ed003dac66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lower height at which elevator will stop ( local space )  <a href="#a26ce9a12d105fd4f3ef82ed003dac66f">More...</a><br /></td></tr>
 <tr class="separator:a26ce9a12d105fd4f3ef82ed003dac66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7c9999e27fdeaa12ddd023610f0483a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger_event.html">TriggerEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_platform_script.html#ad7c9999e27fdeaa12ddd023610f0483a">OnArriveDown</a></td></tr>
+<tr class="memdesc:ad7c9999e27fdeaa12ddd023610f0483a"><td class="mdescLeft">&#160;</td><td class="mdescRight">On arrive down callback  <a href="#ad7c9999e27fdeaa12ddd023610f0483a">More...</a><br /></td></tr>
+<tr class="separator:ad7c9999e27fdeaa12ddd023610f0483a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18227d29946e7855674349c7ae2863e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_trigger_event.html">TriggerEvent</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_platform_script.html#aa18227d29946e7855674349c7ae2863e">OnArriveUp</a></td></tr>
+<tr class="memdesc:aa18227d29946e7855674349c7ae2863e"><td class="mdescLeft">&#160;</td><td class="mdescRight">On arrive up callback  <a href="#aa18227d29946e7855674349c7ae2863e">More...</a><br /></td></tr>
+<tr class="separator:aa18227d29946e7855674349c7ae2863e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_l_space_1_1_platform.html" title="Set object under plaform control when standing on it. ">Platform</a> manipulation script </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a139ba14d890aeef5296c3df73bac3499"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a139ba14d890aeef5296c3df73bac3499">&sect;&nbsp;</a></span>CALL_PLATFORM_DOWN()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.PlatformScript.CALL_PLATFORM_DOWN </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call platform to arrive down </p>
+
+</div>
+</div>
+<a id="a87fdcbe6edc7780b7d608430fb27d31b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87fdcbe6edc7780b7d608430fb27d31b">&sect;&nbsp;</a></span>CALL_PLATFORM_UP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.PlatformScript.CALL_PLATFORM_UP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Call platform to arrive up </p>
+
+</div>
+</div>
 <a id="ade6363f1cf14bd15c8b5d8735918f180"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ade6363f1cf14bd15c8b5d8735918f180">&sect;&nbsp;</a></span>isStopped()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool MLSpace.PlatformScript.isStopped </td>
@@ -98,6 +167,11 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns true if platform is not moving - otherwise false </p>
@@ -110,6 +184,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.PlatformScript.startPlatform </td>
@@ -118,6 +195,11 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Start platform down or up depends where is platform currently residing </p>
@@ -138,6 +220,38 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Lower height at which elevator will stop ( local space ) </p>
+
+</div>
+</div>
+<a id="ad7c9999e27fdeaa12ddd023610f0483a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7c9999e27fdeaa12ddd023610f0483a">&sect;&nbsp;</a></span>OnArriveDown</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_trigger_event.html">TriggerEvent</a> MLSpace.PlatformScript.OnArriveDown</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>On arrive down callback </p>
+
+</div>
+</div>
+<a id="aa18227d29946e7855674349c7ae2863e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa18227d29946e7855674349c7ae2863e">&sect;&nbsp;</a></span>OnArriveUp</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_trigger_event.html">TriggerEvent</a> MLSpace.PlatformScript.OnArriveUp</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>On arrive up callback </p>
 
 </div>
 </div>

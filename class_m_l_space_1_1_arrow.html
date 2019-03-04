@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.Arrow Class Reference</title>
+<title>CF_v4.0: MLSpace.Arrow Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -45,6 +45,7 @@ $(function() {
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_m_l_space_1_1_arrow-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">MLSpace.Arrow Class Reference</div>  </div>
@@ -60,7 +61,7 @@ Public Types</h2></td></tr>
 <b>GO</b>, 
 <b>HIT</b>, 
 <b>DEFAULT_PHYSICS</b>
- }<tr class="memdesc:a8e220a836ce19cdb584ef3ce9093776e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Projectile states.  <a href="class_m_l_space_1_1_arrow.html#a8e220a836ce19cdb584ef3ce9093776e">More...</a><br /></td></tr>
+ }<tr class="memdesc:a8e220a836ce19cdb584ef3ce9093776e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="struct_m_l_space_1_1_projectile.html" title="Projectile class Used when raymarching is enabled ">Projectile</a> states.  <a href="class_m_l_space_1_1_arrow.html#a8e220a836ce19cdb584ef3ce9093776e">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a8e220a836ce19cdb584ef3ce9093776e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -87,6 +88,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac40b07aa451c82cc836f946f19835dd8"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#ac40b07aa451c82cc836f946f19835dd8">velocity</a></td></tr>
 <tr class="memdesc:ac40b07aa451c82cc836f946f19835dd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current velocity.  <a href="#ac40b07aa451c82cc836f946f19835dd8">More...</a><br /></td></tr>
 <tr class="separator:ac40b07aa451c82cc836f946f19835dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5ca416d15a11ff819f872c91776dd6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#add5ca416d15a11ff819f872c91776dd6">velocityMultiplier</a> = 1.0f</td></tr>
+<tr class="memdesc:add5ca416d15a11ff819f872c91776dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> velocity multiplier  <a href="#add5ca416d15a11ff819f872c91776dd6">More...</a><br /></td></tr>
+<tr class="separator:add5ca416d15a11ff819f872c91776dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1d6398c1c1d153f37806e4c7f164359"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#ab1d6398c1c1d153f37806e4c7f164359">speed</a></td></tr>
 <tr class="memdesc:ab1d6398c1c1d153f37806e4c7f164359"><td class="mdescLeft">&#160;</td><td class="mdescRight">Speed of arrow.  <a href="#ab1d6398c1c1d153f37806e4c7f164359">More...</a><br /></td></tr>
 <tr class="separator:ab1d6398c1c1d153f37806e4c7f164359"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -96,9 +100,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a44d26c1e2d2bcc0ef2b90fcb02450b2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_arrow.html#a8e220a836ce19cdb584ef3ce9093776e">STATES</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a44d26c1e2d2bcc0ef2b90fcb02450b2c">state</a></td></tr>
 <tr class="memdesc:a44d26c1e2d2bcc0ef2b90fcb02450b2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current state of arrow.  <a href="#a44d26c1e2d2bcc0ef2b90fcb02450b2c">More...</a><br /></td></tr>
 <tr class="separator:a44d26c1e2d2bcc0ef2b90fcb02450b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a186690c91393f99e46417ac1fce6dd9e"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a186690c91393f99e46417ac1fce6dd9e">layers</a></td></tr>
-<tr class="memdesc:a186690c91393f99e46417ac1fce6dd9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colliding layer/s .  <a href="#a186690c91393f99e46417ac1fce6dd9e">More...</a><br /></td></tr>
-<tr class="separator:a186690c91393f99e46417ac1fce6dd9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071d40b3e141df7062bb5a3cd61cc72f"><td class="memItemLeft" align="right" valign="top">LayerMask&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a071d40b3e141df7062bb5a3cd61cc72f">hitMask</a></td></tr>
+<tr class="memdesc:a071d40b3e141df7062bb5a3cd61cc72f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colliding layer/s .  <a href="#a071d40b3e141df7062bb5a3cd61cc72f">More...</a><br /></td></tr>
+<tr class="separator:a071d40b3e141df7062bb5a3cd61cc72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac61f1c4e555b45024e6618cd4a775f9d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#ac61f1c4e555b45024e6618cd4a775f9d">length</a> = 1.0f</td></tr>
 <tr class="memdesc:ac61f1c4e555b45024e6618cd4a775f9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Length of arrow.  <a href="#ac61f1c4e555b45024e6618cd4a775f9d">More...</a><br /></td></tr>
 <tr class="separator:ac61f1c4e555b45024e6618cd4a775f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,9 +121,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a0cfb4fb3566855ec0e143b7813dd3373"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a0cfb4fb3566855ec0e143b7813dd3373">advanceLifetime</a></td></tr>
 <tr class="memdesc:a0cfb4fb3566855ec0e143b7813dd3373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should arrow lifetime be increased ( after its been released from bow ).  <a href="#a0cfb4fb3566855ec0e143b7813dd3373">More...</a><br /></td></tr>
 <tr class="separator:a0cfb4fb3566855ec0e143b7813dd3373"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c7166c382025aba534832f0252fa333"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a1c7166c382025aba534832f0252fa333">parent</a></td></tr>
-<tr class="memdesc:a1c7166c382025aba534832f0252fa333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to parent transform.  <a href="#a1c7166c382025aba534832f0252fa333">More...</a><br /></td></tr>
-<tr class="separator:a1c7166c382025aba534832f0252fa333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf49d958472d78228096f5b6679d642d"><td class="memItemLeft" align="right" valign="top">Rigidbody&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#abf49d958472d78228096f5b6679d642d">RigidBody</a></td></tr>
 <tr class="memdesc:abf49d958472d78228096f5b6679d642d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rigid body of arrow.  <a href="#abf49d958472d78228096f5b6679d642d">More...</a><br /></td></tr>
 <tr class="separator:abf49d958472d78228096f5b6679d642d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,12 +142,30 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aca8e4790753f17caf2d8802fa44a8895"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#aca8e4790753f17caf2d8802fa44a8895">bowDamage</a> = 1</td></tr>
 <tr class="memdesc:aca8e4790753f17caf2d8802fa44a8895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Damage of bow that fired the arrow.  <a href="#aca8e4790753f17caf2d8802fa44a8895">More...</a><br /></td></tr>
 <tr class="separator:aca8e4790753f17caf2d8802fa44a8895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fd6ae188adcc8ab2359191d0f087adc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a5fd6ae188adcc8ab2359191d0f087adc">bowRange</a> = 32.0f</td></tr>
+<tr class="memdesc:a5fd6ae188adcc8ab2359191d0f087adc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Range of parent bow  <a href="#a5fd6ae188adcc8ab2359191d0f087adc">More...</a><br /></td></tr>
+<tr class="separator:a5fd6ae188adcc8ab2359191d0f087adc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f98a18ccdec9daba73c4e3330cd0a13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_bow_item.html">BowItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a5f98a18ccdec9daba73c4e3330cd0a13">bowItem</a></td></tr>
+<tr class="memdesc:a5f98a18ccdec9daba73c4e3330cd0a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parent bow item  <a href="#a5f98a18ccdec9daba73c4e3330cd0a13">More...</a><br /></td></tr>
+<tr class="separator:a5f98a18ccdec9daba73c4e3330cd0a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9a6a964df48b1ee018bc870f9435fe7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_quiver_item.html">QuiverItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#ac9a6a964df48b1ee018bc870f9435fe7">quiverItem</a></td></tr>
+<tr class="memdesc:ac9a6a964df48b1ee018bc870f9435fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parent quiver item  <a href="#ac9a6a964df48b1ee018bc870f9435fe7">More...</a><br /></td></tr>
+<tr class="separator:ac9a6a964df48b1ee018bc870f9435fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f49fbf1002b8a664907d802ce10a392"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a9f49fbf1002b8a664907d802ce10a392">ignoreCollision</a> = false</td></tr>
+<tr class="memdesc:a9f49fbf1002b8a664907d802ce10a392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ignore all collisions. Used in Photon netwok  <a href="#a9f49fbf1002b8a664907d802ce10a392">More...</a><br /></td></tr>
+<tr class="separator:a9f49fbf1002b8a664907d802ce10a392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1dc3717684e910e79c8c6de5e060af32"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a1dc3717684e910e79c8c6de5e060af32">pos_offset</a> = Vector3.zero</td></tr>
 <tr class="memdesc:a1dc3717684e910e79c8c6de5e060af32"><td class="mdescLeft">&#160;</td><td class="mdescRight">I am doing this way instead of parenting by unity because i think i noticed scaling errors / bugs this way there is no scaling  <a href="#a1dc3717684e910e79c8c6de5e060af32">More...</a><br /></td></tr>
 <tr class="separator:a1dc3717684e910e79c8c6de5e060af32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb30483cd4c7db0812de80ef5e545004"><td class="memItemLeft" align="right" valign="top"><a id="abb30483cd4c7db0812de80ef5e545004"></a>
 Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> = Quaternion.identity</td></tr>
 <tr class="separator:abb30483cd4c7db0812de80ef5e545004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a1c7166c382025aba534832f0252fa333"><td class="memItemLeft" align="right" valign="top">Transform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_arrow.html#a1c7166c382025aba534832f0252fa333">parent</a><code> [get, set]</code></td></tr>
+<tr class="memdesc:a1c7166c382025aba534832f0252fa333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to parent transform.  <a href="#a1c7166c382025aba534832f0252fa333">More...</a><br /></td></tr>
+<tr class="separator:a1c7166c382025aba534832f0252fa333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> projectile class. </p>
@@ -171,7 +190,7 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 </table>
 </div><div class="memdoc">
 
-<p>Projectile states. </p>
+<p><a class="el" href="struct_m_l_space_1_1_projectile.html" title="Projectile class Used when raymarching is enabled ">Projectile</a> states. </p>
 
 </div>
 </div>
@@ -181,6 +200,9 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">MLSpace.Arrow.Arrow </td>
@@ -190,6 +212,11 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> constructor. </p>
@@ -208,6 +235,9 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.Arrow.clear </td>
@@ -216,6 +246,11 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Clear references. </p>
@@ -268,6 +303,38 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 </div><div class="memdoc">
 
 <p>Damage of bow that fired the arrow. </p>
+
+</div>
+</div>
+<a id="a5f98a18ccdec9daba73c4e3330cd0a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f98a18ccdec9daba73c4e3330cd0a13">&sect;&nbsp;</a></span>bowItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_bow_item.html">BowItem</a> MLSpace.Arrow.bowItem</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parent bow item </p>
+
+</div>
+</div>
+<a id="a5fd6ae188adcc8ab2359191d0f087adc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fd6ae188adcc8ab2359191d0f087adc">&sect;&nbsp;</a></span>bowRange</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MLSpace.Arrow.bowRange = 32.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Range of parent bow </p>
 
 </div>
 </div>
@@ -335,19 +402,35 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 
 </div>
 </div>
-<a id="a186690c91393f99e46417ac1fce6dd9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a186690c91393f99e46417ac1fce6dd9e">&sect;&nbsp;</a></span>layers</h2>
+<a id="a071d40b3e141df7062bb5a3cd61cc72f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a071d40b3e141df7062bb5a3cd61cc72f">&sect;&nbsp;</a></span>hitMask</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">LayerMask MLSpace.Arrow.layers</td>
+          <td class="memname">LayerMask MLSpace.Arrow.hitMask</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Colliding layer/s . </p>
+
+</div>
+</div>
+<a id="a9f49fbf1002b8a664907d802ce10a392"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f49fbf1002b8a664907d802ce10a392">&sect;&nbsp;</a></span>ignoreCollision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MLSpace.Arrow.ignoreCollision = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ignore all collisions. Used in Photon netwok </p>
 
 </div>
 </div>
@@ -431,22 +514,6 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 
 </div>
 </div>
-<a id="a1c7166c382025aba534832f0252fa333"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c7166c382025aba534832f0252fa333">&sect;&nbsp;</a></span>parent</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Transform MLSpace.Arrow.parent</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Reference to parent transform. </p>
-
-</div>
-</div>
 <a id="a1dc3717684e910e79c8c6de5e060af32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1dc3717684e910e79c8c6de5e060af32">&sect;&nbsp;</a></span>pos_offset</h2>
 
@@ -492,6 +559,22 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 </div><div class="memdoc">
 
 <p>Previus position. </p>
+
+</div>
+</div>
+<a id="ac9a6a964df48b1ee018bc870f9435fe7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9a6a964df48b1ee018bc870f9435fe7">&sect;&nbsp;</a></span>quiverItem</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_m_l_space_1_1_quiver_item.html">QuiverItem</a> MLSpace.Arrow.quiverItem</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parent quiver item </p>
 
 </div>
 </div>
@@ -588,6 +671,47 @@ Quaternion&#160;</td><td class="memItemRight" valign="bottom"><b>rot_offset</b> 
 </div><div class="memdoc">
 
 <p>Current velocity. </p>
+
+</div>
+</div>
+<a id="add5ca416d15a11ff819f872c91776dd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add5ca416d15a11ff819f872c91776dd6">&sect;&nbsp;</a></span>velocityMultiplier</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MLSpace.Arrow.velocityMultiplier = 1.0f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_m_l_space_1_1_arrow.html" title="Arrow projectile class. ">Arrow</a> velocity multiplier </p>
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="a1c7166c382025aba534832f0252fa333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c7166c382025aba534832f0252fa333">&sect;&nbsp;</a></span>parent</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Transform MLSpace.Arrow.parent</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span><span class="mlabel">set</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to parent transform. </p>
 
 </div>
 </div>

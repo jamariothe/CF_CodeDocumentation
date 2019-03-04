@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.HealthUI Class Reference</title>
+<title>CF_v4.0: MLSpace.HealthUI Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -70,9 +70,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8112ffb46adb2583e2fa4ac846da2157"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_health_u_i.html#a8112ffb46adb2583e2fa4ac846da2157">clear</a> ()</td></tr>
 <tr class="memdesc:a8112ffb46adb2583e2fa4ac846da2157"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references.  <a href="#a8112ffb46adb2583e2fa4ac846da2157">More...</a><br /></td></tr>
 <tr class="separator:a8112ffb46adb2583e2fa4ac846da2157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bb7e1e9a2f141af2a04d9d0e5744f1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_health_u_i.html#a8bb7e1e9a2f141af2a04d9d0e5744f1e">switchCamera</a> (Camera cam)</td></tr>
-<tr class="memdesc:a8bb7e1e9a2f141af2a04d9d0e5744f1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change camera  <a href="#a8bb7e1e9a2f141af2a04d9d0e5744f1e">More...</a><br /></td></tr>
-<tr class="separator:a8bb7e1e9a2f141af2a04d9d0e5744f1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dce21801e14bb368fd9032d369d3407"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_health_u_i.html#a2dce21801e14bb368fd9032d369d3407">setCamera</a> (Camera cam)</td></tr>
+<tr class="memdesc:a2dce21801e14bb368fd9032d369d3407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set camera  <a href="#a2dce21801e14bb368fd9032d369d3407">More...</a><br /></td></tr>
+<tr class="separator:a2dce21801e14bb368fd9032d369d3407"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -83,7 +83,7 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ac1e457c0e150e75c79d3d6f0820bd2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Health bar tint color.  <a href="#ac1e457c0e150e75c79d3d6f0820bd2ac">More...</a><br /></td></tr>
 <tr class="separator:ac1e457c0e150e75c79d3d6f0820bd2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f87b33ab4378a346f321b9b320815f2"><td class="memItemLeft" align="right" valign="top">Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_health_u_i.html#a2f87b33ab4378a346f321b9b320815f2">m_Image</a></td></tr>
-<tr class="memdesc:a2f87b33ab4378a346f321b9b320815f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Health bar image.  <a href="#a2f87b33ab4378a346f321b9b320815f2">More...</a><br /></td></tr>
+<tr class="memdesc:a2f87b33ab4378a346f321b9b320815f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Health bar image. If left empty, it will load objct with name '<a class="el" href="class_m_l_space_1_1_health_u_i.html" title="Displays character health bar. ">HealthUI</a>' from resources  <a href="#a2f87b33ab4378a346f321b9b320815f2">More...</a><br /></td></tr>
 <tr class="separator:a2f87b33ab4378a346f321b9b320815f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb6d677f23e22c94889d27986382a8f1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_health_u_i.html#adb6d677f23e22c94889d27986382a8f1">scaleX</a> = 1.0f</td></tr>
 <tr class="memdesc:adb6d677f23e22c94889d27986382a8f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Health bar image x scaling.  <a href="#adb6d677f23e22c94889d27986382a8f1">More...</a><br /></td></tr>
@@ -109,6 +109,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.HealthUI.clear </td>
@@ -117,6 +120,11 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Clear references. </p>
@@ -128,6 +136,9 @@ Properties</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.HealthUI.initialize </td>
@@ -136,29 +147,42 @@ Properties</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Initialize component. </p>
 
 </div>
 </div>
-<a id="a8bb7e1e9a2f141af2a04d9d0e5744f1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bb7e1e9a2f141af2a04d9d0e5744f1e">&sect;&nbsp;</a></span>switchCamera()</h2>
+<a id="a2dce21801e14bb368fd9032d369d3407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dce21801e14bb368fd9032d369d3407">&sect;&nbsp;</a></span>setCamera()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.HealthUI.switchCamera </td>
+          <td class="memname">void MLSpace.HealthUI.setCamera </td>
           <td>(</td>
           <td class="paramtype">Camera&#160;</td>
           <td class="paramname"><em>cam</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Change camera </p>
+<p>Set camera </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cam</td><td></td></tr>
@@ -197,7 +221,7 @@ Properties</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Health bar image. </p>
+<p>Health bar image. If left empty, it will load objct with name '<a class="el" href="class_m_l_space_1_1_health_u_i.html" title="Displays character health bar. ">HealthUI</a>' from resources </p>
 
 </div>
 </div>

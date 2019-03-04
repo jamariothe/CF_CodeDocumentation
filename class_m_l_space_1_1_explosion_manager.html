@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CF_v37: MLSpace.ExplosionManager Class Reference</title>
+<title>CF_v4.0: MLSpace.ExplosionManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -18,7 +18,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">CF_v37
+   <div id="projectname">CF_v4.0
    </div>
   </td>
  </tr>
@@ -63,8 +63,8 @@ Inheritance diagram for MLSpace.ExplosionManager:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a11e2e31886bbfb830dd1882cf2409b34"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a11e2e31886bbfb830dd1882cf2409b34">Update</a> ()</td></tr>
-<tr class="memdesc:a11e2e31886bbfb830dd1882cf2409b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unity Update method Update is called every frame, if the MonoBehaviour is enabled  <a href="#a11e2e31886bbfb830dd1882cf2409b34">More...</a><br /></td></tr>
+<tr class="memitem:a11e2e31886bbfb830dd1882cf2409b34"><td class="memItemLeft" align="right" valign="top"><a id="a11e2e31886bbfb830dd1882cf2409b34"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Update</b> ()</td></tr>
 <tr class="separator:a11e2e31886bbfb830dd1882cf2409b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188dfe878b7cacaf00aea2142f0837ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a188dfe878b7cacaf00aea2142f0837ab">initialize</a> ()</td></tr>
 <tr class="memdesc:a188dfe878b7cacaf00aea2142f0837ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize component  <a href="#a188dfe878b7cacaf00aea2142f0837ab">More...</a><br /></td></tr>
@@ -72,9 +72,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a53b56c33088e1ea914bc49291edb54cb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a53b56c33088e1ea914bc49291edb54cb">clear</a> ()</td></tr>
 <tr class="memdesc:a53b56c33088e1ea914bc49291edb54cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear references  <a href="#a53b56c33088e1ea914bc49291edb54cb">More...</a><br /></td></tr>
 <tr class="separator:a53b56c33088e1ea914bc49291edb54cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab666132ccaaa7d439ba68b6200af6ebc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_explosion.html">Explosion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#ab666132ccaaa7d439ba68b6200af6ebc">explodeAt</a> (Vector3 atPosition, float multiplier=1.0f, float force=4.0f)</td></tr>
-<tr class="memdesc:ab666132ccaaa7d439ba68b6200af6ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start explosion at position  <a href="#ab666132ccaaa7d439ba68b6200af6ebc">More...</a><br /></td></tr>
-<tr class="separator:ab666132ccaaa7d439ba68b6200af6ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44614ed78ea57dda07957abe43f0735"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_m_l_space_1_1_explosion.html">Explosion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#ae44614ed78ea57dda07957abe43f0735">explodeAt</a> (Vector3 atPosition, float force, float radius, float upForce, int mask, int damage)</td></tr>
+<tr class="memdesc:ae44614ed78ea57dda07957abe43f0735"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start explosion at position  <a href="#ae44614ed78ea57dda07957abe43f0735">More...</a><br /></td></tr>
+<tr class="separator:ae44614ed78ea57dda07957abe43f0735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a331c5ce7e8b9645d518af7b80a0e7f4a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a331c5ce7e8b9645d518af7b80a0e7f4a">addExplosionForce</a> (Vector3 position, float force, float radius, int damage, int mask, float upForce=12f)</td></tr>
+<tr class="memdesc:a331c5ce7e8b9645d518af7b80a0e7f4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start explosition at position  <a href="#a331c5ce7e8b9645d518af7b80a0e7f4a">More...</a><br /></td></tr>
+<tr class="separator:a331c5ce7e8b9645d518af7b80a0e7f4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907b64b86faa6b93a2dfd49a155d771c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a907b64b86faa6b93a2dfd49a155d771c">START_EXPLOSION</a> (<a class="el" href="class_m_l_space_1_1_ranged_weapon_item.html">RangedWeaponItem</a> weapon, RaycastHit hit, <a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a> gc, GameObject projGo)</td></tr>
+<tr class="memdesc:a907b64b86faa6b93a2dfd49a155d771c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start explosion  <a href="#a907b64b86faa6b93a2dfd49a155d771c">More...</a><br /></td></tr>
+<tr class="separator:a907b64b86faa6b93a2dfd49a155d771c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -87,15 +93,90 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a6019a006cb0af9de5ecdda08c97ff0fc"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a6019a006cb0af9de5ecdda08c97ff0fc">explosionLifetime</a> = 5.0f</td></tr>
 <tr class="memdesc:a6019a006cb0af9de5ecdda08c97ff0fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lifetime of explosion before returning to pool.  <a href="#a6019a006cb0af9de5ecdda08c97ff0fc">More...</a><br /></td></tr>
 <tr class="separator:a6019a006cb0af9de5ecdda08c97ff0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45118c1ba00518765e7d59f007be9f12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_m_l_space_1_1_explosion_manager.html#a45118c1ba00518765e7d59f007be9f12">defaultBlastRadius</a> = 10.0f</td></tr>
+<tr class="memdesc:a45118c1ba00518765e7d59f007be9f12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default explosion blast radius  <a href="#a45118c1ba00518765e7d59f007be9f12">More...</a><br /></td></tr>
+<tr class="separator:a45118c1ba00518765e7d59f007be9f12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="class_m_l_space_1_1_explosion.html" title="Explosion effect class. ">Explosion</a> manager. Responsible for creating pool of explosion effects, starting explosions, returning them to pool and updating lifetime. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a331c5ce7e8b9645d518af7b80a0e7f4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a331c5ce7e8b9645d518af7b80a0e7f4a">&sect;&nbsp;</a></span>addExplosionForce()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.ExplosionManager.addExplosionForce </td>
+          <td>(</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>force</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>damage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upForce</em> = <code>12f</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start explosition at position </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">multiplier</td><td>radius multiplier of objects to collect</td></tr>
+    <tr><td class="paramname">force</td><td>explosion force</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a53b56c33088e1ea914bc49291edb54cb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a53b56c33088e1ea914bc49291edb54cb">&sect;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.ExplosionManager.clear </td>
@@ -104,17 +185,25 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Clear references </p>
 
 </div>
 </div>
-<a id="ab666132ccaaa7d439ba68b6200af6ebc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab666132ccaaa7d439ba68b6200af6ebc">&sect;&nbsp;</a></span>explodeAt()</h2>
+<a id="ae44614ed78ea57dda07957abe43f0735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44614ed78ea57dda07957abe43f0735">&sect;&nbsp;</a></span>explodeAt()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="class_m_l_space_1_1_explosion.html">Explosion</a> MLSpace.ExplosionManager.explodeAt </td>
@@ -126,13 +215,31 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>multiplier</em> = <code>1.0f</code>, </td>
+          <td class="paramname"><em>force</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>force</em> = <code>4.0f</code>&#160;</td>
+          <td class="paramname"><em>radius</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>upForce</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>mask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>damage</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -140,6 +247,11 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Start explosion at position </p>
@@ -160,6 +272,9 @@ Public Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void MLSpace.ExplosionManager.initialize </td>
@@ -168,32 +283,93 @@ Public Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Initialize component </p>
 
 </div>
 </div>
-<a id="a11e2e31886bbfb830dd1882cf2409b34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11e2e31886bbfb830dd1882cf2409b34">&sect;&nbsp;</a></span>Update()</h2>
+<a id="a907b64b86faa6b93a2dfd49a155d771c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907b64b86faa6b93a2dfd49a155d771c">&sect;&nbsp;</a></span>START_EXPLOSION()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MLSpace.ExplosionManager.START_EXPLOSION </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_m_l_space_1_1_ranged_weapon_item.html">RangedWeaponItem</a>&#160;</td>
+          <td class="paramname"><em>weapon</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RaycastHit&#160;</td>
+          <td class="paramname"><em>hit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="interface_m_l_space_1_1_i_game_character.html">IGameCharacter</a>&#160;</td>
+          <td class="paramname"><em>gc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>projGo</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Start explosion </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">weapon</td><td></td></tr>
+    <tr><td class="paramname">hit</td><td></td></tr>
+    <tr><td class="paramname">gc</td><td></td></tr>
+    <tr><td class="paramname">projGo</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a45118c1ba00518765e7d59f007be9f12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45118c1ba00518765e7d59f007be9f12">&sect;&nbsp;</a></span>defaultBlastRadius</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void MLSpace.ExplosionManager.Update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">float MLSpace.ExplosionManager.defaultBlastRadius = 10.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Unity Update method Update is called every frame, if the MonoBehaviour is enabled </p>
+<p>Default explosion blast radius </p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
 <a id="a6019a006cb0af9de5ecdda08c97ff0fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6019a006cb0af9de5ecdda08c97ff0fc">&sect;&nbsp;</a></span>explosionLifetime</h2>
 
