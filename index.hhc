@@ -643,39 +643,51 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="rangedHitReactionType"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#a5a52b22fe45c1e7527ddd6e896146c5a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="renderers"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#a595b04c0e3c0e8634a2dc7c39bc35b08"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="stats"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#ad2622d3b172b3f3fedb230d42112d307"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="sweepBody"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#a848f64ac902835aabf9d0b70fa7a4429"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="transform"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#abb167464307a72e641bfeef490313df3"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="triggerActive"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#adbdde011f098c1b967d8da9e6e3431a2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="triggers"><param name="Local" value="interface_m_l_space_1_1_i_game_character.html#af3c3b0a80c7e2c4799d9fd9e0d8f29f1"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="IKHelper"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Limb"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a7ab9a95e143f5d883998095289e06ada"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LeftHand"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a7ab9a95e143f5d883998095289e06adaa03f7bbbc02c9006ea393ec4ef5843d7b"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RightHand"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a7ab9a95e143f5d883998095289e06adaaa51983e0f69f76a68e55efe2e7b700b5"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="LeftFoot"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a7ab9a95e143f5d883998095289e06adaae81960506fa9c17a1fa39c529ae1bf50"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="RightFoot"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a7ab9a95e143f5d883998095289e06adaac901c64cc70540fbd6d7f6c71b047a6a"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae75aae52b0714b599460521688292cc6"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="disableAll"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a20cdc7b2788d6010d1a2397eec73049a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="initialize"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a2c1c0cc3e80930c8aed76ca9f42f5682"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="setLeftFootIKLine"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a33350dd63e85b705b8865179483c9dd3"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="setLeftHandIKLine"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ad089fe25e2c7438a87f96372118d49c8"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="setRightFootIKLine"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#abee587051f6aee97d08eb881602bb2a6"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="setRightHandIKLine"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a73d3ee3e97d0925b5d113c6e81f99921"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setIKLinePoints"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a02a4ebcb34e89ea2b7f9003b08452acb"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setIKLineTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ad37f808c222509991ee8c04e06a4c2b8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="currentRelLedgePosition"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ab5a86cd9f1a845d2e497c1acdf4ac58a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="feetIKMode"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a84358dc84d43e88a2889d1bee4f60856"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="footOffset"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#acc488275be42eb68babc6cc41b056ab2"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="handIKMode"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae95cb47f9684f7deb0376ab82c8b7e27"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="leftFootLineTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae7d317bbc88aa335d613d577599ff950"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LeftFootPlane"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#aa31e3e9029f3aeef83da884532f04835"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="leftHandLineTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a8444dca338c712aca3ce0830fbc60fd4"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LeftHandPlane"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a1c7eaaf8e16ee9e3c685e0ec6bf32efd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LFTargetTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a15a2728114c436f752fb90e61243f02f"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LHTargetTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a60c955f302d2ce32134a08da4ea25331"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="RFTargetTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a33d5ed8ed9170217d509fb5e0e13f76c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RHTargetTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae1beff3315b830892c24e9e1be0dba2b"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="rightFootLineTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a284c5fd400af9960278e31820172f6bc"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RightFootPlane"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a6ea3dc30a668da119787937b8b5c8508"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="rightHandLineTransform"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ad602a5da21187cb767068589608f26b4"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RightHandPlane"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a6569552d287d1d479a7b3ec0ff1ac5fe"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="armReach"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae9b0397d6160a68854044e3602f2a6aa"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="legReach"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a2617a6d9e32681ac23df93886011d4cf"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LFootIKEnabled"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a2a87993f3e7f33206a219df2d9ab839a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LFPosition"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a43781a7a4e411d20297772e01d537965"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LFWeightMultiplier"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a456ffa2399056eb3fa6fef02064c23af"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="LHandIKEnabled"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ae382e964c37909440ddab9081f80f8a4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LHPosition"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a216ef9c0538a4f011ec0cfa24615731d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="LHWeightMultiplier"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a49e9917a589c5931fc6d47c6e3f1db4d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RFootIKEnabled"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#ad734b3932d39dbb19b5813ddfacd60c1"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="RFPosition"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a5c458814b50b65c00dba733e5faa675b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="RFWeightMultiplier"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#aabe76de72e3d9edba0ed4fa25e312061"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RHandIKEnabled"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a11a3154627d13648f344e00b1ab775f0"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="RHPosition"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a7cc83fae9bb039edeac08bcea06c7b31"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="RHWeightMultiplier"><param name="Local" value="class_m_l_space_1_1_i_k_helper.html#a8603841c8b1bbd5ed948de11fdfe4ee5"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="ImpactEffectStruct"><param name="Local" value="struct_m_l_space_1_1_impact_effect_struct.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -1055,6 +1067,7 @@
       <LI><OBJECT type="text/sitemap"><param name="Name" value="NPCGuard"><param name="Local" value="class_m_l_space_1_1_n_p_c_guard.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_combat_idle_state"><param name="Local" value="class_m_l_space_1_1_n_p_c_guard.html#a8cad0dcffc2f8d888acd7c93cc80c40a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="initialize"><param name="Local" value="class_m_l_space_1_1_n_p_c_guard.html#a4157359132241bddcaa0a707845a3837"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="NPCGuardZone"><param name="Local" value="class_m_l_space_1_1_n_p_c_guard_zone.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
@@ -1215,6 +1228,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="avoidIfDead"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#a42e7a12328984932f33716aea6b1ad75"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BLOCK_INTERVAL"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#a93b1a0d24901f8090b9e588a82457e29"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="blockOdds"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#a76a4e8e56cab02672447fe1633cef50d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="chaseMoveSpeed"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#a45e8ac347eead736b06738732584e33e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="checkObstructions"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#a2445a0711b640dea7f46ed1d8e0eb700"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="chestTransform"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#ae7194166dbaeec1b83a1a79ebfa02196"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="deathAnimations"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#ad437ebb501aac6aab92720ba921dbc95"><param name="ImageNumber" value="11"></OBJECT>
@@ -1325,6 +1339,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="rangedHitReactionType"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#ab0f27cf356eec18e7bff97c11edc750d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="renderers"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#adee7435be56c4944e03000b3230681de"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="stats"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#af4d9f4932d064f1709be43ab7d582a9b"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="sweepBody"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#ab0990813f8163dc329f873ee0dc5995d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="triggerActive"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#aa52870b691992a21513e3a9a4da78a5d"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="triggers"><param name="Local" value="class_m_l_space_1_1_n_p_c_script.html#a95f647acfed9b96d3303de378bf63ed1"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
@@ -1515,9 +1530,10 @@
         </UL>
       <LI><OBJECT type="text/sitemap"><param name="Name" value="PlayerControl"><param name="Local" value="class_m_l_space_1_1_player_control.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="_AimAndStabilizeArrow"><param name="Local" value="class_m_l_space_1_1_player_control.html#a56ae926f59b72b76e3ae959c4833957c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_aimAndStabilizeArrow"><param name="Local" value="class_m_l_space_1_1_player_control.html#aefdaddcb6ed2e8ec8ed6ef82b161ca82"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_attackCombo"><param name="Local" value="class_m_l_space_1_1_player_control.html#a2c71d368150e85a7068823e5a860b829"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_bowControl"><param name="Local" value="class_m_l_space_1_1_player_control.html#abbd6cca4dea1f9dac4409a09abe2c109"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_checkAimObstuction"><param name="Local" value="class_m_l_space_1_1_player_control.html#a0398c64dd45d8ccaf69d589360bbc0b9"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_controlPlayer"><param name="Local" value="class_m_l_space_1_1_player_control.html#a15df833616ffa58762aef447fd3ea48a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_getCameraRay"><param name="Local" value="class_m_l_space_1_1_player_control.html#aa9fe4d1ec3d54752c805028081808c62"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_hideSniperUI"><param name="Local" value="class_m_l_space_1_1_player_control.html#ad0ee6ed65a966615c2039348b324b35a"><param name="ImageNumber" value="11"></OBJECT>
@@ -1530,11 +1546,10 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_setupRagdollCallbacks"><param name="Local" value="class_m_l_space_1_1_player_control.html#acc24dc5964b2684087e316f3727a4400"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_shootArrow"><param name="Local" value="class_m_l_space_1_1_player_control.html#ab7bdb559139d2c22dbcf132cd2c18b68"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_showSniperUI"><param name="Local" value="class_m_l_space_1_1_player_control.html#a19fba696bb012776e745099f93019e01"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="_StartAttackAnimation"><param name="Local" value="class_m_l_space_1_1_player_control.html#a698ad85b448971b4b1b1cc690feb17ec"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="_startAttackAnimation"><param name="Local" value="class_m_l_space_1_1_player_control.html#ad78ea45e4bba02e2583f1be79082da70"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_transitionCamera"><param name="Local" value="class_m_l_space_1_1_player_control.html#ab7260db79e763142c6c844d46394482b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_triggerHasJumpInput"><param name="Local" value="class_m_l_space_1_1_player_control.html#a80c4b75e40a6cb8869e04052c7555897"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_updateCrosshair"><param name="Local" value="class_m_l_space_1_1_player_control.html#a9c9f5a549a5962a17e58a63407b12552"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="checkAimObstuction"><param name="Local" value="class_m_l_space_1_1_player_control.html#a1a168b5bb8abf00360955b0683092235"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="class_m_l_space_1_1_player_control.html#aec2f549184c34d7257c3c4de8472a692"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="death"><param name="Local" value="class_m_l_space_1_1_player_control.html#a72721d1874c67fbfb9bb8b9f6c94eaa1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="dropItem"><param name="Local" value="class_m_l_space_1_1_player_control.html#a25a7c1ab073be2d300655023c958c817"><param name="ImageNumber" value="11"></OBJECT>
@@ -1681,6 +1696,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="crossfadeInFixedTime"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a61b881bce233155a0c16f671166d5cd0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="crossfadeInFixedTime"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a4195792370a2be44ae8031d7a01e3c11"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="death"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#abd55b75ecbde39c6a904c9ebe6888e47"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="DefaultDeath"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a04ce2bc1914e43bc3f8cb1ed5d3b3a3f"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteWeaponCameras"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#aa51dd36e2cf06a07a469e1474aacfdae"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="dropAllEquipment"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a9dd2074370bc6d17c8ba99e696f374bb"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="dropItem"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#ae69f45246abb65dec968dff55e82b52b"><param name="ImageNumber" value="11"></OBJECT>
@@ -1738,6 +1754,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="attackJumpDistance"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#afbf7be90a978e4c42104760ac7a1cd75"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="attackSweepBody"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a445235ec6edc86b1c479e9cae627a96c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="AutoLockAngle"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a9fe37ba33a99d6b6f1d98bc404d85b97"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="chestTransform"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a7b57838c32662171391c36db7f42f718"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="currentBlockSounds"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a752a3d7b1006f15d398583b5541e0dc0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="currentPrimaryWeapon"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#ade307d23019c163d1744739db4fbc1ce"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="currentSecondaryWeapon"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a84e000873d67801a624e81e6de26edb1"><param name="ImageNumber" value="11"></OBJECT>
@@ -1749,6 +1766,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="errorTxt"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a735b0c6d5b5ac7d475f305b6942fa815"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="fallDieVelocity"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a381161d8d7acf26ad2c07c2765dd95e0"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="fireTransform"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a9c3047ac6e7aba6000448ffbf42e0b5c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="headTransform"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#aedd100461d8ec1963997be4b194cc701"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="leftHandHoldingTransform"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#af7ee81e799e90eb15d5e14d6fc1c1403"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="lockedOn"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#ae5924f835ff96baac45de0db93e19855"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="lockedOnByInput"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a319c0feb3b0367bd506a4bd670171119"><param name="ImageNumber" value="11"></OBJECT>
@@ -1893,6 +1911,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="renderers"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#ab7622a5b00ae1bda9ee92de69f86acb7"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="sceneTransitionUnderway"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#addfa9612267970da907a1eab20642c7c"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="stats"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#acb863764780c6b00925f7f8be61d9a97"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="sweepBody"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a8acaf3e7c4debb64dea21c7a2bd76f88"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="switchingWeapons"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#ac43c0a8478eaa9fe270298ed5ce24225"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="triggerActive"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#ab9c19f500e1ff4c2aeb00bf557e50c18"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="triggers"><param name="Local" value="class_m_l_space_1_1_player_control_base.html#a40c5e260ddc37a2cd0009ad76dc9a3ca"><param name="ImageNumber" value="11"></OBJECT>
@@ -2226,6 +2245,12 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="root"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item_1_1_muzzle_flash.html#a133d8d9d563a8c2f463c3e1254b4c558"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="rotOffsets"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item_1_1_muzzle_flash.html#ade483262d99a9160280699fea06d2fed"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="BurstMode"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a02a446355b2d4d8196d5ad68fa9b3f26"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Single"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a02a446355b2d4d8196d5ad68fa9b3f26a66ba162102bbf6ae31b522aec561735e"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Burst"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a02a446355b2d4d8196d5ad68fa9b3f26ac134fae30efdd1105b52a457a4bddac2"><param name="ImageNumber" value="11"></OBJECT>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="Auto"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a02a446355b2d4d8196d5ad68fa9b3f26a06b9281e396db002010bde1de57262eb"><param name="ImageNumber" value="11"></OBJECT>
+          </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="RangedWeaponEnum"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1e8e01781db5b1163f86b8ad6b00d440"><param name="ImageNumber" value="1"></OBJECT>
           <UL>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="Rifle"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1e8e01781db5b1163f86b8ad6b00d440a6fe1a54664b1d4283b3b028fdc0f77a3"><param name="ImageNumber" value="11"></OBJECT>
@@ -2233,12 +2258,6 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="Sidearm"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1e8e01781db5b1163f86b8ad6b00d440ac1b86ee627ba9abff7457d4e9a67e299"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="HeavyMG"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1e8e01781db5b1163f86b8ad6b00d440af9a94b17a53f1fe005f4acfb3f5fa879"><param name="ImageNumber" value="11"></OBJECT>
           <LI><OBJECT type="text/sitemap"><param name="Name" value="RPG"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1e8e01781db5b1163f86b8ad6b00d440a6fc6f8fa1aa8b7b59151793b4caea018"><param name="ImageNumber" value="11"></OBJECT>
-          </UL>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="ShootType"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#add8cfd1f08fd787a574364f2277b7d0d"><param name="ImageNumber" value="1"></OBJECT>
-          <UL>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Single"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#add8cfd1f08fd787a574364f2277b7d0da66ba162102bbf6ae31b522aec561735e"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Burst"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#add8cfd1f08fd787a574364f2277b7d0dac134fae30efdd1105b52a457a4bddac2"><param name="ImageNumber" value="11"></OBJECT>
-          <LI><OBJECT type="text/sitemap"><param name="Name" value="Auto"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#add8cfd1f08fd787a574364f2277b7d0da06b9281e396db002010bde1de57262eb"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_addProjectile"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a96dcfb578a58606b1c50d2e013999f9e"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_collectMuzzleEffectRoots"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#adc192a5d3f24b10550add88eeb7381ae"><param name="ImageNumber" value="11"></OBJECT>
@@ -2284,6 +2303,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ammoObject"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#ad61391e66d2128c107b174aef936e8da"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="ammoType"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1cb155f9aab57912bc7fec91dc839c56"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="autoShootInterval"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a4c0cbecfac71705e5d292eabd15dc64c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="burstMode"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a34c59750f05d347480818e183a132952"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="burstNumShots"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a9cdc4c009ef9e1a19766fd122cce00c5"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="crosshairUI"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#ab4167c2fa9ab5f2c182349ac0165d1ba"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="destroyProjectileOnImpact"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a5f0d69d8a710ede96eca0cbfb56dff27"><param name="ImageNumber" value="11"></OBJECT>
@@ -2328,7 +2348,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="range"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a9a81f8be59746e58ed2818bb1f689ec7"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="rangedWeaponType"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a65cb42df392f276fcbb8c9eb4d667790"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="shootSoundAllowedInterval"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#ae1528ad692095236e3aa1f754be2991c"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="shootType"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a55b478c2033c9db74e4d74418adbdea5"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="singleAction"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a0e3824b9d438f855ac2ddee887c7f208"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="spread"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#a1e6df445fe4085dce6de804e6fd45442"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="useImpactEffectInstances"><param name="Local" value="class_m_l_space_1_1_ranged_weapon_item.html#ab6128eb51c2fd80578802691d07e7db6"><param name="ImageNumber" value="11"></OBJECT>
@@ -2622,6 +2641,7 @@
           <LI><OBJECT type="text/sitemap"><param name="Name" value="ToNone"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a9a5c1fb8ae1662fed6d9009853679245ae1a7630827b6b8e6287b5a96497c7eea"><param name="ImageNumber" value="11"></OBJECT>
           </UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="applyExtraTurnRotation"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ae2a49e174efaddb79dfe8166d0e13b4a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="breakLerp"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a6dd4e7a74fe62e6eb4ad9fc594dce543"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="checkGroundStatus"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#a135200ae8954843b5e7dca8c122bcc9a"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#afa7e5bb7436d2a9f00ac1ae6225e0e07"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="disablePhysics"><param name="Local" value="class_m_l_space_1_1_t_p_character.html#ad3eee251b885fb131923c40fefff274e"><param name="ImageNumber" value="11"></OBJECT>
@@ -2858,7 +2878,7 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_OnMatchTargetStart"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a2fe55e84dbb31419c76f29009420bff1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="_TriggerEnd"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a1b64593868d226a2b50d82cff88a9294"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="BoolDelegate"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a8713a5d5d896dab21ab693277e228f2a"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="breakTrigger"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a7e412ff8b2bacaf59f85f7642e8932a3"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="breakTrigger"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#af4c0cd14ec9eec4b26e96c8ad76f1846"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="clear"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#ae5e4813bda3113078b4f788f64f6c619"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="clearCurrentTriggers"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#aebb0c7f10905b7596c61b0ccfa67d380"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="crossfade"><param name="Local" value="class_m_l_space_1_1_trigger_management.html#a9c5f0a5e814fbff5b9707fb0f648b53a"><param name="ImageNumber" value="11"></OBJECT>
@@ -2983,7 +3003,6 @@
         <LI><OBJECT type="text/sitemap"><param name="Name" value="OnStartTaking"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#a2d9078550bc6f637ad94ab42f09576af"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="OnSwing"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#afa97b6f0acaa025129ce31fc527bfed1"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="OnTake"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#ab1456a60aadd10ed203985baf8c545c0"><param name="ImageNumber" value="11"></OBJECT>
-        <LI><OBJECT type="text/sitemap"><param name="Name" value="playerSpineOffset"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#afff5ef8aab23b89ef0428c464a6e3562"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="rangedDamage"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#acd2d7dcf653d4a79429c31e1c0d5aa2b"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="soundRadius"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#aa973dfb024af29ce81e166c2d1e06476"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="switchFlag"><param name="Local" value="class_m_l_space_1_1_weapon_item.html#ae233bea5cf127efe1432e57947f7977b"><param name="ImageNumber" value="11"></OBJECT>

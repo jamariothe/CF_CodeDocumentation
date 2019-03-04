@@ -1,5 +1,5 @@
 [OPTIONS]
-Compiled file=CF_v4.0.chm
+Compiled file=CombatFramework_v4.0.chm
 Compatibility=1.1
 Full-text search=Yes
 Contents file=index.hhc
@@ -7,10 +7,10 @@ Default Window=main
 Default topic=index.html
 Index file=index.hhk
 Language=0x409 English (United States)
-Title=CF_v4.0
+Title=CombatFramework_v4.0
 
 [WINDOWS]
-main="CF_v4.0","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+main="CombatFramework_v4.0","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
 
 [FILES]
 class_light_disable_for_camera.html
